@@ -1,0 +1,79 @@
+{
+  "appId": "6796562729",
+  "name": "DeepSRT PRO",
+  "developer": "Jiayan Lin",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/b4/7c/30b47c21-50c2-01b9-3fd4-d82a38e32915/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T06:29:45.118Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 2990,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 4999.99,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 9900,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 99.99,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 15000,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    }
+  }
+}
