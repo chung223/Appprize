@@ -1,0 +1,253 @@
+{
+  "appId": "6473753684",
+  "name": "Claude by Anthropic App - App Store",
+  "developer": null,
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/de/98/ecde984f-6f4d-7245-269f-e7646d38a63c/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T00:19:20.936Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Claude Pro - Monthly",
+          "offerName": null,
+          "price": 999.99,
+          "priceFormatted": "₺999,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Max 5x - Monthly",
+          "offerName": null,
+          "price": 6999.99,
+          "priceFormatted": "₺6.999,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Max 20x - Monthly",
+          "offerName": null,
+          "price": 12999.99,
+          "priceFormatted": "₺12.999,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Pro - Annual",
+          "offerName": null,
+          "price": 11999.99,
+          "priceFormatted": "₺11.999,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Usage Credits (250)",
+          "offerName": null,
+          "price": 14999.99,
+          "priceFormatted": "₺14.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 3499.99,
+          "priceFormatted": "₺3.499,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 1499.99,
+          "priceFormatted": "₺1.499,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Claude Pro - Monthly",
+          "offerName": null,
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Max 5x - Monthly",
+          "offerName": null,
+          "price": 12900,
+          "priceFormatted": "₹ 12,900",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Pro - Annual",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Claude Max 20x - Monthly",
+          "offerName": null,
+          "price": 24900,
+          "priceFormatted": "₹ 24,900",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Usage Credits (250)",
+          "offerName": null,
+          "price": 29900,
+          "priceFormatted": "₹ 29,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 5900,
+          "priceFormatted": "₹ 5,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 2999,
+          "priceFormatted": "₹ 2,999",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Claude Pro - Monthly",
+          "offerName": null,
+          "price": 20,
+          "priceFormatted": "$20.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Max 5x - Monthly",
+          "offerName": null,
+          "price": 124.99,
+          "priceFormatted": "$124.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Max 20x - Monthly",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "$249.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Pro - Annual",
+          "offerName": null,
+          "price": 214.99,
+          "priceFormatted": "$214.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 28,
+          "priceFormatted": "$28.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (250)",
+          "offerName": null,
+          "price": 279,
+          "priceFormatted": "$279.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 63,
+          "priceFormatted": "$63.00",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Claude Pro - Monthly",
+          "offerName": null,
+          "price": 3000,
+          "priceFormatted": "¥3,000",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Max 5x - Monthly",
+          "offerName": null,
+          "price": 20000,
+          "priceFormatted": "¥20,000",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Claude Pro - Annual",
+          "offerName": null,
+          "price": 35000,
+          "priceFormatted": "¥35,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Claude Max 20x - Monthly",
+          "offerName": null,
+          "price": 40000,
+          "priceFormatted": "¥40,000",
+          "currency": "JPY",
+          "period": "monthly"
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

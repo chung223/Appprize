@@ -1,0 +1,188 @@
+{
+  "appId": "544007664",
+  "name": "《YouTube》App - App Store",
+  "developer": null,
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T00:19:04.883Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "YouTube Premium",
+          "offerName": null,
+          "price": 260,
+          "priceFormatted": "$260.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Youtube Premium Family",
+          "offerName": null,
+          "price": 630,
+          "priceFormatted": "$630.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Family",
+          "offerName": null,
+          "price": 630,
+          "priceFormatted": "$630.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "五歲抬頭基礎加持團",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "$100.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 70,
+          "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Two-person",
+          "offerName": null,
+          "price": 390,
+          "priceFormatted": "$390.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "YouTube Premium",
+          "offerName": null,
+          "price": 159.99,
+          "priceFormatted": "₺159,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Family",
+          "offerName": null,
+          "price": 319.99,
+          "priceFormatted": "₺319,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Youtube Premium Family",
+          "offerName": null,
+          "price": 319.99,
+          "priceFormatted": "₺319,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Aslan Paketi",
+          "offerName": null,
+          "price": 39.99,
+          "priceFormatted": "₺39,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "YouTube Premium",
+          "offerName": null,
+          "price": 195,
+          "priceFormatted": "₹ 195",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Family",
+          "offerName": null,
+          "price": 389,
+          "priceFormatted": "₹ 389",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Youtube Premium Family",
+          "offerName": null,
+          "price": 389,
+          "priceFormatted": "₹ 389",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Two-person",
+          "offerName": null,
+          "price": 289,
+          "priceFormatted": "₹ 289",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 29,
+          "priceFormatted": "₹ 29",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "appId": "6448311069",
+  "name": "ChatGPT App - App Store",
+  "developer": null,
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ce/0e/75ce0e58-8db6-6441-8444-e23a4285d2e5/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T00:19:00.333Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Go",
+          "offerName": null,
+          "price": 8,
+          "priceFormatted": "$8.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "100 Credits",
+          "offerName": null,
+          "price": 4,
+          "priceFormatted": "$4.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 5x",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "$100.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 20x",
+          "offerName": null,
+          "price": 200,
+          "priceFormatted": "$200.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 200,
+          "priceFormatted": "$200.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "500 Credits",
+          "offerName": null,
+          "price": 20,
+          "priceFormatted": "$20.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1000 Credits",
+          "offerName": null,
+          "price": 40,
+          "priceFormatted": "$40.00",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 3000,
+          "priceFormatted": "¥3,000",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Go",
+          "offerName": null,
+          "price": 1400,
+          "priceFormatted": "¥1,400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 5x",
+          "offerName": null,
+          "price": 16800,
+          "priceFormatted": "¥16,800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 20x",
+          "offerName": null,
+          "price": 30000,
+          "priceFormatted": "¥30,000",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 30000,
+          "priceFormatted": "¥30,000",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

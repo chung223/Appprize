@@ -1,0 +1,49 @@
+{
+  "appId": "324684580",
+  "name": "《Spotify - 音樂和 Podcast》App - App Store",
+  "developer": null,
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/8b/bc/098bbc51-3b38-2566-90a1-dcd361b8c646/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T00:19:11.289Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "no-iap-found"
+    }
+  }
+}

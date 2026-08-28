@@ -1,0 +1,326 @@
+{
+  "appId": "570060128",
+  "name": "《多鄰國 - 極速學外語》App - App Store",
+  "developer": null,
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/c4/f1/7ec4f153-c0d4-7a0e-5a42-09770abf2909/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T00:19:14.968Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 2650,
+          "priceFormatted": "$2,650.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1530,
+          "priceFormatted": "$1,530.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1760,
+          "priceFormatted": "$1,760.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 3300,
+          "priceFormatted": "$3,300.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 3590,
+          "priceFormatted": "$3,590.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 2390,
+          "priceFormatted": "$2,390.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1209.99,
+          "priceFormatted": "₺1.209,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "₺139,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 839.99,
+          "priceFormatted": "₺839,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 1199.99,
+          "priceFormatted": "₺1.199,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 52.99,
+          "priceFormatted": "₺52,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1379,
+          "priceFormatted": "₹ 1,379",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1199,
+          "priceFormatted": "₹ 1,199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1749,
+          "priceFormatted": "₹ 1,749",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 215,
+          "priceFormatted": "₹ 215",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Barrel of Gems (1200)",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 83.99,
+          "priceFormatted": "$83.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Cart of Gems (3000)",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Cart of Gems (6500)",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 119.99,
+          "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Chest of Gems",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 95.99,
+          "priceFormatted": "$95.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "$79.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 9900,
+          "priceFormatted": "¥9,900",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 11400,
+          "priceFormatted": "¥11,400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 14200,
+          "priceFormatted": "¥14,200",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ジェムいっぱいのタル (1200)",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ジェムの荷車 (3000)",
+          "offerName": null,
+          "price": 1500,
+          "priceFormatted": "¥1,500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ジェムの荷車 (6500)",
+          "offerName": null,
+          "price": 3000,
+          "priceFormatted": "¥3,000",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}
