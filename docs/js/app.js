@@ -7,11 +7,13 @@ import { extractAppId } from './parser.js';
 import { getRates, convert, formatMoney } from './fx.js';
 import {
   buildPlanGroups, buildAppPriceGroup, rankPlan, convertOfficialPlan, matchOfficialToGroup,
+  planPriceMap, monthlyEquivalent,
 } from './compare.js';
-import { searchApps, lookupApp, getAppPrices } from './api.js';
+import { searchApps, lookupApp, getAppPrices, fetchHistory } from './api.js';
 import { getOfficialPricing } from './official.js';
 import {
   getHistory, pushHistory, getSettings, saveSettings, clearPriceCache,
+  getMySubs, saveMySubs,
 } from './db.js';
 
 const REPO = 'chung223/Appprize';
@@ -25,7 +27,9 @@ const els = {
   appLinks: $('appLinks'), refreshBtn: $('refreshBtn'),
   loadingBox: $('loadingBox'), loadingText: $('loadingText'),
   summaryBanner: $('summaryBanner'), planTabs: $('planTabs'), board: $('board'),
-  officialBox: $('officialBox'), metaLine: $('metaLine'),
+  officialBox: $('officialBox'), metaLine: $('metaLine'), historyBox: $('historyBox'),
+  mySubsBtn: $('mySubsBtn'), mysubsView: $('mysubsView'), mysubsBackBtn: $('mysubsBackBtn'),
+  mysubsTotals: $('mysubsTotals'), mysubsList: $('mysubsList'),
   currencyBtn: $('currencyBtn'), currencyLabel: $('currencyLabel'), currencyMenu: $('currencyMenu'),
   themeBtn: $('themeBtn'), settingsBtn: $('settingsBtn'), settingsDialog: $('settingsDialog'),
   countryGrid: $('countryGrid'), feeEnabled: $('feeEnabled'), feePercent: $('feePercent'),
@@ -108,6 +112,8 @@ function route() {
   if (m) {
     showResult();
     loadApp(m[1]);
+  } else if (location.hash.startsWith('#mysubs')) {
+    showMySubs();
   } else {
     showHero();
   }
@@ -116,6 +122,7 @@ function route() {
 function showHero() {
   els.heroView.hidden = false;
   els.resultView.hidden = true;
+  els.mysubsView.hidden = true;
   state.loadToken++;
   renderHistory();
 }
@@ -123,9 +130,20 @@ function showHero() {
 function showResult() {
   els.heroView.hidden = true;
   els.resultView.hidden = false;
+  els.mysubsView.hidden = true;
+}
+
+function showMySubs() {
+  els.heroView.hidden = true;
+  els.resultView.hidden = true;
+  els.mysubsView.hidden = false;
+  state.loadToken++;
+  renderMySubs();
 }
 
 els.backBtn.addEventListener('click', () => navigate('#'));
+els.mysubsBackBtn.addEventListener('click', () => navigate('#'));
+els.mySubsBtn.addEventListener('click', () => navigate('#mysubs'));
 window.addEventListener('hashchange', route);
 
 /* ---------------- 搜尋 ---------------- */
@@ -231,6 +249,7 @@ async function loadApp(appId, { force = false } = {}) {
   state.groups = [];
   state.official = null;
   state.cloudHintUrl = null;
+  state.history = null;
 
   // 重置畫面
   els.appName.textContent = '載入中…';
@@ -257,6 +276,11 @@ async function loadApp(appId, { force = false } = {}) {
     if (token !== state.loadToken) return;
     state.official = o;
     if (state.prices) renderAll();
+  }).catch(() => {});
+  fetchHistory(appId).then((h) => {
+    if (token !== state.loadToken) return;
+    state.history = h;
+    if (state.prices) renderPriceHistory();
   }).catch(() => {});
 
   try {
@@ -324,22 +348,33 @@ function renderAll() {
   renderPlanTabs();
   renderBoard();
   renderOfficial();
+  renderPriceHistory();
   renderMeta();
 }
 
 function renderPlanTabs() {
   const groups = state.groups;
   if (!groups.length) { els.planTabs.innerHTML = ''; return; }
+  const group = currentGroup();
+  const subbed = group && state.app?.appId && isSubbed(state.app.appId, group.key);
   els.planTabs.innerHTML = groups.map((g) => `
     <button type="button" class="plantab" role="tab" data-key="${esc(g.key)}"
       aria-selected="${g.key === state.selectedPlanKey}">
       ${esc(g.name)}${g.period ? `<span class="plantab__period">/${periodLabel(g.period)}</span>` : ''}
-    </button>`).join('');
+    </button>`).join('')
+    + (group ? `
+    <button type="button" id="subToggleBtn" class="plantab plantab--star${subbed ? ' is-on' : ''}">
+      ${subbed ? '★ 已在我的訂閱' : '☆ 加入我的訂閱'}
+    </button>` : '');
   els.planTabs.querySelectorAll('[data-key]').forEach((btn) => {
     btn.addEventListener('click', () => {
       state.selectedPlanKey = btn.dataset.key;
       renderAll();
     });
+  });
+  document.getElementById('subToggleBtn')?.addEventListener('click', () => {
+    const g = currentGroup();
+    if (g) toggleSub(g);
   });
 }
 
@@ -518,6 +553,273 @@ function renderMeta() {
     html += ` · <a href="${esc(state.cloudHintUrl)}" target="_blank" rel="noopener">☁️ 加入雲端追蹤（免重爬）</a>`;
   }
   els.metaLine.innerHTML = html;
+}
+
+/* ---------------- 價格歷史 ---------------- */
+
+/** 步階折線 sparkline（單序列、時間軸依實際日期、期末圓點） */
+function sparklineSvg(points, { width = 120, height = 28 } = {}) {
+  if (points.length < 2) return '';
+  const t0 = points[0].t;
+  const t1 = Math.max(Date.now(), points[points.length - 1].t);
+  const vs = points.map((p) => p.v);
+  const vMin = Math.min(...vs);
+  const vMax = Math.max(...vs);
+  const pad = 3;
+  const x = (t) => (t1 === t0 ? pad : pad + ((t - t0) / (t1 - t0)) * (width - pad * 2));
+  const y = (v) => (vMax === vMin
+    ? height / 2
+    : (height - pad) - ((v - vMin) / (vMax - vMin)) * (height - pad * 2));
+  let d = `M ${x(points[0].t).toFixed(1)} ${y(points[0].v).toFixed(1)}`;
+  for (let i = 1; i < points.length; i++) {
+    d += ` H ${x(points[i].t).toFixed(1)} V ${y(points[i].v).toFixed(1)}`;
+  }
+  d += ` H ${(width - pad).toFixed(1)}`;
+  const lastY = y(points[points.length - 1].v).toFixed(1);
+  return `<svg class="spark" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img">
+    <title>${vMin} – ${vMax}</title>
+    <path d="${d}" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="${(width - pad).toFixed(1)}" cy="${lastY}" r="3" fill="currentColor"/>
+  </svg>`;
+}
+
+/** 從歷史檔的連續紀錄推導變動事件（新→舊排序） */
+function historyEvents(h) {
+  const events = [];
+  const entries = h?.entries || [];
+  for (let i = 1; i < entries.length; i++) {
+    const prev = entries[i - 1].c || {};
+    const next = entries[i].c || {};
+    for (const [cc, nc] of Object.entries(next)) {
+      const pc = prev[cc];
+      if (!pc) continue;
+      if (pc.app != null && nc.app != null && pc.app !== nc.app) {
+        events.push({ date: entries[i].d, cc, name: 'App 售價', old: pc.app, new: nc.app });
+      }
+      for (const [k, v] of Object.entries(nc.plans || {})) {
+        const ov = pc.plans?.[k];
+        if (ov != null && v != null && ov !== v) {
+          events.push({ date: entries[i].d, cc, name: h.names?.[k] || k, old: ov, new: v });
+        }
+      }
+    }
+  }
+  return events.reverse();
+}
+
+function renderPriceHistory() {
+  const h = state.history;
+  if (!h || !h.entries?.length || els.resultView.hidden) {
+    els.historyBox.hidden = true;
+    return;
+  }
+  const events = historyEvents(h);
+  const group = currentGroup();
+
+  // 選中方案的各國走勢（有變動才畫）
+  const sparkRows = [];
+  if (group) {
+    for (const cc of activeCountries()) {
+      let key = null;
+      if (group.key === '__appprice') {
+        key = '__app';
+      } else {
+        const entryIap = group.entries?.[cc];
+        if (!entryIap) continue;
+        const m = planPriceMap(state.prices?.countries?.[cc]?.inApps || []);
+        key = Object.keys(m).find(
+          (k) => m[k].name === entryIap.name && m[k].price === entryIap.price,
+        ) || null;
+        if (!key) continue;
+      }
+      const series = [];
+      for (const e of h.entries) {
+        const c = e.c?.[cc];
+        if (!c) continue;
+        const v = key === '__app' ? c.app : c.plans?.[key];
+        if (v != null) series.push({ t: Date.parse(e.d), v });
+      }
+      if (series.length >= 2 && new Set(series.map((s) => s.v)).size >= 2) {
+        const cur = state.prices?.countries?.[cc]?.currency || '';
+        sparkRows.push(`
+          <div class="phistory__row">
+            <span class="phistory__flag">${flagEmoji(cc)}</span>
+            <span class="phistory__cc">${esc(countryName(cc))}</span>
+            <span class="phistory__spark">${sparklineSvg(series)}</span>
+            <span class="phistory__range">${esc(String(series[0].v))} → ${esc(String(series[series.length - 1].v))} ${esc(cur)}</span>
+          </div>`);
+      }
+    }
+  }
+
+  const evHtml = events.slice(0, 10).map((e) => {
+    const up = e.new > e.old;
+    const pct = e.old > 0
+      ? `（${up ? '+' : ''}${(((e.new - e.old) / e.old) * 100).toFixed(0)}%）` : '';
+    return `
+      <div class="phistory__event">
+        <span class="phistory__date">${esc(e.date)}</span>
+        <span class="phistory__what">${flagEmoji(e.cc)} ${esc(e.name)}</span>
+        <span class="${up ? 'phistory__up' : 'phistory__down'}">${esc(String(e.old))} → ${esc(String(e.new))}${esc(pct)}</span>
+      </div>`;
+  }).join('');
+
+  els.historyBox.innerHTML = `
+    <h3 class="phistory__head">📈 價格歷史</h3>
+    ${sparkRows.length ? `<div class="phistory__sparks">${sparkRows.join('')}</div>` : ''}
+    ${events.length
+    ? evHtml + (events.length > 10 ? `<p class="phistory__note">僅顯示最近 10 筆（共 ${events.length} 筆）</p>` : '')
+    : `<p class="phistory__note">自 ${esc(h.entries[0].d)} 開始追蹤，尚無價格變動 — 之後有調價，每日爬蟲會自動開 issue 通知（watch 這個 repo 就會收到）。</p>`}
+  `;
+  els.historyBox.hidden = false;
+}
+
+/* ---------------- 我的訂閱 ---------------- */
+
+function isSubbed(appId, planKey) {
+  return getMySubs().some((s) => s.appId === appId && s.planKey === planKey);
+}
+
+function toggleSub(group) {
+  const appId = state.app.appId;
+  let subs = getMySubs();
+  if (isSubbed(appId, group.key)) {
+    subs = subs.filter((s) => !(s.appId === appId && s.planKey === group.key));
+    toast('已從我的訂閱移除');
+  } else {
+    const withData = Object.keys(group.entries || {});
+    subs.push({
+      appId,
+      planKey: group.key,
+      planName: group.name,
+      appName: state.app.name || appId,
+      icon: state.app.icon || null,
+      period: group.period || null,
+      useCountry: withData.includes('tw') ? 'tw' : withData[0] || 'tw',
+      addedAt: Date.now(),
+    });
+    toast('已加入我的訂閱 ★ 右上角星號可看總覽');
+  }
+  saveMySubs(subs);
+  renderPlanTabs();
+}
+
+async function renderMySubs() {
+  const token = state.loadToken;
+  const subs = getMySubs();
+  if (!subs.length) {
+    els.mysubsTotals.hidden = true;
+    els.mysubsList.innerHTML = `
+      <div class="row-card row-card--muted" style="grid-template-columns:1fr">
+        <div>還沒有訂閱項目 — 查一個 App，在方案列按「☆ 加入我的訂閱」就會出現在這裡。</div>
+      </div>`;
+    return;
+  }
+  els.mysubsList.innerHTML = '<div class="skeleton-row"></div><div class="skeleton-row"></div>';
+  const target = state.settings.targetCurrency;
+  try {
+    await ensureRates();
+  } catch {
+    els.mysubsList.innerHTML = `
+      <div class="row-card row-card--muted" style="grid-template-columns:1fr"><div>無法取得匯率，稍後再試。</div></div>`;
+    return;
+  }
+
+  const countries = activeCountries();
+  const rows = [];
+  let totalCur = 0;
+  let totalBest = 0;
+  for (const sub of subs) {
+    try {
+      const prices = await getAppPrices(sub.appId, countries, {});
+      const { groups } = buildPlanGroups(prices.countries, countries);
+      const pg = buildAppPriceGroup(prices.countries, countries);
+      if (pg) groups.unshift(pg);
+      const group = groups.find((g) => g.key === sub.planKey)
+        || groups.find((g) => g.name === sub.planName);
+      if (!group) { rows.push({ sub, error: '找不到此方案（可能改名或下架）' }); continue; }
+      const ranked = rankPlan(group, state.rates, target, feePct())
+        .filter((r) => r.converted != null);
+      if (!ranked.length) { rows.push({ sub, error: '暫無價格資料' }); continue; }
+      const current = ranked.find((r) => r.country === sub.useCountry) || ranked[0];
+      const best = ranked[0];
+      const period = group.period || sub.period || null;
+      const mCur = monthlyEquivalent(current.converted, period);
+      const mBest = monthlyEquivalent(best.converted, period);
+      if (mCur != null && mBest != null) { totalCur += mCur; totalBest += mBest; }
+      rows.push({ sub, group, ranked, current, best, mCur, mBest, period });
+    } catch (e) {
+      rows.push({ sub, error: String(e?.message || e) });
+    }
+  }
+  if (token !== state.loadToken) return; // 使用者已離開此頁
+
+  els.mysubsList.innerHTML = rows.map((r, i) => {
+    const s = r.sub;
+    const head = `
+      <div class="msub__who">
+        ${s.icon ? `<img src="${esc(s.icon)}" alt="" loading="lazy" />` : '<span class="msub__noicon"></span>'}
+        <div style="min-width:0">
+          <a class="msub__app" href="#app/${esc(s.appId)}">${esc(s.appName)}</a>
+          <span class="msub__plan">${esc(s.planName)}${r.period === 'lifetime' ? '<span class="badge-official">買斷</span>' : ''}</span>
+        </div>
+      </div>`;
+    if (r.error) {
+      return `<div class="row-card row-card--muted msub" data-i="${i}">
+        ${head}<div class="row-card__err">${esc(r.error)}</div>
+        <button type="button" class="msub__rm" data-rm="${i}" aria-label="移除">✕</button>
+      </div>`;
+    }
+    const opts = r.ranked.map((rr) =>
+      `<option value="${esc(rr.country)}" ${rr.country === r.current.country ? 'selected' : ''}>${flagEmoji(rr.country)} ${esc(countryName(rr.country))}</option>`).join('');
+    const diff = r.mCur != null && r.mBest != null ? r.mCur - r.mBest : null;
+    const perLabel = r.period === 'lifetime' ? '' : '/月';
+    return `
+      <div class="row-card msub" data-i="${i}">
+        ${head}
+        <div class="msub__cur">
+          <select class="msub__cc" data-sel="${i}">${opts}</select>
+          <span class="row-card__converted">${formatMoney(r.mCur ?? r.current.converted, target)}<small>${perLabel}</small></span>
+        </div>
+        <div class="msub__best">
+          ${r.best.country === r.current.country
+    ? '<span class="msub__ok">✓ 已是最省區</span>'
+    : `<span class="msub__tip">最省 ${flagEmoji(r.best.country)} ${esc(countryName(r.best.country))}
+         <b>${formatMoney(r.mBest ?? r.best.converted, target)}</b>${perLabel}
+         ${diff > 0.5 ? `<span class="save">省 ${formatMoney(diff, target)}${perLabel}</span>` : ''}</span>`}
+        </div>
+        <button type="button" class="msub__rm" data-rm="${i}" aria-label="移除">✕</button>
+      </div>`;
+  }).join('');
+
+  const save = totalCur - totalBest;
+  els.mysubsTotals.innerHTML = `
+    <span>目前每月合計 <b>${formatMoney(totalCur, target)}</b></span>
+    <span>全搬最省區 <b>${formatMoney(totalBest, target)}</b></span>
+    ${save > 0.5
+    ? `<span class="save">每月可省 ${formatMoney(save, target)} ・ 一年省 ${formatMoney(save * 12, target)}</span>`
+    : '<span class="save">✓ 已是最佳配置</span>'}`;
+  els.mysubsTotals.hidden = false;
+
+  // 事件：切換使用區 / 移除
+  els.mysubsList.querySelectorAll('[data-sel]').forEach((sel) => {
+    sel.addEventListener('change', () => {
+      const all = getMySubs();
+      const idx = Number(sel.dataset.sel);
+      const target2 = rows[idx]?.sub;
+      const found = all.find((s2) => s2.appId === target2.appId && s2.planKey === target2.planKey);
+      if (found) { found.useCountry = sel.value; saveMySubs(all); }
+      renderMySubs();
+    });
+  });
+  els.mysubsList.querySelectorAll('[data-rm]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const idx = Number(btn.dataset.rm);
+      const target2 = rows[idx]?.sub;
+      saveMySubs(getMySubs().filter((s2) => !(s2.appId === target2.appId && s2.planKey === target2.planKey)));
+      renderMySubs();
+    });
+  });
 }
 
 /* ---------------- 更新價格 ---------------- */

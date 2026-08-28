@@ -47,6 +47,9 @@
       <span class="brand__word">App<em>Prize</em></span>
     </a>
     <div class="topbar__actions">
+      <button id="mySubsBtn" class="iconbtn" type="button" aria-label="我的訂閱" title="我的訂閱">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.6l2.47 5.01 5.53.8-4 3.9.94 5.5L12 16.21l-4.94 2.6.94-5.5-4-3.9 5.53-.8z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </button>
       <button id="currencyBtn" class="pill" type="button" aria-haspopup="listbox" aria-label="換算幣別">
         <span id="currencyLabel">NT$ 新台幣</span>
         <svg viewBox="0 0 12 12" class="pill__chev" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
@@ -120,6 +123,8 @@
 
       <div id="officialBox" class="official glass" hidden></div>
 
+      <div id="historyBox" class="phistory glass" hidden></div>
+
       <details class="notes glass">
         <summary>跨區訂閱注意事項</summary>
         <ul>
@@ -132,6 +137,17 @@
       </details>
 
       <p id="metaLine" class="metaline"></p>
+    </section>
+    <!-- 我的訂閱 -->
+    <section id="mysubsView" class="result" hidden>
+      <button id="mysubsBackBtn" class="back" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        返回搜尋
+      </button>
+      <h2 class="mysubs__title">★ 我的訂閱</h2>
+      <div id="mysubsTotals" class="summary glass-strong" hidden></div>
+      <div id="mysubsList" class="board"></div>
+      <p class="metaline">在任一 App 的比價頁按「☆ 加入我的訂閱」把方案加進來；金額為等效月費（年繳 ÷12），買斷項目不計入月費合計。</p>
     </section>
   </main>
 

@@ -58,6 +58,7 @@ jobs:
         env:
           APP_ID: ${{ steps.targets.outputs.app_id }}
           COUNTRIES: ${{ steps.targets.outputs.countries }}
+          CHANGES_MD: /tmp/price-changes.md
         run: |
           ARGS=""
           if [ -n "$APP_ID" ]; then ARGS="$ARGS --apps $APP_ID"; fi
@@ -88,6 +89,20 @@ jobs:
             fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # 偵測到價格變動時開 issue 通知（watch 此 repo 即可收到 GitHub 推播/信件）
+      - name: Price change alert
+        if: steps.crawl.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COUNT: ${{ steps.crawl.outputs.change_count }}
+        run: |
+          gh label create price-change --color D93F0B --description "價格變動通知" \
+            --repo "$GITHUB_REPOSITORY" 2>/dev/null || true
+          gh issue create --repo "$GITHUB_REPOSITORY" \
+            --title "💰 價格變動通知：${COUNT} 筆（$(date -u +%Y-%m-%d)）" \
+            --label price-change \
+            --body-file /tmp/price-changes.md
 
       - name: Reply and close issue
         if: always() && github.event_name == 'issues'

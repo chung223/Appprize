@@ -543,6 +543,81 @@ html[data-theme="light"] .search__menu {
 .official__link:hover { text-decoration: underline; }
 .official--win { border-color: color-mix(in srgb, var(--gold) 55%, transparent); }
 
+/* ---------- 價格歷史 ---------- */
+.phistory { padding: 18px 22px; border-radius: var(--r-md); }
+.phistory__head { font-family: var(--font-display); font-size: 1.02rem; margin-bottom: 10px; }
+.phistory__sparks { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+.phistory__row {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 0.85rem;
+  padding: 4px 0;
+}
+.phistory__flag { font-size: 1.15rem; }
+.phistory__cc { min-width: 56px; color: var(--ink-dim); }
+.phistory__spark { color: var(--accent-2); display: inline-flex; }
+.phistory__range { color: var(--ink-faint); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+.phistory__event {
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  padding: 7px 0;
+  border-top: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
+  font-size: 0.86rem;
+}
+.phistory__date { color: var(--ink-faint); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+.phistory__what { flex: 1; min-width: 120px; }
+.phistory__up { color: var(--danger); font-variant-numeric: tabular-nums; }
+.phistory__down { color: var(--accent); font-variant-numeric: tabular-nums; }
+.phistory__note { color: var(--ink-faint); font-size: 0.8rem; margin-top: 6px; }
+
+/* ---------- 我的訂閱 ---------- */
+.plantab--star { border-style: dashed; color: var(--ink-dim); }
+.plantab--star.is-on {
+  border-style: solid;
+  color: var(--gold);
+  border-color: color-mix(in srgb, var(--gold) 55%, transparent);
+  background: color-mix(in srgb, var(--gold) 10%, transparent);
+}
+.mysubs__title { font-family: var(--font-display); font-size: 1.4rem; letter-spacing: -0.02em; }
+.msub {
+  display: grid;
+  grid-template-columns: minmax(160px, 1.3fr) auto 1fr auto;
+  align-items: center;
+  gap: 10px 16px;
+}
+.msub__who { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.msub__who img, .msub__noicon {
+  width: 42px; height: 42px; border-radius: 10px; flex: none;
+  background: var(--row-hover); display: inline-block;
+}
+.msub__app { display: block; font-weight: 600; color: var(--ink); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.msub__app:hover { color: var(--accent-2); }
+.msub__plan { display: block; color: var(--ink-dim); font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.msub__cur { display: flex; align-items: center; gap: 10px; }
+.msub__cur .row-card__converted { font-size: 1.15rem; }
+.msub__cur small { font-size: 0.7em; color: var(--ink-faint); font-weight: 400; }
+.msub__cc {
+  background: var(--row-hover);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  color: var(--ink);
+  padding: 6px 8px;
+  font: 400 0.84rem var(--font-body);
+  max-width: 130px;
+}
+.msub__best { font-size: 0.85rem; color: var(--ink-dim); min-width: 0; }
+.msub__best b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.msub__best .save { color: var(--accent); font-weight: 700; margin-left: 6px; }
+.msub__ok { color: var(--accent); font-weight: 600; }
+.msub__rm {
+  width: 30px; height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  background: none;
+  color: var(--ink-faint);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.msub__rm:hover { color: var(--danger); border-color: var(--danger); }
+
 /* ---------- 注意事項 / meta ---------- */
 .notes { padding: 16px 22px; border-radius: var(--r-md); font-size: 0.86rem; color: var(--ink-dim); }
 .notes summary { cursor: pointer; font-weight: 500; color: var(--ink); }
@@ -677,6 +752,9 @@ html[data-theme="light"] .search__menu {
 
 /* ---------- RWD ---------- */
 @media (max-width: 560px) {
+  .msub { grid-template-columns: 1fr auto; }
+  .msub__who { grid-column: 1 / -1; }
+  .msub__best { grid-column: 1 / -1; }
   .appcard__icon { width: 64px; height: 64px; border-radius: 16px; }
   .appcard__name { font-size: 1.2rem; }
   .row-card { grid-template-columns: 30px 1fr auto; padding: 12px 14px; }

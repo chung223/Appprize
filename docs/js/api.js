@@ -136,6 +136,18 @@ export async function fetchSnapshot(appId) {
   }
 }
 
+/** 讀取價格歷史（爬蟲累積的 docs/data/history/{id}.json；沒有則回傳 null） */
+export async function fetchHistory(appId) {
+  try {
+    const url = new URL(`./data/history/${appId}.json`, document.baseURI).href;
+    const res = await fetch(url, { cache: 'no-cache' });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
 /** 即時抓取單一儲存區的 App Store 頁面並解析 IAP 價格（走 proxy） */
 export async function fetchCountryLive(appId, cc) {
   const currency = storefrontCurrency(cc);

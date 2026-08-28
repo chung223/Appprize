@@ -83,6 +83,17 @@ export function removeHistory(appId) {
   lsSet(HISTORY_KEY, getHistory().filter((h) => h.appId !== appId));
 }
 
+/** 我的訂閱：[{appId, planKey, planName, appName, icon, useCountry, addedAt}] */
+const SUBS_KEY = 'appprize.mysubs.v1';
+
+export function getMySubs() {
+  return lsGet(SUBS_KEY) || [];
+}
+
+export function saveMySubs(list) {
+  lsSet(SUBS_KEY, list.slice(0, 50));
+}
+
 /** 使用者設定 */
 const DEFAULT_SETTINGS = {
   targetCurrency: 'TWD',

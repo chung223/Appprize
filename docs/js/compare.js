@@ -126,6 +126,32 @@ export function convertOfficialPlan(plan, rates, target, feePercent = 0) {
 }
 
 /**
+ * 一份 IAP 清單的「穩定鍵 → 方案」映射（同名月/年方案依價格排序給 #0/#1 序號）。
+ * 供價格歷史記錄與跨日 diff 使用 — 鍵在名稱不變時跨天穩定。
+ */
+export function planPriceMap(inApps) {
+  const out = {};
+  for (const { key, iap } of keyedList(inApps || [])) {
+    out[key] = { name: iap.name, price: iap.price, currency: iap.currency || null };
+  }
+  return out;
+}
+
+/**
+ * 換算為「等效月費」：年繳 ÷12、週繳 ×4.345；買斷回傳 null（非經常性支出）。
+ * period 未知時視為月繳。
+ */
+export function monthlyEquivalent(price, period) {
+  if (price == null || !Number.isFinite(price)) return null;
+  switch (period) {
+    case 'yearly': return price / 12;
+    case 'weekly': return price * 4.345;
+    case 'lifetime': return null;
+    default: return price; // monthly 或未知
+  }
+}
+
+/**
  * 付費 App 的「買斷售價」比較群組：只要有任一儲存區售價 > 0 就建立，
  * 其他儲存區的 0 元（該區免費）也一併列出。全免費 App 回傳 null。
  */
