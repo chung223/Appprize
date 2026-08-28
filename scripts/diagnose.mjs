@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 診斷工具：抓一個 App Store 頁面，印出結構分析（在 GitHub Actions log 中閱讀）
+// 診斷工具 v2：定向挖掘 serialized-server-data 的 shelf 結構與 amp-api token
 // 用法：node scripts/diagnose.mjs <country> <appId>
 
 const [, , country = 'tr', appId = '6448311069'] = process.argv;
@@ -13,84 +13,80 @@ const res = await fetch(url, {
   redirect: 'follow',
 });
 const html = await res.text();
-console.log(`status=${res.status} length=${html.length} finalUrl=${res.url}`);
+console.log(`status=${res.status} length=${html.length}`);
 
-// 1. 所有 script 標籤的屬性
-console.log('\n=== SCRIPT TAGS');
-const scriptRe = /<script\b([^>]*)>([\s\S]*?)<\/script>/gi;
-let m;
-const blobs = [];
-while ((m = scriptRe.exec(html))) {
-  const attrs = m[1].trim();
-  const body = (m[2] || '').trim();
-  console.log(`- attrs=[${attrs.slice(0, 120)}] bodyLen=${body.length} head=${JSON.stringify(body.slice(0, 100))}`);
-  if (body && (body[0] === '{' || body[0] === '[')) {
-    try { blobs.push({ attrs, json: JSON.parse(body) }); } catch { console.log('  (JSON parse failed)'); }
+const m = html.match(
+  /<script[^>]*id="serialized-server-data"[^>]*>([\s\S]*?)<\/script>/i,
+);
+if (!m) {
+  console.log('!!! serialized-server-data not found');
+  process.exit(0);
+}
+const ssd = JSON.parse(m[1]);
+const d0 = ssd?.data?.[0]?.data || {};
+console.log('\n=== data[0].data KEYS:', Object.keys(d0).join(', '));
+const sm = d0.shelfMapping || {};
+console.log('=== shelfMapping KEYS:', Object.keys(sm).join(', '));
+
+for (const key of Object.keys(sm)) {
+  if (/subscription|inapp|in-app/i.test(key)) {
+    console.log(`\n=== DUMP shelfMapping.${key}（前 6000 字）`);
+    console.log(JSON.stringify(sm[key]).slice(0, 6000));
   }
 }
 
-// 2. 深度展開後掃描含價格關鍵字的路徑
-function deepParse(node, depth = 0) {
-  if (depth > 40) return node;
+// 全 JSON 找貨幣符號/price 字樣的字串值
+console.log('\n=== STRING VALUES containing currency-ish text（最多 30）');
+let hits = 0;
+const seen = new Set();
+(function walk(node, path) {
+  if (hits >= 30 || !node) return;
   if (typeof node === 'string') {
-    const t = node.trim();
-    if ((t[0] === '{' && t.endsWith('}')) || (t[0] === '[' && t.endsWith(']'))) {
-      try { return deepParse(JSON.parse(t), depth + 1); } catch { return node; }
+    if (/[₺₹¥￥$€£₩]|per month|\/month|ay|month/i.test(node) && node.length < 120 && !seen.has(node)) {
+      seen.add(node);
+      hits++;
+      console.log(`${path} = ${JSON.stringify(node)}`);
     }
-    return node;
-  }
-  if (Array.isArray(node)) return node.map((v) => deepParse(v, depth + 1));
-  if (node && typeof node === 'object') {
-    const out = {};
-    for (const k of Object.keys(node)) out[k] = deepParse(node[k], depth + 1);
-    return out;
-  }
-  return node;
-}
-
-const HIT_KEY = /offer|price|inApp|in-app|subscription|purchas/i;
-let printed = 0;
-function scan(node, path) {
-  if (printed > 80 || !node || typeof node !== 'object') return;
-  if (Array.isArray(node)) {
-    node.forEach((v, i) => scan(v, `${path}[${i}]`));
     return;
   }
-  for (const k of Object.keys(node)) {
-    const v = node[k];
-    if (HIT_KEY.test(k)) {
-      printed++;
-      const snip = JSON.stringify(v);
-      console.log(`${path}.${k} = ${snip ? snip.slice(0, 400) : String(v)}`);
+  if (Array.isArray(node)) { node.forEach((v, i) => walk(v, `${path}[${i}]`)); return; }
+  if (typeof node === 'object') {
+    for (const k of Object.keys(node)) walk(node[k], `${path}.${k}`);
+  }
+})(d0, '$');
+
+// 找 JS bundle 裡的 media-api token（amp-api 備援用）
+console.log('\n=== TOKEN HUNT');
+const assetM = html.match(/src="(\/assets\/index[^"]+\.js)"/);
+console.log('asset:', assetM?.[1]);
+if (assetM) {
+  const assetRes = await fetch(`https://apps.apple.com${assetM[1]}`, {
+    headers: { 'User-Agent': UA },
+  });
+  const js = await assetRes.text();
+  console.log(`asset status=${assetRes.status} len=${js.length}`);
+  const tokenM = js.match(/"(eyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)"/);
+  console.log('jwt found:', tokenM ? `${tokenM[1].slice(0, 40)}…(len ${tokenM[1].length})` : 'NO');
+  if (tokenM) {
+    // 試打 amp-api 拿 IAP
+    for (const host of ['amp-api-edge.apps.apple.com', 'amp-api.apps.apple.com']) {
+      const apiUrl = `https://${host}/v1/catalog/${country}/apps/${appId}?platform=web&include=top-in-apps&fields=name,offers&l=en-GB`;
+      try {
+        const apiRes = await fetch(apiUrl, {
+          headers: {
+            'User-Agent': UA,
+            Authorization: `Bearer ${tokenM[1]}`,
+            Origin: 'https://apps.apple.com',
+          },
+        });
+        const body = await apiRes.text();
+        console.log(`\n=== AMP-API ${host} status=${apiRes.status}`);
+        console.log(body.slice(0, 3000));
+        if (apiRes.status === 200) break;
+      } catch (e) {
+        console.log(`amp-api ${host} error: ${e.message}`);
+      }
     }
-    scan(v, `${path}.${k}`);
   }
-}
-
-console.log('\n=== PRICE-ISH JSON PATHS（每 blob 最多 80 筆）');
-blobs.forEach((b, i) => {
-  printed = 0;
-  console.log(`--- blob#${i} [${b.attrs.slice(0, 80)}]`);
-  scan(deepParse(b.json), '$');
-});
-
-// 3. HTML 中 In-App 區塊
-console.log('\n=== RAW HTML AROUND "In-App"');
-for (const kw of ['In-App', 'App 內購買', 'list-with-numbers', 'information-list']) {
-  const idx = html.indexOf(kw);
-  console.log(`--- keyword ${JSON.stringify(kw)} @ ${idx}`);
-  if (idx >= 0) {
-    console.log(html.slice(Math.max(0, idx - 200), idx + 1800).replace(/\s+/g, ' ').slice(0, 2000));
-  }
-}
-
-// 4. raw priceFormatted 出現處
-console.log('\n=== RAW "priceFormatted" OCCURRENCES');
-let pos = 0;
-for (let i = 0; i < 5; i++) {
-  const idx = html.indexOf('priceFormatted', pos);
-  if (idx < 0) break;
-  console.log(`@${idx}: ${JSON.stringify(html.slice(Math.max(0, idx - 150), idx + 300))}`);
-  pos = idx + 1;
 }
 console.log('\n=== DONE');
