@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T00:29:33.943Z",
+  "updatedAt": "2026-08-28T01:55:36.203Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -36,6 +36,12 @@
       "name": "Netflix",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/2f/6d/492f6d99-6d7a-b5e6-9af9-39f422b56111/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-28T00:29:28.784Z"
+    },
+    {
+      "appId": "479516143",
+      "name": "Minecraft",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/88/35/82883575-36d2-5423-2c8c-d57b4fd0bf5b/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-28T01:55:30.298Z"
     }
   ]
 }

@@ -1,0 +1,471 @@
+{
+  "appId": "479516143",
+  "name": "Minecraft",
+  "developer": "Mojang AB",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/88/35/82883575-36d2-5423-2c8c-d57b4fd0bf5b/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T01:55:30.298Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 70,
+          "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 240,
+          "priceFormatted": "$240.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 6",
+          "offerName": null,
+          "price": 200,
+          "priceFormatted": "$200.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "$100.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 240,
+          "priceFormatted": "$240.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 345,
+          "priceFormatted": "$345.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 135,
+          "priceFormatted": "$135.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 170,
+          "priceFormatted": "$170.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 235,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 20.99,
+          "priceFormatted": "₺20,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "offerName": null,
+          "price": 10.49,
+          "priceFormatted": "₺10,49",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 20.99,
+          "priceFormatted": "₺20,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 109,
+          "priceFormatted": "₺109,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 6",
+          "offerName": null,
+          "price": 329,
+          "priceFormatted": "₺329,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 219,
+          "priceFormatted": "₺219,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 164.99,
+          "priceFormatted": "₺164,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₺569,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 1",
+          "offerName": null,
+          "price": 53.99,
+          "priceFormatted": "₺53,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 109,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 489,
+          "priceFormatted": "₹ 489",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 229,
+          "priceFormatted": "₹ 229",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "offerName": null,
+          "price": 249,
+          "priceFormatted": "₹ 249",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Minecraft Store Item 6",
+          "offerName": null,
+          "price": 679,
+          "priceFormatted": "₹ 679",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 1169,
+          "priceFormatted": "₹ 1,169",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 489,
+          "priceFormatted": "₹ 489",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₹ 569",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 449,
+          "priceFormatted": "₹ 449",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 1",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 40,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 6",
+          "offerName": null,
+          "price": 5.99,
+          "priceFormatted": "$5.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 8",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 6.99,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 960,
+          "priceFormatted": "¥960",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 330,
+          "priceFormatted": "¥330",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 960,
+          "priceFormatted": "¥960",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 6",
+          "offerName": null,
+          "price": 990,
+          "priceFormatted": "¥990",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 550,
+          "priceFormatted": "¥550",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 660,
+          "priceFormatted": "¥660",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 1650,
+          "priceFormatted": "¥1,650",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 880,
+          "priceFormatted": "¥880",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 1300,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}
