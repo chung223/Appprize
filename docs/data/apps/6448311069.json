@@ -1,33 +1,156 @@
 {
   "appId": "6448311069",
-  "name": "ChatGPT App - App Store",
-  "developer": null,
+  "name": "ChatGPT",
+  "developer": "OpenAI OpCo, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ce/0e/75ce0e58-8db6-6441-8444-e23a4285d2e5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:19:00.333Z",
+  "fetchedAt": "2026-08-28T00:23:56.446Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "no-iap-found"
+      "inApps": [
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 690,
+          "priceFormatted": "$690.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Go",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 5x",
+          "offerName": null,
+          "price": 3300,
+          "priceFormatted": "$3,300.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 20x",
+          "offerName": null,
+          "price": 6990,
+          "priceFormatted": "$6,990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 6990,
+          "priceFormatted": "$6,990.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
     },
     "tr": {
       "country": "tr",
       "currency": "TRY",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "no-iap-found"
+      "inApps": [
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 999.99,
+          "priceFormatted": "₺999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Go",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 5x",
+          "offerName": null,
+          "price": 5299.99,
+          "priceFormatted": "₺5.299,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 20x",
+          "offerName": null,
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
     },
     "in": {
       "country": "in",
       "currency": "INR",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "no-iap-found"
+      "inApps": [
+        {
+          "name": "ChatGPT Go",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 5x",
+          "offerName": null,
+          "price": 10699,
+          "priceFormatted": "₹ 10,699",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 20x",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
     },
     "us": {
       "country": "us",

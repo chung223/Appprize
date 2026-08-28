@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-28T00:19:25.825Z",
+  "updatedAt": "2026-08-28T00:24:28.991Z",
   "apps": [
     {
       "appId": "6448311069",
-      "name": "ChatGPT App - App Store",
+      "name": "ChatGPT",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ce/0e/75ce0e58-8db6-6441-8444-e23a4285d2e5/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T00:19:00.333Z"
+      "fetchedAt": "2026-08-28T00:23:56.446Z"
     },
     {
       "appId": "544007664",
-      "name": "《YouTube》App - App Store",
+      "name": "YouTube",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T00:19:04.883Z"
+      "fetchedAt": "2026-08-28T00:24:03.369Z"
     },
     {
       "appId": "324684580",
-      "name": "《Spotify - 音樂和 Podcast》App - App Store",
+      "name": "Spotify - 音樂和 Podcast",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/8b/bc/098bbc51-3b38-2566-90a1-dcd361b8c646/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T00:19:11.289Z"
+      "fetchedAt": "2026-08-28T00:24:10.763Z"
     },
     {
       "appId": "570060128",
-      "name": "《多鄰國 - 極速學外語》App - App Store",
+      "name": "多鄰國 - 極速學外語",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/c4/f1/7ec4f153-c0d4-7a0e-5a42-09770abf2909/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T00:19:14.968Z"
+      "fetchedAt": "2026-08-28T00:24:15.601Z"
     },
     {
       "appId": "6473753684",
-      "name": "Claude by Anthropic App - App Store",
+      "name": "Claude by Anthropic",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/de/98/ecde984f-6f4d-7245-269f-e7646d38a63c/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T00:19:20.936Z"
+      "fetchedAt": "2026-08-28T00:24:22.999Z"
     }
   ]
 }

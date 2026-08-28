@@ -1,9 +1,9 @@
 {
   "appId": "570060128",
-  "name": "《多鄰國 - 極速學外語》App - App Store",
-  "developer": null,
+  "name": "多鄰國 - 極速學外語",
+  "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/c4/f1/7ec4f153-c0d4-7a0e-5a42-09770abf2909/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:19:14.968Z",
+  "fetchedAt": "2026-08-28T00:24:15.601Z",
   "countries": {
     "tw": {
       "country": "tw",

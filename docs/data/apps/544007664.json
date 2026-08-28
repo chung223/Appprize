@@ -1,9 +1,9 @@
 {
   "appId": "544007664",
-  "name": "《YouTube》App - App Store",
-  "developer": null,
+  "name": "YouTube",
+  "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:19:04.883Z",
+  "fetchedAt": "2026-08-28T00:24:03.369Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -172,17 +172,131 @@
       "country": "us",
       "currency": "USD",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "no-iap-found"
+      "inApps": [
+        {
+          "name": "YouTube Premium",
+          "offerName": null,
+          "price": 20.99,
+          "priceFormatted": "$20.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Movies & Shows",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Youtube Premium Family",
+          "offerName": null,
+          "price": 34.99,
+          "priceFormatted": "$34.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Family",
+          "offerName": null,
+          "price": 34.99,
+          "priceFormatted": "$34.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
     },
     "jp": {
       "country": "jp",
       "currency": "JPY",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "no-iap-found"
+      "inApps": [
+        {
+          "name": "YouTube Premium",
+          "offerName": null,
+          "price": 1680,
+          "priceFormatted": "¥1,680",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 320,
+          "priceFormatted": "¥320",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Youtube Premium Family",
+          "offerName": null,
+          "price": 2900,
+          "priceFormatted": "¥2,900",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 1600,
+          "priceFormatted": "¥1,600",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Family",
+          "offerName": null,
+          "price": 2900,
+          "priceFormatted": "¥2,900",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 980,
+          "priceFormatted": "¥980",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
     }
   }
 }

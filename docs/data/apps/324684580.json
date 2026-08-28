@@ -1,9 +1,9 @@
 {
   "appId": "324684580",
-  "name": "《Spotify - 音樂和 Podcast》App - App Store",
-  "developer": null,
+  "name": "Spotify - 音樂和 Podcast",
+  "developer": "Spotify",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/8b/bc/098bbc51-3b38-2566-90a1-dcd361b8c646/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:19:11.289Z",
+  "fetchedAt": "2026-08-28T00:24:10.763Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,7 +11,8 @@
       "unavailable": false,
       "inApps": [],
       "source": null,
-      "error": "no-iap-found"
+      "noIap": true,
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -19,7 +20,8 @@
       "unavailable": false,
       "inApps": [],
       "source": null,
-      "error": "no-iap-found"
+      "noIap": true,
+      "error": null
     },
     "in": {
       "country": "in",
@@ -27,7 +29,8 @@
       "unavailable": false,
       "inApps": [],
       "source": null,
-      "error": "no-iap-found"
+      "noIap": true,
+      "error": null
     },
     "us": {
       "country": "us",
@@ -35,7 +38,8 @@
       "unavailable": false,
       "inApps": [],
       "source": null,
-      "error": "no-iap-found"
+      "noIap": true,
+      "error": null
     },
     "jp": {
       "country": "jp",
@@ -43,7 +47,8 @@
       "unavailable": false,
       "inApps": [],
       "source": null,
-      "error": "no-iap-found"
+      "noIap": true,
+      "error": null
     }
   }
 }
