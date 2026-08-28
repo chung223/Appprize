@@ -1,0 +1,28 @@
+# 臨時診斷：印出 App Store 頁面結構（開發用）
+name: diag
+
+on:
+  workflow_dispatch:
+    inputs:
+      country:
+        description: '國碼'
+        default: 'tr'
+      app_id:
+        description: 'App ID'
+        default: '6448311069'
+
+permissions: {}
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Diagnose
+        env:
+          COUNTRY: ${{ inputs.country }}
+          APP_ID: ${{ inputs.app_id }}
+        run: node scripts/diagnose.mjs "$COUNTRY" "$APP_ID"
