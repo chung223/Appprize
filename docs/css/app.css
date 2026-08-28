@@ -549,6 +549,8 @@ html[data-theme="light"] .search__menu {
 .notes ul { margin: 10px 0 0 20px; display: flex; flex-direction: column; gap: 6px; }
 .metaline { color: var(--ink-faint); font-size: 0.78rem; text-align: center; }
 .metaline .warn { color: var(--gold); }
+.metaline a { color: var(--accent-2); text-decoration: none; }
+.metaline a:hover { text-decoration: underline; }
 
 /* ---------- 幣別選單 ---------- */
 .menu {

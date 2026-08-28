@@ -230,6 +230,7 @@ async function loadApp(appId, { force = false } = {}) {
   state.prices = null;
   state.groups = [];
   state.official = null;
+  state.cloudHintUrl = null;
 
   // 重置畫面
   els.appName.textContent = '載入中…';
@@ -281,6 +282,9 @@ async function loadApp(appId, { force = false } = {}) {
     state.baseline = baseline;
     state.selectedPlanKey = pickDefaultPlan(groups);
     els.loadingBox.hidden = true;
+    // 新 App（雲端還沒有快照）：有 Token 就自動觸發雲端爬蟲入庫，
+    // 沒有就在資料列附上一鍵開 issue 的連結，讓每日排程接手
+    if (prices.hadSnapshot === false) maybeRequestCloudCrawl(appId);
     renderAll();
     if (state.app.name) {
       pushHistory({ appId, name: state.app.name, icon: state.app.icon });
@@ -510,6 +514,9 @@ function renderMeta() {
   if (p.partial || p.source === 'stale-cache') {
     html += ' · <span class="warn">部分地區抓取失敗，按「更新價格」重試</span>';
   }
+  if (state.cloudHintUrl) {
+    html += ` · <a href="${esc(state.cloudHintUrl)}" target="_blank" rel="noopener">☁️ 加入雲端追蹤（免重爬）</a>`;
+  }
   els.metaLine.innerHTML = html;
 }
 
@@ -521,6 +528,23 @@ els.refreshBtn.addEventListener('click', async () => {
   if (pat) triggerCloudCrawl(state.app.appId, pat); // 背景觸發，不等待
   await loadApp(state.app.appId, { force: true });
 });
+
+/** 新 App 自動入雲端快取：有 Token 直接觸發（12 小時內不重複），否則給一鍵 issue 連結 */
+function maybeRequestCloudCrawl(appId) {
+  const pat = state.settings.githubPat?.trim();
+  if (pat) {
+    const key = `appprize.cloudreq.${appId}`;
+    try {
+      if (Date.now() - (Number(localStorage.getItem(key)) || 0) < 12 * 60 * 60 * 1000) return;
+      localStorage.setItem(key, String(Date.now()));
+    } catch { /* 忽略 */ }
+    triggerCloudCrawl(appId, pat);
+  } else {
+    const title = encodeURIComponent(`[crawl] id${appId}`);
+    const body = encodeURIComponent('把這個 App 加入雲端快照與每日自動更新（由 AppPrize 網站發起）。');
+    state.cloudHintUrl = `https://github.com/${REPO}/issues/new?title=${title}&body=${body}`;
+  }
+}
 
 async function triggerCloudCrawl(appId, pat) {
   try {

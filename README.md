@@ -53,7 +53,7 @@
 
 | 方式 | 說明 | 會加入每日排程？ |
 |---|---|---|
-| 網站上直接查 | 前端即時透過 proxy 抓價並快取在本機（不會進 repo） | 否 |
+| 網站上直接查 | 前端即時透過 proxy 抓價並快取在本機；查到雲端還沒有的新 App 時，有填 Token 會自動觸發雲端爬蟲入庫，沒填會在資料列出現「☁️ 加入雲端追蹤」一鍵開 issue | 有 Token 或點雲端追蹤時會 |
 | Actions 手動觸發 | Actions → crawl → Run workflow → 填 App ID | 會（自動加入 registry） |
 | 開 issue | 標題填 `[crawl] id6448311069` 或貼 App Store 連結（限 repo 擁有者），機器人抓完會自動回覆並關閉 | 會（自動加入 registry） |
 

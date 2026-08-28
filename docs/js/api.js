@@ -212,16 +212,13 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
     return { ...cached.data, fetchedAt: cached.fetchedAt, source: 'local-cache', partial: false, missing: [] };
   }
 
-  // repo 快照（GitHub Actions 每日爬）
-  let snapshot = null;
+  // repo 快照（GitHub Actions 每日爬）；force 時仍讀取以得知此 App 是否已入雲端
+  const snapshot = await fetchSnapshot(appId);
   let snapshotFresh = false;
-  if (!force) {
-    snapshot = await fetchSnapshot(appId);
-    if (snapshot?.fetchedAt) {
-      const snapAge = now - Date.parse(snapshot.fetchedAt);
-      snapshotFresh = Number.isFinite(snapAge) && snapAge >= 0
-        && snapAge < Math.max(ttlMs, SNAPSHOT_USABLE_MS);
-    }
+  if (!force && snapshot?.fetchedAt) {
+    const snapAge = now - Date.parse(snapshot.fetchedAt);
+    snapshotFresh = Number.isFinite(snapAge) && snapAge >= 0
+      && snapAge < Math.max(ttlMs, SNAPSHOT_USABLE_MS);
   }
 
   // 快照新鮮時只補抓缺少的國家；否則全部即時抓
@@ -287,6 +284,8 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
     source,
     partial: missing.length > 0,
     missing,
+    // 此 App 是否已在雲端快照（false = 只有本機知道，值得排程入庫）
+    hadSnapshot: !!snapshot,
   };
 }
 
