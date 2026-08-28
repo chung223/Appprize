@@ -1,0 +1,385 @@
+{
+  "appId": "443904275",
+  "name": "LINE",
+  "developer": "LY Corporation",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T06:34:03.907Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "50 LINE Coin",
+          "offerName": null,
+          "price": 35,
+          "priceFormatted": "$35.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "100 LINE Coin",
+          "offerName": null,
+          "price": 70,
+          "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "500 LINE Coin",
+          "offerName": null,
+          "price": 280,
+          "priceFormatted": "$280.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 105,
+          "priceFormatted": "$105.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "月租方案",
+          "offerName": null,
+          "price": 165,
+          "priceFormatted": "$165.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "200 LINE Coin",
+          "offerName": null,
+          "price": 140,
+          "priceFormatted": "$140.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 420,
+          "priceFormatted": "$420.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "月租方案（進階型）LINE 10.21.0+",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 49,
+          "priceFormatted": "$49.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "學生方案（進階型）LINE 10.21.0+",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "$100.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "100 LINE Coin",
+          "offerName": null,
+          "price": 89.99,
+          "priceFormatted": "₺89,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "50 LINE Coin",
+          "offerName": null,
+          "price": 43.99,
+          "priceFormatted": "₺43,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "200 LINE Coin",
+          "offerName": null,
+          "price": 179.99,
+          "priceFormatted": "₺179,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "₺139,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "500 LINE Coin",
+          "offerName": null,
+          "price": 359.99,
+          "priceFormatted": "₺359,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Monthly (Deluxe) LINE 10.21.0+",
+          "offerName": null,
+          "price": 32.99,
+          "priceFormatted": "₺32,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Student (Deluxe) LINE 10.21.0+",
+          "offerName": null,
+          "price": 23.99,
+          "priceFormatted": "₺23,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Monthly (Basic)",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "₺12,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "100 LINE Coin",
+          "offerName": null,
+          "price": 179,
+          "priceFormatted": "₹ 179",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "50 LINE Coin",
+          "offerName": null,
+          "price": 89,
+          "priceFormatted": "₹ 89",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "500 LINE Coin",
+          "offerName": null,
+          "price": 699,
+          "priceFormatted": "₹ 699",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "200 LINE Coin",
+          "offerName": null,
+          "price": 349,
+          "priceFormatted": "₹ 349",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 269,
+          "priceFormatted": "₹ 269",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 1099,
+          "priceFormatted": "₹ 1,099",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "1600 LINE Coin",
+          "offerName": null,
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "incomplete-page"
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "50 LINE Coin",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "¥150",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "100 LINE Coin",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 450,
+          "priceFormatted": "¥450",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "月間プラン（ベーシックコース）",
+          "offerName": null,
+          "price": 290,
+          "priceFormatted": "¥290",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 650,
+          "priceFormatted": "¥650",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "200 LINE Coin",
+          "offerName": null,
+          "price": 600,
+          "priceFormatted": "¥600",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "500 LINE Coin",
+          "offerName": null,
+          "price": 1200,
+          "priceFormatted": "¥1,200",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "月間プラン（デラックスコース）LINE10.21.0以降対象",
+          "offerName": null,
+          "price": 650,
+          "priceFormatted": "¥650",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "¥160",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 210,
+          "priceFormatted": "¥210",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T06:29:48.084Z",
+  "updatedAt": "2026-08-28T06:34:07.814Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -60,6 +60,12 @@
       "name": "DeepSRT PRO",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/b4/7c/30b47c21-50c2-01b9-3fd4-d82a38e32915/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-28T06:29:45.118Z"
+    },
+    {
+      "appId": "443904275",
+      "name": "LINE",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-28T06:34:03.907Z"
     }
   ]
 }
