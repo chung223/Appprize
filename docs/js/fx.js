@@ -120,7 +120,7 @@ export function convert(rates, amount, from, to) {
 export function formatMoney(amount, currency, { approx = false } = {}) {
   if (amount == null || !Number.isFinite(amount)) return '—';
   const cur = String(currency || '').toUpperCase();
-  const zeroDec = amount >= 100 || ['TWD', 'JPY', 'KRW', 'VND', 'IDR', 'CLP'].includes(cur);
+  const zeroDec = amount >= 1000 || ['TWD', 'JPY', 'KRW', 'VND', 'IDR', 'CLP'].includes(cur);
   let str;
   try {
     str = new Intl.NumberFormat('zh-TW', {

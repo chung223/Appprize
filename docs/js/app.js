@@ -350,12 +350,15 @@ function renderBoard() {
   const countries = activeCountries();
 
   if (!group) {
+    const anyNoIap = countries.some((cc) => state.prices?.countries?.[cc]?.noIap);
     const anyUnavailable = countries.some((cc) => state.prices?.countries?.[cc]?.unavailable);
     els.board.innerHTML = `
       <div class="row-card row-card--muted" style="grid-template-columns:1fr">
-        <div>${anyUnavailable
-          ? '這個 App 在所選的儲存區找不到應用內購買項目（可能未上架或不提供訂閱）。'
-          : '沒有解析到應用內購買項目 — 這個 App 可能沒有訂閱制項目，或頁面暫時抓不到。'}
+        <div>${anyNoIap
+          ? '這個 App 在 App Store 沒有列出應用內購買項目 — 訂閱可能只在官網提供（見下方官網價，若有）。'
+          : anyUnavailable
+            ? '這個 App 在所選的儲存區找不到應用內購買項目（可能未上架或不提供訂閱）。'
+            : '沒有解析到應用內購買項目 — 頁面暫時抓不到，請按「更新價格」重試。'}
         </div>
       </div>`;
     els.summaryBanner.hidden = true;
@@ -370,6 +373,7 @@ function renderBoard() {
     if (r.converted == null) {
       const cData = state.prices?.countries?.[r.country];
       const why = cData?.unavailable ? '未在此區上架'
+        : cData?.noIap ? '此區無應用內購買'
         : cData?.error ? '抓取失敗'
         : r.iap ? '無法換算（缺匯率）' : '此區無對應方案';
       return `

@@ -269,17 +269,37 @@ function collectTextPairIaps(root, fallbackCurrency) {
   return [];
 }
 
-/** 從 serialized-server-data 取 app 名稱/開發者/圖示等中繼資料 */
+/** 從 serialized-server-data 取 app 名稱/開發者/圖示與頁面完整性旗標 */
 function metaFromServerData(root) {
-  const meta = {};
+  const meta = { hasServerData: false, hasInformation: false, isIncomplete: false };
   const dataArr = root && Array.isArray(root.data) ? root.data : [];
   for (const entry of dataArr) {
     const d = entry?.data;
     if (!d || typeof d !== 'object') continue;
+    meta.hasServerData = true;
+    if (d.isIncomplete === true) meta.isIncomplete = true;
     if (typeof d.title === 'string' && !meta.name) meta.name = d.title.trim();
     if (typeof d.canonicalURL === 'string' && !meta.appId) {
       meta.appId = extractAppId(d.canonicalURL);
       meta.country = extractCountry(d.canonicalURL);
+    }
+    // app icon 的 artwork URL 樣板（{w}x{h}{c}.{f}）
+    const art = d.navigationBarIconArtwork;
+    if (art && typeof art.url === 'string' && !meta.icon) {
+      meta.icon = art.url
+        .replace('{w}', '512').replace('{h}', '512')
+        .replace('{c}', 'bb').replace('{f}', 'png');
+    }
+    const info = d.shelfMapping?.information;
+    if (info && Array.isArray(info.items) && info.items.length) {
+      meta.hasInformation = true;
+      for (const row of info.items) {
+        if (row && typeof row.title === 'string'
+            && /^(provider|seller|供應商|銷售商|販売元|판매자|proveedor|fournisseur|anbieter)/i.test(row.title)) {
+          const t = (row.items || []).find((x) => typeof x?.text === 'string')?.text;
+          if (t && !meta.developer) meta.developer = t;
+        }
+      }
     }
   }
   return meta;
@@ -321,7 +341,9 @@ function extractMeta(html) {
     stripTags(title)
       .replace(/[‎‏​⁠]/g, '')
       .replace(/\s+(?:on|im|dans|en|su|no|na)\s+(?:the\s+)?App\s*Store.*$/i, '')
+      .replace(/\s*App\s*[-–—]\s*App\s*Store\s*$/i, '')
       .replace(/^在\s*App\s*Store\s*上的「?/, '')
+      .replace(/^《(.+)》$/, '$1')
       .replace(/」?$/, '')
       .trim() || null;
   const canon = html.match(/<link[^>]+rel="canonical"[^>]+href="([^"]+)"/i);
@@ -352,11 +374,20 @@ export function parseAppPage(html, opts = {}) {
 
   const blobs = extractJsonBlobs(html || '');
 
+  // 頁面完整性旗標（供呼叫端判斷是否該重試：Apple 偶發回傳 isIncomplete 的部分頁面）
+  const flags = { hasServerData: false, hasInformation: false, isIncomplete: false };
+
   // 策略 1：新版 serialized-server-data 的 information textPairs
   for (const blob of blobs) {
     if (!blob || !Array.isArray(blob.data)) continue;
     const ssdMeta = metaFromServerData(blob);
-    if (ssdMeta.name && !meta.name) meta.name = ssdMeta.name;
+    flags.hasServerData = flags.hasServerData || ssdMeta.hasServerData;
+    flags.hasInformation = flags.hasInformation || ssdMeta.hasInformation;
+    flags.isIncomplete = flags.isIncomplete || ssdMeta.isIncomplete;
+    // server data 的中繼資料比 og/title 乾淨，優先採用
+    if (ssdMeta.name) meta.name = ssdMeta.name;
+    if (ssdMeta.icon) meta.icon = ssdMeta.icon;
+    if (ssdMeta.developer) meta.developer = ssdMeta.developer;
     if (ssdMeta.appId && !meta.appId) meta.appId = ssdMeta.appId;
     if (ssdMeta.country && !meta.country) meta.country = ssdMeta.country;
     const priced = collectTextPairIaps(deepParse(blob), fallbackCurrency);
@@ -442,6 +473,12 @@ export function parseAppPage(html, opts = {}) {
     country: opts.country || meta.country || null,
     inApps,
     source,
+    flags,
+    // 頁面完整（有 information shelf）但沒有 IAP 列 → 此 App 確定沒有應用內購買
+    definitiveNoIap: inApps.length === 0 && flags.hasInformation && !flags.isIncomplete,
+    // 頁面不完整 → 呼叫端應重試
+    incomplete: inApps.length === 0 && flags.hasServerData
+      && (!flags.hasInformation || flags.isIncomplete),
   };
 }
 

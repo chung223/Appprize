@@ -122,11 +122,16 @@ export async function fetchSnapshot(appId) {
 export async function fetchCountryLive(appId, cc) {
   const currency = storefrontCurrency(cc);
   const url = `https://apps.apple.com/${cc}/app/id${appId}`;
-  const { status, text } = await fetchText(url, { viaProxy: true, timeout: 20000 });
-  if (looksLikeNotFound(text, status)) {
-    return { country: cc, currency, unavailable: true, inApps: [], error: null };
+  let parsed = null;
+  // Apple 偶發回傳不完整頁面 → 最多重試 2 次
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const { status, text } = await fetchText(url, { viaProxy: true, timeout: 20000 });
+    if (looksLikeNotFound(text, status)) {
+      return { country: cc, currency, unavailable: true, inApps: [], error: null };
+    }
+    parsed = parseAppPage(text, { country: cc, currency });
+    if (!parsed.incomplete) break;
   }
-  const parsed = parseAppPage(text, { country: cc, currency });
   return {
     country: cc,
     currency,
@@ -134,7 +139,8 @@ export async function fetchCountryLive(appId, cc) {
     inApps: parsed.inApps,
     meta: { name: parsed.name, icon: parsed.icon, developer: parsed.developer },
     source: parsed.source,
-    error: parsed.inApps.length ? null : 'no-iap-found',
+    noIap: parsed.definitiveNoIap || undefined,
+    error: parsed.inApps.length || parsed.definitiveNoIap ? null : 'incomplete-page',
   };
 }
 
@@ -162,9 +168,13 @@ export async function fetchCountriesLive(appId, countries, { concurrency = 3, on
   return results;
 }
 
+// 雲端快照由排程每日更新：48 小時內都視為可用（避免 TTL 較短時整批改走不穩的 proxy）
+const SNAPSHOT_USABLE_MS = 48 * 60 * 60 * 1000;
+
 /**
  * 主要入口：取得 App 的跨區價格。
- * 順序：本地快取（新鮮）→ repo 快照（新鮮）→ 即時抓取 → 過期的本地/快照資料。
+ * 順序：本地快取（新鮮）→ repo 快照（新鮮；缺的國家用 proxy 補抓）→ 即時抓取
+ * → 過期的快照/本地資料。
  * @returns {Promise<{appId, countries: Record<string, object>, fetchedAt, source, partial, missing: string[]}>}
  */
 export async function getAppPrices(appId, countries, { force = false, onProgress } = {}) {
@@ -181,26 +191,29 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
     return { ...cached.data, fetchedAt: cached.fetchedAt, source: 'local-cache', partial: false, missing: [] };
   }
 
-  // repo 快照
+  // repo 快照（GitHub Actions 每日爬）
   let snapshot = null;
+  let snapshotFresh = false;
   if (!force) {
     snapshot = await fetchSnapshot(appId);
     if (snapshot?.fetchedAt) {
       const snapAge = now - Date.parse(snapshot.fetchedAt);
-      const snapCovers = countries.every((cc) => snapshot.countries?.[cc]);
-      if (snapAge < ttlMs && snapCovers) {
-        const data = { appId, name: snapshot.name, countries: snapshot.countries };
-        setCachedApp(appId, data);
-        return { ...data, fetchedAt: Date.parse(snapshot.fetchedAt), source: 'snapshot', partial: false, missing: [] };
-      }
+      snapshotFresh = Number.isFinite(snapAge) && snapAge >= 0
+        && snapAge < Math.max(ttlMs, SNAPSHOT_USABLE_MS);
     }
   }
 
-  // 即時抓取（可能部分失敗）
+  // 快照新鮮時只補抓缺少的國家；否則全部即時抓
+  const toFetch = snapshotFresh
+    ? countries.filter((cc) => !snapshot.countries?.[cc])
+    : countries;
+
   let live = {};
-  try {
-    live = await fetchCountriesLive(appId, countries, { onProgress });
-  } catch { /* 整體失敗時 live 為空物件 */ }
+  if (toFetch.length) {
+    try {
+      live = await fetchCountriesLive(appId, toFetch, { onProgress });
+    } catch { /* 整體失敗時 live 為空物件 */ }
+  }
 
   const merged = {};
   const missing = [];
@@ -208,6 +221,8 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
     const liveOk = live[cc] && !live[cc].error;
     if (liveOk) {
       merged[cc] = live[cc];
+    } else if (snapshotFresh && snapshot.countries?.[cc]) {
+      merged[cc] = snapshot.countries[cc];
     } else if (snapshot?.countries?.[cc]) {
       merged[cc] = { ...snapshot.countries[cc], staleSource: 'snapshot' };
     } else if (cached?.data?.countries?.[cc]) {
@@ -227,6 +242,10 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
   }
 
   const liveMeta = Object.values(live).find((c) => c?.meta?.name)?.meta || null;
+  const usedLive = Object.keys(live).length > 0;
+  const source = snapshotFresh && !usedLive ? 'snapshot'
+    : snapshotFresh && usedLive ? 'mixed'
+    : 'live';
   const data = {
     appId,
     name: liveMeta?.name || snapshot?.name || cached?.data?.name || null,
@@ -235,8 +254,8 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
   if (anyData) setCachedApp(appId, data);
   return {
     ...data,
-    fetchedAt: now,
-    source: 'live',
+    fetchedAt: snapshotFresh && !usedLive ? Date.parse(snapshot.fetchedAt) : now,
+    source,
     partial: missing.length > 0,
     missing,
   };

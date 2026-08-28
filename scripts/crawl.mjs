@@ -113,29 +113,42 @@ async function crawlApp(appId) {
     const currency = storefrontCurrency(cc);
     const url = `https://apps.apple.com/${cc}/app/id${appId}`;
     try {
-      const { status, text } = await fetchWithRetry(url);
-      if (DEBUG_DIR) {
-        mkdirSync(DEBUG_DIR, { recursive: true });
-        writeFileSync(join(DEBUG_DIR, `${appId}-${cc}.html`), text);
+      let parsed = null;
+      let notFound = false;
+      // Apple 偶發回傳 isIncomplete 的部分頁面（缺 information shelf）→ 重試
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        const { status, text } = await fetchWithRetry(url);
+        if (DEBUG_DIR) {
+          mkdirSync(DEBUG_DIR, { recursive: true });
+          writeFileSync(join(DEBUG_DIR, `${appId}-${cc}-${attempt}.html`), text);
+        }
+        if (looksLikeNotFound(text, status)) {
+          notFound = true;
+          break;
+        }
+        parsed = parseAppPage(text, { country: cc, currency });
+        if (!parsed.incomplete) break;
+        console.log(`  ${cc}: 頁面不完整，重試（${attempt}/3）`);
+        await sleep(1200 * attempt);
       }
-      if (looksLikeNotFound(text, status)) {
+      if (notFound) {
         result.countries[cc] = { country: cc, currency, unavailable: true, inApps: [], error: null };
-        console.log(`  ${cc}: 未上架（HTTP ${status}）`);
+        console.log(`  ${cc}: 未上架`);
       } else {
-        const parsed = parseAppPage(text, { country: cc, currency });
         result.countries[cc] = {
           country: cc,
           currency,
           unavailable: false,
           inApps: parsed.inApps,
           source: parsed.source,
-          error: parsed.inApps.length ? null : 'no-iap-found',
+          noIap: parsed.definitiveNoIap || undefined,
+          error: parsed.inApps.length || parsed.definitiveNoIap ? null : 'incomplete-page',
         };
         if (!result.name && parsed.name) result.name = parsed.name;
         if (!result.developer && parsed.developer) result.developer = parsed.developer;
         if (!result.icon && parsed.icon) result.icon = parsed.icon;
         console.log(
-          `  ${cc}: ${parsed.inApps.length} 個 IAP（${parsed.source || '無'}）` +
+          `  ${cc}: ${parsed.inApps.length} 個 IAP（${parsed.source || (parsed.definitiveNoIap ? '確定無 IAP' : '頁面不完整')}）` +
           (parsed.inApps[0] ? ` 例：${parsed.inApps[0].name} = ${parsed.inApps[0].priceFormatted}` : ''),
         );
       }
@@ -194,7 +207,9 @@ const summaries = [];
 
 for (const appId of appIds) {
   const result = await crawlApp(appId);
-  const gotAny = Object.values(result.countries).some((c) => c.inApps.length || c.unavailable);
+  const gotAny = Object.values(result.countries).some(
+    (c) => c.inApps.length || c.unavailable || c.noIap,
+  );
   const prevPath = join(DATA, 'apps', `${appId}.json`);
   const prev = readJson(prevPath, null);
 
@@ -213,7 +228,8 @@ for (const appId of appIds) {
     for (const cc of Object.keys(result.countries)) {
       const cur = result.countries[cc];
       const old = prev.countries?.[cc];
-      if (cur.error && !cur.inApps.length && old && (old.inApps?.length || old.unavailable)) {
+      if (cur.error && !cur.inApps.length
+          && old && (old.inApps?.length || old.unavailable || old.noIap)) {
         result.countries[cc] = { ...old, stale: true };
       }
     }
