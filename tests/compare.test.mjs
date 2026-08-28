@@ -1,6 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { buildPlanGroups, rankPlan, matchOfficialToGroup } from '../docs/js/compare.js';
+import {
+  buildPlanGroups, buildAppPriceGroup, rankPlan, matchOfficialToGroup,
+} from '../docs/js/compare.js';
 
 const RATES = { USD: 1, TWD: 32, TRY: 41, INR: 88 };
 
@@ -93,6 +95,30 @@ test('rankPlan：缺匯率的排最後', () => {
   const rows = rankPlan(group, RATES, 'TWD', 0);
   assert.equal(rows[0].country, 'tw');
   assert.equal(rows[1].converted, null);
+});
+
+test('buildAppPriceGroup：付費 App 建立買斷比較群組', () => {
+  const data = {
+    tw: { currency: 'TWD', appPrice: { price: 230, currency: 'TWD' }, inApps: [] },
+    us: { currency: 'USD', appPrice: { price: 6.99, currency: 'USD' }, inApps: [] },
+    tr: { currency: 'TRY', appPrice: { price: 0, currency: 'TRY' }, inApps: [] }, // 該區免費也列出
+  };
+  const g = buildAppPriceGroup(data, ['tw', 'us', 'tr']);
+  assert.ok(g);
+  assert.equal(g.period, 'lifetime');
+  assert.equal(g.entries.tw.price, 230);
+  assert.equal(g.entries.tr.price, 0);
+  const rows = rankPlan(g, RATES, 'TWD', 0);
+  assert.equal(rows[0].country, 'tr'); // 免費最前
+});
+
+test('buildAppPriceGroup：免費 App 回傳 null', () => {
+  const data = {
+    tw: { currency: 'TWD', appPrice: { price: 0 }, inApps: [] },
+    us: { currency: 'USD', appPrice: { price: 0 }, inApps: [] },
+  };
+  assert.equal(buildAppPriceGroup(data, ['tw', 'us']), null);
+  assert.equal(buildAppPriceGroup({}, ['tw']), null);
 });
 
 test('matchOfficialToGroup：關鍵字配對', () => {

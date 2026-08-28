@@ -97,6 +97,8 @@ export async function searchApps(term, { country = 'tw', limit = 8 } = {}) {
       icon: r.artworkUrl100 || r.artworkUrl60,
       bundleId: r.bundleId,
       genre: r.primaryGenreName,
+      // 付費 App 在候選清單直接顯示售價
+      priceLabel: r.price > 0 && r.formattedPrice ? r.formattedPrice : null,
     }));
 }
 
@@ -155,6 +157,7 @@ export async function fetchCountryLive(appId, cc) {
     currency,
     unavailable: false,
     inApps: parsed.inApps,
+    appPrice: parsed.appPrice || undefined,
     meta: { name: parsed.name, icon: parsed.icon, developer: parsed.developer },
     source: parsed.source,
     noIap: parsed.definitiveNoIap || undefined,

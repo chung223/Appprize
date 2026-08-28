@@ -5,7 +5,9 @@ import {
 } from './storefronts.js';
 import { extractAppId } from './parser.js';
 import { getRates, convert, formatMoney } from './fx.js';
-import { buildPlanGroups, rankPlan, convertOfficialPlan, matchOfficialToGroup } from './compare.js';
+import {
+  buildPlanGroups, buildAppPriceGroup, rankPlan, convertOfficialPlan, matchOfficialToGroup,
+} from './compare.js';
 import { searchApps, lookupApp, getAppPrices } from './api.js';
 import { getOfficialPricing } from './official.js';
 import {
@@ -173,7 +175,7 @@ async function runNameSearch(q, { immediate = false } = {}) {
     els.searchMenu.innerHTML = results.map((r) => `
       <button type="button" class="search__item" role="option" data-id="${esc(r.appId)}">
         <img src="${esc(r.icon || '')}" alt="" loading="lazy" />
-        <span><b>${esc(r.name)}</b><small>${esc(r.developer || '')}${r.genre ? ' · ' + esc(r.genre) : ''}</small></span>
+        <span><b>${esc(r.name)}</b><small>${esc(r.developer || '')}${r.genre ? ' · ' + esc(r.genre) : ''}${r.priceLabel ? ' · ' + esc(r.priceLabel) : ''}</small></span>
       </button>`).join('');
     els.searchMenu.querySelectorAll('[data-id]').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -272,6 +274,9 @@ async function loadApp(appId, { force = false } = {}) {
     if (!state.app.name && prices.name) state.app.name = prices.name;
     renderAppHeader(); // 就算 meta 查詢失敗也要脫離「載入中…」狀態
     const { groups, baseline } = buildPlanGroups(prices.countries, countries);
+    // 付費 App：把「買斷售價」放在方案列表最前面
+    const priceGroup = buildAppPriceGroup(prices.countries, countries);
+    if (priceGroup) groups.unshift(priceGroup);
     state.groups = groups;
     state.baseline = baseline;
     state.selectedPlanKey = pickDefaultPlan(groups);
@@ -353,7 +358,7 @@ function renderBoard() {
     els.board.innerHTML = `
       <div class="row-card row-card--muted" style="grid-template-columns:1fr">
         <div>${anyNoIap
-          ? '這個 App 在 App Store 沒有列出應用內購買項目 — 訂閱可能只在官網提供（見下方官網價，若有）。'
+          ? '這個 App 是免費下載且沒有應用內購買項目 — 訂閱可能只在官網提供（見下方官網價，若有）。'
           : anyUnavailable
             ? '這個 App 在所選的儲存區找不到應用內購買項目（可能未上架或不提供訂閱）。'
             : '沒有解析到應用內購買項目 — 頁面暫時抓不到，請按「更新價格」重試。'}

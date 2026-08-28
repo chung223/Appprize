@@ -151,6 +151,7 @@ async function crawlApp(appId) {
           currency,
           unavailable: false,
           inApps: parsed.inApps,
+          appPrice: parsed.appPrice || undefined,
           source: parsed.source,
           noIap: parsed.definitiveNoIap || undefined,
           error: parsed.inApps.length || parsed.definitiveNoIap ? null : 'incomplete-page',

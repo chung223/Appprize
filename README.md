@@ -10,6 +10,7 @@
 > 名字由來：**App + Prize/Price** 雙關 — 幫你的 App 訂閱找到「最划算的那個價格」。
 
 - 🌏 一次比較台灣／土耳其／印度／美國／日本（可自由增減 40+ 國）
+- 💰 訂閱、買斷型 IAP、**付費 App 的買斷售價**都能比（付費 App 會多一個「App 售價」分頁）
 - 💱 每日匯率自動換算，預設新台幣，可切換 USD/JPY/EUR 等
 - 🌐 內建熱門服務的**官網訂閱價**對照（ChatGPT、YouTube Premium、Spotify…）
 - 🤖 **GitHub Actions 每日自動爬價**，快照存在 repo 內當雲端快取

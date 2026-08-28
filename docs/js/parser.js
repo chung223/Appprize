@@ -277,6 +277,30 @@ function collectTextPairIaps(root, fallbackCurrency) {
   return [];
 }
 
+/**
+ * 付費 App 的「買斷售價」：優先取 LD+JSON（SoftwareApplication.offers 帶數字
+ * price 與 priceCurrency）；免費 App 的 price 為 0。
+ */
+function appPriceFromBlobs(blobs, fallbackCurrency) {
+  for (const blob of blobs) {
+    if (!blob || blob['@type'] !== 'SoftwareApplication' || !blob.offers) continue;
+    const o = Array.isArray(blob.offers) ? blob.offers[0] : blob.offers;
+    if (!o) continue;
+    let price = null;
+    if (typeof o.price === 'number') price = o.price;
+    else if (typeof o.price === 'string') {
+      price = parsePriceString(o.price, o.priceCurrency || fallbackCurrency);
+    }
+    if (price == null) continue;
+    return {
+      price,
+      currency: (typeof o.priceCurrency === 'string' && o.priceCurrency) || fallbackCurrency || null,
+      priceFormatted: null,
+    };
+  }
+  return null;
+}
+
 /** 從 serialized-server-data 取 app 名稱/開發者/圖示與頁面完整性旗標 */
 function metaFromServerData(root) {
   const meta = { hasServerData: false, hasInformation: false, isIncomplete: false };
@@ -297,6 +321,17 @@ function metaFromServerData(root) {
       meta.icon = art.url
         .replace('{w}', '512').replace('{h}', '512')
         .replace('{c}', 'bb').replace('{f}', 'png');
+    }
+    // 買斷售價備援：titleOfferDisplayProperties（isFree 旗標／購買鈕上的價格字串）
+    const todp = d.titleOfferDisplayProperties;
+    if (todp && meta.appPrice == null) {
+      if (todp.isFree === true) {
+        meta.appPrice = { price: 0, currency: null, priceFormatted: null };
+      } else {
+        const t = typeof todp.titles?.standard === 'string' ? todp.titles.standard : null;
+        const p = t ? parsePriceString(t) : null; // "Get"/"取得" 等無數字 → null
+        if (p != null && p > 0) meta.appPrice = { price: p, currency: null, priceFormatted: t };
+      }
     }
     const info = d.shelfMapping?.information;
     if (info && Array.isArray(info.items) && info.items.length) {
@@ -398,6 +433,7 @@ export function parseAppPage(html, opts = {}) {
     if (ssdMeta.developer) meta.developer = ssdMeta.developer;
     if (ssdMeta.appId && !meta.appId) meta.appId = ssdMeta.appId;
     if (ssdMeta.country && !meta.country) meta.country = ssdMeta.country;
+    if (ssdMeta.appPrice && !meta.appPrice) meta.appPrice = ssdMeta.appPrice;
     const priced = collectTextPairIaps(deepParse(blob), fallbackCurrency);
     if (priced.length) {
       const dedup = new Map();
@@ -473,6 +509,13 @@ export function parseAppPage(html, opts = {}) {
     if (inApps.length) source = 'html-list';
   }
 
+  // App 本身的買斷售價：LD+JSON 優先，serialized-server-data 備援
+  const ldPrice = appPriceFromBlobs(blobs, fallbackCurrency);
+  const appPrice = ldPrice
+    || (meta.appPrice
+      ? { ...meta.appPrice, currency: meta.appPrice.currency || fallbackCurrency || null }
+      : null);
+
   return {
     appId: meta.appId || null,
     name: meta.name,
@@ -480,6 +523,7 @@ export function parseAppPage(html, opts = {}) {
     icon: meta.icon,
     country: opts.country || meta.country || null,
     inApps,
+    appPrice,
     source,
     flags,
     // 頁面完整（有 information shelf）但沒有 IAP 列 → 此 App 確定沒有應用內購買

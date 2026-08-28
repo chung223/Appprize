@@ -200,6 +200,51 @@ test('parseAppPage：2026 serialized-server-data（台灣，「App內購買」�
   assert.equal(pro20.price, 6990); // "$6,990.00" → 6990（TWD 無小數）
 });
 
+/* ---------------- 買斷售價（付費 App） ---------------- */
+
+function paidAppPage({ price = 6.99, currency = 'USD', withSsd = false } = {}) {
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Minecraft',
+    offers: { '@type': 'Offer', price, priceCurrency: currency },
+  };
+  const ssd = withSsd ? `<script type="application/json" id="serialized-server-data">${JSON.stringify({
+    data: [{ data: {
+      title: 'Minecraft',
+      canonicalURL: 'https://apps.apple.com/us/app/minecraft/id479516143',
+      titleOfferDisplayProperties: { isFree: false, titles: { standard: '$6.99' } },
+      shelfMapping: { information: { items: [
+        { $kind: 'Annotation', title: 'Provider', items: [{ $kind: 'AnnotationItem', text: 'Mojang' }] },
+      ] } },
+    } }],
+  })}</script>` : '';
+  return `<html><head><title>Minecraft on the App Store</title></head><body>
+    <script id="software-application" type="application/ld+json">${JSON.stringify(ld)}</script>
+    ${ssd}</body></html>`;
+}
+
+test('parseAppPage：付費 App 買斷售價（LD+JSON）', () => {
+  const r = parseAppPage(paidAppPage(), { country: 'us', currency: 'USD' });
+  assert.ok(r.appPrice);
+  assert.equal(r.appPrice.price, 6.99);
+  assert.equal(r.appPrice.currency, 'USD');
+});
+
+test('parseAppPage：免費 App 的 appPrice 為 0', () => {
+  const r = parseAppPage(paidAppPage({ price: 0 }), { country: 'us', currency: 'USD' });
+  assert.equal(r.appPrice.price, 0);
+});
+
+test('parseAppPage：LD+JSON 缺席時退回 serialized-server-data 購買鈕價格', () => {
+  const html = paidAppPage({ withSsd: true })
+    .replace(/<script id="software-application"[\s\S]*?<\/script>/, '');
+  const r = parseAppPage(html, { country: 'us', currency: 'USD' });
+  assert.ok(r.appPrice);
+  assert.equal(r.appPrice.price, 6.99);
+  assert.equal(r.appPrice.currency, 'USD'); // 從 fallbackCurrency 補上
+});
+
 test('parseAppPage：只有 items_V3 textPair（無 textPairs）也能解析', () => {
   const r = parseAppPage(realServerDataPage({ country: 'tr', useV3Only: true }), { country: 'tr', currency: 'TRY' });
   assert.equal(r.source, 'server-data-pairs');

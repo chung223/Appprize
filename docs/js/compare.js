@@ -125,6 +125,28 @@ export function convertOfficialPlan(plan, rates, target, feePercent = 0) {
   return raw * (1 + feePercent / 100);
 }
 
+/**
+ * 付費 App 的「買斷售價」比較群組：只要有任一儲存區售價 > 0 就建立，
+ * 其他儲存區的 0 元（該區免費）也一併列出。全免費 App 回傳 null。
+ */
+export function buildAppPriceGroup(countriesData, countryOrder) {
+  const anyPaid = countryOrder.some((cc) => (countriesData[cc]?.appPrice?.price ?? 0) > 0);
+  if (!anyPaid) return null;
+  const entries = {};
+  for (const cc of countryOrder) {
+    const ap = countriesData[cc]?.appPrice;
+    if (!ap || ap.price == null) continue;
+    entries[cc] = {
+      name: 'App 售價',
+      price: ap.price,
+      currency: ap.currency || countriesData[cc].currency || null,
+      priceFormatted: ap.priceFormatted || String(ap.price),
+      period: 'lifetime',
+    };
+  }
+  return { key: '__appprice', name: 'App 售價', period: 'lifetime', entries };
+}
+
 /** 依名稱把官網方案配對到 App Store 方案群組（match 為小寫關鍵字） */
 export function matchOfficialToGroup(officialPlans, group) {
   // 同名的第 2+ 種方案（通常是年繳版）計費週期不明，
