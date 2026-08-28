@@ -635,15 +635,33 @@ html[data-theme="light"] .search__menu {
 .toast {
   position: fixed;
   left: 50%; bottom: max(26px, env(safe-area-inset-bottom));
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
   padding: 12px 20px;
   border-radius: var(--r-pill);
   font-size: 0.88rem;
   z-index: 80;
-  animation: rise 0.3s ease both;
+  /* 專用動畫：進場位移必須保留 -50% 的水平置中 */
+  animation: toast-rise 0.3s ease both;
   max-width: min(90vw, 480px);
   text-align: center;
 }
+@keyframes toast-rise {
+  from { opacity: 0; transform: translate(-50%, 14px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.toast__btn {
+  margin-left: 10px;
+  font: 700 0.84rem var(--font-body);
+  color: #04121f;
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  border: none;
+  border-radius: var(--r-pill);
+  padding: 6px 15px;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+.toast__btn:hover { transform: translateY(-1px); filter: brightness(1.08); }
 
 /* ---------- Footer ---------- */
 .foot {

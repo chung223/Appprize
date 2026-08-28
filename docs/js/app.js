@@ -629,9 +629,29 @@ import('./official.js').then(({ loadOfficialIndex }) =>
 
 /* ---------------- Service Worker ---------------- */
 
+function showUpdateToast() {
+  clearTimeout(toastTimer);
+  els.toast.innerHTML =
+    '網站已更新到新版 <button type="button" class="toast__btn" id="reloadBtn">重新整理</button>';
+  els.toast.hidden = false;
+  document.getElementById('reloadBtn')?.addEventListener('click', () => location.reload());
+}
+
 if ('serviceWorker' in navigator) {
+  // 新版 SW 接管時提示重新整理（首次安裝不提示，之後的更新都提示）
+  let hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (hadController) showUpdateToast();
+    hadController = true;
+  });
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
+    navigator.serviceWorker.register('./sw.js').then((reg) => {
+      reg.update().catch(() => {});
+      // 回到分頁時順手檢查新版（瀏覽器對 sw.js 的檢查不吃 HTTP 快取）
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') reg.update().catch(() => {});
+      });
+    }).catch(() => {});
   });
 }
 
