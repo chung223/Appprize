@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T01:55:36.203Z",
+  "updatedAt": "2026-08-28T06:08:55.105Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -42,6 +42,12 @@
       "name": "Minecraft",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/88/35/82883575-36d2-5423-2c8c-d57b4fd0bf5b/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-28T01:55:30.298Z"
+    },
+    {
+      "appId": "6796534411",
+      "name": "Mergic",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/d8/6d/47d86d5e-6893-c52c-1a05-41f2c3dfb586/AppIcon.png/1200x630wa.jpg",
+      "fetchedAt": "2026-08-28T06:08:51.279Z"
     }
   ]
 }
