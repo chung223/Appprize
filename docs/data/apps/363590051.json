@@ -1,0 +1,286 @@
+{
+  "appId": "363590051",
+  "name": "Netflix",
+  "developer": "Netflix, Inc.",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/2f/6d/492f6d99-6d7a-b5e6-9af9-39f422b56111/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T00:29:28.784Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Netflix 高级",
+          "offerName": null,
+          "price": 460,
+          "priceFormatted": "$460.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Netflix 雙螢幕無限串流方案",
+          "offerName": null,
+          "price": 380,
+          "priceFormatted": "$380.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Netflix 標準",
+          "offerName": null,
+          "price": 380,
+          "priceFormatted": "$380.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Netflix 四螢幕無限串流方案",
+          "offerName": null,
+          "price": 460,
+          "priceFormatted": "$460.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Netflix 基本",
+          "offerName": null,
+          "price": 290,
+          "priceFormatted": "$290.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Netflix 單螢幕無限串流方案",
+          "offerName": null,
+          "price": 290,
+          "priceFormatted": "$290.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Netflix Basic",
+          "offerName": null,
+          "price": 189.99,
+          "priceFormatted": "₺189,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Netflix Standard",
+          "offerName": null,
+          "price": 289.99,
+          "priceFormatted": "₺289,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Netflix Premium",
+          "offerName": null,
+          "price": 379.99,
+          "priceFormatted": "₺379,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Netflix 2 Screens - Unlimited Streaming",
+          "offerName": null,
+          "price": 289.99,
+          "priceFormatted": "₺289,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Netflix 1 Screen - Unlimited Streaming",
+          "offerName": null,
+          "price": 189.99,
+          "priceFormatted": "₺189,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Netflix 4 Screens - Unlimited Streaming",
+          "offerName": null,
+          "price": 379.99,
+          "priceFormatted": "₺379,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Netflix Premium",
+          "offerName": null,
+          "price": 649,
+          "priceFormatted": "₹ 649",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Netflix Standard",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Netflix Basic",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Netflix 2 Screens - Unlimited Streaming",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Netflix 4 Screens - Unlimited Streaming",
+          "offerName": null,
+          "price": 649,
+          "priceFormatted": "₹ 649",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Netflix 1 Screen - Unlimited Streaming",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Netflix 2 Screens - Unlimited Streaming",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Netflix",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Netflix Standard",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Netflix Premium",
+          "offerName": null,
+          "price": 26.99,
+          "priceFormatted": "$26.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Netflix 4 Screens - Unlimited Streaming",
+          "offerName": null,
+          "price": 26.99,
+          "priceFormatted": "$26.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Netflix スタンダード",
+          "offerName": null,
+          "price": 1590,
+          "priceFormatted": "¥1,590",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Netflix 2 画面視聴プラン - 月額見放題のストリーミング配信",
+          "offerName": null,
+          "price": 1590,
+          "priceFormatted": "¥1,590",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Netflix 2画面 - 見放題視聴プラン",
+          "offerName": null,
+          "price": 1590,
+          "priceFormatted": "¥1,590",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Netflix プレミアム",
+          "offerName": null,
+          "price": 2290,
+          "priceFormatted": "¥2,290",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Netflix 4画面 - 見放題視聴プラン",
+          "offerName": null,
+          "price": 2290,
+          "priceFormatted": "¥2,290",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Netflix 4 画面視聴プラン - 月額見放題のストリーミング配信",
+          "offerName": null,
+          "price": 2290,
+          "priceFormatted": "¥2,290",
+          "currency": "JPY",
+          "period": "monthly"
+        }
+      ],
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}
