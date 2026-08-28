@@ -60,7 +60,9 @@ test('guessPeriod', () => {
 
 test('planKey：正規化配對鍵', () => {
   assert.equal(planKey('ChatGPT Plus'), planKey('  chatgpt   plus '));
-  assert.equal(planKey('Premium+'), planKey('premium'));
+  assert.equal(planKey('Premium - Family'), planKey('premium family'));
+  // 不同層級不可混淆
+  assert.notEqual(planKey('Premium+'), planKey('Premium'));
   assert.notEqual(planKey('Plus'), planKey('Pro'));
 });
 
@@ -266,6 +268,15 @@ test('parseAppPage：沒有 IAP 的頁面回傳空清單', () => {
 
 test('looksLikeNotFound', () => {
   assert.equal(looksLikeNotFound('anything', 404), true);
-  assert.equal(looksLikeNotFound('', 200), true);
+  // 空白回應是暫時性失敗，不可誤標成「未上架」而覆蓋好資料
+  assert.equal(looksLikeNotFound('', 200), false);
   assert.equal(looksLikeNotFound(shoeboxPage(), 200), false);
+});
+
+test('parsePriceString：瑞士撇號千分位', () => {
+  assert.equal(parsePriceString("CHF 1'299.00", 'CHF'), 1299);
+});
+
+test('extractAppId：無儲存區短連結', () => {
+  assert.equal(extractAppId('https://apps.apple.com/app/id6448311069'), '6448311069');
 });

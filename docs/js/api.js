@@ -30,6 +30,8 @@ function proxyChain() {
  */
 async function fetchText(url, { timeout = 15000, viaProxy = false, validate = null } = {}) {
   const attempts = viaProxy ? proxyChain().map((wrap) => wrap(url)) : [url];
+  // 走 proxy 時預設把 4xx/5xx 視為該 proxy 失效，換下一個
+  if (viaProxy && !validate) validate = (_t, s) => s < 400;
   let lastErr = null;
   for (const target of attempts) {
     const ctrl = new AbortController();
@@ -251,15 +253,21 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
     }
   }
 
-  const anyData = Object.values(merged).some((c) => c.inApps?.length || c.unavailable);
+  const anyData = Object.values(merged).some((c) => c.inApps?.length || c.unavailable || c.noIap);
   if (!anyData && cached) {
     // 全部失敗：退回過期快取
     return { ...cached.data, fetchedAt: cached.fetchedAt, source: 'stale-cache', partial: true, missing };
   }
 
   const liveMeta = Object.values(live).find((c) => c?.meta?.name)?.meta || null;
+  const liveOkAny = Object.values(live).some((c) => c && !c.error);
+  // 只有在拿到「新鮮」資料（即時成功或新鮮快照）時才重新蓋本地快取時間戳，
+  // 避免把過期資料洗成新資料
+  const gotFresh = liveOkAny
+    || (snapshotFresh && countries.some((cc) => snapshot.countries?.[cc]));
   const usedLive = Object.keys(live).length > 0;
-  const source = snapshotFresh && !usedLive ? 'snapshot'
+  const source = !gotFresh ? 'stale-cache'
+    : snapshotFresh && !liveOkAny ? 'snapshot'
     : snapshotFresh && usedLive ? 'mixed'
     : 'live';
   const data = {
@@ -267,10 +275,12 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
     name: liveMeta?.name || snapshot?.name || cached?.data?.name || null,
     countries: merged,
   };
-  if (anyData) setCachedApp(appId, data);
+  if (anyData && gotFresh) setCachedApp(appId, data);
   return {
     ...data,
-    fetchedAt: snapshotFresh && !usedLive ? Date.parse(snapshot.fetchedAt) : now,
+    fetchedAt: !gotFresh
+      ? (cached?.fetchedAt || (snapshot?.fetchedAt ? Date.parse(snapshot.fetchedAt) : now))
+      : source === 'snapshot' ? Date.parse(snapshot.fetchedAt) : now,
     source,
     partial: missing.length > 0,
     missing,

@@ -119,7 +119,8 @@ export function convert(rates, amount, from, to) {
 /** 格式化金額（依幣別決定小數位）。TWD 一律標成 NT$ 避免與 US$ 混淆。 */
 export function formatMoney(amount, currency, { approx = false } = {}) {
   if (amount == null || !Number.isFinite(amount)) return '—';
-  const cur = String(currency || '').toUpperCase();
+  // 只允許三碼英文幣別代碼，避免異常值進入呼叫端的 innerHTML
+  const cur = String(currency || '').toUpperCase().replace(/[^A-Z]/g, '').slice(0, 3);
   const zeroDec = amount >= 1000 || ['TWD', 'JPY', 'KRW', 'VND', 'IDR', 'CLP'].includes(cur);
   let str;
   if (cur === 'TWD') {

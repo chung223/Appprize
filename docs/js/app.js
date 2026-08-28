@@ -269,10 +269,8 @@ async function loadApp(appId, { force = false } = {}) {
     ]);
     if (token !== state.loadToken) return;
     state.prices = prices;
-    if (!state.app.name && prices.name) {
-      state.app.name = prices.name;
-      renderAppHeader();
-    }
+    if (!state.app.name && prices.name) state.app.name = prices.name;
+    renderAppHeader(); // 就算 meta 查詢失敗也要脫離「載入中…」狀態
     const { groups, baseline } = buildPlanGroups(prices.countries, countries);
     state.groups = groups;
     state.baseline = baseline;
@@ -478,11 +476,12 @@ function renderOfficial() {
   }).join('');
 
   const anyCheaper = items.includes('badge-official');
+  const safeUrl = /^https:\/\//i.test(o.url || '') ? o.url : null;
   els.officialBox.className = `official glass${anyCheaper ? ' official--win' : ''}`;
   els.officialBox.innerHTML = `
     <div class="official__head">
       <h3>🌐 官網訂閱價</h3>
-      <a class="official__link" href="${esc(o.url)}" target="_blank" rel="noopener">前往官網 →</a>
+      ${safeUrl ? `<a class="official__link" href="${esc(safeUrl)}" target="_blank" rel="noopener">前往官網 →</a>` : ''}
     </div>
     ${items}
     <p class="official__note">${esc(o.note || '')} 官網價為人工整理（${esc(String(state.officialUpdatedAt || '')) || '日期見資料檔'}），以官網實際顯示為準。</p>`;
@@ -494,7 +493,7 @@ function renderMeta() {
   if (!p) { els.metaLine.textContent = ''; return; }
   const srcLabel = {
     'local-cache': '本地快取', snapshot: '雲端快照（GitHub Actions 每日抓取）',
-    live: '即時抓取', 'stale-cache': '過期快取',
+    live: '即時抓取', mixed: '雲端快照＋即時補抓', 'stale-cache': '過期快取',
   }[p.source] || p.source;
   const age = timeAgo(p.fetchedAt);
   const parts = [`資料來源：${srcLabel} · ${age}`];

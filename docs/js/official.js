@@ -8,10 +8,10 @@ export async function loadOfficialIndex() {
   try {
     const url = new URL('./data/official/index.json', document.baseURI).href;
     const res = await fetch(url, { cache: 'no-cache' });
-    if (!res.ok) return (cache = { updatedAt: null, apps: {} });
+    if (!res.ok) return { updatedAt: null, apps: {} }; // 暫時失敗不快取，下次再試
     cache = await res.json();
   } catch {
-    cache = { updatedAt: null, apps: {} };
+    return { updatedAt: null, apps: {} }; // 暫時失敗不快取
   }
   return cache;
 }

@@ -549,7 +549,7 @@ html[data-theme="light"] .aurora__blob { mix-blend-mode: normal; opacity: 0.4; f
   z-index: 60;
   border-radius: var(--r-md);
   padding: 6px;
-  max-height: 380px;
+  max-height: min(380px, 70dvh);
   overflow: auto;
   min-width: 210px;
 }

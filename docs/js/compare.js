@@ -127,7 +127,10 @@ export function convertOfficialPlan(plan, rates, target, feePercent = 0) {
 
 /** 依名稱把官網方案配對到 App Store 方案群組（match 為小寫關鍵字） */
 export function matchOfficialToGroup(officialPlans, group) {
-  const key = planKey(group.name);
+  // 同名的第 2+ 種方案（通常是年繳版）計費週期不明，
+  // 不與官網月繳價比較，避免產生錯誤的「官網更便宜」結論
+  if (/（方案 \d+）$/.test(group?.name || '')) return [];
+  const key = planKey(group?.name);
   return (officialPlans || []).filter((p) => {
     const kw = String(p.match || '').toLowerCase();
     return kw && key.includes(kw);

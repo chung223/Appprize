@@ -48,13 +48,13 @@
 
 ## 怎麼新增要追蹤的 App？
 
-三種方式（效果相同，都會加入 `docs/data/registry.json` 讓每日排程持續更新）：
+三種方式：
 
-| 方式 | 說明 |
-|---|---|
-| 網站上直接查 | 前端會即時透過 proxy 抓價並快取在本機（不會進 repo） |
-| Actions 手動觸發 | Actions → crawl → Run workflow → 填 App ID |
-| 開 issue | 標題填 `[crawl] id6448311069` 或貼 App Store 連結（限 repo 擁有者），機器人抓完會自動回覆並關閉 |
+| 方式 | 說明 | 會加入每日排程？ |
+|---|---|---|
+| 網站上直接查 | 前端即時透過 proxy 抓價並快取在本機（不會進 repo） | 否 |
+| Actions 手動觸發 | Actions → crawl → Run workflow → 填 App ID | 會（自動加入 registry） |
+| 開 issue | 標題填 `[crawl] id6448311069` 或貼 App Store 連結（限 repo 擁有者），機器人抓完會自動回覆並關閉 | 會（自動加入 registry） |
 
 進階：在網站「設定」貼上一組 GitHub fine-grained token（只需要此 repo 的
 `Actions: Read and write` 權限），之後按「更新價格」就會順手觸發雲端爬蟲。Token 只存在瀏覽器本機。

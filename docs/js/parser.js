@@ -22,7 +22,7 @@ const MAX_JSON_DEPTH = 40;
 export function extractAppId(input) {
   if (!input) return null;
   const s = String(input).trim();
-  let m = s.match(/apps\.apple\.com\/[a-z]{2}(?:-[a-z]{2})?\/app\/(?:[^/]+\/)?id(\d{6,12})/i);
+  let m = s.match(/apps\.apple\.com\/(?:[a-z]{2}(?:-[a-z]{2})?\/)?app\/(?:[^/]+\/)?id(\d{6,12})/i);
   if (m) return m[1];
   m = s.match(/itunes\.apple\.com\/[^\s]*\bid(\d{6,12})/i);
   if (m) return m[1];
@@ -50,8 +50,8 @@ export function parsePriceString(str, currency) {
   if (str == null) return null;
   const s = String(str);
   if (/free|免費|无料|gratis|ücretsiz/i.test(s)) return 0;
-  // 抓出數字部分（含 , . 與各種空白）
-  const m = s.replace(/[  \s]/g, '').match(/(\d[\d.,]*)/);
+  // 抓出數字部分（含 , . 與各種空白；瑞士格式的 ' 撇號千分位先移除）
+  const m = s.replace(/[  \s]/g, '').replace(/(\d)['’](\d)/g, '$1$2').match(/(\d[\d.,]*)/);
   if (!m) return null;
   let num = m[1];
   const zeroDecimal = currency && ZERO_DECIMAL_CURRENCIES.has(currency.toUpperCase());
@@ -192,7 +192,7 @@ function collectOfferNodes(root) {
 
 // 「App 內購買」資訊列標題的多語言比對（頁面語言依儲存區而異）
 const IAP_TITLE_RE =
-  /in.?app\s*purchases|app\s*內購買|应用内购买|App\s*内課金|アプリ内課金|앱\s*내\s*구입|uygulama\s*i[çc]i|achats\s*int[ée]gr[ée]s|in.?app.?k[äa]ufe|compras\s+dentro|acquisti\s+in.?app|встроенные\s+покупки/i;
+  /in.?app\s*purchases|app\s*內購買|应用内购买|App\s*内課金|アプリ内課金|앱\s*내\s*구입|uygulama\s*[iİıI][çc]i|achats\s*int[ée]gr[ée]s|in.?app.?k[äa]ufe|compras\s+dentro|acquisti\s+in.?app|встроенные\s+покупки/i;
 
 // 明確不是 IAP 的資訊列（英文與常見語言的「大小/銷售商/類別…」）
 const NON_IAP_TITLE_RE =
@@ -246,7 +246,10 @@ function collectTextPairIaps(root, fallbackCurrency) {
         if (priced.length) {
           const titleIsIap = title != null && IAP_TITLE_RE.test(title);
           const titleIsOther = title != null && NON_IAP_TITLE_RE.test(title);
-          results.push({ title: title || null, titleIsIap, titleIsOther, priced });
+          results.push({
+            title: title || null, titleIsIap, titleIsOther, priced,
+            pairCount: pairs.length,
+          });
         }
       }
     }
@@ -260,7 +263,12 @@ function collectTextPairIaps(root, fallbackCurrency) {
   // 優先取标题明確為 IAP 的群組；否則取「多筆成對價格」的結構性候選
   const titled = results.filter((r) => r.titleIsIap);
   if (titled.length) return titled.flatMap((r) => r.priced);
-  const structural = results.filter((r) => !r.titleIsOther && r.priced.length >= 2);
+  // 結構性備援（標題語言未涵蓋時）：要求至少 2 筆且六成以上成對值可解析為價格，
+  // 避免把其他資訊列（版本紀錄等）誤認成 IAP
+  const structural = results.filter(
+    (r) => !r.titleIsOther && r.priced.length >= 2
+      && r.priced.length >= r.pairCount * 0.6,
+  );
   if (structural.length) {
     // 取最大的群組（IAP 列通常是唯一多項成對價格的列）
     structural.sort((a, b) => b.priced.length - a.priced.length);
@@ -482,19 +490,23 @@ export function parseAppPage(html, opts = {}) {
   };
 }
 
-/** 檢查頁面是否為「App 不存在／該區未上架」（404 頁） */
+/**
+ * 檢查頁面是否為「App 不存在／該區未上架」。
+ * 只有 404 或明確的錯誤頁內容才算未上架；空白回應視為暫時性失敗
+ * （交由呼叫端以 incomplete 邏輯重試），避免把好資料誤標成未上架。
+ */
 export function looksLikeNotFound(html, status) {
   if (status === 404) return true;
-  if (!html) return true;
+  if (!html) return false;
   return /we're sorry[\s\S]{0,200}?cannot be found|找不到你要的|page-error|error-page-title/i.test(html)
     && !/app-header|shoebox|serialized-server-data/i.test(html);
 }
 
-/** 跨儲存區方案配對用的正規化鍵 */
+/** 跨儲存區方案配對用的正規化鍵（保留 + 號區分 Premium 與 Premium+ 等層級） */
 export function planKey(name) {
   return String(name || '')
     .toLowerCase()
-    .replace(/[\s 　]+/g, ' ')
-    .replace(/[^\p{L}\p{N} ]/gu, '')
+    .replace(/[^\p{L}\p{N}+]+/gu, ' ')
+    .replace(/\s+/g, ' ')
     .trim();
 }

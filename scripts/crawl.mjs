@@ -87,7 +87,18 @@ async function fetchWithRetry(url, { tries = 3, timeout = 25000 } = {}) {
 
 /* ---------- Registry ---------- */
 const registryPath = join(DATA, 'registry.json');
-const registry = readJson(registryPath, { countries: ['tw', 'tr', 'in', 'us', 'jp'], apps: [] });
+// registry 損壞時必須中止，不能默默當成空清單覆寫掉所有追蹤的 app
+let registry;
+try {
+  registry = JSON.parse(readFileSync(registryPath, 'utf8'));
+} catch (e) {
+  if (e?.code === 'ENOENT') {
+    registry = { countries: ['tw', 'tr', 'in', 'us', 'jp'], apps: [] };
+  } else {
+    console.error(`✗ registry.json 無法解析：${e.message}`);
+    process.exit(2);
+  }
+}
 
 const countries = argCountries.length ? argCountries : registry.countries;
 let appIds = argApps.length ? argApps : registry.apps.map((a) => a.id);
