@@ -1,5 +1,6 @@
 /* AppPrize Service Worker
- * - App shell：cache-first（版本化，換版即失效）
+ * - App shell：stale-while-revalidate（先回快取秒開，背景抓新版更新快取，
+ *   下次載入即為新版 — 不需手動改版本號）
  * - ./data/：network-first（價格快照要新鮮），失敗退回快取
  * - 跨網域（proxy、匯率、iTunes）：不攔截，交給頁面自己的備援邏輯
  */
@@ -56,17 +57,19 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // shell：cache-first
+  // shell：stale-while-revalidate
   e.respondWith(
-    caches.match(e.request, { ignoreSearch: true }).then(
-      (hit) => hit
-        || fetch(e.request).then((res) => {
+    caches.match(e.request, { ignoreSearch: true }).then((hit) => {
+      const refresh = fetch(e.request)
+        .then((res) => {
           if (res.ok) {
             const copy = res.clone();
             caches.open(VERSION).then((c) => c.put(e.request, copy));
           }
           return res;
-        }),
-    ),
+        })
+        .catch(() => hit);
+      return hit || refresh;
+    }),
   );
 });
