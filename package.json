@@ -1,0 +1,16 @@
+{
+  "name": "appprize",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AppPrize — 跨區訂閱比價 PWA：比較各國 App Store 訂閱價格，找出最省的儲存區",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "crawl": "node scripts/crawl.mjs",
+    "icons": "node scripts/make-icons.mjs",
+    "serve": "npx --yes serve docs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

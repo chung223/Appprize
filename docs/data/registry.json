@@ -1,0 +1,10 @@
+{
+  "countries": ["tw", "tr", "in", "us", "jp"],
+  "apps": [
+    { "id": "6448311069", "note": "ChatGPT" },
+    { "id": "544007664", "note": "YouTube" },
+    { "id": "324684580", "note": "Spotify" },
+    { "id": "570060128", "note": "Duolingo" },
+    { "id": "6473753684", "note": "Claude" }
+  ]
+}

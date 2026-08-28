@@ -1,0 +1,17 @@
+{
+  "name": "AppPrize 跨區訂閱比價",
+  "short_name": "AppPrize",
+  "description": "貼上 App Store 連結，比較各國訂閱價格，找出最省的儲存區。",
+  "lang": "zh-Hant-TW",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#060b14",
+  "theme_color": "#060b14",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "updatedAt": "2026-08-27",
+  "note": "官網訂閱價為人工整理，可能隨官方調價而過期，實際金額以各官網為準。歡迎直接編輯此檔案新增/更新。",
+  "apps": {
+    "6448311069": {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com/pricing",
+      "note": "網頁版訂閱不經 App Store，通常可避開平台抽成後的加價；美國以外地區可能另計稅金。",
+      "plans": [
+        { "match": "plus", "name": "ChatGPT Plus（官網）", "price": 20, "currency": "USD", "period": "monthly" },
+        { "match": "pro", "name": "ChatGPT Pro（官網）", "price": 200, "currency": "USD", "period": "monthly" }
+      ]
+    },
+    "6473753684": {
+      "name": "Claude",
+      "url": "https://claude.com/pricing",
+      "note": "官網年繳另有折扣；實際金額以官網為準。",
+      "plans": [
+        { "match": "pro", "name": "Claude Pro（官網月繳）", "price": 20, "currency": "USD", "period": "monthly" }
+      ]
+    },
+    "544007664": {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/premium",
+      "note": "YouTube Premium 經 iOS App 內購買有明顯加價，網頁版訂閱通常便宜不少；各國網頁價不同，此處列台灣網頁價。",
+      "plans": [
+        { "match": "premium", "name": "YouTube Premium（台灣官網）", "price": 199, "currency": "TWD", "period": "monthly" }
+      ]
+    },
+    "324684580": {
+      "name": "Spotify",
+      "url": "https://www.spotify.com/tw/premium/",
+      "note": "Spotify 台灣官網個人方案價；App 內購買價格可能較高或不開放。",
+      "plans": [
+        { "match": "premium", "name": "Spotify Premium（台灣官網）", "price": 149, "currency": "TWD", "period": "monthly" }
+      ]
+    }
+  }
+}

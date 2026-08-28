@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>AppPrize — 跨區訂閱比價</title>
+  <meta name="description" content="貼上 App Store 連結或輸入 App 名稱，自動比較各國訂閱價格，換算成新台幣找出最省的儲存區，還會告訴你官網訂閱是不是更便宜。" />
+  <meta name="theme-color" content="#060b14" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#eef4fb" media="(prefers-color-scheme: light)" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="AppPrize" />
+  <meta property="og:title" content="AppPrize — 跨區訂閱比價" />
+  <meta property="og:description" content="哪一區訂閱最便宜？貼上 App Store 連結馬上知道。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+<body>
+  <!-- 極光背景層 -->
+  <div class="aurora" aria-hidden="true">
+    <div class="aurora__blob aurora__blob--a"></div>
+    <div class="aurora__blob aurora__blob--b"></div>
+    <div class="aurora__blob aurora__blob--c"></div>
+    <div class="aurora__grain"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="AppPrize 首頁">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="bm" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#67e8f9"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/>
+          </linearGradient>
+        </defs>
+        <rect x="3" y="3" width="42" height="42" rx="12" fill="url(#bm)"/>
+        <g transform="rotate(45 24 24)">
+          <rect x="13" y="13" width="22" height="22" rx="6" fill="rgba(255,255,255,.92)"/>
+          <circle cx="19.5" cy="19.5" r="2.6" fill="#38bdf8"/>
+        </g>
+        <path d="M6 8 Q 24 -2 42 8" stroke="rgba(255,255,255,.55)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="brand__word">App<em>Prize</em></span>
+    </a>
+    <div class="topbar__actions">
+      <button id="currencyBtn" class="pill" type="button" aria-haspopup="listbox" aria-label="換算幣別">
+        <span id="currencyLabel">NT$ 新台幣</span>
+        <svg viewBox="0 0 12 12" class="pill__chev" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+      <button id="themeBtn" class="iconbtn" type="button" aria-label="切換深淺色主題">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="icon-moon" d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z" fill="currentColor"/></svg>
+      </button>
+      <button id="settingsBtn" class="iconbtn" type="button" aria-label="設定">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5zm8.6 3.5c0-.6-.05-1.1-.14-1.65l2-1.55-2-3.46-2.36.95a8.5 8.5 0 0 0-2.85-1.65L14.9 2h-4l-.35 2.5a8.5 8.5 0 0 0-2.85 1.65l-2.36-.95-2 3.46 2 1.55c-.1.55-.14 1.1-.14 1.65s.05 1.1.14 1.65l-2 1.55 2 3.46 2.36-.95a8.5 8.5 0 0 0 2.85 1.65L11.1 22h4l.35-2.5a8.5 8.5 0 0 0 2.85-1.65l2.36.95 2-3.46-2-1.55c.1-.55.14-1.1.14-1.65z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <!-- 首頁 / 搜尋 -->
+    <section id="heroView" class="hero">
+      <h1 class="hero__title">哪一區訂閱<span class="hero__grad">最便宜</span>？</h1>
+      <p class="hero__sub">貼上 App Store 連結或輸入 App 名稱，馬上比出全球最省的訂閱價，換算成新台幣，還會告訴你官網訂閱是不是更划算。</p>
+
+      <form id="searchForm" class="search glass" role="search">
+        <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="searchInput" class="search__input" type="text" inputmode="search" autocomplete="off" spellcheck="false" enterkeyhint="search"
+          placeholder="貼上 App Store 連結，或輸入 App 名稱…" aria-label="搜尋 App" />
+        <button class="search__go" type="submit">比價</button>
+        <div id="searchMenu" class="search__menu glass-strong" role="listbox" hidden></div>
+      </form>
+
+      <div class="hero__hint">
+        <span class="hero__hint-chip" data-example="https://apps.apple.com/tw/app/chatgpt/id6448311069">試試：ChatGPT</span>
+        <span class="hero__hint-chip" data-example="YouTube">YouTube</span>
+        <span class="hero__hint-chip" data-example="Spotify">Spotify</span>
+        <span class="hero__hint-chip" data-example="Duolingo">Duolingo</span>
+      </div>
+
+      <div id="historySection" class="history" hidden>
+        <h2 class="history__title">最近查過</h2>
+        <div id="historyGrid" class="history__grid"></div>
+      </div>
+    </section>
+
+    <!-- 比價結果 -->
+    <section id="resultView" class="result" hidden>
+      <button id="backBtn" class="back" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        返回搜尋
+      </button>
+
+      <div class="appcard glass">
+        <img id="appIcon" class="appcard__icon" alt="" width="88" height="88" />
+        <div class="appcard__info">
+          <h2 id="appName" class="appcard__name">—</h2>
+          <p id="appDev" class="appcard__dev"></p>
+          <div id="appLinks" class="appcard__links"></div>
+        </div>
+        <button id="refreshBtn" class="pill pill--accent" type="button" title="重新抓取最新價格">
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="pill__ic"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 3v4h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          更新價格
+        </button>
+      </div>
+
+      <div id="loadingBox" class="loading glass" hidden>
+        <div class="loading__spinner" aria-hidden="true"></div>
+        <p id="loadingText">正在抓取各區價格…</p>
+      </div>
+
+      <div id="summaryBanner" class="summary glass-strong" hidden></div>
+
+      <div id="planTabs" class="plantabs" role="tablist" aria-label="訂閱方案"></div>
+
+      <div id="board" class="board" aria-live="polite"></div>
+
+      <div id="officialBox" class="official glass" hidden></div>
+
+      <details class="notes glass">
+        <summary>跨區訂閱注意事項</summary>
+        <ul>
+          <li>App Store 顯示價格為各儲存區之「當地上架價」，實際扣款依你的 Apple 帳號地區與付款方式而定；要用他區價格訂閱，需要該區的 Apple 帳號。</li>
+          <li>部分地區價格未含稅（如美國各州稅、土耳其電子服務稅可能另計），實際帳單可能略高。</li>
+          <li>以台灣發行的信用卡支付外幣通常會收約 1.5% 國際交易手續費，可在設定中把手續費納入比較。</li>
+          <li>匯率為每日參考匯率，實際入帳匯率以發卡行為準。</li>
+          <li>官網（網頁版）訂閱通常不經 App Store 抽成，價格可能更低，且不需要切換帳號地區。</li>
+        </ul>
+      </details>
+
+      <p id="metaLine" class="metaline"></p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>AppPrize · 價格與匯率僅供參考，實際金額以 Apple 與各官網為準</span>
+    <a id="repoLink" href="https://github.com/chung223/Appprize" target="_blank" rel="noopener">GitHub</a>
+  </footer>
+
+  <!-- 幣別選單 -->
+  <div id="currencyMenu" class="menu glass-strong" role="listbox" hidden></div>
+
+  <!-- 設定面板 -->
+  <dialog id="settingsDialog" class="sheet glass-strong">
+    <form method="dialog" class="sheet__body">
+      <header class="sheet__head">
+        <h2>設定</h2>
+        <button value="close" class="iconbtn" aria-label="關閉">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+
+      <section class="sheet__sec">
+        <h3>比較的儲存區</h3>
+        <p class="sheet__desc">選擇要比較的 App Store 地區（拖曳順序不影響排名，排名依價格）。</p>
+        <div id="countryGrid" class="countrygrid"></div>
+      </section>
+
+      <section class="sheet__sec">
+        <h3>手續費</h3>
+        <label class="row">
+          <input type="checkbox" id="feeEnabled" />
+          <span>將信用卡國際交易手續費納入換算</span>
+        </label>
+        <label class="row row--indent">
+          <span>手續費率</span>
+          <input type="number" id="feePercent" min="0" max="10" step="0.1" class="numinput" />
+          <span>%</span>
+        </label>
+      </section>
+
+      <section class="sheet__sec">
+        <h3>資料</h3>
+        <label class="row">
+          <span>快取有效時間</span>
+          <input type="number" id="cacheTtl" min="1" max="720" step="1" class="numinput" />
+          <span>小時（過期自動重抓）</span>
+        </label>
+        <label class="row row--col">
+          <span>自訂 CORS Proxy（選填，<code>{url}</code> 為原始網址佔位）</span>
+          <input type="url" id="customProxy" class="textinput" placeholder="https://my-proxy.example.workers.dev/?url={url}" />
+        </label>
+        <label class="row row--col">
+          <span>GitHub Token（選填，「更新價格」可直接觸發雲端爬蟲；僅存在此裝置）</span>
+          <input type="password" id="githubPat" class="textinput" autocomplete="off" placeholder="github_pat_…" />
+        </label>
+        <button type="button" id="clearCacheBtn" class="pill pill--danger">清除本地價格快取</button>
+      </section>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast glass-strong" role="status" hidden></div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
