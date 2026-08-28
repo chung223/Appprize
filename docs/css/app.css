@@ -265,14 +265,21 @@ html[data-theme="light"] .aurora__blob { mix-blend-mode: normal; opacity: 0.4; f
 .search__go:hover { transform: translateY(-1px); filter: brightness(1.08); }
 .search__go:active { transform: scale(0.97); }
 
-.search { position: relative; }
+/* 搜尋框要建立高於後續兄弟元素（提示標籤、歷史卡片）的堆疊層級，
+   否則玻璃效果的 backdrop-filter stacking context 會讓下拉選單被蓋住、無法點選 */
+.search { position: relative; z-index: 40; }
 .search__menu {
   position: absolute; top: calc(100% + 10px); left: 0; right: 0;
   border-radius: var(--r-md);
   padding: 6px;
-  max-height: 330px; overflow: auto;
+  max-height: min(330px, 55dvh); overflow: auto;
   z-index: 30;
   text-align: left;
+  /* 下拉選單背景要接近不透明：候選列表下方常有其他文字，不能透出干擾閱讀 */
+  background: linear-gradient(160deg, rgba(26, 37, 56, 0.985), rgba(13, 21, 36, 0.99));
+}
+html[data-theme="light"] .search__menu {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.99), rgba(242, 247, 253, 0.99));
 }
 .search__item {
   display: flex; align-items: center; gap: 12px;
