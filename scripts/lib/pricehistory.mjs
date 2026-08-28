@@ -86,6 +86,22 @@ function compactSummary(summary) {
   return out;
 }
 
+/**
+ * 從事件中挑出「值得通知」的：Apple 的 IAP 資訊列是熱門排行、會輪替，
+ * 同一 (app, 國家) 若同時出現方案新增/移除，代表清單洗牌，
+ * 該國的價格變動很可能只是排序位移 — 降級為僅記錄，不發通知。
+ */
+export function filterAlertable(events) {
+  const shuffled = new Set(
+    events
+      .filter((e) => e.kind === 'new-plan' || e.kind === 'removed-plan')
+      .map((e) => `${e.appId}|${e.cc}`),
+  );
+  return events.filter(
+    (e) => (e.kind === 'plan' || e.kind === 'app') && !shuffled.has(`${e.appId}|${e.cc}`),
+  );
+}
+
 /** 從摘要收集 key→名稱 映射（歷史檔顯示用） */
 export function planNames(summary) {
   const names = {};

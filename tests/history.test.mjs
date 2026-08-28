@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  summarizeSnapshot, diffSummaries, appendHistory, planNames,
+  summarizeSnapshot, diffSummaries, appendHistory, planNames, filterAlertable,
 } from '../scripts/lib/pricehistory.mjs';
 import { planPriceMap, monthlyEquivalent } from '../docs/js/compare.js';
 
@@ -80,6 +80,22 @@ test('appendHistory：只在變動時追加', () => {
   assert.equal(hist.entries[1].c.tr.plans['plus#0'], 1299.99);
   // 空摘要不追加
   assert.equal(appendHistory(hist, '2026-08-31', {}), false);
+});
+
+test('filterAlertable：清單洗牌不通知、真調價要通知', () => {
+  const events = [
+    // us：單純調價 → 通知
+    { appId: '1', cc: 'us', kind: 'plan', name: 'Plus', old: 19.99, new: 24.99 },
+    // tr：同時有新方案出現 → 該國調價視為清單洗牌，不通知
+    { appId: '1', cc: 'tr', kind: 'plan', name: 'Movies', old: 3.99, new: 2.99 },
+    { appId: '1', cc: 'tr', kind: 'new-plan', name: 'Movies', old: null, new: 3.99 },
+    // 另一 app 的 tr 不受影響
+    { appId: '2', cc: 'tr', kind: 'app', name: 'App 售價', old: 100, new: 120 },
+  ];
+  const alertable = filterAlertable(events);
+  assert.equal(alertable.length, 2);
+  assert.ok(alertable.some((e) => e.appId === '1' && e.cc === 'us'));
+  assert.ok(alertable.some((e) => e.appId === '2' && e.kind === 'app'));
 });
 
 test('planNames', () => {

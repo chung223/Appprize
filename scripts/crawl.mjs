@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url';
 import { parseAppPage, looksLikeNotFound } from '../docs/js/parser.js';
 import { storefrontCurrency, STOREFRONTS, flagEmoji } from '../docs/js/storefronts.js';
 import {
-  summarizeSnapshot, diffSummaries, appendHistory, planNames,
+  summarizeSnapshot, diffSummaries, appendHistory, planNames, filterAlertable,
 } from './lib/pricehistory.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -305,7 +305,8 @@ writeJson(join(DATA, 'index.json'), { updatedAt: new Date().toISOString(), apps:
 if (!SKIP_FX) await updateFx();
 
 /* ---------- 價格變動：滾動記錄 + 通知 issue 內文 ---------- */
-const priceEvents = allEvents.filter((e) => e.kind === 'plan' || e.kind === 'app');
+// 清單洗牌（同國同時有方案增減）的價格位移不通知，只記錄
+const priceEvents = filterAlertable(allEvents);
 if (allEvents.length) {
   const log = readJson(join(DATA, 'changes.json'), { events: [] });
   log.events = [...allEvents, ...(log.events || [])].slice(0, 300);
