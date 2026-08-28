@@ -116,20 +116,24 @@ export function convert(rates, amount, from, to) {
   return r == null ? null : amount * r;
 }
 
-/** 格式化金額（依幣別決定小數位） */
+/** 格式化金額（依幣別決定小數位）。TWD 一律標成 NT$ 避免與 US$ 混淆。 */
 export function formatMoney(amount, currency, { approx = false } = {}) {
   if (amount == null || !Number.isFinite(amount)) return '—';
   const cur = String(currency || '').toUpperCase();
   const zeroDec = amount >= 1000 || ['TWD', 'JPY', 'KRW', 'VND', 'IDR', 'CLP'].includes(cur);
   let str;
-  try {
-    str = new Intl.NumberFormat('zh-TW', {
-      style: 'currency', currency: cur,
-      minimumFractionDigits: 0,
-      maximumFractionDigits: zeroDec ? 0 : 2,
-    }).format(amount);
-  } catch {
-    str = `${cur} ${zeroDec ? Math.round(amount).toLocaleString() : amount.toFixed(2)}`;
+  if (cur === 'TWD') {
+    str = `NT$${Math.round(amount).toLocaleString('zh-TW')}`;
+  } else {
+    try {
+      str = new Intl.NumberFormat('zh-TW', {
+        style: 'currency', currency: cur,
+        minimumFractionDigits: 0,
+        maximumFractionDigits: zeroDec ? 0 : 2,
+      }).format(amount);
+    } catch {
+      str = `${cur} ${zeroDec ? Math.round(amount).toLocaleString() : amount.toFixed(2)}`;
+    }
   }
   return approx ? `≈ ${str}` : str;
 }

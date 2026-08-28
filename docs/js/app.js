@@ -366,6 +366,11 @@ function renderBoard() {
   }
 
   const rows = rankPlan(group, state.rates, target, feePct());
+  // 沒有此方案資料的國家也要列出（顯示原因），不能無聲消失
+  const present = new Set(rows.map((r) => r.country));
+  for (const cc of countries) {
+    if (!present.has(cc)) rows.push({ country: cc, iap: null, converted: null, delta: null });
+  }
   const valid = rows.filter((r) => r.converted != null);
   const maxConv = valid.length ? Math.max(...valid.map((r) => r.converted)) : 1;
 
@@ -625,6 +630,11 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
   });
 }
+
+/* ---------------- App 圖示載入失敗處理 ---------------- */
+
+els.appIcon.addEventListener('error', () => { els.appIcon.style.opacity = '0'; });
+els.appIcon.addEventListener('load', () => { els.appIcon.style.opacity = '1'; });
 
 /* ---------------- 啟動 ---------------- */
 

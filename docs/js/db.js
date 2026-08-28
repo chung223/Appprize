@@ -92,7 +92,7 @@ const DEFAULT_SETTINGS = {
   cacheTtlHours: 24,      // 本地快取視為新鮮的時數
   customProxy: '',        // 自訂 CORS proxy 前綴
   githubPat: '',          // 觸發 GitHub Actions 重抓用（選填，只存在本機）
-  theme: 'auto',
+  theme: 'dark',          // 預設深色（Liquid Glass 招牌視覺）；可切換
 };
 
 export function getSettings() {
