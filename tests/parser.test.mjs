@@ -133,6 +133,77 @@ test('parseAppPage：offers 無數字 price 時退回 priceFormatted 解析', ()
   assert.equal(plus.price, 999.99); // 從 "₺999,99" 解析
 });
 
+/* ---------------- parseAppPage：serialized-server-data（2026 實際結構） ---------------- */
+// 依 2026-08 真實頁面：data[0].data.shelfMapping.information.items[] 的 Annotation 列，
+// title 為「In-App Purchases」（tw:「App內購買」），textPairs = [[名稱, 價格], …]
+
+function realServerDataPage({ country = 'tr', useV3Only = false } = {}) {
+  const pairs = country === 'tw'
+    ? [['ChatGPT Plus', '$690.00'], ['ChatGPT Go', '$270.00'], ['ChatGPT Pro 5x', '$3,300.00'], ['ChatGPT Pro 20x', '$6,990.00'], ['ChatGPT Plus', '$6,990.00']]
+    : [['ChatGPT Plus', '₺999,99'], ['ChatGPT Go', '₺249,99'], ['ChatGPT Pro 5x', '₺5.299,99'], ['ChatGPT Pro 20x', '₺9.999,99'], ['ChatGPT Plus', '₺9.999,99']];
+  const iapRow = {
+    $kind: 'Annotation',
+    title: country === 'tw' ? 'App內購買' : 'In-App Purchases',
+    summary: country === 'tw' ? '是' : 'Yes',
+    items: useV3Only ? [] : [{ $kind: 'AnnotationItem', textPairs: pairs }],
+    items_V3: pairs.map(([l, t]) => ({ $kind: 'textPair', leadingText: l, trailingText: t })),
+  };
+  const ssd = {
+    data: [{
+      intent: { storefront: country, $kind: 'ProductPageIntent' },
+      data: {
+        $kind: 'Product',
+        title: 'ChatGPT',
+        canonicalURL: `https://apps.apple.com/${country}/app/chatgpt/id6448311069`,
+        shelfMapping: {
+          information: {
+            $kind: 'Shelf',
+            items: [
+              { $kind: 'Annotation', title: country === 'tw' ? '供應商' : 'Provider', items: [{ $kind: 'AnnotationItem', text: 'OpenAI OpCo, LLC' }] },
+              { $kind: 'Annotation', title: country === 'tw' ? '大小' : 'Size', items: [{ $kind: 'AnnotationItem', text: '216.7 MB' }] },
+              iapRow,
+              { $kind: 'Annotation', title: 'Copyright', items: [{ $kind: 'AnnotationItem', text: '© 2026 OpenAI' }] },
+            ],
+          },
+        },
+      },
+    }],
+  };
+  return `<html><head><title>‎ChatGPT on the App Store</title></head><body>
+    <script type="application/json" id="serialized-server-data">${JSON.stringify(ssd)}</script>
+    </body></html>`;
+}
+
+test('parseAppPage：2026 serialized-server-data（土耳其）', () => {
+  const r = parseAppPage(realServerDataPage({ country: 'tr' }), { country: 'tr', currency: 'TRY' });
+  assert.equal(r.source, 'server-data-pairs');
+  assert.equal(r.appId, '6448311069');
+  assert.equal(r.name, 'ChatGPT');
+  assert.equal(r.inApps.length, 5); // 同名不同價（月/年）都要保留
+  const plus = r.inApps.filter((i) => i.name === 'ChatGPT Plus');
+  assert.deepEqual(plus.map((p) => p.price).sort((a, b) => a - b), [999.99, 9999.99]);
+  const pro5 = r.inApps.find((i) => i.name === 'ChatGPT Pro 5x');
+  assert.equal(pro5.price, 5299.99);
+  assert.equal(pro5.currency, 'TRY');
+  // Size 216.7 MB 不能混進來
+  assert.ok(!r.inApps.some((i) => /MB/.test(i.priceFormatted)));
+});
+
+test('parseAppPage：2026 serialized-server-data（台灣，「App內購買」＋ $690.00 格式）', () => {
+  const r = parseAppPage(realServerDataPage({ country: 'tw' }), { country: 'tw', currency: 'TWD' });
+  assert.equal(r.source, 'server-data-pairs');
+  const go = r.inApps.find((i) => i.name === 'ChatGPT Go');
+  assert.equal(go.price, 270);
+  const pro20 = r.inApps.find((i) => i.name === 'ChatGPT Pro 20x');
+  assert.equal(pro20.price, 6990); // "$6,990.00" → 6990（TWD 無小數）
+});
+
+test('parseAppPage：只有 items_V3 textPair（無 textPairs）也能解析', () => {
+  const r = parseAppPage(realServerDataPage({ country: 'tr', useV3Only: true }), { country: 'tr', currency: 'TRY' });
+  assert.equal(r.source, 'server-data-pairs');
+  assert.equal(r.inApps.length, 5);
+});
+
 /* ---------------- parseAppPage：serialized-server-data 世代 ---------------- */
 
 test('parseAppPage：serialized-server-data 世代', () => {

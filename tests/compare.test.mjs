@@ -23,6 +23,21 @@ test('buildPlanGroups：同名方案跨區配對', () => {
   assert.deepEqual(Object.keys(pro.entries).sort(), ['tr', 'tw']);
 });
 
+test('buildPlanGroups：同名月/年方案依價格排序對齊', () => {
+  const data = {
+    tw: { inApps: [iap('ChatGPT Plus', 690, 'TWD'), iap('ChatGPT Go', 270, 'TWD'), iap('ChatGPT Plus', 6990, 'TWD')] },
+    tr: { inApps: [iap('ChatGPT Plus', 999.99, 'TRY'), iap('ChatGPT Go', 249.99, 'TRY'), iap('ChatGPT Plus', 9999.99, 'TRY')] },
+  };
+  const { groups } = buildPlanGroups(data, ['tw', 'tr']);
+  assert.equal(groups.length, 3);
+  const monthly = groups.find((g) => g.name === 'ChatGPT Plus');
+  assert.equal(monthly.entries.tw.price, 690);
+  assert.equal(monthly.entries.tr.price, 999.99); // 月繳對月繳
+  const yearly = groups.find((g) => g.name === 'ChatGPT Plus（方案 2）');
+  assert.equal(yearly.entries.tw.price, 6990);
+  assert.equal(yearly.entries.tr.price, 9999.99); // 年繳對年繳
+});
+
 test('buildPlanGroups：名稱在地化時依價格順位對齊', () => {
   const data = {
     tw: { inApps: [iap('高級方案', 100, 'TWD'), iap('進階方案', 300, 'TWD')] },

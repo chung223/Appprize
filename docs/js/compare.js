@@ -4,9 +4,30 @@ import { planKey } from './parser.js';
 import { convert } from './fx.js';
 
 /**
+ * 把一份 IAP 清單依正規化名稱分組，同名者依價格升冪給序號：
+ * "chatgpt plus#0"（便宜，通常是月繳）、"chatgpt plus#1"（貴，通常是年繳）…
+ * 這樣同名的月/年方案能跨區正確對齊。
+ */
+function keyedList(inApps) {
+  const byName = new Map();
+  for (const iap of inApps) {
+    const k = planKey(iap.name);
+    if (!byName.has(k)) byName.set(k, []);
+    byName.get(k).push(iap);
+  }
+  const out = [];
+  for (const [k, arr] of byName) {
+    const sorted = [...arr].sort((a, b) => (a.price ?? 0) - (b.price ?? 0));
+    sorted.forEach((iap, i) => out.push({ key: `${k}#${i}`, dupIndex: i, iap }));
+  }
+  return out;
+}
+
+/**
  * 將各國 IAP 配對成方案群組。
- * 配對策略：先用正規化名稱精確配對；名稱不同（在地化）時，若兩區清單長度相同，
- * 依「價格排序後的位置」對齊；仍無法配對者列為該區獨有。
+ * 配對策略：正規化名稱精確配對（同名的月/年方案依價格排序對齊）；
+ * 名稱不同（在地化）時，若兩區清單長度相同，依價格排序位置對齊；
+ * 仍無法配對者列為該區獨有。
  *
  * @param {Record<string, {inApps?: Array, unavailable?: boolean}>} countriesData
  * @param {string[]} countryOrder 想要的國家順序（第一個有資料者為基準區）
@@ -18,9 +39,10 @@ export function buildPlanGroups(countriesData, countryOrder) {
   const baseline = withData.includes('tw') ? 'tw' : withData[0];
 
   const base = countriesData[baseline].inApps;
-  const groups = base.map((iap) => ({
-    key: planKey(iap.name),
-    name: iap.name,
+  const baseKeyed = keyedList(base);
+  const groups = baseKeyed.map(({ key, dupIndex, iap }) => ({
+    key,
+    name: dupIndex > 0 ? `${iap.name}（方案 ${dupIndex + 1}）` : iap.name,
     period: iap.period || null,
     entries: { [baseline]: iap },
   }));
@@ -30,8 +52,8 @@ export function buildPlanGroups(countriesData, countryOrder) {
     if (cc === baseline) continue;
     const list = countriesData[cc].inApps;
     const unmatched = [];
-    for (const iap of list) {
-      const g = byKey.get(planKey(iap.name));
+    for (const { key, iap } of keyedList(list)) {
+      const g = byKey.get(key);
       if (g && !g.entries[cc]) g.entries[cc] = iap;
       else unmatched.push(iap);
     }

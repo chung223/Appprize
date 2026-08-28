@@ -190,6 +190,101 @@ function collectOfferNodes(root) {
   return found;
 }
 
+// 「App 內購買」資訊列標題的多語言比對（頁面語言依儲存區而異）
+const IAP_TITLE_RE =
+  /in.?app\s*purchases|app\s*內購買|应用内购买|App\s*内課金|アプリ内課金|앱\s*내\s*구입|uygulama\s*i[çc]i|achats\s*int[ée]gr[ée]s|in.?app.?k[äa]ufe|compras\s+dentro|acquisti\s+in.?app|встроенные\s+покупки/i;
+
+// 明確不是 IAP 的資訊列（英文與常見語言的「大小/銷售商/類別…」）
+const NON_IAP_TITLE_RE =
+  /^(size|seller|category|compatibility|languages?|age\s*rating|copyright|price|location|provider|大小|銷售商|供應商|類別|相容性|語言|年齡分級|分級|版權|價格|サイズ|販売元|カテゴリ|호환성|판매자)/i;
+
+/**
+ * 新版（Svelte/serialized-server-data）策略：
+ * data[0].data.shelfMapping.information.items[] 中，某一列的 title 為「In-App Purchases」
+ * （依語言而異），其內部 items[].textPairs 為 [方案名稱, 價格字串] 的成對陣列。
+ */
+function collectTextPairIaps(root, fallbackCurrency) {
+  const results = [];
+  const seen = new Set();
+  const visit = (node, titleCtx) => {
+    if (!node || typeof node !== 'object' || seen.has(node)) return;
+    seen.add(node);
+    if (Array.isArray(node)) {
+      for (const v of node) visit(v, titleCtx);
+      return;
+    }
+    const title = typeof node.title === 'string' ? node.title : titleCtx;
+    // 新版 items_V3 的 textPair 物件：{$kind:'textPair', leadingText, trailingText}
+    const v3Pairs = [];
+    for (const k of ['items_V3', 'items']) {
+      const arr = node[k];
+      if (Array.isArray(arr)) {
+        for (const it of arr) {
+          if (it && it.$kind === 'textPair'
+              && typeof it.leadingText === 'string' && typeof it.trailingText === 'string') {
+            v3Pairs.push([it.leadingText, it.trailingText]);
+          }
+        }
+      }
+    }
+    const tp = Array.isArray(node.textPairs) && node.textPairs.length
+      ? node.textPairs
+      : v3Pairs;
+    if (Array.isArray(tp) && tp.length) {
+      const pairs = tp.filter(
+        (p) => Array.isArray(p) && p.length >= 2
+          && typeof p[0] === 'string' && typeof p[1] === 'string',
+      );
+      if (pairs.length) {
+        const priced = pairs
+          .map((p) => ({
+            name: p[0].trim(),
+            priceFormatted: p[1].trim(),
+            price: parsePriceString(p[1], fallbackCurrency),
+          }))
+          .filter((p) => p.name && p.price != null && p.price > 0);
+        if (priced.length) {
+          const titleIsIap = title != null && IAP_TITLE_RE.test(title);
+          const titleIsOther = title != null && NON_IAP_TITLE_RE.test(title);
+          results.push({ title: title || null, titleIsIap, titleIsOther, priced });
+        }
+      }
+    }
+    for (const k of Object.keys(node)) {
+      const child = node[k];
+      if (child && typeof child === 'object') visit(child, title);
+    }
+  };
+  visit(root, null);
+
+  // 優先取标题明確為 IAP 的群組；否則取「多筆成對價格」的結構性候選
+  const titled = results.filter((r) => r.titleIsIap);
+  if (titled.length) return titled.flatMap((r) => r.priced);
+  const structural = results.filter((r) => !r.titleIsOther && r.priced.length >= 2);
+  if (structural.length) {
+    // 取最大的群組（IAP 列通常是唯一多項成對價格的列）
+    structural.sort((a, b) => b.priced.length - a.priced.length);
+    return structural[0].priced;
+  }
+  return [];
+}
+
+/** 從 serialized-server-data 取 app 名稱/開發者/圖示等中繼資料 */
+function metaFromServerData(root) {
+  const meta = {};
+  const dataArr = root && Array.isArray(root.data) ? root.data : [];
+  for (const entry of dataArr) {
+    const d = entry?.data;
+    if (!d || typeof d !== 'object') continue;
+    if (typeof d.title === 'string' && !meta.name) meta.name = d.title.trim();
+    if (typeof d.canonicalURL === 'string' && !meta.appId) {
+      meta.appId = extractAppId(d.canonicalURL);
+      meta.country = extractCountry(d.canonicalURL);
+    }
+  }
+  return meta;
+}
+
 /** HTML 備援：解析「App 內購買」資訊列表 */
 function parseInAppsFromHtml(html) {
   const items = [];
@@ -224,6 +319,7 @@ function extractMeta(html) {
   // 標題格式通常是 "ChatGPT on the App Store" / "在 App Store 上的「ChatGPT」"
   meta.name =
     stripTags(title)
+      .replace(/[‎‏​⁠]/g, '')
       .replace(/\s+(?:on|im|dans|en|su|no|na)\s+(?:the\s+)?App\s*Store.*$/i, '')
       .replace(/^在\s*App\s*Store\s*上的「?/, '')
       .replace(/」?$/, '')
@@ -250,16 +346,48 @@ function extractMeta(html) {
 export function parseAppPage(html, opts = {}) {
   const meta = extractMeta(html || '');
   const fallbackCurrency = opts.currency || null;
-  const country = opts.country || meta.country || null;
 
   let inApps = [];
   let source = null;
 
   const blobs = extractJsonBlobs(html || '');
-  const offerNodes = [];
-  for (const blob of blobs) offerNodes.push(...collectOfferNodes(deepParse(blob)));
 
-  if (offerNodes.length) {
+  // 策略 1：新版 serialized-server-data 的 information textPairs
+  for (const blob of blobs) {
+    if (!blob || !Array.isArray(blob.data)) continue;
+    const ssdMeta = metaFromServerData(blob);
+    if (ssdMeta.name && !meta.name) meta.name = ssdMeta.name;
+    if (ssdMeta.appId && !meta.appId) meta.appId = ssdMeta.appId;
+    if (ssdMeta.country && !meta.country) meta.country = ssdMeta.country;
+    const priced = collectTextPairIaps(deepParse(blob), fallbackCurrency);
+    if (priced.length) {
+      const dedup = new Map();
+      for (const p of priced) {
+        const key = `${p.name}::${p.price}`;
+        if (!dedup.has(key)) {
+          dedup.set(key, {
+            name: p.name,
+            offerName: null,
+            price: p.price,
+            priceFormatted: p.priceFormatted,
+            currency: fallbackCurrency || null,
+            period: guessPeriod(p.name),
+          });
+        }
+      }
+      inApps = [...dedup.values()];
+      source = 'server-data-pairs';
+      break;
+    }
+  }
+
+  // 策略 2：舊版 shoebox / amp-api offers 結構
+  const offerNodes = [];
+  if (!inApps.length) {
+    for (const blob of blobs) offerNodes.push(...collectOfferNodes(deepParse(blob)));
+  }
+
+  if (!inApps.length && offerNodes.length) {
     const dedup = new Map();
     for (const n of offerNodes) {
       if (n.isAppNode) continue; // app 本身（GET / 價格 0）不是 IAP
@@ -311,7 +439,7 @@ export function parseAppPage(html, opts = {}) {
     name: meta.name,
     developer: meta.developer,
     icon: meta.icon,
-    country,
+    country: opts.country || meta.country || null,
     inApps,
     source,
   };
