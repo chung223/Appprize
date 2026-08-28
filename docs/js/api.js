@@ -24,7 +24,11 @@ function proxyChain() {
   return chain;
 }
 
-async function fetchText(url, { timeout = 15000, viaProxy = false } = {}) {
+/**
+ * 抓取文字內容。viaProxy 時依序嘗試 proxy 鏈；
+ * validate(text, status) 回傳 false 代表拿到的是 proxy 的垃圾頁 → 換下一個。
+ */
+async function fetchText(url, { timeout = 15000, viaProxy = false, validate = null } = {}) {
   const attempts = viaProxy ? proxyChain().map((wrap) => wrap(url)) : [url];
   let lastErr = null;
   for (const target of attempts) {
@@ -33,6 +37,10 @@ async function fetchText(url, { timeout = 15000, viaProxy = false } = {}) {
     try {
       const res = await fetch(target, { signal: ctrl.signal, redirect: 'follow' });
       const text = await res.text();
+      if (validate && !validate(text, res.status)) {
+        lastErr = new Error(`proxy 回應無效（HTTP ${res.status}）`);
+        continue;
+      }
       return { status: res.status, text };
     } catch (e) {
       lastErr = e;
@@ -41,6 +49,12 @@ async function fetchText(url, { timeout = 15000, viaProxy = false } = {}) {
     }
   }
   throw lastErr || new Error('fetch failed');
+}
+
+/** App Store 頁面回應的有效性：404（未上架）或內含頁面資料標記 */
+function looksLikeAppStoreResponse(text, status) {
+  return status === 404
+    || /serialized-server-data|shoebox|app-header|apps\.apple\.com/i.test(text || '');
 }
 
 /** 直連失敗就走 proxy 的 JSON 請求 */
@@ -125,7 +139,9 @@ export async function fetchCountryLive(appId, cc) {
   let parsed = null;
   // Apple 偶發回傳不完整頁面 → 最多重試 2 次
   for (let attempt = 1; attempt <= 2; attempt++) {
-    const { status, text } = await fetchText(url, { viaProxy: true, timeout: 20000 });
+    const { status, text } = await fetchText(url, {
+      viaProxy: true, timeout: 20000, validate: looksLikeAppStoreResponse,
+    });
     if (looksLikeNotFound(text, status)) {
       return { country: cc, currency, unavailable: true, inApps: [], error: null };
     }
