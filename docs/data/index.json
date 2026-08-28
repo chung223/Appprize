@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T06:34:07.814Z",
+  "updatedAt": "2026-08-28T06:42:44.774Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -66,6 +66,12 @@
       "name": "LINE",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-28T06:34:03.907Z"
+    },
+    {
+      "appId": "1312014438",
+      "name": "JSBox - Learn to Code",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b2/37/f4/b237f411-41fd-44a9-1511-b57b4c22dc4d/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.jpg",
+      "fetchedAt": "2026-08-28T06:42:39.619Z"
     }
   ]
 }

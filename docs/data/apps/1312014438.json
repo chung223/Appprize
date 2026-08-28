@@ -1,0 +1,159 @@
+{
+  "appId": "1312014438",
+  "name": "JSBox - Learn to Code",
+  "developer": "颖 钟",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b2/37/f4/b237f411-41fd-44a9-1511-b57b4c22dc4d/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.jpg",
+  "fetchedAt": "2026-08-28T06:42:39.619Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "JSBox Pro",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "JSBox Pro - Discount",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "JSBox Pro",
+          "offerName": null,
+          "price": 53.99,
+          "priceFormatted": "₺53,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "JSBox Pro - Discount",
+          "offerName": null,
+          "price": 53.99,
+          "priceFormatted": "₺53,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "JSBox Pro",
+          "offerName": null,
+          "price": 669,
+          "priceFormatted": "₹ 669",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "JSBox Pro - Discount",
+          "offerName": null,
+          "price": 669,
+          "priceFormatted": "₹ 669",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "JSBox Pro",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "JSBox Pro - Discount",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "JSBox Pro",
+          "offerName": null,
+          "price": 850,
+          "priceFormatted": "¥850",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "JSBox Pro - Discount",
+          "offerName": null,
+          "price": 850,
+          "priceFormatted": "¥850",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}
