@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T06:34:03.907Z",
+  "fetchedAt": "2026-08-28T07:02:01.287Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -283,9 +283,95 @@
       "country": "us",
       "currency": "USD",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "incomplete-page"
+      "inApps": [
+        {
+          "name": "100 LINE Coin",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "50 LINE Coin",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "500 LINE Coin",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "200 LINE Coin",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1600 LINE Coin",
+          "offerName": null,
+          "price": 22.99,
+          "priceFormatted": "$22.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 1.39,
+          "priceFormatted": "$1.39",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Brown & Cony's Secret Date!",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
     },
     "jp": {
       "country": "jp",

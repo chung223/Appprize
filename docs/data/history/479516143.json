@@ -1,0 +1,69 @@
+{
+  "appId": "479516143",
+  "names": {
+    "minecraft store item 2#0": "Minecraft Store Item 2",
+    "realms plus 10 friends w trial#0": "Realms Plus:10 Friends w/trial",
+    "minecraft store item 6#0": "Minecraft Store Item 6",
+    "realms monthly subscription you + 2 friends#0": "Realms Monthly Subscription: You + 2 Friends",
+    "minecraft store item 3#0": "Minecraft Store Item 3",
+    "realms plus you + 10 friends#0": "Realms Plus: You + 10 Friends",
+    "minecraft store item 10#0": "Minecraft Store Item 10",
+    "minecraft store item 4#0": "Minecraft Store Item 4",
+    "minecraft store item 5#0": "Minecraft Store Item 5",
+    "marketplace pass trial#0": "Marketplace Pass Trial",
+    "minecraft store item 1#0": "Minecraft Store Item 1"
+  },
+  "entries": [
+    {
+      "d": "2026-08-28",
+      "c": {
+        "tw": {
+          "app": 235,
+          "plans": {
+            "minecraft store item 2#0": 70,
+            "realms plus 10 friends w trial#0": 240,
+            "minecraft store item 6#0": 200,
+            "realms monthly subscription you + 2 friends#0": 120,
+            "minecraft store item 3#0": 100,
+            "realms plus you + 10 friends#0": 240,
+            "minecraft store item 10#0": 345,
+            "minecraft store item 4#0": 135,
+            "minecraft store item 5#0": 170,
+            "marketplace pass trial#0": 120
+          }
+        },
+        "tr": {
+          "app": 109,
+          "plans": {
+            "realms plus 10 friends w trial#0": 20.99,
+            "realms monthly subscription you + 2 friends#0": 10.49,
+            "minecraft store item 2#0": 109,
+            "realms plus you + 10 friends#0": 20.99,
+            "minecraft store item 6#0": 329,
+            "minecraft store item 4#0": 219,
+            "minecraft store item 3#0": 164.99,
+            "minecraft store item 10#0": 569,
+            "marketplace pass trial#0": 129.99,
+            "minecraft store item 1#0": 53.99
+          }
+        },
+        "in": {
+          "app": 40,
+          "plans": {
+            "realms plus 10 friends w trial#0": 489,
+            "minecraft store item 2#0": 229,
+            "realms monthly subscription you + 2 friends#0": 249,
+            "minecraft store item 6#0": 679,
+            "minecraft store item 10#0": 1169,
+            "realms plus you + 10 friends#0": 489,
+            "minecraft store item 4#0": 449,
+            "minecraft store item 5#0": 569,
+            "marketplace pass trial#0": 399,
+            "minecraft store item 1#0": 119
+          }
+        }
+      }
+    }
+  ],
+  "name": "Minecraft"
+}

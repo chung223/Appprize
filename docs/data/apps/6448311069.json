@@ -3,7 +3,7 @@
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ce/0e/75ce0e58-8db6-6441-8444-e23a4285d2e5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:23:56.446Z",
+  "fetchedAt": "2026-08-28T07:01:22.836Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -51,6 +51,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -100,6 +105,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -149,6 +159,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -222,6 +237,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -271,6 +291,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     }

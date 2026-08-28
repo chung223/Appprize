@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:24:03.369Z",
+  "fetchedAt": "2026-08-28T07:01:28.583Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -59,6 +59,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -108,6 +113,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -149,22 +159,27 @@
           "period": null
         },
         {
-          "name": "Premium Lite",
-          "offerName": null,
-          "price": 119,
-          "priceFormatted": "₹ 119",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Super Chat",
           "offerName": null,
           "price": 29,
           "priceFormatted": "₹ 29",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -222,14 +237,19 @@
           "period": null
         },
         {
-          "name": "Premium Lite",
+          "name": "Movies & Shows",
           "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
+          "price": 2.99,
+          "priceFormatted": "$2.99",
           "currency": "USD",
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -295,6 +315,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     }

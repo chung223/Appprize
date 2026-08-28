@@ -1,0 +1,58 @@
+{
+  "appId": "363590051",
+  "names": {
+    "netflix premium#0": "Netflix Premium",
+    "netflix standard#0": "Netflix Standard",
+    "netflix basic#0": "Netflix Basic",
+    "netflix 2 screens unlimited streaming#0": "Netflix 2 Screens - Unlimited Streaming",
+    "netflix 4 screens unlimited streaming#0": "Netflix 4 Screens - Unlimited Streaming",
+    "netflix 1 screen unlimited streaming#0": "Netflix 1 Screen - Unlimited Streaming",
+    "netflix#0": "Netflix",
+    "netflix スタンダード#0": "Netflix スタンダード",
+    "netflix 2 画面視聴プラン 月額見放題のストリーミング配信#0": "Netflix 2 画面視聴プラン - 月額見放題のストリーミング配信",
+    "netflix 2画面 見放題視聴プラン#0": "Netflix 2画面 - 見放題視聴プラン",
+    "netflix プレミアム#0": "Netflix プレミアム",
+    "netflix 4画面 見放題視聴プラン#0": "Netflix 4画面 - 見放題視聴プラン",
+    "netflix 4 画面視聴プラン 月額見放題のストリーミング配信#0": "Netflix 4 画面視聴プラン - 月額見放題のストリーミング配信"
+  },
+  "entries": [
+    {
+      "d": "2026-08-28",
+      "c": {
+        "in": {
+          "app": null,
+          "plans": {
+            "netflix premium#0": 649,
+            "netflix standard#0": 499,
+            "netflix basic#0": 199,
+            "netflix 2 screens unlimited streaming#0": 499,
+            "netflix 4 screens unlimited streaming#0": 649,
+            "netflix 1 screen unlimited streaming#0": 199
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "netflix 2 screens unlimited streaming#0": 19.99,
+            "netflix#0": 19.99,
+            "netflix standard#0": 19.99,
+            "netflix premium#0": 26.99,
+            "netflix 4 screens unlimited streaming#0": 26.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "netflix スタンダード#0": 1590,
+            "netflix 2 画面視聴プラン 月額見放題のストリーミング配信#0": 1590,
+            "netflix 2画面 見放題視聴プラン#0": 1590,
+            "netflix プレミアム#0": 2290,
+            "netflix 4画面 見放題視聴プラン#0": 2290,
+            "netflix 4 画面視聴プラン 月額見放題のストリーミング配信#0": 2290
+          }
+        }
+      }
+    }
+  ],
+  "name": "Netflix"
+}

@@ -1,0 +1,48 @@
+{
+  "appId": "570060128",
+  "names": {
+    "super duolingo#0": "Super Duolingo",
+    "super duolingo#1": "Super Duolingo",
+    "super duolingo#2": "Super Duolingo",
+    "super duolingo#3": "Super Duolingo",
+    "super duolingo#4": "Super Duolingo",
+    "super duolingo#5": "Super Duolingo",
+    "barrel of gems 1200#0": "Barrel of Gems (1200)",
+    "cart of gems 3000#0": "Cart of Gems (3000)",
+    "cart of gems 6500#0": "Cart of Gems (6500)",
+    "chest of gems#0": "Chest of Gems"
+  },
+  "entries": [
+    {
+      "d": "2026-08-28",
+      "c": {
+        "in": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 199,
+            "super duolingo#1": 215,
+            "super duolingo#2": 1199,
+            "super duolingo#3": 1379,
+            "super duolingo#4": 1749
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 9.99,
+            "super duolingo#1": 12.99,
+            "super duolingo#2": 79.99,
+            "super duolingo#3": 83.99,
+            "super duolingo#4": 95.99,
+            "super duolingo#5": 119.99,
+            "barrel of gems 1200#0": 4.99,
+            "cart of gems 3000#0": 9.99,
+            "cart of gems 6500#0": 19.99,
+            "chest of gems#0": 0.99
+          }
+        }
+      }
+    }
+  ],
+  "name": "Duolingo: Language & Chess"
+}

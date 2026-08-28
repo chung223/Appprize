@@ -1,9 +1,9 @@
 {
   "appId": "570060128",
-  "name": "多鄰國 - 極速學外語",
+  "name": "Duolingo: Language & Chess",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/c4/f1/7ec4f153-c0d4-7a0e-5a42-09770abf2909/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:24:15.601Z",
+  "fetchedAt": "2026-08-28T07:01:38.848Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -60,7 +60,8 @@
         }
       ],
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -125,7 +126,8 @@
         }
       ],
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",
@@ -173,6 +175,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -230,14 +237,6 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Chest of Gems",
           "offerName": null,
           "price": 0.99,
@@ -256,12 +255,25 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
+          "price": 119.99,
+          "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
           "price": 79.99,
           "priceFormatted": "$79.99",
           "currency": "USD",
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -320,7 +332,8 @@
         }
       ],
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }

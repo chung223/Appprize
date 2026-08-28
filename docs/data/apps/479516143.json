@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/88/35/82883575-36d2-5423-2c8c-d57b4fd0bf5b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T01:55:30.298Z",
+  "fetchedAt": "2026-08-28T07:01:50.161Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -121,18 +121,18 @@
           "period": "monthly"
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
-          "offerName": null,
-          "price": 20.99,
-          "priceFormatted": "₺20,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 2",
           "offerName": null,
           "price": 109,
           "priceFormatted": "₺109,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 20.99,
+          "priceFormatted": "₺20,99",
           "currency": "TRY",
           "period": null
         },
@@ -247,10 +247,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Store Item 4",
           "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
+          "price": 449,
+          "priceFormatted": "₹ 449",
           "currency": "INR",
           "period": null
         },
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 4",
+          "name": "Marketplace Pass Trial",
           "offerName": null,
-          "price": 449,
-          "priceFormatted": "₹ 449",
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         },
@@ -379,7 +379,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",
@@ -465,7 +466,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }

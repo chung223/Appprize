@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Movies & Shows",
+      "old": 3.99,
+      "new": 2.99,
+      "currency": "USD",
+      "pct": -0.2506265664160401,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-28"
+    },
+    {
+      "cc": "us",
+      "kind": "new-plan",
+      "name": "Movies & Shows",
+      "old": null,
+      "new": 3.99,
+      "currency": "USD",
+      "pct": null,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-28"
+    },
+    {
+      "cc": "us",
+      "kind": "removed-plan",
+      "name": "Premium Lite",
+      "old": 11.99,
+      "new": null,
+      "currency": "USD",
+      "pct": null,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-28"
+    }
+  ],
+  "updatedAt": "2026-08-28T07:02:09.764Z"
+}

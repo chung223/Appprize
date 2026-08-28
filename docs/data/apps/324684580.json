@@ -3,13 +3,18 @@
   "name": "Spotify - 音樂和 Podcast",
   "developer": "Spotify",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/8b/bc/098bbc51-3b38-2566-90a1-dcd361b8c646/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:24:10.763Z",
+  "fetchedAt": "2026-08-28T07:01:35.538Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
       "inApps": [],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
       "source": null,
       "noIap": true,
       "error": null
@@ -19,6 +24,11 @@
       "currency": "TRY",
       "unavailable": false,
       "inApps": [],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
       "source": null,
       "noIap": true,
       "error": null
@@ -28,6 +38,11 @@
       "currency": "INR",
       "unavailable": false,
       "inApps": [],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
       "source": null,
       "noIap": true,
       "error": null
@@ -39,7 +54,8 @@
       "inApps": [],
       "source": null,
       "noIap": true,
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",
@@ -48,7 +64,8 @@
       "inApps": [],
       "source": null,
       "noIap": true,
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }

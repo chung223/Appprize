@@ -3,7 +3,7 @@
   "name": "Netflix",
   "developer": "Netflix, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/2f/6d/492f6d99-6d7a-b5e6-9af9-39f422b56111/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:29:28.784Z",
+  "fetchedAt": "2026-08-28T07:01:45.958Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -60,7 +60,8 @@
         }
       ],
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -117,7 +118,8 @@
         }
       ],
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",
@@ -173,6 +175,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -222,6 +229,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -279,6 +291,11 @@
           "period": "monthly"
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     }
