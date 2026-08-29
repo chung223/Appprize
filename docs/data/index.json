@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T11:35:12.511Z",
+  "updatedAt": "2026-08-29T11:40:18.760Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -156,6 +156,12 @@
       "name": "Flighty – Live Flight Tracker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/43/a5/4e43a578-9d7c-1a49-832e-ddf43782259b/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-29T11:35:07.033Z"
+    },
+    {
+      "appId": "505367096",
+      "name": "世界迷霧",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/20/26/ea2026ff-eeb0-a02e-93cb-c5dffdc4ae56/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-29T11:40:14.047Z"
     }
   ]
 }

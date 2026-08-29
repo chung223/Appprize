@@ -1,0 +1,79 @@
+{
+  "appId": "505367096",
+  "name": "世界迷霧",
+  "developer": "Ollix",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/20/26/ea2026ff-eeb0-a02e-93cb-c5dffdc4ae56/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T11:40:14.047Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 990,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 779.99,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 1999,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 30,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [],
+      "appPrice": {
+        "price": 3000,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": null,
+      "noIap": true,
+      "error": null
+    }
+  }
+}
