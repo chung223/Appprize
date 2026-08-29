@@ -8,7 +8,8 @@
     "quarterly plan#0": "Quarterly Plan",
     "annual plan mobile only#0": "Annual Plan Mobile Only",
     "annual plan mobile only#1": "Annual Plan Mobile Only",
-    "quarterly plan#1": "Quarterly Plan"
+    "quarterly plan#1": "Quarterly Plan",
+    "monthly plan mobile only#0": "Monthly Plan Mobile Only"
   },
   "entries": [
     {
@@ -53,6 +54,63 @@
             "quarterly plan#0": 59.99,
             "annual plan mobile only#0": 83.99,
             "annual plan mobile only#1": 119.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "annual plan#0": 15400,
+            "annual plan#1": 15800,
+            "monthly plan#0": 3300,
+            "monthly plan#1": 3400,
+            "quarterly plan#0": 6700
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "monthly plan#0": 910,
+            "monthly plan#1": 970,
+            "annual plan#0": 4190,
+            "annual plan#1": 4490,
+            "quarterly plan#0": 1930,
+            "annual plan mobile only#0": 2690,
+            "annual plan mobile only#1": 3850
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "monthly plan#0": 184.99,
+            "monthly plan#1": 309.99,
+            "annual plan#0": 899.99,
+            "annual plan#1": 1499.99,
+            "quarterly plan#0": 379,
+            "quarterly plan#1": 379.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "annual plan#0": 4699,
+            "monthly plan#0": 999,
+            "quarterly plan#0": 1999
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "monthly plan#0": 29.99,
+            "annual plan#0": 139.99,
+            "quarterly plan#0": 59.99,
+            "annual plan mobile only#0": 83.99,
+            "annual plan mobile only#1": 119.99,
+            "monthly plan mobile only#0": 17.99
           }
         },
         "jp": {

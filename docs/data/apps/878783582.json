@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/56/2b/81562bd6-6e6f-d86b-c361-aea9b88326f9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T09:46:17.138Z",
+  "fetchedAt": "2026-08-29T21:34:50.651Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -363,36 +363,36 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "AIクレジットプラン",
+          "name": "プレミアム (100 GB/月)",
           "offerName": null,
-          "price": 2500,
-          "priceFormatted": "¥2,500",
+          "price": 550,
+          "priceFormatted": "¥550",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "プレミアム (100 GB/月)",
+          "offerName": null,
+          "price": 990,
+          "priceFormatted": "¥990",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "プレミアム (100 GB/年)",
+          "offerName": null,
+          "price": 5880,
+          "priceFormatted": "¥5,880",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "編集　レタッチ　ぼかし　削除",
+          "offerName": null,
+          "price": 5880,
+          "priceFormatted": "¥5,880",
           "currency": "JPY",
           "period": null
-        },
-        {
-          "name": "AIクレジットプラン",
-          "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Premium Weekly 100GB",
-          "offerName": null,
-          "price": 500,
-          "priceFormatted": "¥500",
-          "currency": "JPY",
-          "period": "weekly"
-        },
-        {
-          "name": "プレミアム 週次 100GB",
-          "offerName": null,
-          "price": 1300,
-          "priceFormatted": "¥1,300",
-          "currency": "JPY",
-          "period": "weekly"
         },
         {
           "name": "プレミアム 週次 100GB",
@@ -403,42 +403,26 @@
           "period": "weekly"
         },
         {
-          "name": "プレミアム (40 GB/年)",
+          "name": "プレミアム (40 GB/月)",
           "offerName": null,
-          "price": 3300,
-          "priceFormatted": "¥3,300",
+          "price": 200,
+          "priceFormatted": "¥200",
           "currency": "JPY",
-          "period": "yearly"
+          "period": "monthly"
         },
         {
-          "name": "プレミアム (40 GB/年)",
-          "offerName": null,
-          "price": 2700,
-          "priceFormatted": "¥2,700",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
-          "name": "プレミアム (100 GB/年)",
-          "offerName": null,
-          "price": 3800,
-          "priceFormatted": "¥3,800",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
-          "name": "プレミアム (100 GB/年)",
+          "name": "プレミアム",
           "offerName": null,
           "price": 550,
           "priceFormatted": "¥550",
           "currency": "JPY",
-          "period": "yearly"
+          "period": null
         },
         {
-          "name": "プレミアム (40 GB/年)",
+          "name": "プレミアム (100 GB/年)",
           "offerName": null,
-          "price": 2200,
-          "priceFormatted": "¥2,200",
+          "price": 4400,
+          "priceFormatted": "¥4,400",
           "currency": "JPY",
           "period": "yearly"
         }

@@ -200,6 +200,85 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "50 line coin#0": 35,
+            "100 line coin#0": 70,
+            "500 line coin#0": 280,
+            "150 line coin#0": 105,
+            "月租方案#0": 165,
+            "200 line coin#0": 140,
+            "800 line coin#0": 420,
+            "月租方案 進階型 line 10 21 0+#0": 120,
+            "70 line coin#0": 49,
+            "學生方案 進階型 line 10 21 0+#0": 100
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "100 line coin#0": 89.99,
+            "50 line coin#0": 43.99,
+            "200 line coin#0": 179.99,
+            "500 line coin#0": 359.99,
+            "150 line coin#0": 139.99,
+            "monthly deluxe line 10 21 0+#0": 32.99,
+            "student deluxe line 10 21 0+#0": 23.99,
+            "monthly basic#0": 12.99,
+            "800 line coin#0": 559.99,
+            "brown cony s secret date#0": 99.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "100 line coin#0": 179,
+            "50 line coin#0": 89,
+            "500 line coin#0": 699,
+            "200 line coin#0": 349,
+            "150 line coin#0": 269,
+            "70 line coin#0": 99,
+            "monthly plan#0": 499,
+            "800 line coin#0": 1099,
+            "1600 line coin#0": 1999
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "100 line coin#0": 1.99,
+            "50 line coin#0": 0.99,
+            "500 line coin#0": 7.99,
+            "200 line coin#0": 3.99,
+            "150 line coin#0": 2.99,
+            "800 line coin#0": 11.99,
+            "1600 line coin#0": 22.99,
+            "70 line coin#0": 1.39,
+            "brown cony s secret date#0": 1.99,
+            "monthly plan#0": 4.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "50 line coin#0": 150,
+            "100 line coin#0": 300,
+            "150 line coin#0": 450,
+            "スタンダード#0": 650,
+            "月間プラン ベーシックコース#0": 290,
+            "200 line coin#0": 600,
+            "500 line coin#0": 1200,
+            "月間プラン デラックスコース line10 21 0以降対象#0": 650,
+            "70 line coin#0": 160,
+            "70 line coin#1": 210
+          }
+        }
+      }
     }
   ],
   "name": "LINE"

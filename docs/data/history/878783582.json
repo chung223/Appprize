@@ -33,7 +33,12 @@
     "プレミアム 40 gb 年#1": "プレミアム (40 GB/年)",
     "プレミアム 40 gb 年#2": "プレミアム (40 GB/年)",
     "プレミアム 100 gb 年#0": "プレミアム (100 GB/年)",
-    "プレミアム 100 gb 年#1": "プレミアム (100 GB/年)"
+    "プレミアム 100 gb 年#1": "プレミアム (100 GB/年)",
+    "プレミアム 100 gb 月#0": "プレミアム (100 GB/月)",
+    "プレミアム 100 gb 月#1": "プレミアム (100 GB/月)",
+    "編集 レタッチ ぼかし 削除#0": "編集　レタッチ　ぼかし　削除",
+    "プレミアム 40 gb 月#0": "プレミアム (40 GB/月)",
+    "プレミアム#0": "プレミアム"
   },
   "entries": [
     {
@@ -109,6 +114,81 @@
             "プレミアム 40 gb 年#2": 3300,
             "プレミアム 100 gb 年#0": 550,
             "プレミアム 100 gb 年#1": 3800
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "加值每月 100gb#0": 160,
+            "加值每月 100gb#1": 240,
+            "加值每年 100gb#0": 1490,
+            "加值每年 100gb#1": 1690,
+            "加值每月 40gb#0": 70,
+            "加值每年 40gb#0": 670,
+            "加值#0": 160,
+            "lightroom plan 1tb#0": 320,
+            "高級版每週 100gb#0": 120
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "premium monthly 40gb#0": 19,
+            "premium monthly 40gb#1": 42.99,
+            "premium yearly 40gb#0": 199,
+            "premium yearly 40gb#1": 214.99,
+            "premium monthly 100gb#0": 17.99,
+            "premium monthly 100gb#1": 49,
+            "premium monthly 100gb#2": 84.99,
+            "premium yearly 100gb#0": 499,
+            "premium#0": 38.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "premium monthly 40gb#0": 169,
+            "premium monthly 40gb#1": 169,
+            "premium monthly 40gb#2": 269,
+            "premium yearly 40gb#0": 999,
+            "premium yearly 40gb#1": 1699,
+            "premium monthly 100gb#0": 369,
+            "premium monthly 100gb#1": 419,
+            "premium weekly 40gb#0": 99,
+            "premium weekly 40gb#1": 199,
+            "premium yearly 100gb#0": 4199
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "premium monthly 100gb#0": 6.99,
+            "premium monthly 100gb#1": 7.99,
+            "premium yearly 100gb#0": 49.99,
+            "lightroom plan 1tb#0": 9.99,
+            "ai photo enhancer blur#0": 49.99,
+            "premium monthly 40gb#0": 1.99,
+            "premium weekly 100gb#0": 3.99,
+            "premium weekly 100gb#1": 7.99,
+            "premium yearly 40gb#0": 19.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "プレミアム 100 gb 月#0": 550,
+            "プレミアム 100 gb 月#1": 990,
+            "プレミアム 100 gb 年#0": 4400,
+            "プレミアム 100 gb 年#1": 5880,
+            "編集 レタッチ ぼかし 削除#0": 5880,
+            "プレミアム 週次 100gb#0": 600,
+            "プレミアム 40 gb 月#0": 200,
+            "プレミアム#0": 550
           }
         }
       }

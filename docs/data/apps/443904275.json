@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T09:45:45.271Z",
+  "fetchedAt": "2026-08-29T21:34:21.159Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,8 +97,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -178,10 +177,10 @@
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "Brown & Cony's Secret Date!",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
           "currency": "TRY",
           "period": null
         }
@@ -192,8 +191,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -241,20 +239,20 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 99,
           "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "800 LINE Coin",
@@ -279,8 +277,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -336,18 +333,18 @@
           "period": null
         },
         {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 1.39,
-          "priceFormatted": "$1.39",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "1600 LINE Coin",
           "offerName": null,
           "price": 22.99,
           "priceFormatted": "$22.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 1.39,
+          "priceFormatted": "$1.39",
           "currency": "USD",
           "period": null
         },
@@ -374,8 +371,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",

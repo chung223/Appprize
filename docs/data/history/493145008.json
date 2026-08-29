@@ -78,6 +78,35 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "monthly subscription#0": 390,
+            "annual subscription#0": 2090,
+            "annual subscription#1": 2790,
+            "headspace#0": 390,
+            "headspace plus#0": 390,
+            "headspace plus#1": 2790
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "monthly subscription#0": 480,
+            "headspace#0": 480,
+            "headspace#1": 1600,
+            "headspace#2": 11400,
+            "annual subscription#0": 4800,
+            "annual subscription#1": 7800,
+            "headspace plus#0": 480,
+            "headspace plus#1": 4800
+          }
+        }
+      }
     }
   ],
   "name": "Headspace: Sleep & Meditation"

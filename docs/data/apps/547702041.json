@@ -1,25 +1,165 @@
 {
   "appId": "547702041",
-  "name": "Tinder Dating App: Meet & Date",
+  "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/c7/65/ecc7654e-5c98-b9f3-16c4-492d69040066/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T09:45:56.321Z",
+  "fetchedAt": "2026-08-29T21:34:33.931Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "incomplete-page"
+      "inApps": [
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 470,
+          "priceFormatted": "$470.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 465,
+          "priceFormatted": "$465.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "600 枚代幣",
+          "offerName": null,
+          "price": 190,
+          "priceFormatted": "$190.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "1 次加強配對",
+          "offerName": null,
+          "price": 190,
+          "priceFormatted": "$190.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 950,
+          "priceFormatted": "$950.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 790,
+          "priceFormatted": "$790.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "5 Super Likes",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 930,
+          "priceFormatted": "$930.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
     },
     "tr": {
       "country": "tr",
       "currency": "TRY",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "incomplete-page"
+      "inApps": [
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 73.99,
+          "priceFormatted": "₺73,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "1 Boost",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 27.99,
+          "priceFormatted": "₺27,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Platinum",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₺99,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Platinum",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₺119,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 149,
+          "priceFormatted": "₺149,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 88.99,
+          "priceFormatted": "₺88,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
     },
     "in": {
       "country": "in",
@@ -73,14 +213,6 @@
           "priceFormatted": "₹ 1,099",
           "currency": "INR",
           "period": null
-        },
-        {
-          "name": "Tinder Platinum",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": null
         }
       ],
       "appPrice": {
@@ -95,9 +227,95 @@
       "country": "us",
       "currency": "USD",
       "unavailable": false,
-      "inApps": [],
-      "source": null,
-      "error": "incomplete-page"
+      "inApps": [
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 14.99,
+          "priceFormatted": "$14.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 18.99,
+          "priceFormatted": "$18.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1 Boost",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 13.99,
+          "priceFormatted": "$13.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1 Boost",
+          "offerName": null,
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 24.99,
+          "priceFormatted": "$24.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Tinder Plus",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "3 Super Likes",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1 Boost",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "5 Super Likes",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
     },
     "jp": {
       "country": "jp",
@@ -169,10 +387,10 @@
           "period": null
         },
         {
-          "name": "5 Super Likes",
+          "name": "Tinder Gold",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
+          "price": 2480,
+          "priceFormatted": "¥2,480",
           "currency": "JPY",
           "period": null
         }
