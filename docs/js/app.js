@@ -281,6 +281,7 @@ async function loadApp(appId, { force = false } = {}) {
   state.official = null;
   state.cloudHintUrl = null;
   state.history = null;
+  state.cloudRescueActive = false;
 
   // 重置畫面
   els.appName.textContent = '載入中…';
@@ -346,16 +347,24 @@ async function loadApp(appId, { force = false } = {}) {
     // 沒有就在資料列附上一鍵開 issue 的連結，讓每日排程接手
     if (prices.hadSnapshot === false) maybeRequestCloudCrawl(appId);
     applyPrices(prices, countries);
+    // 全部來源都沒抓到任何方案（且不是「確定無 IAP／未上架」）→ 雲端救援
+    const noData = !state.groups.length && !countries.some(
+      (cc) => prices.countries?.[cc]?.noIap || prices.countries?.[cc]?.unavailable,
+    );
+    if (noData && maybeRescueCloud(appId)) renderBoard(); // 重畫以顯示救援中訊息
     if (state.app.name) {
       pushHistory({ appId, name: state.app.name, icon: state.app.icon });
     }
   } catch (e) {
     if (token !== state.loadToken) return;
     els.loadingBox.hidden = true;
+    const rescued = maybeRescueCloud(appId);
     els.board.innerHTML = `
       <div class="row-card row-card--muted" style="grid-template-columns: 1fr">
-        <div>抓不到價格資料：${esc(e?.message || e)}。<br>
-        可能是 CORS proxy 暫時無法使用 — 稍後再試，或在設定中填入自訂 proxy。</div>
+        <div>${rescued
+    ? '☁️ 即時來源暫時抓不到 — 已自動派出雲端爬蟲補抓，約 1 分鐘內會自動更新這個頁面。'
+    : `抓不到價格資料：${esc(e?.message || e)}。<br>可能是 CORS proxy 暫時無法使用 — 稍後再試；在設定填入 GitHub Token 後，這種情況會自動改走雲端爬蟲補抓。`}
+        </div>
       </div>`;
   }
 }
@@ -443,14 +452,25 @@ function renderBoard() {
   if (!group) {
     const anyNoIap = countries.some((cc) => state.prices?.countries?.[cc]?.noIap);
     const anyUnavailable = countries.some((cc) => state.prices?.countries?.[cc]?.unavailable);
+    const partialLoading = state.prices?.source === 'live-partial';
+    const hasPat = !!state.settings.githubPat?.trim();
+    let msg;
+    if (partialLoading) {
+      // 還在陸續抓取：不要嚇人，先擺中性狀態
+      msg = '⏳ 正在陸續抓取各區價格，稍等幾秒…';
+    } else if (anyNoIap) {
+      msg = '這個 App 是免費下載且沒有應用內購買項目 — 訂閱可能只在官網提供（見下方官網價，若有）。';
+    } else if (anyUnavailable) {
+      msg = '這個 App 在所選的儲存區找不到應用內購買項目（可能未上架或不提供訂閱）。';
+    } else if (state.cloudRescueActive) {
+      msg = '☁️ 即時來源暫時抓不到 — 已自動派出雲端爬蟲補抓，約 1 分鐘內會自動更新這個頁面，請稍候。';
+    } else {
+      msg = '沒有解析到應用內購買項目 — 公用 proxy 暫時抓不到頁面，可按「更新價格」重試。'
+        + (hasPat ? '' : ' 在設定填入 GitHub Token 後，這種情況會自動改走雲端爬蟲補抓。');
+    }
     els.board.innerHTML = `
       <div class="row-card row-card--muted" style="grid-template-columns:1fr">
-        <div>${anyNoIap
-          ? '這個 App 是免費下載且沒有應用內購買項目 — 訂閱可能只在官網提供（見下方官網價，若有）。'
-          : anyUnavailable
-            ? '這個 App 在所選的儲存區找不到應用內購買項目（可能未上架或不提供訂閱）。'
-            : '沒有解析到應用內購買項目 — 頁面暫時抓不到，請按「更新價格」重試。'}
-        </div>
+        <div>${msg}</div>
       </div>`;
     els.summaryBanner.hidden = true;
     return;
@@ -876,10 +896,61 @@ async function renderMySubs() {
 
 els.refreshBtn.addEventListener('click', async () => {
   if (!state.app?.appId) return;
+  const appId = state.app.appId;
   const pat = state.settings.githubPat?.trim();
-  if (pat) triggerCloudCrawl(state.app.appId, pat); // 背景觸發，不等待
-  await loadApp(state.app.appId, { force: true });
+  if (pat) {
+    triggerCloudCrawl(appId, pat); // 背景觸發，不等待
+    watchCloudResult(appId, Date.now()); // 爬完自動補上畫面
+  }
+  await loadApp(appId, { force: true });
 });
+
+/**
+ * 雲端快速通道：輪詢 raw 內容等爬蟲 commit 落地；
+ * 若當下畫面資料不完整（含全失敗），雲端結果一到就自動補上。
+ */
+function watchCloudResult(appId, since) {
+  pollCloudSnapshot(appId, { repo: REPO, sinceMs: since }).then((snap) => {
+    if (!snap?.countries) return;
+    setCachedApp(appId, { appId, name: snap.name, countries: snap.countries });
+    const viewing = state.app?.appId === appId && !els.resultView.hidden;
+    const incomplete = !state.groups.length
+      || state.prices?.partial
+      || state.prices?.source === 'live-partial'
+      || state.prices?.source === 'stale-cache'
+      || (state.prices?.missing?.length > 0);
+    if (viewing && incomplete) {
+      if (!state.app.name && snap.name) { state.app.name = snap.name; renderAppHeader(); }
+      state.cloudRescueActive = false;
+      applyPrices({
+        appId, name: snap.name, countries: snap.countries,
+        fetchedAt: Date.parse(snap.fetchedAt) || Date.now(),
+        source: 'snapshot', partial: false, missing: [],
+      }, activeCountries(), { keepSelection: true });
+      toast('☁️ 雲端爬蟲完成，已更新為最新價格');
+    }
+  }).catch(() => {});
+}
+
+/** 即時抓取全軍覆沒時的雲端救援：派爬蟲 + 輪詢自動補上（30 分鐘內不重複派） */
+function maybeRescueCloud(appId) {
+  const pat = state.settings.githubPat?.trim();
+  if (!pat) return false;
+  const key = `appprize.cloudrescue.${appId}`;
+  try {
+    if (Date.now() - (Number(localStorage.getItem(key)) || 0) < 30 * 60 * 1000) {
+      // 30 分鐘內已派過：繼續等前一輪的結果即可，仍視為救援中
+      state.cloudRescueActive = true;
+      watchCloudResult(appId, Date.now() - 30 * 60 * 1000);
+      return true;
+    }
+    localStorage.setItem(key, String(Date.now()));
+  } catch { /* 忽略 */ }
+  state.cloudRescueActive = true;
+  triggerCloudCrawl(appId, pat);
+  watchCloudResult(appId, Date.now());
+  return true;
+}
 
 /** 新 App 自動入雲端快取：有 Token 直接觸發（12 小時內不重複），否則給一鍵 issue 連結 */
 function maybeRequestCloudCrawl(appId) {
@@ -891,27 +962,7 @@ function maybeRequestCloudCrawl(appId) {
       localStorage.setItem(key, String(Date.now()));
     } catch { /* 忽略 */ }
     triggerCloudCrawl(appId, pat);
-    // 雲端快速通道：輪詢 raw 內容等爬蟲 commit 落地；
-    // 若當下 proxy 抓得不完整，雲端結果一到就自動補上
-    const since = Date.now();
-    pollCloudSnapshot(appId, { repo: REPO, sinceMs: since }).then((snap) => {
-      if (!snap?.countries) return;
-      setCachedApp(appId, { appId, name: snap.name, countries: snap.countries });
-      const viewing = state.app?.appId === appId && !els.resultView.hidden;
-      const incomplete = state.prices?.partial
-        || state.prices?.source === 'live-partial'
-        || state.prices?.source === 'stale-cache'
-        || (state.prices?.missing?.length > 0);
-      if (viewing && incomplete) {
-        if (!state.app.name && snap.name) { state.app.name = snap.name; renderAppHeader(); }
-        applyPrices({
-          appId, name: snap.name, countries: snap.countries,
-          fetchedAt: Date.parse(snap.fetchedAt) || Date.now(),
-          source: 'snapshot', partial: false, missing: [],
-        }, activeCountries(), { keepSelection: true });
-        toast('☁️ 雲端爬蟲完成，已更新為最新價格');
-      }
-    }).catch(() => {});
+    watchCloudResult(appId, Date.now());
   } else {
     const title = encodeURIComponent(`[crawl] id${appId}`);
     const body = encodeURIComponent('把這個 App 加入雲端快照與每日自動更新（由 AppPrize 網站發起）。');
