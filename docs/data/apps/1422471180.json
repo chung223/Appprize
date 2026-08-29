@@ -1,0 +1,479 @@
+{
+  "appId": "1422471180",
+  "name": "Dazz相機 - 復古拍照軟體和影片後製",
+  "developer": "DAZZ PTE. LTD.",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/fe/d1/f8fed142-789b-1a16-49be-550bccdb2b58/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T11:25:20.939Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Dazz Pro",
+          "offerName": null,
+          "price": 250,
+          "priceFormatted": "$250.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Pro 永久购买",
+          "offerName": null,
+          "price": 690,
+          "priceFormatted": "$690.00",
+          "currency": "TWD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Dazz黑白相機",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz S Classic",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Exp Camera",
+          "offerName": null,
+          "price": 90,
+          "priceFormatted": "$90.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Inst SQ",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz魚眼鏡頭",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Dazz Pro",
+          "offerName": null,
+          "price": 35.99,
+          "priceFormatted": "₺35,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Pro One-Time Purchase",
+          "offerName": null,
+          "price": 299.99,
+          "priceFormatted": "₺299,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 49.99,
+          "priceFormatted": "₺49,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 49.99,
+          "priceFormatted": "₺49,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Exp Camera",
+          "offerName": null,
+          "price": 149.99,
+          "priceFormatted": "₺149,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Black Camera",
+          "offerName": null,
+          "price": 49.99,
+          "priceFormatted": "₺49,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz S Classic",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Fisheye Lens",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Dazz Inst SQ",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Dazz Pro",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Pro One-Time Purchase",
+          "offerName": null,
+          "price": 1299,
+          "priceFormatted": "₹ 1,299",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Black Camera",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz S Classic",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Exp Camera",
+          "offerName": null,
+          "price": 299,
+          "priceFormatted": "₹ 299",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Fisheye Lens",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Inst SQ",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Dazz Pro",
+          "offerName": null,
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Pro One-Time Purchase",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz S Classic",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Exp Camera",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Black Camera",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Fisheye Lens",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Inst SQ",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Dazz Pro",
+          "offerName": null,
+          "price": 900,
+          "priceFormatted": "¥900",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Pro One-Time Purchase",
+          "offerName": null,
+          "price": 2200,
+          "priceFormatted": "¥2,200",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Exp Camera",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "¥150",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz S Classic",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Black Camera",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "¥150",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "¥150",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Fisheye Lens",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Inst SQ",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

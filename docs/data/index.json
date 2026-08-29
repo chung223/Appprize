@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T09:46:57.579Z",
+  "updatedAt": "2026-08-29T11:25:28.349Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -144,6 +144,12 @@
       "name": "Headspace: Sleep & Meditation",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/67/f8/5067f843-4f78-623c-607c-8f70a07ac23e/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-29T09:46:52.278Z"
+    },
+    {
+      "appId": "1422471180",
+      "name": "Dazz相機 - 復古拍照軟體和影片後製",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/fe/d1/f8fed142-789b-1a16-49be-550bccdb2b58/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-29T11:25:20.939Z"
     }
   ]
 }
