@@ -136,6 +136,23 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-29",
+      "c": {
+        "us": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 20.99,
+            "movies shows#0": 2.99,
+            "movies shows#1": 3.99,
+            "youtube premium family#0": 34.99,
+            "youtube premium family#1": 34.99,
+            "super chat#0": 1.99,
+            "super chat#1": 4.99
+          }
+        }
+      }
     }
   ],
   "name": "YouTube"

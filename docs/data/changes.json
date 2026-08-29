@@ -4,6 +4,66 @@
       "cc": "us",
       "kind": "plan",
       "name": "Movies & Shows",
+      "old": 3.99,
+      "new": 2.99,
+      "currency": "USD",
+      "pct": -0.2506265664160401,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-29"
+    },
+    {
+      "cc": "us",
+      "kind": "new-plan",
+      "name": "Movies & Shows",
+      "old": null,
+      "new": 3.99,
+      "currency": "USD",
+      "pct": null,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-29"
+    },
+    {
+      "cc": "us",
+      "kind": "removed-plan",
+      "name": "Premium Lite",
+      "old": 11.99,
+      "new": null,
+      "currency": "USD",
+      "pct": null,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-29"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Minecraft Store Item 1",
+      "old": null,
+      "new": 35,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-08-29"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Marketplace Pass Trial",
+      "old": 120,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-08-29"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Movies & Shows",
       "old": 2.99,
       "new": 3.99,
       "currency": "USD",
@@ -73,5 +133,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-08-29T02:02:04.164Z"
+  "updatedAt": "2026-08-29T09:46:57.694Z"
 }

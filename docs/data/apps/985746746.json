@@ -1,0 +1,392 @@
+{
+  "appId": "985746746",
+  "name": "Discord - 聊天、玩遊戲、消磨時間",
+  "developer": "Discord Inc.",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/34/38/33343871-87a5-c982-5d04-9c2e2714d7f3/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:06.730Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Nitro Monthly",
+          "offerName": null,
+          "price": 310,
+          "priceFormatted": "$310.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "$100.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro (1 Month)",
+          "offerName": null,
+          "price": 320,
+          "priceFormatted": "$320.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic Monthly",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic (1 Month)",
+          "offerName": null,
+          "price": 90,
+          "priceFormatted": "$90.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 1 Boost (Monthly)",
+          "offerName": null,
+          "price": 410,
+          "priceFormatted": "$410.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Yearly",
+          "offerName": null,
+          "price": 3090,
+          "priceFormatted": "$3,090.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 2 Boosts (Monthly)",
+          "offerName": null,
+          "price": 520,
+          "priceFormatted": "$520.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic (1 Month)",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": true,
+      "inApps": [],
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Nitro Monthly",
+          "offerName": null,
+          "price": 889,
+          "priceFormatted": "₹ 889",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 289,
+          "priceFormatted": "₹ 289",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro (1 Month)",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic (1 Month)",
+          "offerName": null,
+          "price": 299,
+          "priceFormatted": "₹ 299",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic (1 Month)",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic Monthly",
+          "offerName": null,
+          "price": 449,
+          "priceFormatted": "₹ 449",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 449,
+          "priceFormatted": "₹ 449",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 1 Boost (Monthly)",
+          "offerName": null,
+          "price": 1199,
+          "priceFormatted": "₹ 1,199",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Yearly",
+          "offerName": null,
+          "price": 8900,
+          "priceFormatted": "₹ 8,900",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Nitro + 2 Boosts (Monthly)",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₹ 1,499",
+          "currency": "INR",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Nitro Monthly",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro (1 Month)",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic (1 Month)",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic Monthly",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic (1 Month)",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 1 Boost (Monthly)",
+          "offerName": null,
+          "price": 13.49,
+          "priceFormatted": "$13.49",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 2 Boosts (Monthly)",
+          "offerName": null,
+          "price": 16.99,
+          "priceFormatted": "$16.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Yearly",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "$99.99",
+          "currency": "USD",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Nitro Monthly",
+          "offerName": null,
+          "price": 1050,
+          "priceFormatted": "¥1,050",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 350,
+          "priceFormatted": "¥350",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Classic Monthly",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro (1 Month)",
+          "offerName": null,
+          "price": 1500,
+          "priceFormatted": "¥1,500",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 1 Boost (Monthly)",
+          "offerName": null,
+          "price": 1400,
+          "priceFormatted": "¥1,400",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 2 Boosts (Monthly)",
+          "offerName": null,
+          "price": 1750,
+          "priceFormatted": "¥1,750",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 5 Boosts (Monthly)",
+          "offerName": null,
+          "price": 2800,
+          "priceFormatted": "¥2,800",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Yearly",
+          "offerName": null,
+          "price": 10400,
+          "priceFormatted": "¥10,400",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Nitro + 3 Boosts (Monthly)",
+          "offerName": null,
+          "price": 2100,
+          "priceFormatted": "¥2,100",
+          "currency": "JPY",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

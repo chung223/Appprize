@@ -1,0 +1,455 @@
+{
+  "appId": "878783582",
+  "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
+  "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/56/2b/81562bd6-6e6f-d86b-c361-aea9b88326f9/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:17.138Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "加值每月 100GB",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "$160.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "加值每月 100GB",
+          "offerName": null,
+          "price": 240,
+          "priceFormatted": "$240.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "加值每年 100GB",
+          "offerName": null,
+          "price": 1690,
+          "priceFormatted": "$1,690.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "加值每年 100GB",
+          "offerName": null,
+          "price": 1490,
+          "priceFormatted": "$1,490.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "加值每月 40GB",
+          "offerName": null,
+          "price": 70,
+          "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "加值每年 40GB",
+          "offerName": null,
+          "price": 670,
+          "priceFormatted": "$670.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "加值",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "$160.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Lightroom plan 1TB",
+          "offerName": null,
+          "price": 320,
+          "priceFormatted": "$320.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "高級版每週 100GB",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "weekly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Premium monthly 40GB",
+          "offerName": null,
+          "price": 19,
+          "priceFormatted": "₺19,00",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₺199,00",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 49,
+          "priceFormatted": "₺49,00",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 17.99,
+          "priceFormatted": "₺17,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium yearly 100GB",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₺499,00",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium",
+          "offerName": null,
+          "price": 38.99,
+          "priceFormatted": "₺38,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Premium Monthly 40GB",
+          "offerName": null,
+          "price": 42.99,
+          "priceFormatted": "₺42,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 214.99,
+          "priceFormatted": "₺214,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 84.99,
+          "priceFormatted": "₺84,99",
+          "currency": "TRY",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Premium monthly 40GB",
+          "offerName": null,
+          "price": 169,
+          "priceFormatted": "₹ 169",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 1699,
+          "priceFormatted": "₹ 1,699",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 369,
+          "priceFormatted": "₹ 369",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 419,
+          "priceFormatted": "₹ 419",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium weekly 40GB",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": "weekly"
+        },
+        {
+          "name": "Premium yearly 100GB",
+          "offerName": null,
+          "price": 4199,
+          "priceFormatted": "₹ 4,199",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium weekly 40GB",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": "weekly"
+        },
+        {
+          "name": "Premium Monthly 40GB",
+          "offerName": null,
+          "price": 169,
+          "priceFormatted": "₹ 169",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Monthly 40GB",
+          "offerName": null,
+          "price": 269,
+          "priceFormatted": "₹ 269",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium yearly 100GB",
+          "offerName": null,
+          "price": 49.99,
+          "priceFormatted": "$49.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Lightroom plan 1TB",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "AI Photo Enhancer & Blur",
+          "offerName": null,
+          "price": 49.99,
+          "priceFormatted": "$49.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Premium monthly 40GB",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Weekly 100GB",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "weekly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Weekly 100GB",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": "weekly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "AIクレジットプラン",
+          "offerName": null,
+          "price": 2500,
+          "priceFormatted": "¥2,500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "AIクレジットプラン",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Premium Weekly 100GB",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": "weekly"
+        },
+        {
+          "name": "プレミアム 週次 100GB",
+          "offerName": null,
+          "price": 1300,
+          "priceFormatted": "¥1,300",
+          "currency": "JPY",
+          "period": "weekly"
+        },
+        {
+          "name": "プレミアム 週次 100GB",
+          "offerName": null,
+          "price": 600,
+          "priceFormatted": "¥600",
+          "currency": "JPY",
+          "period": "weekly"
+        },
+        {
+          "name": "プレミアム (40 GB/年)",
+          "offerName": null,
+          "price": 3300,
+          "priceFormatted": "¥3,300",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "プレミアム (40 GB/年)",
+          "offerName": null,
+          "price": 2700,
+          "priceFormatted": "¥2,700",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "プレミアム (100 GB/年)",
+          "offerName": null,
+          "price": 3800,
+          "priceFormatted": "¥3,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "プレミアム (100 GB/年)",
+          "offerName": null,
+          "price": 550,
+          "priceFormatted": "¥550",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "プレミアム (40 GB/年)",
+          "offerName": null,
+          "price": 2200,
+          "priceFormatted": "¥2,200",
+          "currency": "JPY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

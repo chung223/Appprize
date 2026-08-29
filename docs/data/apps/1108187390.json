@@ -1,51 +1,33 @@
 {
-  "appId": "6796534411",
-  "name": "Mergic",
-  "developer": "Jiayan Lin",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/d8/6d/47d86d5e-6893-c52c-1a05-41f2c3dfb586/AppIcon.png/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T09:45:32.362Z",
+  "appId": "1108187390",
+  "name": "Apple Music",
+  "developer": "Apple Inc.",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/e5/16/4fe516ac-9e72-6cbe-f302-3ccc6360fc86/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:45:52.062Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
       "inApps": [],
-      "appPrice": {
-        "price": 990,
-        "currency": "TWD",
-        "priceFormatted": null
-      },
       "source": null,
-      "noIap": true,
-      "error": null
+      "error": "incomplete-page"
     },
     "tr": {
       "country": "tr",
       "currency": "TRY",
       "unavailable": false,
       "inApps": [],
-      "appPrice": {
-        "price": 1499.99,
-        "currency": "TRY",
-        "priceFormatted": null
-      },
       "source": null,
-      "noIap": true,
-      "error": null
+      "error": "incomplete-page"
     },
     "in": {
       "country": "in",
       "currency": "INR",
       "unavailable": false,
       "inApps": [],
-      "appPrice": {
-        "price": 2999,
-        "currency": "INR",
-        "priceFormatted": null
-      },
       "source": null,
-      "noIap": true,
-      "error": null
+      "error": "incomplete-page"
     },
     "us": {
       "country": "us",
@@ -53,7 +35,7 @@
       "unavailable": false,
       "inApps": [],
       "appPrice": {
-        "price": 29.99,
+        "price": 0,
         "currency": "USD",
         "priceFormatted": null
       },
@@ -67,7 +49,7 @@
       "unavailable": false,
       "inApps": [],
       "appPrice": {
-        "price": 5000,
+        "price": 0,
         "currency": "JPY",
         "priceFormatted": null
       },

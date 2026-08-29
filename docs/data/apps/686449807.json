@@ -1,9 +1,9 @@
 {
-  "appId": "443904275",
-  "name": "LINE",
-  "developer": "LY Corporation",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T09:45:45.271Z",
+  "appId": "686449807",
+  "name": "Telegram Messenger",
+  "developer": "Telegram FZ-LLC",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/f5/e7/bff5e7a2-7c88-8f4e-6d44-6fd6e778322d/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:01.100Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,82 +11,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "50 LINE Coin",
+          "name": "1x Telegram Premium (One Week)",
           "offerName": null,
-          "price": 35,
-          "priceFormatted": "$35.00",
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": "weekly"
+        },
+        {
+          "name": "Telegram Premium",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "$160.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "100 LINE Coin",
+          "name": "100 Telegram Stars",
           "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
+          "price": 75,
+          "priceFormatted": "$75.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "500 LINE Coin",
+          "name": "Telegram Premium Annual",
           "offerName": null,
-          "price": 280,
-          "priceFormatted": "$280.00",
+          "price": 1290,
+          "priceFormatted": "$1,290.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "250 Telegram Stars",
+          "offerName": null,
+          "price": 180,
+          "priceFormatted": "$180.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "150 LINE Coin",
+          "name": "500 Telegram Stars",
           "offerName": null,
-          "price": 105,
-          "priceFormatted": "$105.00",
+          "price": 355,
+          "priceFormatted": "$355.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "月租方案",
+          "name": "1000 Telegram Stars",
           "offerName": null,
-          "price": 165,
-          "priceFormatted": "$165.00",
+          "price": 710,
+          "priceFormatted": "$710.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "1x Premium (3 Months)",
+          "offerName": null,
+          "price": 490,
+          "priceFormatted": "$490.00",
           "currency": "TWD",
           "period": "monthly"
         },
         {
-          "name": "200 LINE Coin",
+          "name": "750 Telegram Stars",
           "offerName": null,
-          "price": 140,
-          "priceFormatted": "$140.00",
+          "price": 530,
+          "priceFormatted": "$530.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "800 LINE Coin",
+          "name": "150 Telegram Stars",
           "offerName": null,
-          "price": 420,
-          "priceFormatted": "$420.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "月租方案（進階型）LINE 10.21.0+",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 49,
-          "priceFormatted": "$49.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "學生方案（進階型）LINE 10.21.0+",
-          "offerName": null,
-          "price": 100,
-          "priceFormatted": "$100.00",
+          "price": 110,
+          "priceFormatted": "$110.00",
           "currency": "TWD",
           "period": null
         }
@@ -97,8 +97,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -106,82 +105,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "100 LINE Coin",
+          "name": "100 Telegram Stars",
           "offerName": null,
-          "price": 89.99,
-          "priceFormatted": "₺89,99",
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "50 LINE Coin",
+          "name": "Telegram Premium",
           "offerName": null,
-          "price": 43.99,
-          "priceFormatted": "₺43,99",
+          "price": 189.99,
+          "priceFormatted": "₺189,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "200 LINE Coin",
+          "name": "250 Telegram Stars",
           "offerName": null,
-          "price": 179.99,
-          "priceFormatted": "₺179,99",
+          "price": 249,
+          "priceFormatted": "₺249,00",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "500 LINE Coin",
+          "name": "500 Telegram Stars",
           "offerName": null,
-          "price": 359.99,
-          "priceFormatted": "₺359,99",
+          "price": 499,
+          "priceFormatted": "₺499,00",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "150 LINE Coin",
+          "name": "1000 Telegram Stars",
           "offerName": null,
-          "price": 139.99,
-          "priceFormatted": "₺139,99",
+          "price": 999,
+          "priceFormatted": "₺999,00",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Monthly (Deluxe) LINE 10.21.0+",
+          "name": "150 Telegram Stars",
           "offerName": null,
-          "price": 32.99,
-          "priceFormatted": "₺32,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
-          "name": "Student (Deluxe) LINE 10.21.0+",
-          "offerName": null,
-          "price": 23.99,
-          "priceFormatted": "₺23,99",
+          "price": 149,
+          "priceFormatted": "₺149,00",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Monthly (Basic)",
+          "name": "1x Telegram Premium (One Week)",
           "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "₺12,99",
+          "price": 59.99,
+          "priceFormatted": "₺59,99",
           "currency": "TRY",
-          "period": "monthly"
+          "period": "weekly"
         },
         {
-          "name": "800 LINE Coin",
+          "name": "350 Telegram Stars",
           "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
+          "price": 349,
+          "priceFormatted": "₺349,00",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "Telegram Premium Annual",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 1359.99,
+          "priceFormatted": "₺1.359,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "750 Telegram Stars",
+          "offerName": null,
+          "price": 749,
+          "priceFormatted": "₺749,00",
           "currency": "TRY",
           "period": null
         }
@@ -192,8 +191,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -201,74 +199,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "100 LINE Coin",
+          "name": "Telegram Premium",
           "offerName": null,
-          "price": 179,
-          "priceFormatted": "₹ 179",
+          "price": 319,
+          "priceFormatted": "₹ 319",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "50 LINE Coin",
+          "name": "100 Telegram Stars",
           "offerName": null,
-          "price": 89,
-          "priceFormatted": "₹ 89",
+          "price": 205,
+          "priceFormatted": "₹ 205",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "500 LINE Coin",
+          "name": "250 Telegram Stars",
           "offerName": null,
-          "price": 699,
-          "priceFormatted": "₹ 699",
+          "price": 509,
+          "priceFormatted": "₹ 509",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "200 LINE Coin",
+          "name": "500 Telegram Stars",
           "offerName": null,
-          "price": 349,
-          "priceFormatted": "₹ 349",
+          "price": 1019,
+          "priceFormatted": "₹ 1,019",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "150 LINE Coin",
+          "name": "150 Telegram Stars",
           "offerName": null,
-          "price": 269,
-          "priceFormatted": "₹ 269",
+          "price": 305,
+          "priceFormatted": "₹ 305",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Monthly Plan",
+          "name": "Telegram Premium Annual",
           "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
+          "price": 2399,
+          "priceFormatted": "₹ 2,399",
           "currency": "INR",
-          "period": "monthly"
+          "period": "yearly"
         },
         {
-          "name": "70 LINE Coin",
+          "name": "1000 Telegram Stars",
+          "offerName": null,
+          "price": 2049,
+          "priceFormatted": "₹ 2,049",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 99,
           "priceFormatted": "₹ 99",
           "currency": "INR",
-          "period": null
+          "period": "weekly"
         },
         {
-          "name": "800 LINE Coin",
+          "name": "750 Telegram Stars",
           "offerName": null,
-          "price": 1099,
-          "priceFormatted": "₹ 1,099",
+          "price": 1549,
+          "priceFormatted": "₹ 1,549",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "350 Telegram Stars",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 709,
+          "priceFormatted": "₹ 709",
           "currency": "INR",
           "period": null
         }
@@ -279,8 +285,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -288,84 +293,84 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "100 LINE Coin",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "50 LINE Coin",
-          "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "500 LINE Coin",
-          "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "200 LINE Coin",
-          "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "150 LINE Coin",
-          "offerName": null,
-          "price": 2.99,
-          "priceFormatted": "$2.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "800 LINE Coin",
-          "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 1.39,
-          "priceFormatted": "$1.39",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "1600 LINE Coin",
-          "offerName": null,
-          "price": 22.99,
-          "priceFormatted": "$22.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Brown & Cony's Secret Date!",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Monthly Plan",
+          "name": "Telegram Premium",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
           "currency": "USD",
-          "period": "monthly"
+          "period": null
+        },
+        {
+          "name": "100 Telegram Stars",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1x Telegram Premium (One Week)",
+          "offerName": null,
+          "price": 1.19,
+          "priceFormatted": "$1.19",
+          "currency": "USD",
+          "period": "weekly"
+        },
+        {
+          "name": "500 Telegram Stars",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "750 Telegram Stars",
+          "offerName": null,
+          "price": 14.99,
+          "priceFormatted": "$14.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "250 Telegram Stars",
+          "offerName": null,
+          "price": 5.09,
+          "priceFormatted": "$5.09",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1000 Telegram Stars",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Telegram Premium Annual",
+          "offerName": null,
+          "price": 35.99,
+          "priceFormatted": "$35.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "2500 Telegram Stars",
+          "offerName": null,
+          "price": 50.9,
+          "priceFormatted": "$50.90",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1500 Telegram Stars",
+          "offerName": null,
+          "price": 29.99,
+          "priceFormatted": "$29.99",
+          "currency": "USD",
+          "period": null
         }
       ],
       "appPrice": {
@@ -374,8 +379,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",
@@ -383,31 +387,7 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "50 LINE Coin",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "¥150",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "100 LINE Coin",
-          "offerName": null,
-          "price": 300,
-          "priceFormatted": "¥300",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "150 LINE Coin",
-          "offerName": null,
-          "price": 450,
-          "priceFormatted": "¥450",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "スタンダード",
+          "name": "Telegram Premium",
           "offerName": null,
           "price": 650,
           "priceFormatted": "¥650",
@@ -415,50 +395,74 @@
           "period": null
         },
         {
-          "name": "月間プラン（ベーシックコース）",
+          "name": "100 Telegram Stars",
           "offerName": null,
-          "price": 290,
-          "priceFormatted": "¥290",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "200 LINE Coin",
-          "offerName": null,
-          "price": 600,
-          "priceFormatted": "¥600",
+          "price": 320,
+          "priceFormatted": "¥320",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "500 LINE Coin",
+          "name": "500 Telegram Stars",
           "offerName": null,
-          "price": 1200,
-          "priceFormatted": "¥1,200",
+          "price": 1580,
+          "priceFormatted": "¥1,580",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "月間プラン（デラックスコース）LINE10.21.0以降対象",
+          "name": "250 Telegram Stars",
           "offerName": null,
-          "price": 650,
-          "priceFormatted": "¥650",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 160,
-          "priceFormatted": "¥160",
+          "price": 790,
+          "priceFormatted": "¥790",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "70 LINE Coin",
+          "name": "1000 Telegram Stars",
           "offerName": null,
-          "price": 210,
-          "priceFormatted": "¥210",
+          "price": 3180,
+          "priceFormatted": "¥3,180",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "750 Telegram Stars",
+          "offerName": null,
+          "price": 2380,
+          "priceFormatted": "¥2,380",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "2500 Telegram Stars",
+          "offerName": null,
+          "price": 7900,
+          "priceFormatted": "¥7,900",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "1x Telegram Premium (One Week)",
+          "offerName": null,
+          "price": 200,
+          "priceFormatted": "¥200",
+          "currency": "JPY",
+          "period": "weekly"
+        },
+        {
+          "name": "1500 Telegram Stars",
+          "offerName": null,
+          "price": 4780,
+          "priceFormatted": "¥4,780",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "150 Telegram Stars",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
           "currency": "JPY",
           "period": null
         }

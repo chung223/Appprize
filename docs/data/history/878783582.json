@@ -1,0 +1,118 @@
+{
+  "appId": "878783582",
+  "names": {
+    "加值每月 100gb#0": "加值每月 100GB",
+    "加值每月 100gb#1": "加值每月 100GB",
+    "加值每年 100gb#0": "加值每年 100GB",
+    "加值每年 100gb#1": "加值每年 100GB",
+    "加值每月 40gb#0": "加值每月 40GB",
+    "加值每年 40gb#0": "加值每年 40GB",
+    "加值#0": "加值",
+    "lightroom plan 1tb#0": "Lightroom plan 1TB",
+    "高級版每週 100gb#0": "高級版每週 100GB",
+    "premium monthly 40gb#0": "Premium monthly 40GB",
+    "premium monthly 40gb#1": "Premium Monthly 40GB",
+    "premium yearly 40gb#0": "Premium Yearly 40GB",
+    "premium yearly 40gb#1": "Premium Yearly 40GB",
+    "premium monthly 100gb#0": "Premium Monthly 100GB",
+    "premium monthly 100gb#1": "Premium Monthly 100GB",
+    "premium monthly 100gb#2": "Premium Monthly 100GB",
+    "premium yearly 100gb#0": "Premium yearly 100GB",
+    "premium#0": "Premium",
+    "premium monthly 40gb#2": "Premium Monthly 40GB",
+    "premium weekly 40gb#0": "Premium weekly 40GB",
+    "premium weekly 40gb#1": "Premium weekly 40GB",
+    "ai photo enhancer blur#0": "AI Photo Enhancer & Blur",
+    "premium weekly 100gb#0": "Premium Weekly 100GB",
+    "premium weekly 100gb#1": "Premium Weekly 100GB",
+    "aiクレジットプラン#0": "AIクレジットプラン",
+    "aiクレジットプラン#1": "AIクレジットプラン",
+    "プレミアム 週次 100gb#0": "プレミアム 週次 100GB",
+    "プレミアム 週次 100gb#1": "プレミアム 週次 100GB",
+    "プレミアム 40 gb 年#0": "プレミアム (40 GB/年)",
+    "プレミアム 40 gb 年#1": "プレミアム (40 GB/年)",
+    "プレミアム 40 gb 年#2": "プレミアム (40 GB/年)",
+    "プレミアム 100 gb 年#0": "プレミアム (100 GB/年)",
+    "プレミアム 100 gb 年#1": "プレミアム (100 GB/年)"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "加值每月 100gb#0": 160,
+            "加值每月 100gb#1": 240,
+            "加值每年 100gb#0": 1490,
+            "加值每年 100gb#1": 1690,
+            "加值每月 40gb#0": 70,
+            "加值每年 40gb#0": 670,
+            "加值#0": 160,
+            "lightroom plan 1tb#0": 320,
+            "高級版每週 100gb#0": 120
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "premium monthly 40gb#0": 19,
+            "premium monthly 40gb#1": 42.99,
+            "premium yearly 40gb#0": 199,
+            "premium yearly 40gb#1": 214.99,
+            "premium monthly 100gb#0": 17.99,
+            "premium monthly 100gb#1": 49,
+            "premium monthly 100gb#2": 84.99,
+            "premium yearly 100gb#0": 499,
+            "premium#0": 38.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "premium monthly 40gb#0": 169,
+            "premium monthly 40gb#1": 169,
+            "premium monthly 40gb#2": 269,
+            "premium yearly 40gb#0": 999,
+            "premium yearly 40gb#1": 1699,
+            "premium monthly 100gb#0": 369,
+            "premium monthly 100gb#1": 419,
+            "premium weekly 40gb#0": 99,
+            "premium weekly 40gb#1": 199,
+            "premium yearly 100gb#0": 4199
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "premium monthly 100gb#0": 6.99,
+            "premium monthly 100gb#1": 7.99,
+            "premium yearly 100gb#0": 49.99,
+            "lightroom plan 1tb#0": 9.99,
+            "ai photo enhancer blur#0": 49.99,
+            "premium monthly 40gb#0": 1.99,
+            "premium weekly 100gb#0": 3.99,
+            "premium weekly 100gb#1": 7.99,
+            "premium yearly 40gb#0": 19.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "aiクレジットプラン#0": 800,
+            "aiクレジットプラン#1": 2500,
+            "premium weekly 100gb#0": 500,
+            "プレミアム 週次 100gb#0": 600,
+            "プレミアム 週次 100gb#1": 1300,
+            "プレミアム 40 gb 年#0": 2200,
+            "プレミアム 40 gb 年#1": 2700,
+            "プレミアム 40 gb 年#2": 3300,
+            "プレミアム 100 gb 年#0": 550,
+            "プレミアム 100 gb 年#1": 3800
+          }
+        }
+      }
+    }
+  ],
+  "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色"
+}

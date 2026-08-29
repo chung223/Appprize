@@ -1,0 +1,287 @@
+{
+  "appId": "1158877342",
+  "name": "Grammarly: AI Keyboard & Voice",
+  "developer": "Superhuman Platform Inc",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/94/2e/27942e9c-8c55-fb24-a93f-24134d01d734/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:46.567Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 970,
+          "priceFormatted": "$970.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 4490,
+          "priceFormatted": "$4,490.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 1930,
+          "priceFormatted": "$1,930.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 910,
+          "priceFormatted": "$910.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 4190,
+          "priceFormatted": "$4,190.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Annual Plan Mobile Only",
+          "offerName": null,
+          "price": 2690,
+          "priceFormatted": "$2,690.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Annual Plan Mobile Only",
+          "offerName": null,
+          "price": 3850,
+          "priceFormatted": "$3,850.00",
+          "currency": "TWD",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 184.99,
+          "priceFormatted": "₺184,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 899.99,
+          "priceFormatted": "₺899,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 379.99,
+          "priceFormatted": "₺379,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 379,
+          "priceFormatted": "₺379,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 309.99,
+          "priceFormatted": "₺309,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 1499.99,
+          "priceFormatted": "₺1.499,99",
+          "currency": "TRY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 4699,
+          "priceFormatted": "₹ 4,699",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 29.99,
+          "priceFormatted": "$29.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "$139.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 59.99,
+          "priceFormatted": "$59.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Annual Plan Mobile Only",
+          "offerName": null,
+          "price": 83.99,
+          "priceFormatted": "$83.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Annual Plan Mobile Only",
+          "offerName": null,
+          "price": 119.99,
+          "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 15800,
+          "priceFormatted": "¥15,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 3400,
+          "priceFormatted": "¥3,400",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 6700,
+          "priceFormatted": "¥6,700",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 3300,
+          "priceFormatted": "¥3,300",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 15400,
+          "priceFormatted": "¥15,400",
+          "currency": "JPY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

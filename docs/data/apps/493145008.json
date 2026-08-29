@@ -1,0 +1,367 @@
+{
+  "appId": "493145008",
+  "name": "Headspace: Sleep & Meditation",
+  "developer": "Headspace Inc.",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/50/67/f8/5067f843-4f78-623c-607c-8f70a07ac23e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:52.278Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 390,
+          "priceFormatted": "$390.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 2790,
+          "priceFormatted": "$2,790.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 390,
+          "priceFormatted": "$390.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 2790,
+          "priceFormatted": "$2,790.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 2090,
+          "priceFormatted": "$2,090.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 390,
+          "priceFormatted": "$390.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 34.99,
+          "priceFormatted": "₺34,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 34.99,
+          "priceFormatted": "₺34,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 34.99,
+          "priceFormatted": "₺34,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 142.99,
+          "priceFormatted": "₺142,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 244.99,
+          "priceFormatted": "₺244,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 899,
+          "priceFormatted": "₹ 899",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₹ 1,499",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 899,
+          "priceFormatted": "₹ 899",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 789,
+          "priceFormatted": "₹ 789",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 69.99,
+          "priceFormatted": "$69.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 94.99,
+          "priceFormatted": "$94.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 94.99,
+          "priceFormatted": "$94.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 4800,
+          "priceFormatted": "¥4,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 4800,
+          "priceFormatted": "¥4,800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 1600,
+          "priceFormatted": "¥1,600",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 11400,
+          "priceFormatted": "¥11,400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 7800,
+          "priceFormatted": "¥7,800",
+          "currency": "JPY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

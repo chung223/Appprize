@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/03/e6/2c03e629-07bd-c7ce-2d6f-063efa16fd48/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T02:01:38.225Z",
+  "fetchedAt": "2026-08-29T09:45:25.822Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 35,
+          "priceFormatted": "$35.00",
           "currency": "TWD",
           "period": null
         }
@@ -121,18 +121,18 @@
           "period": "monthly"
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
-          "offerName": null,
-          "price": 20.99,
-          "priceFormatted": "₺20,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 2",
           "offerName": null,
           "price": 109,
           "priceFormatted": "₺109,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 20.99,
+          "priceFormatted": "₺20,99",
           "currency": "TRY",
           "period": null
         },
@@ -255,18 +255,18 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 5",
           "offerName": null,
           "price": 569,
           "priceFormatted": "₹ 569",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         },
@@ -435,18 +435,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 1650,
-          "priceFormatted": "¥1,650",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 660,
           "priceFormatted": "¥660",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 1650,
+          "priceFormatted": "¥1,650",
           "currency": "JPY",
           "period": null
         },

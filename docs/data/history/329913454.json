@@ -1,0 +1,76 @@
+{
+  "appId": "329913454",
+  "names": {
+    "mega fan monthly#0": "Mega Fan [Monthly]",
+    "fan#0": "Fan",
+    "mega fan annual#0": "Mega Fan [Annual]",
+    "anime membership#0": "Anime Membership",
+    "all access membership#0": "All-Access Membership",
+    "ultimate fan#0": "Ultimate Fan",
+    "monthly premium+ membership#0": "Monthly Premium+ Membership",
+    "crunchyroll premium membership#0": "Crunchyroll Premium Membership",
+    "mega fan manga bundle#0": "Mega Fan Manga Bundle",
+    "fan manga bundle#0": "Fan Manga Bundle"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "mega fan monthly#0": 135,
+            "fan#0": 120,
+            "mega fan annual#0": 1130,
+            "anime membership#0": 210,
+            "all access membership#0": 360,
+            "ultimate fan#0": 470,
+            "monthly premium+ membership#0": 360
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "mega fan monthly#0": 89.9,
+            "fan#0": 69.9,
+            "mega fan annual#0": 749,
+            "ultimate fan#0": 73.99,
+            "crunchyroll premium membership#0": 579,
+            "anime membership#0": 52.99,
+            "all access membership#0": 32.99,
+            "monthly premium+ membership#0": 63.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "mega fan monthly#0": 119,
+            "fan#0": 99,
+            "mega fan annual#0": 569,
+            "crunchyroll premium membership#0": 469,
+            "ultimate fan#0": 1199,
+            "anime membership#0": 419,
+            "monthly premium+ membership#0": 749,
+            "all access membership#0": 749
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "fan#0": 9.99,
+            "mega fan monthly#0": 13.99,
+            "ultimate fan#0": 17.99,
+            "mega fan manga bundle#0": 17.49,
+            "anime membership#0": 7.99,
+            "fan manga bundle#0": 13.99,
+            "monthly premium+ membership#0": 11.99,
+            "mega fan annual#0": 139.99,
+            "crunchyroll premium membership#0": 99.99,
+            "all access membership#0": 11.99
+          }
+        }
+      }
+    }
+  ],
+  "name": "Crunchyroll"
+}

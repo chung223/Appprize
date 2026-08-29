@@ -1,0 +1,407 @@
+{
+  "appId": "897446215",
+  "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
+  "developer": "Canva Pty Ltd",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/b7/12/2bb7124a-9bfc-7c6b-a56d-512042325fd4/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:34.245Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Canva Pro - 月繳",
+          "offerName": null,
+          "price": 340,
+          "priceFormatted": "$340.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - 月繳",
+          "offerName": null,
+          "price": 450,
+          "priceFormatted": "$450.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva - 商用版：月繳",
+          "offerName": null,
+          "price": 630,
+          "priceFormatted": "$630.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - 年約方案",
+          "offerName": null,
+          "price": 3190,
+          "priceFormatted": "$3,190.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Pro - 年約方案",
+          "offerName": null,
+          "price": 3200,
+          "priceFormatted": "$3,200.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Canva Pro - 年約方案",
+          "offerName": null,
+          "price": 3600,
+          "priceFormatted": "$3,600.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva - 商用版：年繳",
+          "offerName": null,
+          "price": 6300,
+          "priceFormatted": "$6,300.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit 2 Pack",
+          "offerName": null,
+          "price": 90,
+          "priceFormatted": "$90.00",
+          "currency": "TWD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 239.99,
+          "priceFormatted": "₺239,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Business - Monthly",
+          "offerName": null,
+          "price": 339.99,
+          "priceFormatted": "₺339,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 1919.99,
+          "priceFormatted": "₺1.919,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 849.99,
+          "priceFormatted": "₺849,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Teams - Monthly",
+          "offerName": null,
+          "price": 239.99,
+          "priceFormatted": "₺239,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Business - Yearly",
+          "offerName": null,
+          "price": 3399.99,
+          "priceFormatted": "₺3.399,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "₹ 500",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Business - Monthly",
+          "offerName": null,
+          "price": 679,
+          "priceFormatted": "₹ 679",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 4000,
+          "priceFormatted": "₹ 4,000",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 3999,
+          "priceFormatted": "₹ 3,999",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Canva Business - Yearly",
+          "offerName": null,
+          "price": 6800,
+          "priceFormatted": "₹ 6,800",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Business - Monthly",
+          "offerName": null,
+          "price": 650,
+          "priceFormatted": "₹ 650",
+          "currency": "INR",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 14.99,
+          "priceFormatted": "$14.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 15,
+          "priceFormatted": "$15.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 18,
+          "priceFormatted": "$18.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Business - Monthly",
+          "offerName": null,
+          "price": 25,
+          "priceFormatted": "$25.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Credit",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 119.99,
+          "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit 2 Pack",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 143.99,
+          "priceFormatted": "$143.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Teams - Monthly",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "USD",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Canva Pro - 月ごと",
+          "offerName": null,
+          "price": 1180,
+          "priceFormatted": "¥1,180",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canvaビジネス（月額）",
+          "offerName": null,
+          "price": 1880,
+          "priceFormatted": "¥1,880",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - 年間",
+          "offerName": null,
+          "price": 8300,
+          "priceFormatted": "¥8,300",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Pro - 年間",
+          "offerName": null,
+          "price": 11800,
+          "priceFormatted": "¥11,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Canvaビジネス（年額）",
+          "offerName": null,
+          "price": 18800,
+          "priceFormatted": "¥18,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Credit 2 Pack",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

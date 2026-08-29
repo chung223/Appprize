@@ -1,0 +1,336 @@
+{
+  "appId": "329913454",
+  "name": "Crunchyroll",
+  "developer": "Crunchyroll, LLC",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/c4/26/9cc426a3-7952-d2c3-7dfb-65c4589b7a1a/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:23.950Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Mega Fan [Monthly]",
+          "offerName": null,
+          "price": 135,
+          "priceFormatted": "$135.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Fan",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Mega Fan [Annual]",
+          "offerName": null,
+          "price": 1130,
+          "priceFormatted": "$1,130.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 210,
+          "priceFormatted": "$210.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "All-Access Membership",
+          "offerName": null,
+          "price": 360,
+          "priceFormatted": "$360.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Ultimate Fan",
+          "offerName": null,
+          "price": 470,
+          "priceFormatted": "$470.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Monthly Premium+ Membership",
+          "offerName": null,
+          "price": 360,
+          "priceFormatted": "$360.00",
+          "currency": "TWD",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Mega Fan [Monthly]",
+          "offerName": null,
+          "price": 89.9,
+          "priceFormatted": "₺89,90",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Fan",
+          "offerName": null,
+          "price": 69.9,
+          "priceFormatted": "₺69,90",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Mega Fan [Annual]",
+          "offerName": null,
+          "price": 749,
+          "priceFormatted": "₺749,00",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Ultimate Fan",
+          "offerName": null,
+          "price": 73.99,
+          "priceFormatted": "₺73,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Crunchyroll Premium Membership",
+          "offerName": null,
+          "price": 579,
+          "priceFormatted": "₺579,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 52.99,
+          "priceFormatted": "₺52,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "All-Access Membership",
+          "offerName": null,
+          "price": 32.99,
+          "priceFormatted": "₺32,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Monthly Premium+ Membership",
+          "offerName": null,
+          "price": 63.99,
+          "priceFormatted": "₺63,99",
+          "currency": "TRY",
+          "period": "monthly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Mega Fan [Monthly]",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Fan",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Mega Fan [Annual]",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₹ 569",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Crunchyroll Premium Membership",
+          "offerName": null,
+          "price": 469,
+          "priceFormatted": "₹ 469",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Ultimate Fan",
+          "offerName": null,
+          "price": 1199,
+          "priceFormatted": "₹ 1,199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 419,
+          "priceFormatted": "₹ 419",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Monthly Premium+ Membership",
+          "offerName": null,
+          "price": 749,
+          "priceFormatted": "₹ 749",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "All-Access Membership",
+          "offerName": null,
+          "price": 749,
+          "priceFormatted": "₹ 749",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Fan",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Mega Fan [Monthly]",
+          "offerName": null,
+          "price": 13.99,
+          "priceFormatted": "$13.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Ultimate Fan",
+          "offerName": null,
+          "price": 17.99,
+          "priceFormatted": "$17.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Mega Fan Manga Bundle",
+          "offerName": null,
+          "price": 17.49,
+          "priceFormatted": "$17.49",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Fan Manga Bundle",
+          "offerName": null,
+          "price": 13.99,
+          "priceFormatted": "$13.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Monthly Premium+ Membership",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Mega Fan [Annual]",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "$139.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Crunchyroll Premium Membership",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "$99.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "All-Access Membership",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": true,
+      "inApps": [],
+      "error": null
+    }
+  }
+}

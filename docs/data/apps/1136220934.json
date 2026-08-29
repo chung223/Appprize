@@ -1,0 +1,199 @@
+{
+  "appId": "1136220934",
+  "name": "Infuse",
+  "developer": "Firecore, LLC",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/a0/5a/f6a05a8d-e067-0252-cfa1-ac332f54e914/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:46:29.706Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Infuse Pro - 月方案",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Infuse Pro - 年方案",
+          "offerName": null,
+          "price": 380,
+          "priceFormatted": "$380.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Infuse Pro - 生命週期",
+          "offerName": null,
+          "price": 2990,
+          "priceFormatted": "$2,990.00",
+          "currency": "TWD",
+          "period": "weekly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Infuse Pro - Yearly",
+          "offerName": null,
+          "price": 299.99,
+          "priceFormatted": "₺299,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Infuse Pro - Monthly",
+          "offerName": null,
+          "price": 59.99,
+          "priceFormatted": "₺59,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Infuse Pro - Lifetime",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": "lifetime"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Infuse Pro - Monthly",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Infuse Pro - Yearly",
+          "offerName": null,
+          "price": 1299,
+          "priceFormatted": "₹ 1,299",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Infuse Pro - Lifetime",
+          "offerName": null,
+          "price": 9900,
+          "priceFormatted": "₹ 9,900",
+          "currency": "INR",
+          "period": "lifetime"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Infuse Pro - Monthly",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Infuse Pro - Yearly",
+          "offerName": null,
+          "price": 16.99,
+          "priceFormatted": "$16.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Infuse Pro - Lifetime",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "$99.99",
+          "currency": "USD",
+          "period": "lifetime"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Infuse Pro - 月額",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Infuse Pro - 年額",
+          "offerName": null,
+          "price": 2000,
+          "priceFormatted": "¥2,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Infuse Pro - 永年",
+          "offerName": null,
+          "price": 15000,
+          "priceFormatted": "¥15,000",
+          "currency": "JPY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "appId": "547702041",
+  "name": "Tinder Dating App: Meet & Date",
+  "developer": "Tinder LLC",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/c7/65/ecc7654e-5c98-b9f3-16c4-492d69040066/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T09:45:56.321Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "incomplete-page"
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "incomplete-page"
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 589,
+          "priceFormatted": "₹ 589",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Plus",
+          "offerName": null,
+          "price": 369,
+          "priceFormatted": "₹ 369",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 319,
+          "priceFormatted": "₹ 319",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Plus",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 1099,
+          "priceFormatted": "₹ 1,099",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Platinum",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [],
+      "source": null,
+      "error": "incomplete-page"
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 3400,
+          "priceFormatted": "¥3,400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ブースト 3回",
+          "offerName": null,
+          "price": 1600,
+          "priceFormatted": "¥1,600",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "5 Super Likes",
+          "offerName": null,
+          "price": 1200,
+          "priceFormatted": "¥1,200",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Super Like 3回",
+          "offerName": null,
+          "price": 1600,
+          "priceFormatted": "¥1,600",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Tinder Plus",
+          "offerName": null,
+          "price": 1200,
+          "priceFormatted": "¥1,200",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 1700,
+          "priceFormatted": "¥1,700",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 2000,
+          "priceFormatted": "¥2,000",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 2500,
+          "priceFormatted": "¥2,500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "5 Super Likes",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}

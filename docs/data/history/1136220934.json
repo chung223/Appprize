@@ -1,0 +1,62 @@
+{
+  "appId": "1136220934",
+  "names": {
+    "infuse pro 月方案#0": "Infuse Pro - 月方案",
+    "infuse pro 年方案#0": "Infuse Pro - 年方案",
+    "infuse pro 生命週期#0": "Infuse Pro - 生命週期",
+    "infuse pro yearly#0": "Infuse Pro - Yearly",
+    "infuse pro monthly#0": "Infuse Pro - Monthly",
+    "infuse pro lifetime#0": "Infuse Pro - Lifetime",
+    "infuse pro 月額#0": "Infuse Pro - 月額",
+    "infuse pro 年額#0": "Infuse Pro - 年額",
+    "infuse pro 永年#0": "Infuse Pro - 永年"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "infuse pro 月方案#0": 60,
+            "infuse pro 年方案#0": 380,
+            "infuse pro 生命週期#0": 2990
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "infuse pro yearly#0": 299.99,
+            "infuse pro monthly#0": 59.99,
+            "infuse pro lifetime#0": 4999.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "infuse pro monthly#0": 199,
+            "infuse pro yearly#0": 1299,
+            "infuse pro lifetime#0": 9900
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "infuse pro monthly#0": 1.99,
+            "infuse pro yearly#0": 16.99,
+            "infuse pro lifetime#0": 99.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "infuse pro 月額#0": 300,
+            "infuse pro 年額#0": 2000,
+            "infuse pro 永年#0": 15000
+          }
+        }
+      }
+    }
+  ],
+  "name": "Infuse"
+}

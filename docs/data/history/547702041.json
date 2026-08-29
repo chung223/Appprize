@@ -1,0 +1,50 @@
+{
+  "appId": "547702041",
+  "names": {
+    "tinder gold#0": "Tinder Gold",
+    "tinder gold#1": "Tinder Gold",
+    "tinder gold#2": "Tinder Gold",
+    "tinder gold#3": "Tinder Gold",
+    "tinder plus#0": "Tinder Plus",
+    "tinder plus#1": "Tinder Plus",
+    "tinder platinum#0": "Tinder Platinum",
+    "ブースト 3回#0": "ブースト 3回",
+    "5 super likes#0": "5 Super Likes",
+    "5 super likes#1": "5 Super Likes",
+    "super like 3回#0": "Super Like 3回"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "in": {
+          "app": null,
+          "plans": {
+            "tinder gold#0": 159,
+            "tinder gold#1": 319,
+            "tinder gold#2": 589,
+            "tinder gold#3": 1099,
+            "tinder plus#0": 99,
+            "tinder plus#1": 369,
+            "tinder platinum#0": 999
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "tinder gold#0": 1700,
+            "tinder gold#1": 2000,
+            "tinder gold#2": 2500,
+            "tinder gold#3": 3400,
+            "ブースト 3回#0": 1600,
+            "5 super likes#0": 800,
+            "5 super likes#1": 1200,
+            "super like 3回#0": 1600,
+            "tinder plus#0": 1200
+          }
+        }
+      }
+    }
+  ],
+  "name": "Tinder Dating App: Meet & Date"
+}

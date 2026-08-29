@@ -1,0 +1,112 @@
+{
+  "appId": "333903271",
+  "names": {
+    "x premium monthly#0": "X Premium (Monthly)",
+    "x premium basic monthly#0": "X Premium Basic (Monthly)",
+    "x premium plus monthly#0": "X Premium Plus (Monthly)",
+    "x premium annual#0": "X Premium (Annual)",
+    "x premium basic annual#0": "X Premium Basic (Annual)",
+    "elonmusk subscription#0": "@elonmusk Subscription",
+    "x premium plus annual#0": "X Premium Plus (Annual)",
+    "garyblack00 subscription#0": "@garyblack00 Subscription",
+    "proudfox7788 subscription#0": "@proudfox7788 Subscription",
+    "sawyermerritt subscription#0": "@SawyerMerritt Subscription",
+    "profdemirtas subscription#0": "@ProfDemirtas Subscription",
+    "hoccabazzzz subscription#0": "@hoccabazzzz Subscription",
+    "promote post#0": "Promote Post",
+    "tuncsatiroglu subscription#0": "@TuncSatiroglu Subscription",
+    "promote post for 25#0": "Promote Post for $25",
+    "nishkumar1977 subscription#0": "@nishkumar1977 Subscription",
+    "anirbban subscription#0": "@Anirbban Subscription",
+    "fatkiddeals subscription#0": "@FatKidDeals Subscription",
+    "promote post for 50#0": "Promote Post for $50",
+    "投稿を1 500円でプロモーションする#0": "投稿を1,500円でプロモーションする",
+    "投稿を3 500円でプロモーションする#0": "投稿を3,500円でプロモーションする",
+    "goto finance subscription#0": "@goto_finance Subscription",
+    "ブーストしたツイートパッケージ#0": "ブーストしたツイートパッケージ",
+    "hazuma subscription#0": "@hazuma Subscription"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 255,
+            "x premium basic monthly#0": 90,
+            "x premium plus monthly#0": 1490,
+            "x premium annual#0": 2500,
+            "x premium basic annual#0": 900,
+            "elonmusk subscription#0": 120,
+            "x premium plus annual#0": 15000,
+            "garyblack00 subscription#0": 190,
+            "proudfox7788 subscription#0": 150,
+            "sawyermerritt subscription#0": 120
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 199.99,
+            "x premium basic monthly#0": 79.99,
+            "profdemirtas subscription#0": 699.99,
+            "x premium annual#0": 1979.99,
+            "x premium plus monthly#0": 2149.99,
+            "hoccabazzzz subscription#0": 349.99,
+            "promote post#0": 499.99,
+            "tuncsatiroglu subscription#0": 129.99,
+            "x premium basic annual#0": 779.99,
+            "promote post for 25#0": 1299.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 470,
+            "x premium basic monthly#0": 170,
+            "x premium annual#0": 4700,
+            "x premium plus monthly#0": 4999,
+            "promote post#0": 999,
+            "x premium basic annual#0": 1700,
+            "nishkumar1977 subscription#0": 799,
+            "promote post for 25#0": 2499,
+            "anirbban subscription#0": 199,
+            "elonmusk subscription#0": 399
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 11,
+            "x premium basic monthly#0": 4,
+            "x premium plus monthly#0": 50,
+            "elonmusk subscription#0": 4,
+            "x premium annual#0": 114.99,
+            "promote post for 25#0": 25,
+            "fatkiddeals subscription#0": 1,
+            "x premium basic annual#0": 42,
+            "promote post for 50#0": 50,
+            "x premium plus annual#0": 490
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 1270,
+            "x premium basic monthly#0": 450,
+            "x premium annual#0": 12700,
+            "x premium plus monthly#0": 8000,
+            "投稿を1 500円でプロモーションする#0": 1500,
+            "x premium basic annual#0": 4500,
+            "投稿を3 500円でプロモーションする#0": 4000,
+            "goto finance subscription#0": 100,
+            "ブーストしたツイートパッケージ#0": 8000,
+            "hazuma subscription#0": 700
+          }
+        }
+      }
+    }
+  ],
+  "name": "X（前身為Twitter）"
+}
