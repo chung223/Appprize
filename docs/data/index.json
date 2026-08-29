@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T11:25:28.349Z",
+  "updatedAt": "2026-08-29T11:35:12.511Z",
   "apps": [
     {
       "appId": "6448311069",
@@ -150,6 +150,12 @@
       "name": "Dazz相機 - 復古拍照軟體和影片後製",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/fe/d1/f8fed142-789b-1a16-49be-550bccdb2b58/Placeholder.mill/1200x630wa.jpg",
       "fetchedAt": "2026-08-29T11:25:20.939Z"
+    },
+    {
+      "appId": "1358823008",
+      "name": "Flighty – Live Flight Tracker",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/43/a5/4e43a578-9d7c-1a49-832e-ddf43782259b/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-29T11:35:07.033Z"
     }
   ]
 }

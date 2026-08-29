@@ -1,0 +1,455 @@
+{
+  "appId": "1358823008",
+  "name": "Flighty – Live Flight Tracker",
+  "developer": "Flighty LLC",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/43/a5/4e43a578-9d7c-1a49-832e-ddf43782259b/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-29T11:35:07.033Z",
+  "countries": {
+    "tw": {
+      "country": "tw",
+      "currency": "TWD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Pay-As-You-Go",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Pro Annual Savings",
+          "offerName": null,
+          "price": 1990,
+          "priceFormatted": "$1,990.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly",
+          "offerName": null,
+          "price": 320,
+          "priceFormatted": "$320.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 9990,
+          "priceFormatted": "$9,990.00",
+          "currency": "TWD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 3990,
+          "priceFormatted": "$3,990.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "Lifetime (Family)",
+          "offerName": null,
+          "price": 15000,
+          "priceFormatted": "$15,000.00",
+          "currency": "TWD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Add Family to Lifetime",
+          "offerName": null,
+          "price": 6990,
+          "priceFormatted": "$6,990.00",
+          "currency": "TWD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Flexible Monthly (Family)",
+          "offerName": null,
+          "price": 490,
+          "priceFormatted": "$490.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 4990,
+          "priceFormatted": "$4,990.00",
+          "currency": "TWD",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "tr": {
+      "country": "tr",
+      "currency": "TRY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Pay-As-You-Go",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Pro Annual Savings",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₺999,00",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly",
+          "offerName": null,
+          "price": 449.99,
+          "priceFormatted": "₺449,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 1999.99,
+          "priceFormatted": "₺1.999,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": "lifetime"
+        },
+        {
+          "name": "Flexible Monthly (Family)",
+          "offerName": null,
+          "price": 699.99,
+          "priceFormatted": "₺699,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Add Family to Lifetime",
+          "offerName": null,
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 5999.99,
+          "priceFormatted": "₺5.999,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "in": {
+      "country": "in",
+      "currency": "INR",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Pay-As-You-Go",
+          "offerName": null,
+          "price": 329,
+          "priceFormatted": "₹ 329",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Pro Annual Savings",
+          "offerName": null,
+          "price": 3999,
+          "priceFormatted": "₹ 3,999",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 7999,
+          "priceFormatted": "₹ 7,999",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly (Family)",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₹ 1,499",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Lifetime (Family)",
+          "offerName": null,
+          "price": 49900,
+          "priceFormatted": "₹ 49,900",
+          "currency": "INR",
+          "period": "lifetime"
+        },
+        {
+          "name": "Add Family to Lifetime",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 14900,
+          "priceFormatted": "₹ 14,900",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 11900,
+          "priceFormatted": "₹ 11,900",
+          "currency": "INR",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "us": {
+      "country": "us",
+      "currency": "USD",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Pay-As-You-Go",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pro Annual Savings",
+          "offerName": null,
+          "price": 59.99,
+          "priceFormatted": "$59.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "$119.00",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 299,
+          "priceFormatted": "$299.00",
+          "currency": "USD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Flexible Monthly (Family)",
+          "offerName": null,
+          "price": 15.99,
+          "priceFormatted": "$15.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Lifetime (Family)",
+          "offerName": null,
+          "price": 449,
+          "priceFormatted": "$449.00",
+          "currency": "USD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Add Family to Lifetime",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "$199.00",
+          "currency": "USD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 139,
+          "priceFormatted": "$139.00",
+          "currency": "USD",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    },
+    "jp": {
+      "country": "jp",
+      "currency": "JPY",
+      "unavailable": false,
+      "inApps": [
+        {
+          "name": "Pay-As-You-Go",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Pro Annual Savings",
+          "offerName": null,
+          "price": 10000,
+          "priceFormatted": "¥10,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly",
+          "offerName": null,
+          "price": 1500,
+          "priceFormatted": "¥1,500",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 50000,
+          "priceFormatted": "¥50,000",
+          "currency": "JPY",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 20000,
+          "priceFormatted": "¥20,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Flexible Monthly (Family)",
+          "offerName": null,
+          "price": 2500,
+          "priceFormatted": "¥2,500",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Lifetime (Family)",
+          "offerName": null,
+          "price": 70000,
+          "priceFormatted": "¥70,000",
+          "currency": "JPY",
+          "period": "lifetime"
+        },
+        {
+          "name": "Add Family to Lifetime",
+          "offerName": null,
+          "price": 30000,
+          "priceFormatted": "¥30,000",
+          "currency": "JPY",
+          "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 22000,
+          "priceFormatted": "¥22,000",
+          "currency": "JPY",
+          "period": "yearly"
+        }
+      ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
+      "source": "server-data-pairs",
+      "error": null
+    }
+  }
+}
