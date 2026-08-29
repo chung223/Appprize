@@ -25,32 +25,57 @@ function proxyChain() {
 }
 
 /**
- * 抓取文字內容。viaProxy 時依序嘗試 proxy 鏈；
- * validate(text, status) 回傳 false 代表拿到的是 proxy 的垃圾頁 → 換下一個。
+ * 抓取文字內容（對沖式賽跑）。viaProxy 時：先發第一個 proxy，
+ * hedgeMs 內沒有有效回應就同時再發下一個，誰先回有效內容用誰、其餘中止 —
+ * 公用 proxy 忽快忽慢時能把尾延遲壓到單一最快者的水準。
+ * validate(text, status) 回傳 false 代表拿到垃圾頁 → 視同失敗。
  */
-async function fetchText(url, { timeout = 15000, viaProxy = false, validate = null } = {}) {
+export function fetchText(url, {
+  timeout = 12000, viaProxy = false, validate = null, hedgeMs = 2500,
+} = {}) {
   const attempts = viaProxy ? proxyChain().map((wrap) => wrap(url)) : [url];
-  // 走 proxy 時預設把 4xx/5xx 視為該 proxy 失效，換下一個
   if (viaProxy && !validate) validate = (_t, s) => s < 400;
-  let lastErr = null;
-  for (const target of attempts) {
-    const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), timeout);
-    try {
-      const res = await fetch(target, { signal: ctrl.signal, redirect: 'follow' });
-      const text = await res.text();
-      if (validate && !validate(text, res.status)) {
-        lastErr = new Error(`proxy 回應無效（HTTP ${res.status}）`);
-        continue;
-      }
-      return { status: res.status, text };
-    } catch (e) {
-      lastErr = e;
-    } finally {
-      clearTimeout(timer);
-    }
-  }
-  throw lastErr || new Error('fetch failed');
+
+  return new Promise((resolve, reject) => {
+    let started = 0;
+    let failed = 0;
+    let settled = false;
+    let lastErr = null;
+    const ctrls = [];
+
+    const startNext = () => {
+      if (settled || started >= attempts.length) return;
+      const idx = started++;
+      const ctrl = new AbortController();
+      ctrls.push(ctrl);
+      const timer = setTimeout(() => ctrl.abort(), timeout);
+      fetch(attempts[idx], { signal: ctrl.signal, redirect: 'follow' })
+        .then(async (res) => {
+          const text = await res.text();
+          if (validate && !validate(text, res.status)) {
+            throw new Error(`回應無效（HTTP ${res.status}）`);
+          }
+          if (!settled) {
+            settled = true;
+            for (const c of ctrls) if (c !== ctrl) c.abort();
+            resolve({ status: res.status, text });
+          }
+        })
+        .catch((e) => {
+          lastErr = e;
+          failed++;
+          if (settled) return;
+          startNext(); // 失敗立即補位
+          if (failed >= attempts.length) {
+            reject(lastErr || new Error('fetch failed'));
+          }
+        })
+        .finally(() => clearTimeout(timer));
+      // 對沖：時間到還沒定案就並行開下一個
+      if (started < attempts.length) setTimeout(startNext, hedgeMs);
+    };
+    startNext();
+  });
 }
 
 /** App Store 頁面回應的有效性：404（未上架）或內含頁面資料標記 */
@@ -177,8 +202,8 @@ export async function fetchCountryLive(appId, cc) {
   };
 }
 
-/** 限制並發的即時抓取多個儲存區 */
-export async function fetchCountriesLive(appId, countries, { concurrency = 3, onProgress } = {}) {
+/** 限制並發的即時抓取多個儲存區（每國完成即回呼 onCountry，供漸進式渲染） */
+export async function fetchCountriesLive(appId, countries, { concurrency = 5, onProgress, onCountry } = {}) {
   const queue = [...countries];
   const results = {};
   let done = 0;
@@ -195,10 +220,31 @@ export async function fetchCountriesLive(appId, countries, { concurrency = 3, on
       }
       done++;
       onProgress?.(done, countries.length, cc);
+      onCountry?.(cc, results[cc]);
     }
   }
   await Promise.all(Array.from({ length: Math.min(concurrency, countries.length) }, worker));
   return results;
+}
+
+/**
+ * 輪詢 raw.githubusercontent 等雲端爬蟲的新快照落地
+ * （commit 一進 repo 就拿得到，不必等 Pages 部署）。
+ * @returns 新於 sinceMs 的快照，或逾時回傳 null
+ */
+export async function pollCloudSnapshot(appId, { repo, sinceMs, tries = 20, intervalMs = 6000 } = {}) {
+  const base = `https://raw.githubusercontent.com/${repo}/HEAD/docs/data/apps/${appId}.json`;
+  for (let i = 0; i < tries; i++) {
+    await new Promise((r) => setTimeout(r, intervalMs));
+    try {
+      const res = await fetch(`${base}?t=${Date.now()}`, { cache: 'no-store' });
+      if (res.ok) {
+        const snap = await res.json();
+        if (snap?.fetchedAt && Date.parse(snap.fetchedAt) > sinceMs) return snap;
+      }
+    } catch { /* 繼續輪詢 */ }
+  }
+  return null;
 }
 
 // 雲端快照由排程每日更新：48 小時內都視為可用（避免 TTL 較短時整批改走不穩的 proxy）
@@ -210,7 +256,7 @@ const SNAPSHOT_USABLE_MS = 48 * 60 * 60 * 1000;
  * → 過期的快照/本地資料。
  * @returns {Promise<{appId, countries: Record<string, object>, fetchedAt, source, partial, missing: string[]}>}
  */
-export async function getAppPrices(appId, countries, { force = false, onProgress } = {}) {
+export async function getAppPrices(appId, countries, { force = false, onProgress, onCountry } = {}) {
   const settings = getSettings();
   const ttlMs = Math.max(1, settings.cacheTtlHours) * 60 * 60 * 1000;
   const now = Date.now();
@@ -241,7 +287,7 @@ export async function getAppPrices(appId, countries, { force = false, onProgress
   let live = {};
   if (toFetch.length) {
     try {
-      live = await fetchCountriesLive(appId, toFetch, { onProgress });
+      live = await fetchCountriesLive(appId, toFetch, { onProgress, onCountry });
     } catch { /* 整體失敗時 live 為空物件 */ }
   }
 

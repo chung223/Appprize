@@ -9,11 +9,13 @@ import {
   buildPlanGroups, buildAppPriceGroup, rankPlan, convertOfficialPlan, matchOfficialToGroup,
   planPriceMap, monthlyEquivalent,
 } from './compare.js';
-import { searchApps, lookupApp, getAppPrices, fetchHistory } from './api.js';
+import {
+  searchApps, lookupApp, getAppPrices, fetchHistory, pollCloudSnapshot,
+} from './api.js';
 import { getOfficialPricing } from './official.js';
 import {
   getHistory, pushHistory, getSettings, saveSettings, clearPriceCache,
-  getMySubs, saveMySubs,
+  getMySubs, saveMySubs, setCachedApp,
 } from './db.js';
 
 const REPO = 'chung223/Appprize';
@@ -312,6 +314,11 @@ async function loadApp(appId, { force = false } = {}) {
     if (state.prices) renderPriceHistory();
   }).catch(() => {});
 
+  // 漸進式渲染：哪個國家先抓到就先顯示，不必等全部完成
+  const provisional = {};
+  let ratesReady = false;
+  const ratesPromise = ensureRates().then(() => { ratesReady = true; });
+
   try {
     const [prices] = await Promise.all([
       getAppPrices(appId, countries, {
@@ -320,25 +327,25 @@ async function loadApp(appId, { force = false } = {}) {
           if (token !== state.loadToken) return;
           els.loadingText.textContent = `正在抓取各區價格… ${done}/${total}（${flagEmoji(cc)} ${countryName(cc)}）`;
         },
+        onCountry: (cc, res) => {
+          if (token !== state.loadToken || !ratesReady) return;
+          provisional[cc] = res;
+          applyPrices({
+            appId, name: state.app.name, countries: { ...provisional },
+            fetchedAt: Date.now(), source: 'live-partial', partial: true, missing: [],
+          }, countries, { keepSelection: true });
+        },
       }),
-      ensureRates(),
+      ratesPromise,
     ]);
     if (token !== state.loadToken) return;
-    state.prices = prices;
     if (!state.app.name && prices.name) state.app.name = prices.name;
     renderAppHeader(); // 就算 meta 查詢失敗也要脫離「載入中…」狀態
-    const { groups, baseline } = buildPlanGroups(prices.countries, countries);
-    // 付費 App：把「買斷售價」放在方案列表最前面
-    const priceGroup = buildAppPriceGroup(prices.countries, countries);
-    if (priceGroup) groups.unshift(priceGroup);
-    state.groups = groups;
-    state.baseline = baseline;
-    state.selectedPlanKey = pickDefaultPlan(groups);
     els.loadingBox.hidden = true;
-    // 新 App（雲端還沒有快照）：有 Token 就自動觸發雲端爬蟲入庫，
+    // 新 App（雲端還沒有快照）：有 Token 就自動觸發雲端爬蟲入庫並輪詢結果，
     // 沒有就在資料列附上一鍵開 issue 的連結，讓每日排程接手
     if (prices.hadSnapshot === false) maybeRequestCloudCrawl(appId);
-    renderAll();
+    applyPrices(prices, countries);
     if (state.app.name) {
       pushHistory({ appId, name: state.app.name, icon: state.app.icon });
     }
@@ -359,6 +366,19 @@ function pickDefaultPlan(groups) {
   const score = (g) => Object.keys(g.entries).length * 1000
     + Math.min(999, Math.max(...Object.values(g.entries).map((e) => e.price || 0)));
   return [...groups].sort((a, b) => score(b) - score(a))[0].key;
+}
+
+/** 套用一份價格資料：重建方案群組並重新渲染（keepSelection 保留使用者選中的分頁） */
+function applyPrices(prices, countries, { keepSelection = false } = {}) {
+  state.prices = prices;
+  const { groups, baseline } = buildPlanGroups(prices.countries, countries);
+  const priceGroup = buildAppPriceGroup(prices.countries, countries);
+  if (priceGroup) groups.unshift(priceGroup);
+  state.groups = groups;
+  state.baseline = baseline;
+  const stillExists = keepSelection && groups.some((g) => g.key === state.selectedPlanKey);
+  if (!stillExists) state.selectedPlanKey = pickDefaultPlan(groups);
+  renderAll();
 }
 
 /* ---------------- 渲染 ---------------- */
@@ -566,7 +586,8 @@ function renderMeta() {
   if (!p) { els.metaLine.textContent = ''; return; }
   const srcLabel = {
     'local-cache': '本地快取', snapshot: '雲端快照（GitHub Actions 每日抓取）',
-    live: '即時抓取', mixed: '雲端快照＋即時補抓', 'stale-cache': '過期快取',
+    live: '即時抓取', 'live-partial': '即時抓取中…', mixed: '雲端快照＋即時補抓',
+    'stale-cache': '過期快取',
   }[p.source] || p.source;
   const age = timeAgo(p.fetchedAt);
   const parts = [`資料來源：${srcLabel} · ${age}`];
@@ -870,6 +891,27 @@ function maybeRequestCloudCrawl(appId) {
       localStorage.setItem(key, String(Date.now()));
     } catch { /* 忽略 */ }
     triggerCloudCrawl(appId, pat);
+    // 雲端快速通道：輪詢 raw 內容等爬蟲 commit 落地；
+    // 若當下 proxy 抓得不完整，雲端結果一到就自動補上
+    const since = Date.now();
+    pollCloudSnapshot(appId, { repo: REPO, sinceMs: since }).then((snap) => {
+      if (!snap?.countries) return;
+      setCachedApp(appId, { appId, name: snap.name, countries: snap.countries });
+      const viewing = state.app?.appId === appId && !els.resultView.hidden;
+      const incomplete = state.prices?.partial
+        || state.prices?.source === 'live-partial'
+        || state.prices?.source === 'stale-cache'
+        || (state.prices?.missing?.length > 0);
+      if (viewing && incomplete) {
+        if (!state.app.name && snap.name) { state.app.name = snap.name; renderAppHeader(); }
+        applyPrices({
+          appId, name: snap.name, countries: snap.countries,
+          fetchedAt: Date.parse(snap.fetchedAt) || Date.now(),
+          source: 'snapshot', partial: false, missing: [],
+        }, activeCountries(), { keepSelection: true });
+        toast('☁️ 雲端爬蟲完成，已更新為最新價格');
+      }
+    }).catch(() => {});
   } else {
     const title = encodeURIComponent(`[crawl] id${appId}`);
     const body = encodeURIComponent('把這個 App 加入雲端快照與每日自動更新（由 AppPrize 網站發起）。');
