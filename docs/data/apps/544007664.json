@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T07:01:28.583Z",
+  "fetchedAt": "2026-08-29T02:01:09.866Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -159,18 +159,18 @@
           "period": null
         },
         {
-          "name": "Super Chat",
-          "offerName": null,
-          "price": 29,
-          "priceFormatted": "₹ 29",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Premium Lite",
           "offerName": null,
           "price": 119,
           "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 29,
+          "priceFormatted": "₹ 29",
           "currency": "INR",
           "period": null
         }
@@ -237,10 +237,10 @@
           "period": null
         },
         {
-          "name": "Movies & Shows",
+          "name": "Premium Lite",
           "offerName": null,
-          "price": 2.99,
-          "priceFormatted": "$2.99",
+          "price": 11.99,
+          "priceFormatted": "$11.99",
           "currency": "USD",
           "period": null
         }

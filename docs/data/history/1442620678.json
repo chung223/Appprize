@@ -1,0 +1,50 @@
+{
+  "appId": "1442620678",
+  "names": {
+    "surge pro#0": "Surge Pro",
+    "feature subscription#0": "Feature Subscription"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "surge pro#0": 1490,
+            "feature subscription#0": 490
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "feature subscription#0": 399.99,
+            "surge pro#0": 2499.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "surge pro#0": 4999,
+            "feature subscription#0": 1499
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "feature subscription#0": 14.99,
+            "surge pro#0": 49.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "feature subscription#0": 2200,
+            "surge pro#0": 8000
+          }
+        }
+      }
+    }
+  ],
+  "name": "Surge 5"
+}

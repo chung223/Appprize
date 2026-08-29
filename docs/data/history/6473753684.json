@@ -1,0 +1,77 @@
+{
+  "appId": "6473753684",
+  "names": {
+    "claude pro monthly#0": "Claude Pro - Monthly",
+    "claude max 5x monthly#0": "Claude Max 5x - Monthly",
+    "claude pro annual#0": "Claude Pro - Annual",
+    "claude max 20x monthly#0": "Claude Max 20x - Monthly",
+    "usage credits 250#0": "Usage Credits (250)",
+    "usage credits 50#0": "Usage Credits (50)",
+    "usage credits 20#0": "Usage Credits (20)"
+  },
+  "entries": [
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "claude pro monthly#0": 690,
+            "claude max 5x monthly#0": 3990,
+            "claude pro annual#0": 6990,
+            "claude max 20x monthly#0": 7990,
+            "usage credits 250#0": 9990,
+            "usage credits 50#0": 1990,
+            "usage credits 20#0": 990
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "claude pro monthly#0": 999.99,
+            "claude max 5x monthly#0": 6999.99,
+            "claude max 20x monthly#0": 12999.99,
+            "claude pro annual#0": 11999.99,
+            "usage credits 250#0": 14999.99,
+            "usage credits 50#0": 3499.99,
+            "usage credits 20#0": 1499.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "claude pro monthly#0": 1999,
+            "claude max 5x monthly#0": 12900,
+            "claude pro annual#0": 19900,
+            "claude max 20x monthly#0": 24900,
+            "usage credits 250#0": 29900,
+            "usage credits 50#0": 5900,
+            "usage credits 20#0": 2999
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "claude pro monthly#0": 20,
+            "claude max 5x monthly#0": 124.99,
+            "claude max 20x monthly#0": 249.99,
+            "claude pro annual#0": 214.99,
+            "usage credits 20#0": 28,
+            "usage credits 250#0": 279,
+            "usage credits 50#0": 63
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "claude pro monthly#0": 3000,
+            "claude max 5x monthly#0": 20000,
+            "claude pro annual#0": 35000,
+            "claude max 20x monthly#0": 40000
+          }
+        }
+      }
+    }
+  ],
+  "name": "Claude by Anthropic"
+}

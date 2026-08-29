@@ -3,7 +3,7 @@
   "name": "DeepSRT PRO",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/b4/7c/30b47c21-50c2-01b9-3fd4-d82a38e32915/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T07:01:58.916Z",
+  "fetchedAt": "2026-08-29T02:01:51.656Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -17,8 +17,7 @@
       },
       "source": null,
       "noIap": true,
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -32,8 +31,7 @@
       },
       "source": null,
       "noIap": true,
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -47,8 +45,7 @@
       },
       "source": null,
       "noIap": true,
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -76,8 +73,7 @@
       },
       "source": null,
       "noIap": true,
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

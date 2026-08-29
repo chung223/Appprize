@@ -13,12 +13,77 @@
     "netflix 2画面 見放題視聴プラン#0": "Netflix 2画面 - 見放題視聴プラン",
     "netflix プレミアム#0": "Netflix プレミアム",
     "netflix 4画面 見放題視聴プラン#0": "Netflix 4画面 - 見放題視聴プラン",
-    "netflix 4 画面視聴プラン 月額見放題のストリーミング配信#0": "Netflix 4 画面視聴プラン - 月額見放題のストリーミング配信"
+    "netflix 4 画面視聴プラン 月額見放題のストリーミング配信#0": "Netflix 4 画面視聴プラン - 月額見放題のストリーミング配信",
+    "netflix 高级#0": "Netflix 高级",
+    "netflix 雙螢幕無限串流方案#0": "Netflix 雙螢幕無限串流方案",
+    "netflix 標準#0": "Netflix 標準",
+    "netflix 四螢幕無限串流方案#0": "Netflix 四螢幕無限串流方案",
+    "netflix 基本#0": "Netflix 基本",
+    "netflix 單螢幕無限串流方案#0": "Netflix 單螢幕無限串流方案"
   },
   "entries": [
     {
       "d": "2026-08-28",
       "c": {
+        "in": {
+          "app": null,
+          "plans": {
+            "netflix premium#0": 649,
+            "netflix standard#0": 499,
+            "netflix basic#0": 199,
+            "netflix 2 screens unlimited streaming#0": 499,
+            "netflix 4 screens unlimited streaming#0": 649,
+            "netflix 1 screen unlimited streaming#0": 199
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "netflix 2 screens unlimited streaming#0": 19.99,
+            "netflix#0": 19.99,
+            "netflix standard#0": 19.99,
+            "netflix premium#0": 26.99,
+            "netflix 4 screens unlimited streaming#0": 26.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "netflix スタンダード#0": 1590,
+            "netflix 2 画面視聴プラン 月額見放題のストリーミング配信#0": 1590,
+            "netflix 2画面 見放題視聴プラン#0": 1590,
+            "netflix プレミアム#0": 2290,
+            "netflix 4画面 見放題視聴プラン#0": 2290,
+            "netflix 4 画面視聴プラン 月額見放題のストリーミング配信#0": 2290
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-08-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "netflix 高级#0": 460,
+            "netflix 雙螢幕無限串流方案#0": 380,
+            "netflix 標準#0": 380,
+            "netflix 四螢幕無限串流方案#0": 460,
+            "netflix 基本#0": 290,
+            "netflix 單螢幕無限串流方案#0": 290
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "netflix basic#0": 189.99,
+            "netflix standard#0": 289.99,
+            "netflix premium#0": 379.99,
+            "netflix 2 screens unlimited streaming#0": 289.99,
+            "netflix 1 screen unlimited streaming#0": 189.99,
+            "netflix 4 screens unlimited streaming#0": 379.99
+          }
+        },
         "in": {
           "app": null,
           "plans": {

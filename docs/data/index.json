@@ -1,77 +1,77 @@
 {
-  "updatedAt": "2026-08-28T07:02:09.732Z",
+  "updatedAt": "2026-08-29T02:02:04.132Z",
   "apps": [
     {
       "appId": "6448311069",
       "name": "ChatGPT",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/ce/0e/75ce0e58-8db6-6441-8444-e23a4285d2e5/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:22.836Z"
+      "fetchedAt": "2026-08-29T02:01:04.063Z"
     },
     {
       "appId": "544007664",
       "name": "YouTube",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:28.583Z"
+      "fetchedAt": "2026-08-29T02:01:09.866Z"
     },
     {
       "appId": "324684580",
       "name": "Spotify - 音樂和 Podcast",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/8b/bc/098bbc51-3b38-2566-90a1-dcd361b8c646/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:35.538Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/66/7a/5f667a8b-f26a-67de-22b6-d30833985460/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-29T02:01:16.593Z"
     },
     {
       "appId": "570060128",
-      "name": "Duolingo: Language & Chess",
+      "name": "多鄰國 - 極速學外語",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7e/c4/f1/7ec4f153-c0d4-7a0e-5a42-09770abf2909/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:38.848Z"
+      "fetchedAt": "2026-08-29T02:01:21.088Z"
     },
     {
       "appId": "6473753684",
       "name": "Claude by Anthropic",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/de/98/ecde984f-6f4d-7245-269f-e7646d38a63c/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T00:24:22.999Z"
+      "fetchedAt": "2026-08-29T02:01:26.988Z"
     },
     {
       "appId": "363590051",
       "name": "Netflix",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/2f/6d/492f6d99-6d7a-b5e6-9af9-39f422b56111/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:45.958Z"
+      "fetchedAt": "2026-08-29T02:01:32.235Z"
     },
     {
       "appId": "479516143",
       "name": "Minecraft",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/88/35/82883575-36d2-5423-2c8c-d57b4fd0bf5b/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:50.161Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/03/e6/2c03e629-07bd-c7ce-2d6f-063efa16fd48/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-08-29T02:01:38.225Z"
     },
     {
       "appId": "6796534411",
       "name": "Mergic",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/d8/6d/47d86d5e-6893-c52c-1a05-41f2c3dfb586/AppIcon.png/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T06:08:51.279Z"
+      "fetchedAt": "2026-08-29T02:01:43.896Z"
     },
     {
       "appId": "1442620678",
       "name": "Surge 5",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/4b/08/4e4b0849-1cf5-8567-a6d9-26fdcf2ff269/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T06:10:40.999Z"
+      "fetchedAt": "2026-08-29T02:01:47.585Z"
     },
     {
       "appId": "6796562729",
       "name": "DeepSRT PRO",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/30/b4/7c/30b47c21-50c2-01b9-3fd4-d82a38e32915/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:01:58.916Z"
+      "fetchedAt": "2026-08-29T02:01:51.656Z"
     },
     {
       "appId": "443904275",
       "name": "LINE",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:02:01.287Z"
+      "fetchedAt": "2026-08-29T02:01:55.209Z"
     },
     {
       "appId": "1312014438",
       "name": "JSBox - Learn to Code",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b2/37/f4/b237f411-41fd-44a9-1511-b57b4c22dc4d/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.jpg",
-      "fetchedAt": "2026-08-28T07:02:06.029Z"
+      "fetchedAt": "2026-08-29T02:02:00.075Z"
     }
   ]
 }

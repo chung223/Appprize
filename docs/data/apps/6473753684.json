@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/de/98/ecde984f-6f4d-7245-269f-e7646d38a63c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-28T00:24:22.999Z",
+  "fetchedAt": "2026-08-29T02:01:26.988Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,6 +67,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TWD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -132,6 +137,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "TRY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -197,6 +207,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "INR",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -262,6 +277,11 @@
           "period": null
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "USD",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     },
@@ -303,6 +323,11 @@
           "period": "monthly"
         }
       ],
+      "appPrice": {
+        "price": 0,
+        "currency": "JPY",
+        "priceFormatted": null
+      },
       "source": "server-data-pairs",
       "error": null
     }
