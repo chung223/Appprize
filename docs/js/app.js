@@ -23,6 +23,7 @@ const els = {
   heroView: $('heroView'), resultView: $('resultView'),
   searchForm: $('searchForm'), searchInput: $('searchInput'), searchMenu: $('searchMenu'),
   historySection: $('historySection'), historyGrid: $('historyGrid'),
+  cloudSection: $('cloudSection'), cloudGrid: $('cloudGrid'),
   backBtn: $('backBtn'), appIcon: $('appIcon'), appName: $('appName'), appDev: $('appDev'),
   appLinks: $('appLinks'), refreshBtn: $('refreshBtn'),
   loadingBox: $('loadingBox'), loadingText: $('loadingText'),
@@ -125,6 +126,7 @@ function showHero() {
   els.mysubsView.hidden = true;
   state.loadToken++;
   renderHistory();
+  renderCloudList();
 }
 
 function showResult() {
@@ -230,6 +232,33 @@ function renderHistory() {
   els.historyGrid.querySelectorAll('[data-id]').forEach((btn) => {
     btn.addEventListener('click', () => navigate(`#app/${btn.dataset.id}`));
   });
+}
+
+/** 雲端追蹤清單（repo 的 index.json — 跨裝置共用的「查過紀錄」） */
+async function renderCloudList() {
+  try {
+    if (!state.cloudIndex) {
+      const url = new URL('./data/index.json', document.baseURI).href;
+      const res = await fetch(url, { cache: 'no-cache' });
+      if (!res.ok) return;
+      state.cloudIndex = await res.json();
+    }
+    const localIds = new Set(getHistory().map((h) => h.appId));
+    const apps = (state.cloudIndex.apps || [])
+      .filter((a) => a.appId && a.name && !localIds.has(a.appId))
+      .sort((a, b) => Date.parse(b.fetchedAt || 0) - Date.parse(a.fetchedAt || 0))
+      .slice(0, 24);
+    if (!apps.length) { els.cloudSection.hidden = true; return; }
+    els.cloudGrid.innerHTML = apps.map((a) => `
+      <button type="button" class="history__card" data-id="${esc(a.appId)}">
+        ${a.icon ? `<img src="${esc(a.icon)}" alt="" loading="lazy" />` : ''}
+        <span style="min-width:0"><b>${esc(a.name)}</b><small>☁️ 雲端快照</small></span>
+      </button>`).join('');
+    els.cloudGrid.querySelectorAll('[data-id]').forEach((btn) => {
+      btn.addEventListener('click', () => navigate(`#app/${btn.dataset.id}`));
+    });
+    els.cloudSection.hidden = false;
+  } catch { /* 離線等情況：略過 */ }
 }
 
 /* ---------------- 載入 App ---------------- */

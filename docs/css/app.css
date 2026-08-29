@@ -333,7 +333,7 @@ html[data-theme="light"] .search__menu {
   text-align: left;
 }
 .history__card:hover { transform: translateY(-2px); box-shadow: var(--glass-shadow); }
-.history__card img { width: 38px; height: 38px; border-radius: 9px; flex: none; }
+.history__card img { width: 38px; height: 38px; border-radius: 9px; flex: none; object-fit: cover; }
 .history__card b { font-size: 0.86rem; font-weight: 500; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .history__card small { color: var(--ink-faint); font-size: 0.72rem; }
 
