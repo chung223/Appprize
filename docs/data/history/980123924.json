@@ -1,0 +1,99 @@
+{
+  "appId": "980123924",
+  "names": {
+    "rain viewer premium yearly#0": "Rain Viewer Premium: Yearly",
+    "12個月#0": "12個月",
+    "rainviewer premium yearly#0": "RainViewer Premium: Yearly",
+    "rainviewer premium monthly#0": "RainViewer Premium: Monthly",
+    "rainviewer premium monthly#1": "RainViewer Premium: Monthly",
+    "rainviewer essential 1年#0": "RainViewer Essential: 1年",
+    "rainviewer pro 1年#0": "RainViewer Pro: 1年",
+    "rain viewer essential 1 個月#0": "Rain Viewer Essential: 1 個月",
+    "rainviewer pro 1 year#0": "RainViewer Pro: 1 Year",
+    "rainviewer essential 1 year#0": "RainViewer Essential: 1 Year",
+    "12 months#0": "12 Months",
+    "rain viewer essential 1 month#0": "Rain Viewer Essential: 1 Month",
+    "rainviewer pro 1 month#0": "RainViewer Pro: 1 Month",
+    "rainviewer premium 3 month#0": "RainViewer Premium: 3-Month",
+    "rainviewer premium monthly#2": "RainViewer Premium: Monthly",
+    "rain viewer premium yearly#1": "Rain Viewer Premium: Yearly",
+    "rain viewer essential 1ヶ月#0": "Rain Viewer Essential: 1ヶ月"
+  },
+  "entries": [
+    {
+      "d": "2026-08-30",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "rain viewer premium yearly#0": 270,
+            "12個月#0": 270,
+            "rainviewer premium yearly#0": 270,
+            "rainviewer premium monthly#0": 69,
+            "rainviewer premium monthly#1": 120,
+            "rainviewer essential 1年#0": 420,
+            "rainviewer pro 1年#0": 849,
+            "rain viewer essential 1 個月#0": 105
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "rainviewer premium monthly#0": 98.99,
+            "rainviewer premium monthly#1": 99,
+            "rainviewer pro 1 year#0": 509.99,
+            "rain viewer premium yearly#0": 399.99,
+            "rainviewer essential 1 year#0": 254.99,
+            "12 months#0": 299,
+            "rain viewer essential 1 month#0": 63.99,
+            "rainviewer pro 1 month#0": 99.99,
+            "rainviewer premium yearly#0": 399.99,
+            "rainviewer premium 3 month#0": 169.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "rainviewer pro 1 month#0": 220,
+            "rainviewer pro 1 year#0": 1109,
+            "rainviewer premium monthly#0": 185,
+            "rainviewer premium monthly#1": 399,
+            "rain viewer essential 1 month#0": 139,
+            "rain viewer premium yearly#0": 699,
+            "rainviewer essential 1 year#0": 550,
+            "12 months#0": 749,
+            "rainviewer premium 3 month#0": 375
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "rainviewer premium monthly#0": 2.99,
+            "rainviewer premium monthly#1": 3.99,
+            "rainviewer premium monthly#2": 4.99,
+            "rain viewer premium yearly#0": 19.99,
+            "rainviewer essential 1 year#0": 19.99,
+            "12 months#0": 19.99,
+            "rain viewer essential 1 month#0": 4.99,
+            "rainviewer premium yearly#0": 19.99,
+            "rainviewer pro 1 year#0": 39.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "rainviewer essential 1年#0": 1770,
+            "rainviewer premium monthly#0": 400,
+            "rain viewer premium yearly#0": 1500,
+            "rain viewer premium yearly#1": 1610,
+            "rainviewer pro 1年#0": 3500,
+            "12 months#0": 1590,
+            "rainviewer premium yearly#0": 1610,
+            "rain viewer essential 1ヶ月#0": 440
+          }
+        }
+      }
+    }
+  ],
+  "name": "Rain Radar Live RainViewer"
+}
