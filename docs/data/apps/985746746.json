@@ -1,9 +1,9 @@
 {
   "appId": "985746746",
-  "name": "Discord - 聊天、玩遊戲、消磨時間",
+  "name": "Discord - Talk, Play, Hang Out",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/34/38/33343871-87a5-c982-5d04-9c2e2714d7f3/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T21:34:42.199Z",
+  "fetchedAt": "2026-08-30T21:53:03.217Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,7 +97,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -198,7 +199,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "us": {
       "country": "us",

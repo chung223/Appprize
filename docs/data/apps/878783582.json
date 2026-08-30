@@ -1,9 +1,9 @@
 {
   "appId": "878783582",
-  "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
+  "name": "Lightroom Video & Photo Editor",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/56/2b/81562bd6-6e6f-d86b-c361-aea9b88326f9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T21:34:50.651Z",
+  "fetchedAt": "2026-08-30T21:53:12.729Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -89,7 +89,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -175,7 +176,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",

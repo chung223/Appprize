@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/de/98/ecde984f-6f4d-7245-269f-e7646d38a63c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T21:33:57.492Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bc/97/88/bc978839-fc46-dfba-3f87-ef154623a78d/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-30T21:52:07.980Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -143,7 +143,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",

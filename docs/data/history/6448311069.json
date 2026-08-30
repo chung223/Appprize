@@ -68,6 +68,34 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-30",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "chatgpt plus#0": 690,
+            "chatgpt plus#1": 6990,
+            "chatgpt go#0": 270,
+            "chatgpt pro 5x#0": 3300,
+            "chatgpt pro 20x#0": 6990
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "chatgpt plus#0": 19.99,
+            "chatgpt plus#1": 200,
+            "chatgpt go#0": 8,
+            "100 credits#0": 4,
+            "chatgpt pro 5x#0": 100,
+            "chatgpt pro 20x#0": 200,
+            "500 credits#0": 20,
+            "1000 credits#0": 40
+          }
+        }
+      }
     }
   ],
   "name": "ChatGPT"

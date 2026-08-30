@@ -186,7 +186,27 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-30",
+      "c": {
+        "jp": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 1270,
+            "x premium basic monthly#0": 450,
+            "x premium annual#0": 12700,
+            "x premium plus monthly#0": 8000,
+            "投稿を1 500円でプロモーションする#0": 1500,
+            "x premium basic annual#0": 4500,
+            "投稿を3 500円でプロモーションする#0": 4000,
+            "goto finance subscription#0": 100,
+            "ブーストしたツイートパッケージ#0": 8000,
+            "hazuma subscription#0": 700
+          }
+        }
+      }
     }
   ],
-  "name": "X（前身為Twitter）"
+  "name": "X"
 }

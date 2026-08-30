@@ -1,9 +1,9 @@
 {
   "appId": "333903271",
-  "name": "X（前身為Twitter）",
+  "name": "X",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b9/79/22b97927-0c33-074c-7a3c-1e6bb02609c6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T21:34:46.373Z",
+  "fetchedAt": "2026-08-30T21:53:06.655Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,7 +97,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -191,7 +192,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",
@@ -285,7 +287,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "us": {
       "country": "us",
@@ -379,7 +382,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",
@@ -427,20 +431,20 @@
           "period": null
         },
         {
-          "name": "投稿を3,500円でプロモーションする",
-          "offerName": null,
-          "price": 4000,
-          "priceFormatted": "¥4,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "X Premium Basic (Annual)",
           "offerName": null,
           "price": 4500,
           "priceFormatted": "¥4,500",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "投稿を3,500円でプロモーションする",
+          "offerName": null,
+          "price": 4000,
+          "priceFormatted": "¥4,000",
+          "currency": "JPY",
+          "period": null
         },
         {
           "name": "@goto_finance Subscription",

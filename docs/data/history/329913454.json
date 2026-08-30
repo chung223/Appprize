@@ -70,6 +70,24 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-30",
+      "c": {
+        "tr": {
+          "app": null,
+          "plans": {
+            "mega fan monthly#0": 89.9,
+            "fan#0": 69.9,
+            "mega fan annual#0": 749,
+            "ultimate fan#0": 73.99,
+            "crunchyroll premium membership#0": 579,
+            "anime membership#0": 52.99,
+            "all access membership#0": 32.99,
+            "monthly premium+ membership#0": 63.99
+          }
+        }
+      }
     }
   ],
   "name": "Crunchyroll"

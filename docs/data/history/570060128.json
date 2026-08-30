@@ -111,6 +111,32 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-30",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 1530,
+            "super duolingo#1": 1760,
+            "super duolingo#2": 2650,
+            "super duolingo#3": 3300,
+            "super duolingo family plan#0": 2390,
+            "super duolingo family plan#1": 3590
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 199,
+            "super duolingo#1": 215,
+            "super duolingo#2": 1199,
+            "super duolingo#3": 1379,
+            "super duolingo#4": 1749
+          }
+        }
+      }
     }
   ],
   "name": "多鄰國 - 極速學外語"
