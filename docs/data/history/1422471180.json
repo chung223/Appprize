@@ -115,7 +115,87 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-31",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "dazz pro#0": 250,
+            "dazz pro 永久购买#0": 690,
+            "dazz黑白相機#0": 30,
+            "dazz camera nt16#0": 60,
+            "dazz nd filter#0": 30,
+            "dazz s classic#0": 60,
+            "dazz exp camera#0": 90,
+            "dazz flash color#0": 30,
+            "dazz inst sq#0": 60,
+            "dazz魚眼鏡頭#0": 60
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "dazz pro#0": 35.99,
+            "dazz pro one time purchase#0": 299.99,
+            "dazz flash color#0": 49.99,
+            "dazz nd filter#0": 49.99,
+            "dazz exp camera#0": 149.99,
+            "dazz black camera#0": 49.99,
+            "dazz s classic#0": 99.99,
+            "dazz camera nt16#0": 99.99,
+            "dazz fisheye lens#0": 99.99,
+            "dazz inst sq#0": 99.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "dazz pro#0": 399,
+            "dazz pro one time purchase#0": 1299,
+            "dazz flash color#0": 99,
+            "dazz nd filter#0": 99,
+            "dazz black camera#0": 99,
+            "dazz s classic#0": 199,
+            "dazz camera nt16#0": 199,
+            "dazz exp camera#0": 299,
+            "dazz fisheye lens#0": 199,
+            "dazz inst sq#0": 199
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "dazz pro#0": 6.99,
+            "dazz pro one time purchase#0": 19.99,
+            "dazz flash color#0": 0.99,
+            "dazz nd filter#0": 0.99,
+            "dazz s classic#0": 1.99,
+            "dazz camera nt16#0": 1.99,
+            "dazz exp camera#0": 2.99,
+            "dazz black camera#0": 0.99,
+            "dazz fisheye lens#0": 1.99,
+            "dazz inst sq#0": 1.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "dazz pro#0": 900,
+            "dazz pro one time purchase#0": 2200,
+            "dazz exp camera#0": 500,
+            "dazz camera nt16#0": 300,
+            "dazz nd filter#0": 150,
+            "dazz s classic#0": 300,
+            "dazz black camera#0": 150,
+            "dazz flash color#0": 150,
+            "dazz fisheye lens#0": 300,
+            "dazz inst sq#0": 300
+          }
+        }
+      }
     }
   ],
-  "name": "Dazz Cam - Vintage Camera"
+  "name": "Dazz相機 - 復古拍照軟體和影片後製"
 }

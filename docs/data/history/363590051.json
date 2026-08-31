@@ -117,6 +117,44 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-08-31",
+      "c": {
+        "tr": {
+          "app": null,
+          "plans": {
+            "netflix basic#0": 189.99,
+            "netflix standard#0": 289.99,
+            "netflix premium#0": 379.99,
+            "netflix 2 screens unlimited streaming#0": 289.99,
+            "netflix 1 screen unlimited streaming#0": 189.99,
+            "netflix 4 screens unlimited streaming#0": 379.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "netflix premium#0": 649,
+            "netflix standard#0": 499,
+            "netflix basic#0": 199,
+            "netflix 2 screens unlimited streaming#0": 499,
+            "netflix 4 screens unlimited streaming#0": 649,
+            "netflix 1 screen unlimited streaming#0": 199
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "netflix スタンダード#0": 1590,
+            "netflix 2 画面視聴プラン 月額見放題のストリーミング配信#0": 1590,
+            "netflix 2画面 見放題視聴プラン#0": 1590,
+            "netflix プレミアム#0": 2290,
+            "netflix 4画面 見放題視聴プラン#0": 2290,
+            "netflix 4 画面視聴プラン 月額見放題のストリーミング配信#0": 2290
+          }
+        }
+      }
     }
   ],
   "name": "Netflix"

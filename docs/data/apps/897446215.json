@@ -3,7 +3,7 @@
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/b7/12/2bb7124a-9bfc-7c6b-a56d-512042325fd4/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-30T21:53:26.231Z",
+  "fetchedAt": "2026-08-31T23:10:46.377Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -51,20 +51,20 @@
           "period": "yearly"
         },
         {
-          "name": "Canva Pro - 年約方案",
-          "offerName": null,
-          "price": 3600,
-          "priceFormatted": "$3,600.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
           "name": "Canva Credit",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Canva Pro - 年約方案",
+          "offerName": null,
+          "price": 3600,
+          "priceFormatted": "$3,600.00",
+          "currency": "TWD",
+          "period": "yearly"
         },
         {
           "name": "Canva - 商用版：年繳",
@@ -75,12 +75,12 @@
           "period": "yearly"
         },
         {
-          "name": "Canva Credit 2 Pack",
+          "name": "Canva 團隊版 - 月繳",
           "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
+          "price": 780,
+          "priceFormatted": "$780.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         }
       ],
       "appPrice": {

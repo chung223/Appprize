@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/02/c6/6e02c675-8686-c900-241f-24aaadbdb8e6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-30T21:53:32.289Z",
+  "fetchedAt": "2026-08-31T23:10:52.047Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -269,7 +269,7 @@
           "period": null
         },
         {
-          "name": "Snapchat+ (Monthly Plan)",
+          "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
@@ -277,7 +277,7 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ Monthly Plan",
+          "name": "Snapchat+ (Monthly Plan)",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",

@@ -2,8 +2,8 @@
   "appId": "363590051",
   "name": "Netflix",
   "developer": "Netflix, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/2f/6d/492f6d99-6d7a-b5e6-9af9-39f422b56111/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-30T21:52:13.226Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/f2/20/8df2204a-8736-076b-580f-50d317d76d2c/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-31T23:09:37.345Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -65,7 +65,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -243,7 +244,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",

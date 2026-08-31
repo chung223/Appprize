@@ -1,9 +1,9 @@
 {
   "appId": "1422471180",
-  "name": "Dazz Cam - Vintage Camera",
+  "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/fe/d1/f8fed142-789b-1a16-49be-550bccdb2b58/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T21:35:25.617Z",
+  "fetchedAt": "2026-08-31T23:11:06.681Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,8 +97,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -286,8 +285,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -381,8 +379,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",
@@ -476,8 +473,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

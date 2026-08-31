@@ -2,8 +2,8 @@
   "appId": "544007664",
   "name": "YouTube",
   "developer": "Google LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/21/29/d4212929-8101-bde8-3b87-06455bed3cb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-29T21:33:42.478Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/6e/78/6a6e78a6-63c4-78bd-29d5-b8bff144a4dd/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-08-31T23:09:16.267Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -239,8 +239,8 @@
         {
           "name": "Movies & Shows",
           "offerName": null,
-          "price": 2.99,
-          "priceFormatted": "$2.99",
+          "price": 5.99,
+          "priceFormatted": "$5.99",
           "currency": "USD",
           "period": null
         }

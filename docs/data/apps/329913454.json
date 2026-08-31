@@ -3,7 +3,7 @@
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/c4/26/9cc426a3-7952-d2c3-7dfb-65c4589b7a1a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-30T21:53:17.827Z",
+  "fetchedAt": "2026-08-31T23:10:37.696Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -73,8 +73,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -230,8 +229,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -325,8 +323,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",

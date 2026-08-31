@@ -56,7 +56,32 @@
           "plans": {}
         }
       }
+    },
+    {
+      "d": "2026-08-31",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {}
+        },
+        "tr": {
+          "app": null,
+          "plans": {}
+        },
+        "in": {
+          "app": null,
+          "plans": {}
+        },
+        "us": {
+          "app": null,
+          "plans": {}
+        },
+        "jp": {
+          "app": null,
+          "plans": {}
+        }
+      }
     }
   ],
-  "name": "Spotify: Music and Podcasts"
+  "name": "Spotify - 音樂和 Podcast"
 }

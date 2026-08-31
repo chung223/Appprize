@@ -1,9 +1,9 @@
 {
   "appId": "333903271",
-  "name": "X",
+  "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b9/79/22b97927-0c33-074c-7a3c-1e6bb02609c6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-30T21:53:06.655Z",
+  "fetchedAt": "2026-08-31T23:10:27.868Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,8 +97,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -146,18 +145,18 @@
           "period": "monthly"
         },
         {
-          "name": "@hoccabazzzz Subscription",
-          "offerName": null,
-          "price": 349.99,
-          "priceFormatted": "₺349,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 499.99,
           "priceFormatted": "₺499,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "@hoccabazzzz Subscription",
+          "offerName": null,
+          "price": 349.99,
+          "priceFormatted": "₺349,99",
           "currency": "TRY",
           "period": null
         },
@@ -192,8 +191,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -225,20 +223,20 @@
           "period": "yearly"
         },
         {
-          "name": "X Premium Plus (Monthly)",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "X Premium Plus (Monthly)",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "X Premium Basic (Annual)",
@@ -287,8 +285,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -382,8 +379,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",

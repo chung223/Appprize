@@ -1,6 +1,150 @@
 {
   "events": [
     {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Movies & Shows",
+      "old": 2.99,
+      "new": 3.99,
+      "currency": "USD",
+      "pct": 0.33444816053511706,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Movies & Shows",
+      "old": 3.99,
+      "new": 5.99,
+      "currency": "USD",
+      "pct": 0.5012531328320802,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Canva 團隊版 - 月繳",
+      "old": null,
+      "new": 780,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "897446215",
+      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Canva Credit 2 Pack",
+      "old": 90,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "897446215",
+      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "RainViewer Essential: 1 Year",
+      "old": null,
+      "new": 419.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "RainViewer Premium: 3-Month",
+      "old": 169.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "RainViewer Essential: 1 Year",
+      "old": null,
+      "new": 889,
+      "currency": "INR",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 399,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 2.99,
+      "new": 3.99,
+      "currency": "USD",
+      "pct": 0.33444816053511706,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 3.99,
+      "new": 4.99,
+      "currency": "USD",
+      "pct": 0.2506265664160401,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "us",
+      "kind": "new-plan",
+      "name": "RainViewer Pro: 1 Month",
+      "old": null,
+      "new": 7.99,
+      "currency": "USD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
+      "cc": "us",
+      "kind": "removed-plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 4.99,
+      "new": null,
+      "currency": "USD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-08-31"
+    },
+    {
       "cc": "in",
       "kind": "new-plan",
       "name": "Minecraft Store Item 3",
@@ -409,5 +553,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-08-29T21:35:38.730Z"
+  "updatedAt": "2026-08-31T23:11:22.839Z"
 }
