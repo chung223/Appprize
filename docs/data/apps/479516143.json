@@ -3,7 +3,7 @@
   "name": "Minecraft: Dream it, Build it!",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/03/e6/2c03e629-07bd-c7ce-2d6f-063efa16fd48/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-31T23:09:47.140Z",
+  "fetchedAt": "2026-09-01T21:39:57.734Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -192,7 +192,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",

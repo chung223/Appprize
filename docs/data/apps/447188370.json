@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/02/c6/6e02c675-8686-c900-241f-24aaadbdb8e6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-31T23:10:52.047Z",
+  "fetchedAt": "2026-09-01T21:41:12.363Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -19,20 +19,20 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 40,
-          "priceFormatted": "$40.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Snapchat+ (Monthly Plan)",
           "offerName": null,
           "price": 120,
           "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": "monthly"
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 40,
+          "priceFormatted": "$40.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "Snapstreak Restore",
@@ -59,18 +59,18 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 80,
-          "priceFormatted": "$80.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 80,
+          "priceFormatted": "$80.00",
           "currency": "TWD",
           "period": null
         },
@@ -269,7 +269,7 @@
           "period": null
         },
         {
-          "name": "Snapchat+ Monthly Plan",
+          "name": "Snapchat+ (Monthly Plan)",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
@@ -277,7 +277,7 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ (Monthly Plan)",
+          "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
@@ -347,20 +347,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 160,
-          "priceFormatted": "¥160",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 450,
           "priceFormatted": "¥450",
           "currency": "JPY",
           "period": "monthly"
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "¥160",
+          "currency": "JPY",
+          "period": null
         },
         {
           "name": "Snapstreak Restore",

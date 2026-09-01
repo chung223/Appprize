@@ -167,6 +167,25 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-01",
+      "c": {
+        "us": {
+          "app": null,
+          "plans": {
+            "pay as you go#0": 4.99,
+            "pro annual savings#0": 59.99,
+            "flexible monthly#0": 9.99,
+            "annual savings family#0": 119,
+            "annual savings family#1": 139,
+            "lifetime#0": 299,
+            "flexible monthly family#0": 15.99,
+            "lifetime family#0": 449,
+            "add family to lifetime#0": 199
+          }
+        }
+      }
     }
   ],
   "name": "Flighty – Live Flight Tracker"

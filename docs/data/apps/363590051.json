@@ -3,7 +3,7 @@
   "name": "Netflix",
   "developer": "Netflix, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8d/f2/20/8df2204a-8736-076b-580f-50d317d76d2c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-08-31T23:09:37.345Z",
+  "fetchedAt": "2026-09-01T21:39:52.148Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -65,8 +65,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -244,8 +243,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",

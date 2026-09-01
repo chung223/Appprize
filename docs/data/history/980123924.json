@@ -168,6 +168,66 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-01",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "rain viewer premium yearly#0": 270,
+            "12個月#0": 270,
+            "rainviewer premium yearly#0": 270,
+            "rainviewer premium monthly#0": 69,
+            "rainviewer premium monthly#1": 120,
+            "rainviewer essential 1年#0": 420,
+            "rainviewer pro 1年#0": 849,
+            "rain viewer essential 1 個月#0": 105
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "rainviewer premium monthly#0": 98.99,
+            "rainviewer premium monthly#1": 99,
+            "rainviewer essential 1 year#0": 254.99,
+            "rainviewer essential 1 year#1": 419.99,
+            "rain viewer premium yearly#0": 399.99,
+            "rainviewer pro 1 year#0": 509.99,
+            "12 months#0": 299,
+            "rainviewer pro 1 month#0": 99.99,
+            "rain viewer essential 1 month#0": 63.99,
+            "rainviewer premium yearly#0": 399.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "rain viewer essential 1 month#0": 139,
+            "rainviewer premium monthly#0": 185,
+            "rainviewer pro 1 year#0": 1109,
+            "rainviewer pro 1 month#0": 220,
+            "rain viewer premium yearly#0": 699,
+            "rainviewer essential 1 year#0": 550,
+            "rainviewer essential 1 year#1": 889,
+            "12 months#0": 749,
+            "rainviewer premium 3 month#0": 375
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "rainviewer essential 1年#0": 1770,
+            "rainviewer premium monthly#0": 400,
+            "rain viewer premium yearly#0": 1500,
+            "rain viewer premium yearly#1": 1610,
+            "rain viewer essential 1ヶ月#0": 440,
+            "12 months#0": 1590,
+            "rainviewer pro 1年#0": 3500,
+            "rainviewer premium yearly#0": 1610
+          }
+        }
+      }
     }
   ],
   "name": "Rain Radar Live RainViewer"
