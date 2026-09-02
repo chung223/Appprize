@@ -1,6 +1,174 @@
 {
   "events": [
     {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Movies & Shows",
+      "old": 3.99,
+      "new": 2.99,
+      "currency": "USD",
+      "pct": -0.2506265664160401,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Movies & Shows",
+      "old": 5.99,
+      "new": 3.99,
+      "currency": "USD",
+      "pct": -0.333889816360601,
+      "appId": "544007664",
+      "appName": "YouTube",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Tinder Gold",
+      "old": 88.99,
+      "new": 99.99,
+      "currency": "TRY",
+      "pct": 0.12360939431396786,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Tinder Gold",
+      "old": 99.99,
+      "new": 149,
+      "currency": "TRY",
+      "pct": 0.4901490149014902,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "Tinder Platinum",
+      "old": null,
+      "new": 199,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Tinder Gold",
+      "old": 149,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro Classic (1 Month)",
+      "old": null,
+      "new": 150,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro + 3 Boosts (Monthly)",
+      "old": 620,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "@SawyerMerritt Subscription",
+      "old": null,
+      "new": 120,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "333903271",
+      "appName": "X（前身為Twitter）",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "@WholeMarsBlog Subscription",
+      "old": 90,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "333903271",
+      "appName": "X（前身為Twitter）",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "plan",
+      "name": "Snapstreak Restore",
+      "old": 110,
+      "new": 210,
+      "currency": "TWD",
+      "pct": 0.9090909090909091,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Snapchat+ (Monthly Plan)",
+      "old": null,
+      "new": 130,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Snapstreak Restore",
+      "old": 210,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-02"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Snapstreak Restore",
+      "old": 249.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-02"
+    },
+    {
       "cc": "tw",
       "kind": "new-plan",
       "name": "Nitro + 3 Boosts (Monthly)",
@@ -601,5 +769,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-01T21:41:45.417Z"
+  "updatedAt": "2026-09-02T21:40:42.603Z"
 }

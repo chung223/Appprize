@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b9/79/22b97927-0c33-074c-7a3c-1e6bb02609c6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:40:46.697Z",
+  "fetchedAt": "2026-09-02T21:39:48.626Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,18 +75,18 @@
           "period": null
         },
         {
-          "name": "@WholeMarsBlog Subscription",
-          "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "@proudfox7788 Subscription",
           "offerName": null,
           "price": 150,
           "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "@SawyerMerritt Subscription",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }
@@ -145,18 +145,18 @@
           "period": "monthly"
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 499.99,
-          "priceFormatted": "₺499,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "@hoccabazzzz Subscription",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Promote Post",
+          "offerName": null,
+          "price": 499.99,
+          "priceFormatted": "₺499,99",
           "currency": "TRY",
           "period": null
         },

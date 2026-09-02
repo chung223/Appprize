@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/0e/2c/3c0e2ceb-e81a-6801-c3bd-b68829fb9821/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:40:31.960Z",
+  "fetchedAt": "2026-09-02T21:39:35.464Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,10 +145,10 @@
           "period": null
         },
         {
-          "name": "Tinder Gold",
+          "name": "Tinder Platinum",
           "offerName": null,
-          "price": 88.99,
-          "priceFormatted": "₺88,99",
+          "price": 199,
+          "priceFormatted": "₺199,00",
           "currency": "TRY",
           "period": null
         }

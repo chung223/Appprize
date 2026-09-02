@@ -3,7 +3,7 @@
   "name": "Rain Radar Live RainViewer",
   "developer": "MeteoLab Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/a4/df/4ea4df88-350b-504a-3dc1-3d0d26bac3ee/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:41:40.463Z",
+  "fetchedAt": "2026-09-02T21:40:38.577Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,14 +27,6 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Premium: Yearly",
-          "offerName": null,
-          "price": 270,
-          "priceFormatted": "$270.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
           "name": "RainViewer Premium: Monthly",
           "offerName": null,
           "price": 69,
@@ -47,6 +39,14 @@
           "offerName": null,
           "price": 420,
           "priceFormatted": "$420.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "RainViewer Premium: Yearly",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": "yearly"
         },
@@ -183,12 +183,12 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Rain Viewer Essential: 1 Month",
+          "name": "RainViewer Pro: 1 Year",
           "offerName": null,
-          "price": 139,
-          "priceFormatted": "₹ 139",
+          "price": 1109,
+          "priceFormatted": "₹ 1,109",
           "currency": "INR",
-          "period": "monthly"
+          "period": "yearly"
         },
         {
           "name": "RainViewer Premium: Monthly",
@@ -199,12 +199,12 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Pro: 1 Year",
+          "name": "Rain Viewer Essential: 1 Month",
           "offerName": null,
-          "price": 1109,
-          "priceFormatted": "₹ 1,109",
+          "price": 139,
+          "priceFormatted": "₹ 139",
           "currency": "INR",
-          "period": "yearly"
+          "period": "monthly"
         },
         {
           "name": "RainViewer Pro: 1 Month",
@@ -225,16 +225,16 @@
         {
           "name": "RainViewer Essential: 1 Year",
           "offerName": null,
-          "price": 889,
-          "priceFormatted": "₹ 889",
+          "price": 550,
+          "priceFormatted": "₹ 550",
           "currency": "INR",
           "period": "yearly"
         },
         {
           "name": "RainViewer Essential: 1 Year",
           "offerName": null,
-          "price": 550,
-          "priceFormatted": "₹ 550",
+          "price": 889,
+          "priceFormatted": "₹ 889",
           "currency": "INR",
           "period": "yearly"
         },
@@ -293,20 +293,20 @@
           "period": "yearly"
         },
         {
-          "name": "Rain Viewer Essential: 1 Month",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "12 Months",
           "offerName": null,
           "price": 19.99,
           "priceFormatted": "$19.99",
           "currency": "USD",
           "period": "yearly"
+        },
+        {
+          "name": "Rain Viewer Essential: 1 Month",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "RainViewer Premium: Yearly",
@@ -347,8 +347,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",

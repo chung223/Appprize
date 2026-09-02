@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6a/6e/78/6a6e78a6-63c4-78bd-29d5-b8bff144a4dd/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:39:29.779Z",
+  "fetchedAt": "2026-09-02T21:38:41.997Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -239,8 +239,8 @@
         {
           "name": "Movies & Shows",
           "offerName": null,
-          "price": 5.99,
-          "priceFormatted": "$5.99",
+          "price": 2.99,
+          "priceFormatted": "$2.99",
           "currency": "USD",
           "period": null
         }

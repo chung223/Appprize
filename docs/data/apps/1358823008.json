@@ -3,7 +3,7 @@
   "name": "Flighty – Live Flight Tracker",
   "developer": "Flighty LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/43/a5/4e43a578-9d7c-1a49-832e-ddf43782259b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:41:32.950Z",
+  "fetchedAt": "2026-09-02T21:40:30.754Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -89,8 +89,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -122,20 +121,20 @@
           "period": "monthly"
         },
         {
-          "name": "Lifetime",
-          "offerName": null,
-          "price": 4999.99,
-          "priceFormatted": "₺4.999,99",
-          "currency": "TRY",
-          "period": "lifetime"
-        },
-        {
           "name": "Annual Savings (Family)",
           "offerName": null,
           "price": 1999.99,
           "priceFormatted": "₺1.999,99",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": "lifetime"
         },
         {
           "name": "Flexible Monthly (Family)",
@@ -184,8 +183,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -279,8 +277,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -452,8 +449,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

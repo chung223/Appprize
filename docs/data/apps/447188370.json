@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/02/c6/6e02c675-8686-c900-241f-24aaadbdb8e6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:41:12.363Z",
+  "fetchedAt": "2026-09-02T21:40:12.750Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,12 +75,12 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
+          "name": "Snapchat+ (Monthly Plan)",
           "offerName": null,
-          "price": 110,
-          "priceFormatted": "$110.00",
+          "price": 130,
+          "priceFormatted": "$130.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -143,14 +143,6 @@
           "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": "monthly"
-        },
-        {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
         }
       ],
       "appPrice": {

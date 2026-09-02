@@ -2,8 +2,8 @@
   "appId": "443904275",
   "name": "LINE",
   "developer": "LY Corporation",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/c4/38/54c43847-2701-f372-0b61-a730d4c8721e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-01T21:40:15.684Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/32/96/db329630-4d1c-031d-575f-2b3d60ab5a66/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-02T21:39:20.886Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,20 +35,20 @@
           "period": null
         },
         {
-          "name": "月租方案",
-          "offerName": null,
-          "price": 165,
-          "priceFormatted": "$165.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "150 LINE Coin",
           "offerName": null,
           "price": 105,
           "priceFormatted": "$105.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "月租方案",
+          "offerName": null,
+          "price": 165,
+          "priceFormatted": "$165.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "200 LINE Coin",
@@ -239,20 +239,20 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 99,
           "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "800 LINE Coin",
@@ -277,8 +277,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -396,18 +395,18 @@
           "period": null
         },
         {
-          "name": "スタンダード",
-          "offerName": null,
-          "price": 650,
-          "priceFormatted": "¥650",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "150 LINE Coin",
           "offerName": null,
           "price": 450,
           "priceFormatted": "¥450",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 650,
+          "priceFormatted": "¥650",
           "currency": "JPY",
           "period": null
         },

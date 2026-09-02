@@ -39,6 +39,27 @@
           "plans": {}
         }
       }
+    },
+    {
+      "d": "2026-09-02",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {}
+        },
+        "in": {
+          "app": null,
+          "plans": {}
+        },
+        "us": {
+          "app": null,
+          "plans": {}
+        },
+        "jp": {
+          "app": null,
+          "plans": {}
+        }
+      }
     }
   ],
   "name": "Apple Music"

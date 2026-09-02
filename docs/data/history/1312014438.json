@@ -44,6 +44,32 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-02",
+      "c": {
+        "in": {
+          "app": null,
+          "plans": {
+            "jsbox pro#0": 669,
+            "jsbox pro discount#0": 669
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "jsbox pro#0": 7.99,
+            "jsbox pro discount#0": 7.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "jsbox pro#0": 850,
+            "jsbox pro discount#0": 850
+          }
+        }
+      }
     }
   ],
   "name": "JSBox - Learn to Code"
