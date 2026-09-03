@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/03/e6/2c03e629-07bd-c7ce-2d6f-063efa16fd48/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-02T21:39:05.299Z",
+  "fetchedAt": "2026-09-03T21:36:17.573Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,18 +11,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Minecraft Store Item 2",
-          "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Realms Plus:10 Friends w/trial",
           "offerName": null,
           "price": 240,
           "priceFormatted": "$240.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 70,
+          "priceFormatted": "$70.00",
           "currency": "TWD",
           "period": null
         },

@@ -2,8 +2,8 @@
   "appId": "493145008",
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/97/f2/b0/97f2b08e-eb24-bcc0-7dc0-31f9aa366311/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-02T21:40:22.293Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/8b/8c/7a8b8c67-d3c8-218f-822b-5727ecb1112c/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-03T21:37:38.135Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -121,18 +121,18 @@
           "period": "monthly"
         },
         {
-          "name": "Headspace",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Headspace Plus",
           "offerName": null,
           "price": 244.99,
           "priceFormatted": "₺244,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
           "currency": "TRY",
           "period": null
         }
@@ -159,20 +159,20 @@
           "period": "yearly"
         },
         {
-          "name": "Monthly Subscription",
-          "offerName": null,
-          "price": 159,
-          "priceFormatted": "₹ 159",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Annual Subscription",
           "offerName": null,
           "price": 1499,
           "priceFormatted": "₹ 1,499",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Headspace",

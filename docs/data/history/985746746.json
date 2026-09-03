@@ -294,6 +294,71 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-03",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "nitro monthly#0": 310,
+            "nitro basic monthly#0": 100,
+            "nitro 1 month#0": 320,
+            "nitro classic monthly#0": 150,
+            "nitro basic 1 month#0": 90,
+            "nitro + 1 boost monthly#0": 410,
+            "nitro yearly#0": 3090,
+            "1 server boost monthly#0": 150,
+            "nitro + 2 boosts monthly#0": 520,
+            "nitro + 3 boosts monthly#0": 620
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "nitro monthly#0": 889,
+            "nitro basic monthly#0": 289,
+            "nitro 1 month#0": 999,
+            "nitro basic 1 month#0": 299,
+            "nitro classic 1 month#0": 499,
+            "nitro classic monthly#0": 449,
+            "1 server boost monthly#0": 449,
+            "nitro + 1 boost monthly#0": 1199,
+            "nitro yearly#0": 8900,
+            "nitro + 2 boosts monthly#0": 1499
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "nitro monthly#0": 9.99,
+            "nitro 1 month#0": 9.99,
+            "nitro basic monthly#0": 2.99,
+            "nitro classic 1 month#0": 4.99,
+            "nitro classic monthly#0": 4.99,
+            "nitro basic 1 month#0": 2.99,
+            "nitro + 1 boost monthly#0": 13.49,
+            "nitro + 2 boosts monthly#0": 16.99,
+            "1 server boost monthly#0": 4.99,
+            "nitro yearly#0": 99.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "nitro monthly#0": 1050,
+            "nitro basic monthly#0": 350,
+            "nitro classic monthly#0": 500,
+            "nitro 1 month#0": 1500,
+            "nitro + 1 boost monthly#0": 1400,
+            "1 server boost monthly#0": 500,
+            "nitro + 2 boosts monthly#0": 1750,
+            "nitro + 5 boosts monthly#0": 2800,
+            "nitro yearly#0": 10400,
+            "nitro + 3 boosts monthly#0": 2100
+          }
+        }
+      }
     }
   ],
   "name": "Discord - 聊天、玩遊戲、消磨時間"

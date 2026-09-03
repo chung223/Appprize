@@ -493,6 +493,85 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-03",
+      "c": {
+        "tw": {
+          "app": 235,
+          "plans": {
+            "realms plus 10 friends w trial#0": 240,
+            "minecraft store item 2#0": 70,
+            "minecraft store item 6#0": 200,
+            "realms monthly subscription you + 2 friends#0": 120,
+            "minecraft store item 3#0": 100,
+            "realms plus you + 10 friends#0": 240,
+            "minecraft store item 10#0": 345,
+            "minecraft store item 4#0": 135,
+            "minecraft store item 5#0": 170,
+            "minecraft store item 1#0": 35
+          }
+        },
+        "tr": {
+          "app": 109,
+          "plans": {
+            "realms plus 10 friends w trial#0": 20.99,
+            "realms monthly subscription you + 2 friends#0": 10.49,
+            "realms plus you + 10 friends#0": 20.99,
+            "minecraft store item 2#0": 109,
+            "minecraft store item 6#0": 329,
+            "minecraft store item 4#0": 219,
+            "minecraft store item 3#0": 164.99,
+            "minecraft store item 10#0": 569,
+            "marketplace pass trial#0": 129.99,
+            "minecraft store item 1#0": 53.99
+          }
+        },
+        "in": {
+          "app": 40,
+          "plans": {
+            "realms plus 10 friends w trial#0": 489,
+            "minecraft store item 2#0": 229,
+            "realms monthly subscription you + 2 friends#0": 249,
+            "minecraft store item 6#0": 679,
+            "minecraft store item 10#0": 1169,
+            "realms plus you + 10 friends#0": 489,
+            "marketplace pass trial#0": 399,
+            "minecraft store item 4#0": 449,
+            "minecraft store item 5#0": 569,
+            "minecraft store item 3#0": 339
+          }
+        },
+        "us": {
+          "app": 6.99,
+          "plans": {
+            "minecraft store item 2#0": 1.99,
+            "realms plus 10 friends w trial#0": 7.99,
+            "minecraft store item 6#0": 5.99,
+            "realms monthly subscription you + 2 friends#0": 3.99,
+            "minecraft store item 5#0": 4.99,
+            "minecraft store item 10#0": 9.99,
+            "minecraft store item 4#0": 3.99,
+            "minecraft store item 3#0": 2.99,
+            "realms plus you + 10 friends#0": 7.99,
+            "minecraft store item 8#0": 7.99
+          }
+        },
+        "jp": {
+          "app": 1300,
+          "plans": {
+            "realms plus 10 friends w trial#0": 960,
+            "realms monthly subscription you + 2 friends#0": 480,
+            "minecraft store item 2#0": 330,
+            "realms plus you + 10 friends#0": 960,
+            "minecraft store item 6#0": 990,
+            "minecraft store item 3#0": 550,
+            "minecraft store item 10#0": 1650,
+            "minecraft store item 4#0": 660,
+            "minecraft store item 5#0": 880
+          }
+        }
+      }
     }
   ],
   "name": "Minecraft"

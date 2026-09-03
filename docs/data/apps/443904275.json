@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/32/96/db329630-4d1c-031d-575f-2b3d60ab5a66/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-02T21:39:20.886Z",
+  "fetchedAt": "2026-09-03T21:36:33.479Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,6 +27,14 @@
           "period": null
         },
         {
+          "name": "月租方案",
+          "offerName": null,
+          "price": 165,
+          "priceFormatted": "$165.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
           "name": "500 LINE Coin",
           "offerName": null,
           "price": 280,
@@ -41,14 +49,6 @@
           "priceFormatted": "$105.00",
           "currency": "TWD",
           "period": null
-        },
-        {
-          "name": "月租方案",
-          "offerName": null,
-          "price": 165,
-          "priceFormatted": "$165.00",
-          "currency": "TWD",
-          "period": "monthly"
         },
         {
           "name": "200 LINE Coin",
@@ -129,18 +129,18 @@
           "period": null
         },
         {
-          "name": "150 LINE Coin",
-          "offerName": null,
-          "price": 139.99,
-          "priceFormatted": "₺139,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "500 LINE Coin",
           "offerName": null,
           "price": 359.99,
           "priceFormatted": "₺359,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "₺139,99",
           "currency": "TRY",
           "period": null
         },
@@ -395,18 +395,18 @@
           "period": null
         },
         {
-          "name": "150 LINE Coin",
-          "offerName": null,
-          "price": 450,
-          "priceFormatted": "¥450",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "スタンダード",
           "offerName": null,
           "price": 650,
           "priceFormatted": "¥650",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 450,
+          "priceFormatted": "¥450",
           "currency": "JPY",
           "period": null
         },

@@ -202,6 +202,69 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-03",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 1530,
+            "super duolingo#1": 1760,
+            "super duolingo#2": 2650,
+            "super duolingo#3": 3300,
+            "super duolingo family plan#0": 3590
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 52.99,
+            "super duolingo#1": 139.99,
+            "super duolingo#2": 329.99,
+            "super duolingo#3": 839.99,
+            "super duolingo#4": 969.99,
+            "super duolingo#5": 1209.99,
+            "super duolingo family plan#0": 1199.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 199,
+            "super duolingo#1": 215,
+            "super duolingo#2": 1199,
+            "super duolingo#3": 1379,
+            "super duolingo#4": 1749
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 9.99,
+            "super duolingo#1": 12.99,
+            "super duolingo#2": 79.99,
+            "super duolingo#3": 83.99,
+            "super duolingo#4": 95.99,
+            "super duolingo#5": 119.99,
+            "barrel of gems 1200#0": 4.99,
+            "cart of gems 3000#0": 9.99,
+            "cart of gems 6500#0": 19.99,
+            "chest of gems#0": 0.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 9900,
+            "super duolingo#1": 11400,
+            "super duolingo#2": 14200,
+            "ジェムいっぱいのタル 1200#0": 800,
+            "ジェムの荷車 3000#0": 1500,
+            "ジェムの宝箱#0": 150
+          }
+        }
+      }
     }
   ],
   "name": "多鄰國 - 極速學外語"

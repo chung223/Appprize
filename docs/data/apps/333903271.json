@@ -2,8 +2,8 @@
   "appId": "333903271",
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/b9/79/22b97927-0c33-074c-7a3c-1e6bb02609c6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-02T21:39:48.626Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/e6/49/53e6492d-b6a6-48f5-8dbe-b3e2ab9aa054/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-03T21:37:01.761Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,18 +145,18 @@
           "period": "monthly"
         },
         {
-          "name": "@hoccabazzzz Subscription",
-          "offerName": null,
-          "price": 349.99,
-          "priceFormatted": "₺349,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 499.99,
           "priceFormatted": "₺499,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "@hoccabazzzz Subscription",
+          "offerName": null,
+          "price": 349.99,
+          "priceFormatted": "₺349,99",
           "currency": "TRY",
           "period": null
         },
@@ -223,20 +223,20 @@
           "period": "yearly"
         },
         {
-          "name": "X Premium Plus (Monthly)",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "X Premium Plus (Monthly)",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "X Premium Basic (Annual)",
