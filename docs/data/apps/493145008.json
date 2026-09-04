@@ -3,7 +3,7 @@
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/8b/8c/7a8b8c67-d3c8-218f-822b-5727ecb1112c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-03T21:37:38.135Z",
+  "fetchedAt": "2026-09-04T21:20:46.682Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -273,6 +273,14 @@
           "offerName": null,
           "price": 94.99,
           "priceFormatted": "$94.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 69.99,
+          "priceFormatted": "$69.99",
           "currency": "USD",
           "period": null
         }

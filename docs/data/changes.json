@@ -1,6 +1,222 @@
 {
   "events": [
     {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "Minecraft Store Item 1",
+      "old": null,
+      "new": 119,
+      "currency": "INR",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "Minecraft Store Item 3",
+      "old": 339,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "スタンダード",
+      "old": null,
+      "new": 399,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "1600 LINE Coin",
+      "old": 1999,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro Classic (1 Month)",
+      "old": null,
+      "new": 150,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro + 3 Boosts (Monthly)",
+      "old": 620,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Snapchat+ (Monthly Plan)",
+      "old": null,
+      "new": 130,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Memories Storage",
+      "old": 60,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "Snapchat+ Annual Plan",
+      "old": null,
+      "new": 699.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "jp",
+      "kind": "removed-plan",
+      "name": "Memories Storage",
+      "old": 300,
+      "new": null,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "Headspace Plus",
+      "old": 94.99,
+      "new": 69.99,
+      "currency": "USD",
+      "pct": -0.263185598484051,
+      "appId": "493145008",
+      "appName": "Headspace: Sleep & Meditation",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "us",
+      "kind": "new-plan",
+      "name": "Headspace Plus",
+      "old": null,
+      "new": 94.99,
+      "currency": "USD",
+      "pct": null,
+      "appId": "493145008",
+      "appName": "Headspace: Sleep & Meditation",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "RainViewer Pro: 1個月",
+      "old": null,
+      "new": 168,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "RainViewer Premium: 3-Month",
+      "old": null,
+      "new": 169.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "RainViewer Essential: 1 Year",
+      "old": 419.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "jp",
+      "kind": "plan",
+      "name": "Rain Viewer Premium: Yearly",
+      "old": 1500,
+      "new": 1610,
+      "currency": "JPY",
+      "pct": 0.07333333333333333,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "jp",
+      "kind": "new-plan",
+      "name": "RainViewer Pro: 1ヶ月",
+      "old": null,
+      "new": 710,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-04"
+    },
+    {
+      "cc": "jp",
+      "kind": "removed-plan",
+      "name": "Rain Viewer Premium: Yearly",
+      "old": 1610,
+      "new": null,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-04"
+    },
+    {
       "cc": "us",
       "kind": "plan",
       "name": "Movies & Shows",
@@ -997,5 +1213,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-03T21:38:01.072Z"
+  "updatedAt": "2026-09-04T21:21:12.948Z"
 }

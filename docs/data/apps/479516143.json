@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/03/e6/2c03e629-07bd-c7ce-2d6f-063efa16fd48/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-03T21:36:17.573Z",
+  "fetchedAt": "2026-09-04T21:19:14.315Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,18 +161,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 569,
-          "priceFormatted": "₺569,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Marketplace Pass Trial",
           "offerName": null,
           "price": 129.99,
           "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₺569,00",
           "currency": "TRY",
           "period": null
         },
@@ -271,10 +271,10 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 3",
+          "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 339,
-          "priceFormatted": "₹ 339",
+          "price": 119,
+          "priceFormatted": "₹ 119",
           "currency": "INR",
           "period": null
         }
