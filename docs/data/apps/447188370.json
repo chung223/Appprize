@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/1a/b0/391ab004-0d80-662e-01e7-a6e384500490/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-04T21:20:35.985Z",
+  "fetchedAt": "2026-09-05T21:02:38.129Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,14 +35,6 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 120,
@@ -51,10 +43,10 @@
           "period": "monthly"
         },
         {
-          "name": "Lens+",
+          "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 270,
-          "priceFormatted": "$270.00",
+          "price": 60,
+          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         },
@@ -63,6 +55,14 @@
           "offerName": null,
           "price": 210,
           "priceFormatted": "$210.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Lens+",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": null
         },
@@ -201,16 +201,16 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 20,
-          "priceFormatted": "₹ 20",
+          "price": 9,
+          "priceFormatted": "₹ 9",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 9,
-          "priceFormatted": "₹ 9",
+          "price": 20,
+          "priceFormatted": "₹ 20",
           "currency": "INR",
           "period": null
         },

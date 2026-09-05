@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/32/96/db329630-4d1c-031d-575f-2b3d60ab5a66/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-04T21:19:32.897Z",
+  "fetchedAt": "2026-09-05T21:01:37.950Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -129,18 +129,18 @@
           "period": null
         },
         {
-          "name": "500 LINE Coin",
-          "offerName": null,
-          "price": 359.99,
-          "priceFormatted": "₺359,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "150 LINE Coin",
           "offerName": null,
           "price": 139.99,
           "priceFormatted": "₺139,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "500 LINE Coin",
+          "offerName": null,
+          "price": 359.99,
+          "priceFormatted": "₺359,99",
           "currency": "TRY",
           "period": null
         },
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "1600 LINE Coin",
           "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
           "currency": "INR",
           "period": null
         }

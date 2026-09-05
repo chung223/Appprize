@@ -385,6 +385,86 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-05",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "1x telegram premium one week#0": 30,
+            "telegram premium#0": 160,
+            "100 telegram stars#0": 75,
+            "telegram premium annual#0": 1290,
+            "250 telegram stars#0": 180,
+            "500 telegram stars#0": 355,
+            "1000 telegram stars#0": 710,
+            "1x premium 3 months#0": 490,
+            "750 telegram stars#0": 530,
+            "150 telegram stars#0": 110
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "100 telegram stars#0": 99.99,
+            "telegram premium#0": 189.99,
+            "250 telegram stars#0": 249,
+            "500 telegram stars#0": 499,
+            "1000 telegram stars#0": 999,
+            "1x telegram premium one week#0": 59.99,
+            "150 telegram stars#0": 149,
+            "350 telegram stars#0": 349,
+            "750 telegram stars#0": 749,
+            "telegram premium annual#0": 1359.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "telegram premium#0": 319,
+            "100 telegram stars#0": 205,
+            "250 telegram stars#0": 509,
+            "500 telegram stars#0": 1019,
+            "150 telegram stars#0": 305,
+            "telegram premium annual#0": 2399,
+            "1000 telegram stars#0": 2049,
+            "1x telegram premium one week#0": 99,
+            "750 telegram stars#0": 1549,
+            "350 telegram stars#0": 709
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "telegram premium#0": 4.99,
+            "100 telegram stars#0": 1.99,
+            "1x telegram premium one week#0": 1.19,
+            "500 telegram stars#0": 9.99,
+            "750 telegram stars#0": 14.99,
+            "250 telegram stars#0": 5.09,
+            "1000 telegram stars#0": 19.99,
+            "telegram premium annual#0": 35.99,
+            "2500 telegram stars#0": 50.9,
+            "1500 telegram stars#0": 29.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "telegram premium#0": 650,
+            "100 telegram stars#0": 320,
+            "500 telegram stars#0": 1580,
+            "250 telegram stars#0": 790,
+            "1000 telegram stars#0": 3180,
+            "750 telegram stars#0": 2380,
+            "2500 telegram stars#0": 7900,
+            "1x telegram premium one week#0": 200,
+            "1500 telegram stars#0": 4780,
+            "150 telegram stars#0": 480
+          }
+        }
+      }
     }
   ],
   "name": "Telegram Messenger"

@@ -1,6 +1,174 @@
 {
   "events": [
     {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Super Duolingo",
+      "old": 52.99,
+      "new": 139.99,
+      "currency": "TRY",
+      "pct": 1.6418192111719192,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Super Duolingo",
+      "old": 139.99,
+      "new": 169.99,
+      "currency": "TRY",
+      "pct": 0.21430102150153582,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "jp",
+      "kind": "removed-plan",
+      "name": "ジェムの宝箱",
+      "old": 150,
+      "new": null,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Marketplace Pass Trial",
+      "old": null,
+      "new": 120,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Minecraft Store Item 1",
+      "old": 35,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "Minecraft Store Item 3",
+      "old": null,
+      "new": 339,
+      "currency": "INR",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "Minecraft Store Item 1",
+      "old": 119,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "1600 LINE Coin",
+      "old": null,
+      "new": 1999,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "スタンダード",
+      "old": 399,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": null,
+      "new": 840,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro Classic (1 Month)",
+      "old": 150,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "jp",
+      "kind": "new-plan",
+      "name": "Annual Subscription",
+      "old": null,
+      "new": 7800,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "493145008",
+      "appName": "Headspace: Sleep & Meditation",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "jp",
+      "kind": "plan",
+      "name": "Rain Viewer Premium: Yearly",
+      "old": 1610,
+      "new": 1500,
+      "currency": "JPY",
+      "pct": -0.06832298136645963,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-05"
+    },
+    {
+      "cc": "jp",
+      "kind": "new-plan",
+      "name": "Rain Viewer Premium: Yearly",
+      "old": null,
+      "new": 1610,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-05"
+    },
+    {
       "cc": "in",
       "kind": "new-plan",
       "name": "Minecraft Store Item 1",
@@ -1213,5 +1381,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-04T21:21:12.948Z"
+  "updatedAt": "2026-09-05T21:03:14.474Z"
 }
