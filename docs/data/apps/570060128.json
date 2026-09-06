@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/5c/3d/4c5c3dcc-7894-a8be-0290-d39722b3bffa/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-05T21:01:03.211Z",
+  "fetchedAt": "2026-09-06T21:08:52.290Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -29,16 +29,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1760,
-          "priceFormatted": "$1,760.00",
+          "price": 3300,
+          "priceFormatted": "$3,300.00",
           "currency": "TWD",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 3300,
-          "priceFormatted": "$3,300.00",
+          "price": 1760,
+          "priceFormatted": "$1,760.00",
           "currency": "TWD",
           "period": null
         },
@@ -115,8 +115,8 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 169.99,
-          "priceFormatted": "₺169,99",
+          "price": 52.99,
+          "priceFormatted": "₺52,99",
           "currency": "TRY",
           "period": null
         }
@@ -181,7 +181,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "us": {
       "country": "us",
@@ -329,7 +330,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }

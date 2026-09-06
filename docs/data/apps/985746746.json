@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/7d/fc/c27dfc76-0fa3-40d2-0ead-0bba14c2eec6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-05T21:02:04.651Z",
+  "fetchedAt": "2026-09-06T21:09:49.886Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 5 Boosts (Monthly)",
+          "name": "Nitro + 3 Boosts (Monthly)",
           "offerName": null,
-          "price": 840,
-          "priceFormatted": "$840.00",
+          "price": 620,
+          "priceFormatted": "$620.00",
           "currency": "TWD",
           "period": "monthly"
         }
@@ -168,20 +168,20 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 1 Boost (Monthly)",
-          "offerName": null,
-          "price": 1199,
-          "priceFormatted": "₹ 1,199",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Yearly",
           "offerName": null,
           "price": 8900,
           "priceFormatted": "₹ 8,900",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Nitro + 1 Boost (Monthly)",
+          "offerName": null,
+          "price": 1199,
+          "priceFormatted": "₹ 1,199",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Nitro + 2 Boosts (Monthly)",

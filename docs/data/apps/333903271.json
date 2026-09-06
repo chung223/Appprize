@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/97/48/7b/97487b64-0d78-d7cb-09d6-cd872cac1c41/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-05T21:02:09.744Z",
+  "fetchedAt": "2026-09-06T21:09:54.405Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -223,20 +223,20 @@
           "period": "yearly"
         },
         {
-          "name": "X Premium Plus (Monthly)",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "X Premium Plus (Monthly)",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "X Premium Basic (Annual)",

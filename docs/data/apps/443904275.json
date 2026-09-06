@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/32/96/db329630-4d1c-031d-575f-2b3d60ab5a66/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-05T21:01:37.950Z",
+  "fetchedAt": "2026-09-06T21:09:24.837Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,10 +177,10 @@
           "period": null
         },
         {
-          "name": "Brown & Cony's Secret Date!",
+          "name": "スタンダード",
           "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         }

@@ -4,6 +4,90 @@
       "cc": "tr",
       "kind": "plan",
       "name": "Super Duolingo",
+      "old": 139.99,
+      "new": 52.99,
+      "currency": "TRY",
+      "pct": -0.6214729623544538,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Super Duolingo",
+      "old": 169.99,
+      "new": 139.99,
+      "currency": "TRY",
+      "pct": -0.17648096946879227,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "スタンダード",
+      "old": null,
+      "new": 129.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Brown & Cony's Secret Date!",
+      "old": 99.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro + 3 Boosts (Monthly)",
+      "old": null,
+      "new": 620,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": 840,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "us",
+      "kind": "removed-plan",
+      "name": "Snapstreak Restore",
+      "old": 4.99,
+      "new": null,
+      "currency": "USD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-06"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Super Duolingo",
       "old": 52.99,
       "new": 139.99,
       "currency": "TRY",
@@ -1381,5 +1465,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-05T21:03:14.474Z"
+  "updatedAt": "2026-09-06T21:10:57.058Z"
 }

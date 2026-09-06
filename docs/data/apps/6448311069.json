@@ -3,7 +3,7 @@
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/27/6d/54276d60-cacc-02f8-cc4b-f3a33b78575c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-05T21:00:44.066Z",
+  "fetchedAt": "2026-09-06T21:08:34.491Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -243,7 +243,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",

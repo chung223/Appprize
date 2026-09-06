@@ -154,6 +154,51 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-06",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "chatgpt plus#0": 690,
+            "chatgpt plus#1": 6990,
+            "chatgpt go#0": 270,
+            "chatgpt pro 5x#0": 3300,
+            "chatgpt pro 20x#0": 6990
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "chatgpt plus#0": 999.99,
+            "chatgpt plus#1": 9999.99,
+            "chatgpt go#0": 249.99,
+            "chatgpt pro 5x#0": 5299.99,
+            "chatgpt pro 20x#0": 9999.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "chatgpt go#0": 399,
+            "chatgpt plus#0": 1999,
+            "chatgpt plus#1": 19900,
+            "chatgpt pro 5x#0": 10699,
+            "chatgpt pro 20x#0": 19900
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "chatgpt plus#0": 3000,
+            "chatgpt plus#1": 30000,
+            "chatgpt go#0": 1400,
+            "chatgpt pro 5x#0": 16800,
+            "chatgpt pro 20x#0": 30000
+          }
+        }
+      }
     }
   ],
   "name": "ChatGPT"
