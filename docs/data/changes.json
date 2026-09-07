@@ -1,6 +1,114 @@
 {
   "events": [
     {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Super Duolingo - Family Plan",
+      "old": 3590,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Tinder Gold",
+      "old": 88.99,
+      "new": 99.99,
+      "currency": "TRY",
+      "pct": 0.12360939431396786,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "tr",
+      "kind": "plan",
+      "name": "Tinder Gold",
+      "old": 99.99,
+      "new": 149,
+      "currency": "TRY",
+      "pct": 0.4901490149014902,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Tinder Gold",
+      "old": 149,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "547702041",
+      "appName": "Tinder - 配對、交友、聊天",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": null,
+      "new": 2449,
+      "currency": "INR",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "Nitro + 2 Boosts (Monthly)",
+      "old": 1499,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Bitmoji Fashion",
+      "old": null,
+      "new": 50,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Snapchat+ (Monthly Plan)",
+      "old": 130,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-07"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Rain Viewer Essential: 1 個月",
+      "old": 105,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-07"
+    },
+    {
       "cc": "tr",
       "kind": "plan",
       "name": "Super Duolingo",
@@ -1465,5 +1573,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-06T21:10:57.058Z"
+  "updatedAt": "2026-09-07T21:58:09.485Z"
 }

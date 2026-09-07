@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/7d/fc/c27dfc76-0fa3-40d2-0ead-0bba14c2eec6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-06T21:09:49.886Z",
+  "fetchedAt": "2026-09-07T21:57:09.644Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -120,18 +120,18 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro Basic Monthly",
-          "offerName": null,
-          "price": 289,
-          "priceFormatted": "₹ 289",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro (1 Month)",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 289,
+          "priceFormatted": "₹ 289",
           "currency": "INR",
           "period": "monthly"
         },
@@ -184,10 +184,10 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 2 Boosts (Monthly)",
+          "name": "Nitro + 5 Boosts (Monthly)",
           "offerName": null,
-          "price": 1499,
-          "priceFormatted": "₹ 1,499",
+          "price": 2449,
+          "priceFormatted": "₹ 2,449",
           "currency": "INR",
           "period": "monthly"
         }
@@ -356,20 +356,20 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 5 Boosts (Monthly)",
-          "offerName": null,
-          "price": 2800,
-          "priceFormatted": "¥2,800",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Yearly",
           "offerName": null,
           "price": 10400,
           "priceFormatted": "¥10,400",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "Nitro + 5 Boosts (Monthly)",
+          "offerName": null,
+          "price": 2800,
+          "priceFormatted": "¥2,800",
+          "currency": "JPY",
+          "period": "monthly"
         },
         {
           "name": "Nitro + 3 Boosts (Monthly)",
