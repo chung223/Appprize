@@ -2,6 +2,54 @@
   "events": [
     {
       "cc": "tw",
+      "kind": "new-plan",
+      "name": "Super Duolingo - Family Plan",
+      "old": null,
+      "new": 3590,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-09-08"
+    },
+    {
+      "cc": "jp",
+      "kind": "plan",
+      "name": "プレミアム (100 GB/年)",
+      "old": 4400,
+      "new": 5880,
+      "currency": "JPY",
+      "pct": 0.33636363636363636,
+      "appId": "878783582",
+      "appName": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
+      "date": "2026-09-08"
+    },
+    {
+      "cc": "jp",
+      "kind": "new-plan",
+      "name": "プレミアム (40 GB/年)",
+      "old": null,
+      "new": 2100,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "878783582",
+      "appName": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
+      "date": "2026-09-08"
+    },
+    {
+      "cc": "jp",
+      "kind": "removed-plan",
+      "name": "プレミアム (100 GB/年)",
+      "old": 5880,
+      "new": null,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "878783582",
+      "appName": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
+      "date": "2026-09-08"
+    },
+    {
+      "cc": "tw",
       "kind": "removed-plan",
       "name": "Super Duolingo - Family Plan",
       "old": 3590,
@@ -1573,5 +1621,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-07T21:58:09.485Z"
+  "updatedAt": "2026-09-08T21:43:58.455Z"
 }

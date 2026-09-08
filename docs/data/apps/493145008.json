@@ -2,8 +2,8 @@
   "appId": "493145008",
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/8b/8c/7a8b8c67-d3c8-218f-822b-5727ecb1112c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-07T21:57:48.018Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/d0/ac/5dd0acd0-4715-8d15-acf1-0ca63364515b/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-08T21:43:34.950Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -307,20 +307,20 @@
           "period": "monthly"
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 4800,
-          "priceFormatted": "¥4,800",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Headspace",
           "offerName": null,
           "price": 480,
           "priceFormatted": "¥480",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 4800,
+          "priceFormatted": "¥4,800",
+          "currency": "JPY",
+          "period": "yearly"
         },
         {
           "name": "Headspace Plus",

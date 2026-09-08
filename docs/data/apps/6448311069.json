@@ -2,8 +2,8 @@
   "appId": "6448311069",
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/27/6d/54276d60-cacc-02f8-cc4b-f3a33b78575c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-07T21:56:04.577Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/19/75/e019751f-3987-841d-c7fd-d7098ab628b1/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-08T21:41:47.223Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -111,8 +111,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -166,8 +165,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",

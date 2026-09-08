@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/d2/7c/5cd27c3c-ad5a-39af-5575-84101a02f406/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-07T21:57:18.420Z",
+  "fetchedAt": "2026-09-08T21:43:04.689Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -419,10 +419,10 @@
           "period": null
         },
         {
-          "name": "プレミアム (100 GB/年)",
+          "name": "プレミアム (40 GB/年)",
           "offerName": null,
-          "price": 4400,
-          "priceFormatted": "¥4,400",
+          "price": 2100,
+          "priceFormatted": "¥2,100",
           "currency": "JPY",
           "period": "yearly"
         }

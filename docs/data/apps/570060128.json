@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/5c/3d/4c5c3dcc-7894-a8be-0290-d39722b3bffa/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-07T21:56:19.939Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/e1/e1/16e1e119-2d3f-f95d-b9ea-c2e433ad5e29/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-08T21:42:01.243Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -39,6 +39,14 @@
           "offerName": null,
           "price": 1760,
           "priceFormatted": "$1,760.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 3590,
+          "priceFormatted": "$3,590.00",
           "currency": "TWD",
           "period": null
         }
@@ -285,16 +293,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 14200,
-          "priceFormatted": "¥14,200",
+          "price": 11400,
+          "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 11400,
-          "priceFormatted": "¥11,400",
+          "price": 14200,
+          "priceFormatted": "¥14,200",
           "currency": "JPY",
           "period": null
         },
