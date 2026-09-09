@@ -25,7 +25,16 @@
     "goto finance subscription#0": "@goto_finance Subscription",
     "ブーストしたツイートパッケージ#0": "ブーストしたツイートパッケージ",
     "hazuma subscription#0": "@hazuma Subscription",
-    "wholemarsblog subscription#0": "@WholeMarsBlog Subscription"
+    "wholemarsblog subscription#0": "@WholeMarsBlog Subscription",
+    "nathalberstadt subscription#0": "@NatHalberstadt Subscription",
+    "zeroxjackson subscription#0": "@zeroxjackson Subscription",
+    "itsjohnrocker subscription#0": "@@itsJohnRocker Subscription",
+    "promote post#1": "Promote Post",
+    "enabled for advanced commerce#0": "Enabled for Advanced Commerce",
+    "skdh subscription#0": "@skdh Subscription",
+    "brettfavre subscription#0": "@BrettFavre Subscription",
+    "vol8882 subscription#0": "@Vol8882 Subscription",
+    "goingpublic subscription#0": "@goingpublic Subscription"
   },
   "entries": [
     {
@@ -749,6 +758,86 @@
             "x premium basic annual#0": 42,
             "promote post for 50#0": 50,
             "x premium plus annual#0": 490
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 1270,
+            "x premium basic monthly#0": 450,
+            "x premium annual#0": 12700,
+            "x premium plus monthly#0": 8000,
+            "投稿を1 500円でプロモーションする#0": 1500,
+            "x premium basic annual#0": 4500,
+            "投稿を3 500円でプロモーションする#0": 4000,
+            "goto finance subscription#0": 100,
+            "ブーストしたツイートパッケージ#0": 8000,
+            "hazuma subscription#0": 700
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-09-09",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 255,
+            "x premium basic monthly#0": 90,
+            "x premium plus monthly#0": 1490,
+            "x premium annual#0": 2500,
+            "x premium basic annual#0": 900,
+            "elonmusk subscription#0": 120,
+            "x premium plus annual#0": 15000,
+            "garyblack00 subscription#0": 190,
+            "proudfox7788 subscription#0": 150,
+            "sawyermerritt subscription#0": 120
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 199.99,
+            "x premium basic monthly#0": 79.99,
+            "profdemirtas subscription#0": 699.99,
+            "x premium annual#0": 1979.99,
+            "x premium plus monthly#0": 2149.99,
+            "promote post#0": 499.99,
+            "hoccabazzzz subscription#0": 349.99,
+            "tuncsatiroglu subscription#0": 129.99,
+            "x premium basic annual#0": 779.99,
+            "promote post for 25#0": 1299.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 470,
+            "x premium basic monthly#0": 170,
+            "x premium annual#0": 4700,
+            "promote post#0": 999,
+            "x premium plus monthly#0": 4999,
+            "x premium basic annual#0": 1700,
+            "nishkumar1977 subscription#0": 799,
+            "promote post for 25#0": 2499,
+            "anirbban subscription#0": 199,
+            "elonmusk subscription#0": 399
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "nathalberstadt subscription#0": 5,
+            "zeroxjackson subscription#0": 99,
+            "itsjohnrocker subscription#0": 5,
+            "promote post#0": 5000,
+            "promote post#1": 10000,
+            "enabled for advanced commerce#0": 8.99,
+            "skdh subscription#0": 4,
+            "brettfavre subscription#0": 2,
+            "vol8882 subscription#0": 8,
+            "goingpublic subscription#0": 1
           }
         },
         "jp": {

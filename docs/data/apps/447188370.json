@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/1a/b0/391ab004-0d80-662e-01e7-a6e384500490/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-08T21:43:24.404Z",
+  "fetchedAt": "2026-09-09T21:34:52.415Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,10 +75,10 @@
           "period": null
         },
         {
-          "name": "Bitmoji Fashion",
+          "name": "Memories Storage",
           "offerName": null,
-          "price": 50,
-          "priceFormatted": "$50.00",
+          "price": 60,
+          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         }
@@ -371,7 +371,7 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
+          "name": "Memories Storage",
           "offerName": null,
           "price": 300,
           "priceFormatted": "¥300",

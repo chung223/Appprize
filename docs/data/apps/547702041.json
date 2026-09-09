@@ -2,8 +2,8 @@
   "appId": "547702041",
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3c/0e/2c/3c0e2ceb-e81a-6801-c3bd-b68829fb9821/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-08T21:42:46.047Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e4/6a/b7/e46ab7c8-fa10-58b4-3e25-794c41c4c623/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-09T21:34:09.241Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -141,6 +141,14 @@
           "offerName": null,
           "price": 149,
           "priceFormatted": "₺149,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 88.99,
+          "priceFormatted": "₺88,99",
           "currency": "TRY",
           "period": null
         }

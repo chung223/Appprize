@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/cb/f2/3fcbf242-bbe3-7a0c-97a7-580c8d7268ad/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-08T21:42:55.515Z",
+  "fetchedAt": "2026-09-09T21:34:19.771Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -120,18 +120,18 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro (1 Month)",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Basic Monthly",
           "offerName": null,
           "price": 289,
           "priceFormatted": "₹ 289",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro (1 Month)",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": "monthly"
         },
@@ -168,14 +168,6 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro Yearly",
-          "offerName": null,
-          "price": 8900,
-          "priceFormatted": "₹ 8,900",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
           "name": "Nitro + 1 Boost (Monthly)",
           "offerName": null,
           "price": 1199,
@@ -184,10 +176,18 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 5 Boosts (Monthly)",
+          "name": "Nitro Yearly",
           "offerName": null,
-          "price": 2449,
-          "priceFormatted": "₹ 2,449",
+          "price": 8900,
+          "priceFormatted": "₹ 8,900",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Nitro + 2 Boosts (Monthly)",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₹ 1,499",
           "currency": "INR",
           "period": "monthly"
         }
