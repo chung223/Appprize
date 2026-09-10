@@ -397,6 +397,55 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-10",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 260,
+            "youtube premium family#0": 630,
+            "youtube premium family#1": 630,
+            "五歲抬頭基礎加持團#0": 100,
+            "super chat#0": 70,
+            "youtube premium two person#0": 390
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 159.99,
+            "youtube premium family#0": 319.99,
+            "youtube premium family#1": 319.99,
+            "premium lite#0": 99.99,
+            "aslan paketi#0": 39.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 195,
+            "youtube premium family#0": 389,
+            "youtube premium family#1": 389,
+            "youtube premium two person#0": 289,
+            "premium lite#0": 119,
+            "super chat#0": 29
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 1680,
+            "super chat#0": 320,
+            "super chat#1": 800,
+            "super chat#2": 1600,
+            "youtube premium family#0": 2900,
+            "youtube premium family#1": 2900,
+            "premium lite#0": 980
+          }
+        }
+      }
     }
   ],
   "name": "YouTube"

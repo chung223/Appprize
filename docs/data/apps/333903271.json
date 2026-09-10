@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7c/44/11/7c441199-f85d-476d-8e9a-2770c4b81166/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-09T21:34:24.702Z",
+  "fetchedAt": "2026-09-10T21:30:07.354Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -293,55 +293,31 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "@NatHalberstadt Subscription",
+          "name": "X Premium (Monthly)",
           "offerName": null,
-          "price": 5,
-          "priceFormatted": "$5.00",
+          "price": 11,
+          "priceFormatted": "$11.00",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@zeroxjackson Subscription",
+          "name": "X Premium Basic (Monthly)",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "$99.00",
+          "price": 4,
+          "priceFormatted": "$4.00",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@@itsJohnRocker Subscription",
+          "name": "X Premium Plus (Monthly)",
           "offerName": null,
-          "price": 5,
-          "priceFormatted": "$5.00",
+          "price": 50,
+          "priceFormatted": "$50.00",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 10000,
-          "priceFormatted": "$10,000.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 5000,
-          "priceFormatted": "$5,000.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Enabled for Advanced Commerce",
-          "offerName": null,
-          "price": 8.99,
-          "priceFormatted": "$8.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "@skdh Subscription",
+          "name": "@elonmusk Subscription",
           "offerName": null,
           "price": 4,
           "priceFormatted": "$4.00",
@@ -349,28 +325,52 @@
           "period": null
         },
         {
-          "name": "@BrettFavre Subscription",
+          "name": "X Premium (Annual)",
           "offerName": null,
-          "price": 2,
-          "priceFormatted": "$2.00",
+          "price": 114.99,
+          "priceFormatted": "$114.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Promote Post for $25",
+          "offerName": null,
+          "price": 25,
+          "priceFormatted": "$25.00",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "@Vol8882 Subscription",
-          "offerName": null,
-          "price": 8,
-          "priceFormatted": "$8.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "@goingpublic Subscription",
+          "name": "@FatKidDeals Subscription",
           "offerName": null,
           "price": 1,
           "priceFormatted": "$1.00",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "X Premium Basic (Annual)",
+          "offerName": null,
+          "price": 42,
+          "priceFormatted": "$42.00",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Promote Post for $50",
+          "offerName": null,
+          "price": 50,
+          "priceFormatted": "$50.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "X Premium Plus (Annual)",
+          "offerName": null,
+          "price": 490,
+          "priceFormatted": "$490.00",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {

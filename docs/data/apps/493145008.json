@@ -2,8 +2,8 @@
   "appId": "493145008",
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/d0/ac/5dd0acd0-4715-8d15-acf1-0ca63364515b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-09T21:35:02.882Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6d/c3/64/6dc364f2-ddf9-1549-4282-6f8d901569b0/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-10T21:30:50.157Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,20 +43,20 @@
           "period": null
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 2090,
-          "priceFormatted": "$2,090.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
           "name": "Headspace Plus",
           "offerName": null,
           "price": 390,
           "priceFormatted": "$390.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 2090,
+          "priceFormatted": "$2,090.00",
+          "currency": "TWD",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -121,20 +121,20 @@
           "period": "monthly"
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 749.99,
-          "priceFormatted": "₺749,99",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
           "name": "Headspace",
           "offerName": null,
           "price": 249.99,
           "priceFormatted": "₺249,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 749.99,
+          "priceFormatted": "₺749,99",
+          "currency": "TRY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -229,20 +229,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Headspace",
-          "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "$12.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Monthly Subscription",
           "offerName": null,
           "price": 12.99,
           "priceFormatted": "$12.99",
           "currency": "USD",
           "period": "monthly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
         },
         {
           "name": "Annual Subscription",
@@ -275,6 +275,14 @@
           "priceFormatted": "$94.99",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 69.99,
+          "priceFormatted": "$69.99",
+          "currency": "USD",
+          "period": null
         }
       ],
       "appPrice": {
@@ -299,20 +307,20 @@
           "period": "monthly"
         },
         {
-          "name": "Headspace",
-          "offerName": null,
-          "price": 480,
-          "priceFormatted": "¥480",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Annual Subscription",
           "offerName": null,
           "price": 4800,
           "priceFormatted": "¥4,800",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": null
         },
         {
           "name": "Headspace Plus",

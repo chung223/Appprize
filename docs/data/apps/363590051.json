@@ -3,7 +3,7 @@
   "name": "Netflix",
   "developer": "Netflix, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/6e/61/816e61ee-0f18-e9b9-9c29-4c9eb1842991/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-09T21:33:29.085Z",
+  "fetchedAt": "2026-09-10T21:29:09.944Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -297,6 +297,22 @@
           "priceFormatted": "¥2,290",
           "currency": "JPY",
           "period": "monthly"
+        },
+        {
+          "name": "Netflix 2S Streaming",
+          "offerName": null,
+          "price": 1590,
+          "priceFormatted": "¥1,590",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Netflix 2 Screens",
+          "offerName": null,
+          "price": 1190,
+          "priceFormatted": "¥1,190",
+          "currency": "JPY",
+          "period": null
         }
       ],
       "appPrice": {

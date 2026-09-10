@@ -3,7 +3,7 @@
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/ee/28/d8ee2847-5541-9240-f909-7f3a0228afc7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-09T21:34:46.447Z",
+  "fetchedAt": "2026-09-10T21:30:29.324Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -309,20 +309,20 @@
           "period": null
         },
         {
-          "name": "Canva Pro - Yearly",
-          "offerName": null,
-          "price": 143.99,
-          "priceFormatted": "$143.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "Canva Teams - Monthly",
           "offerName": null,
           "price": 30,
           "priceFormatted": "$30.00",
           "currency": "USD",
           "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 143.99,
+          "priceFormatted": "$143.99",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {

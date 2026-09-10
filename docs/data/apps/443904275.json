@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/de/2c/42de2cc1-eae9-f526-2e78-a562ac702634/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-09T21:33:53.187Z",
+  "fetchedAt": "2026-09-10T21:29:35.623Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,10 +177,10 @@
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "Brown & Cony's Secret Date!",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
           "currency": "TRY",
           "period": null
         }
@@ -247,14 +247,6 @@
           "period": null
         },
         {
-          "name": "800 LINE Coin",
-          "offerName": null,
-          "price": 1099,
-          "priceFormatted": "₹ 1,099",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Monthly Plan",
           "offerName": null,
           "price": 499,
@@ -263,10 +255,18 @@
           "period": "monthly"
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "800 LINE Coin",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 1099,
+          "priceFormatted": "₹ 1,099",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         }
