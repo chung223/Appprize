@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bf/f5/e7/bff5e7a2-7c88-8f4e-6d44-6fd6e778322d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-10T21:29:57.938Z",
+  "fetchedAt": "2026-09-11T21:37:30.154Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,20 +27,20 @@
           "period": null
         },
         {
-          "name": "100 Telegram Stars",
-          "offerName": null,
-          "price": 75,
-          "priceFormatted": "$75.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Telegram Premium Annual",
           "offerName": null,
           "price": 1290,
           "priceFormatted": "$1,290.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "100 Telegram Stars",
+          "offerName": null,
+          "price": 75,
+          "priceFormatted": "$75.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "250 Telegram Stars",
@@ -105,34 +105,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "100 Telegram Stars",
+          "name": "1x Telegram Premium (Three Days)",
           "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Telegram Premium",
-          "offerName": null,
-          "price": 189.99,
-          "priceFormatted": "₺189,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "250 Telegram Stars",
-          "offerName": null,
-          "price": 249,
-          "priceFormatted": "₺249,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "500 Telegram Stars",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₺499,00",
+          "price": 19.99,
+          "priceFormatted": "₺19,99",
           "currency": "TRY",
           "period": null
         },
@@ -145,26 +121,58 @@
           "period": "weekly"
         },
         {
+          "name": "35000 Telegram Stars",
+          "offerName": null,
+          "price": 34999,
+          "priceFormatted": "₺34.999,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "25000 Telegram Stars",
+          "offerName": null,
+          "price": 24999,
+          "priceFormatted": "₺24.999,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "5000 Telegram Stars",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₺4.999,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "10000 Telegram Stars",
+          "offerName": null,
+          "price": 9999,
+          "priceFormatted": "₺9.999,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "1500 Telegram Stars",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₺1.499,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "2500 Telegram Stars",
+          "offerName": null,
+          "price": 2499,
+          "priceFormatted": "₺2.499,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
           "name": "1000 Telegram Stars",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₺999,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "150 Telegram Stars",
-          "offerName": null,
-          "price": 149,
-          "priceFormatted": "₺149,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "350 Telegram Stars",
-          "offerName": null,
-          "price": 349,
-          "priceFormatted": "₺349,00",
           "currency": "TRY",
           "period": null
         },
@@ -175,14 +183,6 @@
           "priceFormatted": "₺749,00",
           "currency": "TRY",
           "period": null
-        },
-        {
-          "name": "Telegram Premium Annual",
-          "offerName": null,
-          "price": 1359.99,
-          "priceFormatted": "₺1.359,99",
-          "currency": "TRY",
-          "period": "yearly"
         }
       ],
       "appPrice": {

@@ -1,9 +1,9 @@
 {
   "appId": "324684580",
-  "name": "Spotify: Music and Podcasts",
+  "name": "Spotify - 音樂和 Podcast",
   "developer": "Spotify",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/5e/71/885e7134-276e-879b-b6b0-8b8e580dcad0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-10T21:28:53.943Z",
+  "fetchedAt": "2026-09-11T21:36:30.526Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -17,8 +17,7 @@
       },
       "source": null,
       "noIap": true,
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",

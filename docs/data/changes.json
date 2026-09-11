@@ -1,6 +1,222 @@
 {
   "events": [
     {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "1x Telegram Premium (Three Days)",
+      "old": null,
+      "new": 19.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "35000 Telegram Stars",
+      "old": null,
+      "new": 34999,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "25000 Telegram Stars",
+      "old": null,
+      "new": 24999,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "5000 Telegram Stars",
+      "old": null,
+      "new": 4999,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "10000 Telegram Stars",
+      "old": null,
+      "new": 9999,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "1500 Telegram Stars",
+      "old": null,
+      "new": 1499,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "2500 Telegram Stars",
+      "old": null,
+      "new": 2499,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "100 Telegram Stars",
+      "old": 99.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Telegram Premium",
+      "old": 189.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "250 Telegram Stars",
+      "old": 249,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "500 Telegram Stars",
+      "old": 499,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "150 Telegram Stars",
+      "old": 149,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "350 Telegram Stars",
+      "old": 349,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Telegram Premium Annual",
+      "old": 1359.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": null,
+      "new": 840,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro + 3 Boosts (Monthly)",
+      "old": 620,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Rain Viewer Premium: Yearly",
+      "old": null,
+      "new": 320,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-11"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 120,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-09-11"
+    },
+    {
       "cc": "jp",
       "kind": "new-plan",
       "name": "Netflix 2S Streaming",
@@ -2497,5 +2713,5 @@
       "date": "2026-08-28"
     }
   ],
-  "updatedAt": "2026-09-10T21:31:14.382Z"
+  "updatedAt": "2026-09-11T21:38:43.669Z"
 }

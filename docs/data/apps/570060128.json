@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/e1/e1/16e1e119-2d3f-f95d-b9ea-c2e433ad5e29/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-10T21:28:58.050Z",
+  "fetchedAt": "2026-09-11T21:36:35.315Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -21,16 +21,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1530,
-          "priceFormatted": "$1,530.00",
+          "price": 3300,
+          "priceFormatted": "$3,300.00",
           "currency": "TWD",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 3300,
-          "priceFormatted": "$3,300.00",
+          "price": 1530,
+          "priceFormatted": "$1,530.00",
           "currency": "TWD",
           "period": null
         },

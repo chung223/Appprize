@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/09/bb/96/09bb96a3-61b8-ff31-ad9a-7d7fe566c9ca/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-10T21:28:48.552Z",
+  "fetchedAt": "2026-09-11T21:36:24.157Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -251,8 +251,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",
