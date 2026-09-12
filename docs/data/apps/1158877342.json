@@ -3,7 +3,7 @@
   "name": "Grammarly: AI Keyboard & Voice",
   "developer": "Superhuman Platform Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/90/48/4e9048e8-f2fa-6577-2c2f-f85bbcafe36b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-11T21:38:13.590Z",
+  "fetchedAt": "2026-09-12T21:20:43.220Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -73,20 +73,20 @@
       "unavailable": false,
       "inApps": [
         {
+          "name": "Quarterly Plan",
+          "offerName": null,
+          "price": 379,
+          "priceFormatted": "₺379,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
           "name": "Monthly Plan",
           "offerName": null,
           "price": 184.99,
           "priceFormatted": "₺184,99",
           "currency": "TRY",
           "period": "monthly"
-        },
-        {
-          "name": "Annual Plan",
-          "offerName": null,
-          "price": 899.99,
-          "priceFormatted": "₺899,99",
-          "currency": "TRY",
-          "period": "yearly"
         },
         {
           "name": "Quarterly Plan",
@@ -97,12 +97,12 @@
           "period": null
         },
         {
-          "name": "Quarterly Plan",
+          "name": "Annual Plan",
           "offerName": null,
-          "price": 379,
-          "priceFormatted": "₺379,00",
+          "price": 899.99,
+          "priceFormatted": "₺899,99",
           "currency": "TRY",
-          "period": null
+          "period": "yearly"
         },
         {
           "name": "Monthly Plan",

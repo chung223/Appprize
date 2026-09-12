@@ -2,8 +2,8 @@
   "appId": "897446215",
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d8/ee/28/d8ee2847-5541-9240-f909-7f3a0228afc7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-11T21:38:01.205Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/2d/56/362d567d-c47c-526e-8348-6f1395ad6533/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-12T21:20:31.892Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -51,20 +51,20 @@
           "period": "yearly"
         },
         {
-          "name": "Canva Pro - 年約方案",
-          "offerName": null,
-          "price": 3600,
-          "priceFormatted": "$3,600.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
           "name": "Canva Credit",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Canva Pro - 年約方案",
+          "offerName": null,
+          "price": 3600,
+          "priceFormatted": "$3,600.00",
+          "currency": "TWD",
+          "period": "yearly"
         },
         {
           "name": "Canva - 商用版：年繳",
@@ -253,68 +253,68 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Canva Pro - Monthly",
+          "name": "Canva可画团队版-按年付费",
           "offerName": null,
-          "price": 14.99,
-          "priceFormatted": "$14.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva Pro - Monthly",
-          "offerName": null,
-          "price": 15,
-          "priceFormatted": "$15.00",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva Pro - Monthly",
-          "offerName": null,
-          "price": 18,
-          "priceFormatted": "$18.00",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva Business - Monthly",
-          "offerName": null,
-          "price": 25,
-          "priceFormatted": "$25.00",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva Credit",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Canva Pro - Yearly",
-          "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
+          "price": 69.99,
+          "priceFormatted": "$69.99",
           "currency": "USD",
           "period": "yearly"
         },
         {
-          "name": "Canva Credit 2 Pack",
+          "name": "Canva可画团队版-按月付费",
           "offerName": null,
-          "price": 2.99,
-          "priceFormatted": "$2.99",
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva可画高级版 - 按月付费",
+          "offerName": null,
+          "price": 24.99,
+          "priceFormatted": "$24.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva可画高级版 - 按月付费",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva可画高级版 - 按年付费",
+          "offerName": null,
+          "price": 24.99,
+          "priceFormatted": "$24.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva可画团队版-按月付费",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "AI Top-up",
+          "offerName": null,
+          "price": 13,
+          "priceFormatted": "$13.00",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Canva Teams - Monthly",
+          "name": "Canva Business - Yearly",
           "offerName": null,
-          "price": 30,
-          "priceFormatted": "$30.00",
+          "price": 200,
+          "priceFormatted": "$200.00",
           "currency": "USD",
-          "period": "monthly"
+          "period": "yearly"
         },
         {
           "name": "Canva Pro - Yearly",
@@ -323,6 +323,14 @@
           "priceFormatted": "$143.99",
           "currency": "USD",
           "period": "yearly"
+        },
+        {
+          "name": "Canva Business - Monthly",
+          "offerName": null,
+          "price": 25,
+          "priceFormatted": "$25.00",
+          "currency": "USD",
+          "period": "monthly"
         }
       ],
       "appPrice": {
