@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/e1/e1/16e1e119-2d3f-f95d-b9ea-c2e433ad5e29/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-12T21:19:04.360Z",
+  "fetchedAt": "2026-09-13T21:17:35.756Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,16 +75,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 1209.99,
+          "priceFormatted": "₺1.209,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1209.99,
-          "priceFormatted": "₺1.209,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
@@ -229,18 +229,18 @@
           "period": null
         },
         {
-          "name": "Cart of Gems (6500)",
-          "offerName": null,
-          "price": 19.99,
-          "priceFormatted": "$19.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo",
           "offerName": null,
           "price": 119.99,
           "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Cart of Gems (6500)",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
           "currency": "USD",
           "period": null
         },

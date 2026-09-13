@@ -3,7 +3,7 @@
   "name": "Surge 5",
   "developer": "Surge Networks Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c7/15/0e/c7150ee6-dbdf-f99c-c8c3-fbbbb37cda46/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-12T21:19:31.682Z",
+  "fetchedAt": "2026-09-13T21:18:02.405Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -71,18 +71,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Surge Pro",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Feature Subscription",
           "offerName": null,
           "price": 1499,
           "priceFormatted": "₹ 1,499",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Surge Pro",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": null
         }
