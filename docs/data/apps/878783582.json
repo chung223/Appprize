@@ -2,8 +2,8 @@
   "appId": "878783582",
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/d2/7c/5cd27c3c-ad5a-39af-5575-84101a02f406/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-13T21:18:48.158Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/fc/e5/5dfce527-3a2f-d587-d7b4-2457f45ad7af/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-14T22:23:05.161Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -159,14 +159,6 @@
           "priceFormatted": "₺214,99",
           "currency": "TRY",
           "period": "yearly"
-        },
-        {
-          "name": "AI Credit Plan",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
         },
         {
           "name": "Premium weekly 40GB",
@@ -325,20 +317,20 @@
           "period": null
         },
         {
-          "name": "Premium monthly 40GB",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Premium Weekly 100GB",
           "offerName": null,
           "price": 3.99,
           "priceFormatted": "$3.99",
           "currency": "USD",
           "period": "weekly"
+        },
+        {
+          "name": "Premium monthly 40GB",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",

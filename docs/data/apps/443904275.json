@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/de/2c/42de2cc1-eae9-f526-2e78-a562ac702634/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-13T21:18:10.898Z",
+  "fetchedAt": "2026-09-14T22:22:26.346Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,14 +161,6 @@
           "period": null
         },
         {
-          "name": "Monthly (Basic)",
-          "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "₺12,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "800 LINE Coin",
           "offerName": null,
           "price": 559.99,
@@ -177,10 +169,18 @@
           "period": null
         },
         {
-          "name": "Brown & Cony's Secret Date!",
+          "name": "Monthly (Basic)",
           "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
+          "price": 12.99,
+          "priceFormatted": "₺12,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         }
