@@ -2,8 +2,8 @@
   "appId": "479516143",
   "name": "Minecraft",
   "developer": "Mojang AB",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/03/e6/2c03e629-07bd-c7ce-2d6f-063efa16fd48/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-14T22:22:06.757Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8e/a2/24/8ea224f3-407c-62d2-571c-de75c6f0c84d/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-15T21:59:15.215Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -153,18 +153,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 3",
-          "offerName": null,
-          "price": 164.99,
-          "priceFormatted": "₺164,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Marketplace Pass Trial",
           "offerName": null,
           "price": 129.99,
           "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 164.99,
+          "priceFormatted": "₺164,99",
           "currency": "TRY",
           "period": null
         },
@@ -263,18 +263,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 3",
-          "offerName": null,
-          "price": 339,
-          "priceFormatted": "₹ 339",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 1",
           "offerName": null,
           "price": 119,
           "priceFormatted": "₹ 119",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 339,
+          "priceFormatted": "₹ 339",
           "currency": "INR",
           "period": null
         }

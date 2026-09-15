@@ -2,8 +2,8 @@
   "appId": "443904275",
   "name": "LINE",
   "developer": "LY Corporation",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/de/2c/42de2cc1-eae9-f526-2e78-a562ac702634/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-14T22:22:26.346Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/0c/71/a40c711d-8b10-647d-d787-735b6ad329ed/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-15T21:59:31.858Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "120 LINE Coin",
           "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
+          "price": 215,
+          "priceFormatted": "₹ 215",
           "currency": "INR",
           "period": null
         }
