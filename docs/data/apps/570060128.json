@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/7a/49/f57a49cc-3452-7c79-48e4-d80061159b5d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-15T21:58:59.112Z",
+  "fetchedAt": "2026-09-16T21:57:48.301Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -205,18 +205,18 @@
           "period": null
         },
         {
-          "name": "Cart of Gems (3000)",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo",
           "offerName": null,
           "price": 119.99,
           "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Cart of Gems (3000)",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
         },

@@ -3,76 +3,196 @@
   "name": "DeepSRT PRO",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b5/7b/7a/b57b7ae2-2c88-989f-1b6a-2dd354eb6193/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-15T21:59:28.531Z",
+  "fetchedAt": "2026-09-16T21:58:13.055Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
-      "inApps": [],
+      "inApps": [
+        {
+          "name": "永久",
+          "offerName": null,
+          "price": 2990,
+          "priceFormatted": "$2,990.00",
+          "currency": "TWD",
+          "period": "lifetime"
+        },
+        {
+          "name": "年付",
+          "offerName": null,
+          "price": 1990,
+          "priceFormatted": "$1,990.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "月付",
+          "offerName": null,
+          "price": 190,
+          "priceFormatted": "$190.00",
+          "currency": "TWD",
+          "period": "monthly"
+        }
+      ],
       "appPrice": {
         "price": 2990,
         "currency": "TWD",
         "priceFormatted": null
       },
-      "source": null,
-      "noIap": true,
+      "source": "server-data-pairs",
       "error": null
     },
     "tr": {
       "country": "tr",
       "currency": "TRY",
       "unavailable": false,
-      "inApps": [],
+      "inApps": [
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": "lifetime"
+        },
+        {
+          "name": "Yearly",
+          "offerName": null,
+          "price": 2999.99,
+          "priceFormatted": "₺2.999,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Monthly",
+          "offerName": null,
+          "price": 299.99,
+          "priceFormatted": "₺299,99",
+          "currency": "TRY",
+          "period": "monthly"
+        }
+      ],
       "appPrice": {
         "price": 4999.99,
         "currency": "TRY",
         "priceFormatted": null
       },
-      "source": null,
-      "noIap": true,
+      "source": "server-data-pairs",
       "error": null
     },
     "in": {
       "country": "in",
       "currency": "INR",
       "unavailable": false,
-      "inApps": [],
+      "inApps": [
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 9900,
+          "priceFormatted": "₹ 9,900",
+          "currency": "INR",
+          "period": "lifetime"
+        },
+        {
+          "name": "Yearly",
+          "offerName": null,
+          "price": 5900,
+          "priceFormatted": "₹ 5,900",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Monthly",
+          "offerName": null,
+          "price": 599,
+          "priceFormatted": "₹ 599",
+          "currency": "INR",
+          "period": "monthly"
+        }
+      ],
       "appPrice": {
         "price": 9900,
         "currency": "INR",
         "priceFormatted": null
       },
-      "source": null,
-      "noIap": true,
+      "source": "server-data-pairs",
       "error": null
     },
     "us": {
       "country": "us",
       "currency": "USD",
       "unavailable": false,
-      "inApps": [],
+      "inApps": [
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "$99.99",
+          "currency": "USD",
+          "period": "lifetime"
+        },
+        {
+          "name": "Yearly",
+          "offerName": null,
+          "price": 59.99,
+          "priceFormatted": "$59.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Monthly",
+          "offerName": null,
+          "price": 5.99,
+          "priceFormatted": "$5.99",
+          "currency": "USD",
+          "period": "monthly"
+        }
+      ],
       "appPrice": {
         "price": 99.99,
         "currency": "USD",
         "priceFormatted": null
       },
-      "source": null,
-      "noIap": true,
+      "source": "server-data-pairs",
       "error": null
     },
     "jp": {
       "country": "jp",
       "currency": "JPY",
       "unavailable": false,
-      "inApps": [],
+      "inApps": [
+        {
+          "name": "買い切り",
+          "offerName": null,
+          "price": 15000,
+          "priceFormatted": "¥15,000",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "年額",
+          "offerName": null,
+          "price": 10000,
+          "priceFormatted": "¥10,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "月額",
+          "offerName": null,
+          "price": 1000,
+          "priceFormatted": "¥1,000",
+          "currency": "JPY",
+          "period": "monthly"
+        }
+      ],
       "appPrice": {
         "price": 15000,
         "currency": "JPY",
         "priceFormatted": null
       },
-      "source": null,
-      "noIap": true,
+      "source": "server-data-pairs",
       "error": null
     }
   }

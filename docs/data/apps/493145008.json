@@ -2,8 +2,8 @@
   "appId": "493145008",
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4f/80/65/4f8065c1-6822-7160-55c5-99d03d24624f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-15T22:00:37.269Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/f5/a7/96f5a77b-d1db-caae-b2fb-837388045cc0/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-16T21:59:16.834Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -121,18 +121,18 @@
           "period": "monthly"
         },
         {
-          "name": "Headspace Plus",
-          "offerName": null,
-          "price": 244.99,
-          "priceFormatted": "₺244,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Headspace",
           "offerName": null,
           "price": 249.99,
           "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 244.99,
+          "priceFormatted": "₺244,99",
           "currency": "TRY",
           "period": null
         }
@@ -339,20 +339,20 @@
           "period": null
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 7800,
-          "priceFormatted": "¥7,800",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Headspace",
           "offerName": null,
           "price": 11400,
           "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 7800,
+          "priceFormatted": "¥7,800",
+          "currency": "JPY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
