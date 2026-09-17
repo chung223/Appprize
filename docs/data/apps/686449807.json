@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-16T21:58:33.930Z",
+  "fetchedAt": "2026-09-17T21:59:52.727Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,20 +27,20 @@
           "period": null
         },
         {
-          "name": "100 Telegram Stars",
-          "offerName": null,
-          "price": 75,
-          "priceFormatted": "$75.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Telegram Premium Annual",
           "offerName": null,
           "price": 1290,
           "priceFormatted": "$1,290.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "100 Telegram Stars",
+          "offerName": null,
+          "price": 75,
+          "priceFormatted": "$75.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "250 Telegram Stars",
@@ -309,14 +309,6 @@
           "period": null
         },
         {
-          "name": "500 Telegram Stars",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 1.19,
@@ -325,10 +317,10 @@
           "period": "weekly"
         },
         {
-          "name": "750 Telegram Stars",
+          "name": "500 Telegram Stars",
           "offerName": null,
-          "price": 14.99,
-          "priceFormatted": "$14.99",
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
         },
@@ -337,6 +329,14 @@
           "offerName": null,
           "price": 5.09,
           "priceFormatted": "$5.09",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "750 Telegram Stars",
+          "offerName": null,
+          "price": 14.99,
+          "priceFormatted": "$14.99",
           "currency": "USD",
           "period": null
         },

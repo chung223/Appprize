@@ -1,9 +1,9 @@
 {
   "appId": "878783582",
-  "name": "Lightroom: AI Photo Editor",
-  "developer": "Adobe Inc.",
+  "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
+  "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/fc/e5/5dfce527-3a2f-d587-d7b4-2457f45ad7af/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-16T21:58:49.828Z",
+  "fetchedAt": "2026-09-17T22:00:07.648Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -89,8 +89,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -154,20 +153,20 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
-          "offerName": null,
-          "price": 214.99,
-          "priceFormatted": "₺214,99",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
           "name": "Premium weekly 40GB",
           "offerName": null,
           "price": 39.99,
           "priceFormatted": "₺39,99",
           "currency": "TRY",
           "period": "weekly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 214.99,
+          "priceFormatted": "₺214,99",
+          "currency": "TRY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -176,8 +175,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -271,8 +269,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",

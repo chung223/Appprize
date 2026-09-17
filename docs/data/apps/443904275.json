@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/0c/71/a40c711d-8b10-647d-d787-735b6ad329ed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-16T21:58:16.243Z",
+  "fetchedAt": "2026-09-17T21:59:28.690Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,10 +177,10 @@
           "period": null
         },
         {
-          "name": "Brown & Cony's Secret Date!",
+          "name": "スタンダード",
           "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         }
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "120 LINE Coin",
+          "name": "1600 LINE Coin",
           "offerName": null,
-          "price": 215,
-          "priceFormatted": "₹ 215",
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
           "currency": "INR",
           "period": null
         }
@@ -445,16 +445,16 @@
         {
           "name": "70 LINE Coin",
           "offerName": null,
-          "price": 210,
-          "priceFormatted": "¥210",
+          "price": 160,
+          "priceFormatted": "¥160",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "70 LINE Coin",
           "offerName": null,
-          "price": 160,
-          "priceFormatted": "¥160",
+          "price": 210,
+          "priceFormatted": "¥210",
           "currency": "JPY",
           "period": null
         }

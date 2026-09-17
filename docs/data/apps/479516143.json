@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/02/6c/e2026c8c-6d1c-8ffd-2cbf-aea95fc0c980/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-16T21:58:01.418Z",
+  "fetchedAt": "2026-09-17T21:59:09.461Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 35,
+          "priceFormatted": "$35.00",
           "currency": "TWD",
           "period": null
         }
@@ -145,18 +145,18 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 219,
           "priceFormatted": "₺219,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         },
@@ -263,18 +263,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 1",
-          "offerName": null,
-          "price": 119,
-          "priceFormatted": "₹ 119",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 3",
           "offerName": null,
           "price": 339,
           "priceFormatted": "₹ 339",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 1",
+          "offerName": null,
+          "price": 119,
+          "priceFormatted": "₹ 119",
           "currency": "INR",
           "period": null
         }
