@@ -3,7 +3,7 @@
   "name": "Netflix",
   "developer": "Netflix, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/ed/5d/33ed5d82-b5d7-95e3-bd09-3fa6a7cd4c96/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-17T21:59:03.551Z",
+  "fetchedAt": "2026-09-18T21:30:41.271Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -159,14 +159,6 @@
           "period": null
         },
         {
-          "name": "Netflix 4 Screens - Unlimited Streaming",
-          "offerName": null,
-          "price": 649,
-          "priceFormatted": "₹ 649",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Netflix 2 Screens - Unlimited Streaming",
           "offerName": null,
           "price": 499,
@@ -175,18 +167,18 @@
           "period": null
         },
         {
-          "name": "Netflix 1 Screen - Unlimited Streaming",
+          "name": "Netflix 4 Screens - Unlimited Streaming",
           "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
+          "price": 649,
+          "priceFormatted": "₹ 649",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Netflix 2S Streaming",
+          "name": "Netflix 1 Screen - Unlimited Streaming",
           "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
+          "price": 199,
+          "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": null
         }

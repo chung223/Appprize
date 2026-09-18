@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c8/77/62/c87762e3-be2a-bc2d-4085-3f9bc8df1209/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-17T21:59:57.544Z",
+  "fetchedAt": "2026-09-18T21:31:37.965Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -112,28 +112,12 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Nitro Monthly",
+          "name": "Nitro Basic (1 Year)",
           "offerName": null,
-          "price": 889,
-          "priceFormatted": "₹ 889",
+          "price": 2999,
+          "priceFormatted": "₹ 2,999",
           "currency": "INR",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro Basic Monthly",
-          "offerName": null,
-          "price": 289,
-          "priceFormatted": "₹ 289",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro (1 Month)",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": "monthly"
+          "period": "yearly"
         },
         {
           "name": "Nitro Basic (1 Month)",
@@ -144,18 +128,26 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro Classic (1 Month)",
+          "name": "Nitro Basic Yearly",
           "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
+          "price": 2899,
+          "priceFormatted": "₹ 2,899",
+          "currency": "INR",
+          "period": "yearly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 289,
+          "priceFormatted": "₹ 289",
           "currency": "INR",
           "period": "monthly"
         },
         {
-          "name": "Nitro Classic Monthly",
+          "name": "2 Server Boosts Monthly",
           "offerName": null,
-          "price": 449,
-          "priceFormatted": "₹ 449",
+          "price": 889,
+          "priceFormatted": "₹ 889",
           "currency": "INR",
           "period": "monthly"
         },
@@ -168,26 +160,34 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 1 Boost (Monthly)",
+          "name": "Nitro Classic + 1 Boost",
           "offerName": null,
-          "price": 1199,
-          "priceFormatted": "₹ 1,199",
+          "price": 7500,
+          "priceFormatted": "₹ 7,500",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Nitro Classic + 1 Boost",
+          "offerName": null,
+          "price": 769,
+          "priceFormatted": "₹ 769",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Nitro + 28 Boosts (Monthly)",
+          "offerName": null,
+          "price": 9700,
+          "priceFormatted": "₹ 9,700",
           "currency": "INR",
           "period": "monthly"
         },
         {
-          "name": "Nitro Yearly",
+          "name": "Nitro + 13 Boosts (Monthly)",
           "offerName": null,
-          "price": 8900,
-          "priceFormatted": "₹ 8,900",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
-          "name": "Nitro + 2 Boosts (Monthly)",
-          "offerName": null,
-          "price": 1499,
-          "priceFormatted": "₹ 1,499",
+          "price": 4899,
+          "priceFormatted": "₹ 4,899",
           "currency": "INR",
           "period": "monthly"
         }

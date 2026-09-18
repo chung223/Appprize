@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/0c/71/a40c711d-8b10-647d-d787-735b6ad329ed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-17T21:59:28.690Z",
+  "fetchedAt": "2026-09-18T21:31:07.841Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,10 +177,10 @@
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "70 LINE Coin",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 61.99,
+          "priceFormatted": "₺61,99",
           "currency": "TRY",
           "period": null
         }
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "120 LINE Coin",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 215,
+          "priceFormatted": "₹ 215",
           "currency": "INR",
           "period": null
         }
@@ -349,20 +349,20 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Brown & Cony's Secret Date!",
           "offerName": null,
           "price": 1.99,
           "priceFormatted": "$1.99",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -395,18 +395,18 @@
           "period": null
         },
         {
-          "name": "スタンダード",
-          "offerName": null,
-          "price": 650,
-          "priceFormatted": "¥650",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "150 LINE Coin",
           "offerName": null,
           "price": 450,
           "priceFormatted": "¥450",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 650,
+          "priceFormatted": "¥650",
           "currency": "JPY",
           "period": null
         },

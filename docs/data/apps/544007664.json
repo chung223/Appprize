@@ -2,8 +2,8 @@
   "appId": "544007664",
   "name": "YouTube",
   "developer": "Google LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/24/8c/12248ce0-8581-3b91-429e-6c66b6dbeb33/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-17T21:58:38.432Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/08/6d/d8086d45-3b42-26da-d020-6fae0fe6b02e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-18T21:30:19.154Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -237,10 +237,10 @@
           "period": null
         },
         {
-          "name": "Premium Lite",
+          "name": "Movies & Shows",
           "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
+          "price": 5.99,
+          "priceFormatted": "$5.99",
           "currency": "USD",
           "period": null
         }
