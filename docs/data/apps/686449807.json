@@ -3,13 +3,21 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-18T21:31:32.728Z",
+  "fetchedAt": "2026-09-19T21:22:25.194Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
       "inApps": [
+        {
+          "name": "1x Telegram Premium (Three Days)",
+          "offerName": null,
+          "price": 10,
+          "priceFormatted": "$10.00",
+          "currency": "TWD",
+          "period": null
+        },
         {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
@@ -19,42 +27,50 @@
           "period": "weekly"
         },
         {
-          "name": "Telegram Premium",
+          "name": "35000 Telegram Stars",
           "offerName": null,
-          "price": 160,
-          "priceFormatted": "$160.00",
+          "price": 25000,
+          "priceFormatted": "$25,000.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Telegram Premium Annual",
+          "name": "25000 Telegram Stars",
           "offerName": null,
-          "price": 1290,
-          "priceFormatted": "$1,290.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
-          "name": "100 Telegram Stars",
-          "offerName": null,
-          "price": 75,
-          "priceFormatted": "$75.00",
+          "price": 17750,
+          "priceFormatted": "$17,750.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "250 Telegram Stars",
+          "name": "5000 Telegram Stars",
           "offerName": null,
-          "price": 180,
-          "priceFormatted": "$180.00",
+          "price": 3550,
+          "priceFormatted": "$3,550.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "500 Telegram Stars",
+          "name": "10000 Telegram Stars",
           "offerName": null,
-          "price": 355,
-          "priceFormatted": "$355.00",
+          "price": 7100,
+          "priceFormatted": "$7,100.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "1500 Telegram Stars",
+          "offerName": null,
+          "price": 1070,
+          "priceFormatted": "$1,070.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "2500 Telegram Stars",
+          "offerName": null,
+          "price": 1770,
+          "priceFormatted": "$1,770.00",
           "currency": "TWD",
           "period": null
         },
@@ -67,26 +83,10 @@
           "period": null
         },
         {
-          "name": "1x Premium (3 Months)",
-          "offerName": null,
-          "price": 490,
-          "priceFormatted": "$490.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "750 Telegram Stars",
           "offerName": null,
           "price": 530,
           "priceFormatted": "$530.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "150 Telegram Stars",
-          "offerName": null,
-          "price": 110,
-          "priceFormatted": "$110.00",
           "currency": "TWD",
           "period": null
         }

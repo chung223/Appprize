@@ -2,8 +2,8 @@
   "appId": "447188370",
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/06/1e/f9061e31-24cf-5756-a6f0-58070310bc6f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-18T21:32:19.466Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/33/1b/67331b88-25e3-91c4-b4a3-97d66ea68bce/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-19T21:23:07.415Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,20 +35,20 @@
           "period": null
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Snapstreak Restore",
@@ -67,18 +67,18 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 80,
-          "priceFormatted": "$80.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Memories Storage",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 80,
+          "priceFormatted": "$80.00",
           "currency": "TWD",
           "period": null
         }
@@ -201,16 +201,16 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 9,
-          "priceFormatted": "₹ 9",
+          "price": 29,
+          "priceFormatted": "₹ 29",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 29,
-          "priceFormatted": "₹ 29",
+          "price": 9,
+          "priceFormatted": "₹ 9",
           "currency": "INR",
           "period": null
         },
@@ -231,20 +231,20 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 69,
-          "priceFormatted": "₹ 69",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Snapchat+ (Annual Plan)",
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 69,
+          "priceFormatted": "₹ 69",
+          "currency": "INR",
+          "period": null
         }
       ],
       "appPrice": {
@@ -371,10 +371,10 @@
           "period": null
         },
         {
-          "name": "Memories Storage",
+          "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 300,
-          "priceFormatted": "¥300",
+          "price": 400,
+          "priceFormatted": "¥400",
           "currency": "JPY",
           "period": null
         }

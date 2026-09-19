@@ -2,8 +2,8 @@
   "appId": "333903271",
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/0b/dc/9d0bdc4c-694b-ed5d-e909-153b52ea44b5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-18T21:31:44.139Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/f2/71/4af271f5-13b4-0ecf-079c-3e3c20d33acf/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-19T21:22:35.033Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "@WholeMarsBlog Subscription",
+          "name": "@SawyerMerritt Subscription",
           "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }

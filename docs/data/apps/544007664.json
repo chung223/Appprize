@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/08/6d/d8086d45-3b42-26da-d020-6fae0fe6b02e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-18T21:30:19.154Z",
+  "fetchedAt": "2026-09-19T21:21:08.475Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -237,10 +237,10 @@
           "period": null
         },
         {
-          "name": "Movies & Shows",
+          "name": "Premium Lite",
           "offerName": null,
-          "price": 5.99,
-          "priceFormatted": "$5.99",
+          "price": 11.99,
+          "priceFormatted": "$11.99",
           "currency": "USD",
           "period": null
         }

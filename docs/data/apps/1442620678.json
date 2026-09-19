@@ -3,7 +3,7 @@
   "name": "Surge 5",
   "developer": "Surge Networks Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8b/bc/ea/8bbcea01-b0c5-1758-846f-214be26a3db8/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-18T21:30:57.895Z",
+  "fetchedAt": "2026-09-19T21:21:52.225Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,18 +11,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Surge Pro",
-          "offerName": null,
-          "price": 1490,
-          "priceFormatted": "$1,490.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Feature Subscription",
           "offerName": null,
           "price": 490,
           "priceFormatted": "$490.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Surge Pro",
+          "offerName": null,
+          "price": 1490,
+          "priceFormatted": "$1,490.00",
           "currency": "TWD",
           "period": null
         }
