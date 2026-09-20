@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/7a/49/f57a49cc-3452-7c79-48e4-d80061159b5d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-19T21:21:20.595Z",
+  "fetchedAt": "2026-09-20T21:17:39.221Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -109,6 +109,14 @@
           "offerName": null,
           "price": 1199.99,
           "priceFormatted": "₺1.199,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 1439.99,
+          "priceFormatted": "₺1.439,99",
           "currency": "TRY",
           "period": null
         }

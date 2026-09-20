@@ -318,6 +318,51 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-20",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "canva pro 月繳#0": 340,
+            "canva pro 月繳#1": 450,
+            "canva 商用版 月繳#0": 630,
+            "canva pro 年約方案#0": 3190,
+            "canva pro 年約方案#1": 3200,
+            "canva pro 年約方案#2": 3600,
+            "canva credit#0": 60,
+            "canva 商用版 年繳#0": 6300,
+            "canva 團隊版 月繳#0": 780
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "canva pro monthly#0": 99.99,
+            "canva pro monthly#1": 239.99,
+            "canva business monthly#0": 339.99,
+            "canva pro yearly#0": 849.99,
+            "canva pro yearly#1": 1919.99,
+            "canva teams monthly#0": 239.99,
+            "canva business yearly#0": 3399.99,
+            "canva credit#0": 99.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "canva pro monthly#0": 499,
+            "canva pro monthly#1": 500,
+            "canva business monthly#0": 650,
+            "canva business monthly#1": 679,
+            "canva pro yearly#0": 3999,
+            "canva pro yearly#1": 4000,
+            "canva credit#0": 199,
+            "canva business yearly#0": 6800
+          }
+        }
+      }
     }
   ],
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯"

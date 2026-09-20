@@ -2,8 +2,8 @@
   "appId": "547702041",
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/a5/02/67a502d5-faaf-78c7-b208-ac8efdb0818c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-19T21:22:19.407Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/de/5e/6e/de5e6e94-6058-5fc6-800d-19bd25854724/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-20T21:18:27.785Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -373,16 +373,16 @@
         {
           "name": "Tinder Gold",
           "offerName": null,
-          "price": 2500,
-          "priceFormatted": "¥2,500",
+          "price": 2480,
+          "priceFormatted": "¥2,480",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Tinder Gold",
           "offerName": null,
-          "price": 2480,
-          "priceFormatted": "¥2,480",
+          "price": 2500,
+          "priceFormatted": "¥2,500",
           "currency": "JPY",
           "period": null
         }

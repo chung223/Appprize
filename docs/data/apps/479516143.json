@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/02/6c/e2026c8c-6d1c-8ffd-2cbf-aea95fc0c980/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-19T21:21:39.640Z",
+  "fetchedAt": "2026-09-20T21:17:54.903Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -153,10 +153,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Store Item 10",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
         },
@@ -169,10 +169,10 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
+          "name": "Marketplace Pass Trial",
           "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         },
@@ -255,18 +255,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 5",
-          "offerName": null,
-          "price": 569,
-          "priceFormatted": "₹ 569",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 449,
           "priceFormatted": "₹ 449",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₹ 569",
           "currency": "INR",
           "period": null
         },
@@ -435,18 +435,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 4",
-          "offerName": null,
-          "price": 660,
-          "priceFormatted": "¥660",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 10",
           "offerName": null,
           "price": 1650,
           "priceFormatted": "¥1,650",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 660,
+          "priceFormatted": "¥660",
           "currency": "JPY",
           "period": null
         },

@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/33/1b/67331b88-25e3-91c4-b4a3-97d66ea68bce/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-19T21:23:07.415Z",
+  "fetchedAt": "2026-09-20T21:19:10.400Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,14 +35,6 @@
           "period": null
         },
         {
-          "name": "Lens+",
-          "offerName": null,
-          "price": 270,
-          "priceFormatted": "$270.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 120,
@@ -51,7 +43,23 @@
           "period": "monthly"
         },
         {
+          "name": "Lens+",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Memories Storage",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
@@ -63,14 +71,6 @@
           "offerName": null,
           "price": 210,
           "priceFormatted": "$210.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Memories Storage",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         },
@@ -151,6 +151,14 @@
           "priceFormatted": "₺699,99",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "Bitmoji Fashion",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
+          "currency": "TRY",
+          "period": null
         }
       ],
       "appPrice": {
@@ -239,10 +247,10 @@
           "period": "yearly"
         },
         {
-          "name": "Snapstreak Restore",
+          "name": "Lens+",
           "offerName": null,
-          "price": 69,
-          "priceFormatted": "₹ 69",
+          "price": 299,
+          "priceFormatted": "₹ 299",
           "currency": "INR",
           "period": null
         }

@@ -90,6 +90,51 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-20",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "永久#0": 2990,
+            "年付#0": 1990,
+            "月付#0": 190
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "lifetime#0": 4999.99,
+            "yearly#0": 2999.99,
+            "monthly#0": 299.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "lifetime#0": 9900,
+            "yearly#0": 5900,
+            "monthly#0": 599
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "lifetime#0": 99.99,
+            "yearly#0": 59.99,
+            "monthly#0": 5.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "買い切り#0": 15000,
+            "年額#0": 10000,
+            "月額#0": 1000
+          }
+        }
+      }
     }
   ],
   "name": "DeepSRT PRO"
