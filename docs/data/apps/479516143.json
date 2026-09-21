@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/02/6c/e2026c8c-6d1c-8ffd-2cbf-aea95fc0c980/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-20T21:17:54.903Z",
+  "fetchedAt": "2026-09-21T22:31:16.778Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,18 +11,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Realms Plus:10 Friends w/trial",
-          "offerName": null,
-          "price": 240,
-          "priceFormatted": "$240.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 2",
           "offerName": null,
           "price": 70,
           "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 240,
+          "priceFormatted": "$240.00",
           "currency": "TWD",
           "period": null
         },
@@ -153,18 +153,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 3",
           "offerName": null,
           "price": 164.99,
           "priceFormatted": "₺164,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
         },
@@ -239,18 +239,18 @@
           "period": null
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
-          "offerName": null,
-          "price": 489,
-          "priceFormatted": "₹ 489",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Marketplace Pass Trial",
           "offerName": null,
           "price": 399,
           "priceFormatted": "₹ 399",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 489,
+          "priceFormatted": "₹ 489",
           "currency": "INR",
           "period": null
         },

@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/4b/01/294b0105-bf40-298e-e7bf-3a72826bccdf/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-20T21:17:44.935Z",
+  "fetchedAt": "2026-09-21T22:31:05.481Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -45,24 +45,24 @@
         {
           "name": "Usage Credits (250)",
           "offerName": null,
-          "price": 9990,
-          "priceFormatted": "$9,990.00",
+          "price": 6990,
+          "priceFormatted": "$6,990.00",
           "currency": "TWD",
           "period": null
         },
         {
           "name": "Usage Credits (50)",
           "offerName": null,
-          "price": 1990,
-          "priceFormatted": "$1,990.00",
+          "price": 1490,
+          "priceFormatted": "$1,490.00",
           "currency": "TWD",
           "period": null
         },
         {
           "name": "Usage Credits (20)",
           "offerName": null,
-          "price": 990,
-          "priceFormatted": "$990.00",
+          "price": 690,
+          "priceFormatted": "$690.00",
           "currency": "TWD",
           "period": null
         }
@@ -115,24 +115,24 @@
         {
           "name": "Usage Credits (250)",
           "offerName": null,
-          "price": 14999.99,
-          "priceFormatted": "₺14.999,99",
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Usage Credits (50)",
           "offerName": null,
-          "price": 3499.99,
-          "priceFormatted": "₺3.499,99",
+          "price": 2499.99,
+          "priceFormatted": "₺2.499,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Usage Credits (20)",
           "offerName": null,
-          "price": 1499.99,
-          "priceFormatted": "₺1.499,99",
+          "price": 999.99,
+          "priceFormatted": "₺999,99",
           "currency": "TRY",
           "period": null
         }
@@ -185,24 +185,24 @@
         {
           "name": "Usage Credits (250)",
           "offerName": null,
-          "price": 29900,
-          "priceFormatted": "₹ 29,900",
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Usage Credits (50)",
           "offerName": null,
-          "price": 5900,
-          "priceFormatted": "₹ 5,900",
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Usage Credits (20)",
           "offerName": null,
-          "price": 2999,
-          "priceFormatted": "₹ 2,999",
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
           "currency": "INR",
           "period": null
         }
@@ -255,24 +255,24 @@
         {
           "name": "Usage Credits (20)",
           "offerName": null,
-          "price": 28,
-          "priceFormatted": "$28.00",
+          "price": 20,
+          "priceFormatted": "$20.00",
           "currency": "USD",
           "period": null
         },
         {
           "name": "Usage Credits (250)",
           "offerName": null,
-          "price": 279,
-          "priceFormatted": "$279.00",
+          "price": 200,
+          "priceFormatted": "$200.00",
           "currency": "USD",
           "period": null
         },
         {
           "name": "Usage Credits (50)",
           "offerName": null,
-          "price": 63,
-          "priceFormatted": "$63.00",
+          "price": 45,
+          "priceFormatted": "$45.00",
           "currency": "USD",
           "period": null
         }

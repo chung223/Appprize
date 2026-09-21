@@ -3,7 +3,7 @@
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/fe/d1/f8fed142-789b-1a16-49be-550bccdb2b58/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-20T21:19:27.877Z",
+  "fetchedAt": "2026-09-21T22:32:42.942Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -191,7 +191,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",
