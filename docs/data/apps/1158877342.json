@@ -2,8 +2,8 @@
   "appId": "1158877342",
   "name": "Grammarly: AI Keyboard & Voice",
   "developer": "Superhuman Platform Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/86/31/47863104-5ea7-5ec1-ce2d-a81ec8ea9ea3/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:32:34.797Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/48/6a/6b486ab3-187f-7f7e-109c-253d7b827fcb/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-22T21:54:59.686Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -235,8 +235,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",

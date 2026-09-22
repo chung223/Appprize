@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/0c/71/a40c711d-8b10-647d-d787-735b6ad329ed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:31:33.256Z",
+  "fetchedAt": "2026-09-22T21:53:44.099Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,82 +11,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "50 LINE Coin",
+          "name": "130 LINE Coin",
           "offerName": null,
-          "price": 35,
-          "priceFormatted": "$35.00",
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "100 LINE Coin",
+          "name": "120 LINE Coin",
           "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
+          "price": 85,
+          "priceFormatted": "$85.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "月租方案",
+          "name": "ライト（エンジョイパック）",
           "offerName": null,
-          "price": 165,
-          "priceFormatted": "$165.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
-          "name": "500 LINE Coin",
-          "offerName": null,
-          "price": 280,
-          "priceFormatted": "$280.00",
+          "price": 60,
+          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "150 LINE Coin",
+          "name": "with Netflix プレミアム",
           "offerName": null,
-          "price": 105,
-          "priceFormatted": "$105.00",
+          "price": 490,
+          "priceFormatted": "$490.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "200 LINE Coin",
+          "name": "with Netflix スタンダード",
           "offerName": null,
-          "price": 140,
-          "priceFormatted": "$140.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "800 LINE Coin",
+          "name": "with Netflix 広告つきスタンダード",
           "offerName": null,
-          "price": 420,
-          "priceFormatted": "$420.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "月租方案（進階型）LINE 10.21.0+",
+          "name": "LINE應用程式內購買",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 49,
-          "priceFormatted": "$49.00",
+          "price": 9550,
+          "priceFormatted": "$9,550.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "學生方案（進階型）LINE 10.21.0+",
+          "name": "LINE應用程式內購買",
           "offerName": null,
-          "price": 100,
-          "priceFormatted": "$100.00",
+          "price": 9500,
+          "priceFormatted": "$9,500.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "LINE應用程式內購買",
+          "offerName": null,
+          "price": 9890,
+          "priceFormatted": "$9,890.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "LINE應用程式內購買",
+          "offerName": null,
+          "price": 9880,
+          "priceFormatted": "$9,880.00",
           "currency": "TWD",
           "period": null
         }
@@ -129,18 +129,18 @@
           "period": null
         },
         {
-          "name": "150 LINE Coin",
-          "offerName": null,
-          "price": 139.99,
-          "priceFormatted": "₺139,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "500 LINE Coin",
           "offerName": null,
           "price": 359.99,
           "priceFormatted": "₺359,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "₺139,99",
           "currency": "TRY",
           "period": null
         },
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "120 LINE Coin",
+          "name": "スタンダード",
           "offerName": null,
-          "price": 215,
-          "priceFormatted": "₹ 215",
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         }

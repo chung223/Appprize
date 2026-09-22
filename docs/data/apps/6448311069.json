@@ -3,7 +3,7 @@
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7a/21/af/7a21af26-1291-5308-1880-6eb13a6b69bf/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:30:43.721Z",
+  "fetchedAt": "2026-09-22T21:52:46.466Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,7 +35,7 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 20x",
+          "name": "ChatGPT Plus",
           "offerName": null,
           "price": 6990,
           "priceFormatted": "$6,990.00",
@@ -43,7 +43,7 @@
           "period": null
         },
         {
-          "name": "ChatGPT Plus",
+          "name": "ChatGPT Pro 20x",
           "offerName": null,
           "price": 6990,
           "priceFormatted": "$6,990.00",

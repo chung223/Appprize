@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/67/33/1b/67331b88-25e3-91c4-b4a3-97d66ea68bce/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:32:29.375Z",
+  "fetchedAt": "2026-09-22T21:54:52.847Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,20 +145,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ Annual Plan",
-          "offerName": null,
-          "price": 699.99,
-          "priceFormatted": "₺699,99",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
           "name": "Bitmoji Fashion",
           "offerName": null,
           "price": 79.99,
           "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Annual Plan",
+          "offerName": null,
+          "price": 699.99,
+          "priceFormatted": "₺699,99",
+          "currency": "TRY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -347,20 +347,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 450,
-          "priceFormatted": "¥450",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 160,
           "priceFormatted": "¥160",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 450,
+          "priceFormatted": "¥450",
+          "currency": "JPY",
+          "period": "monthly"
         },
         {
           "name": "Snapstreak Restore",

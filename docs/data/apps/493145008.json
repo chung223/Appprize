@@ -3,7 +3,7 @@
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1b/69/9f/1b699fab-7001-cb34-80a0-42c683bdb97d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:32:38.976Z",
+  "fetchedAt": "2026-09-22T21:55:05.342Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -121,18 +121,18 @@
           "period": "monthly"
         },
         {
-          "name": "Headspace",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Headspace Plus",
           "offerName": null,
           "price": 244.99,
           "priceFormatted": "₺244,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
           "currency": "TRY",
           "period": null
         }
@@ -143,8 +143,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",

@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/77/97/f27797f2-3d6d-b0e1-ff89-4c188d19f87b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:31:56.879Z",
+  "fetchedAt": "2026-09-22T21:54:13.822Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -59,20 +59,20 @@
           "period": "monthly"
         },
         {
-          "name": "1 Server Boost Monthly",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Yearly",
           "offerName": null,
           "price": 3090,
           "priceFormatted": "$3,090.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Nitro + 2 Boosts (Monthly)",
@@ -206,44 +206,12 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Nitro Monthly",
+          "name": "Nitro Basic (1 Year)",
           "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
+          "price": 29.99,
+          "priceFormatted": "$29.99",
           "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro (1 Month)",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro Basic Monthly",
-          "offerName": null,
-          "price": 2.99,
-          "priceFormatted": "$2.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro Classic (1 Month)",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro Classic Monthly",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": "monthly"
+          "period": "yearly"
         },
         {
           "name": "Nitro Basic (1 Month)",
@@ -254,18 +222,26 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 1 Boost (Monthly)",
+          "name": "Nitro Basic Yearly",
           "offerName": null,
-          "price": 13.49,
-          "priceFormatted": "$13.49",
+          "price": 29.99,
+          "priceFormatted": "$29.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Nitro Basic Monthly",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
           "currency": "USD",
           "period": "monthly"
         },
         {
-          "name": "Nitro + 2 Boosts (Monthly)",
+          "name": "2 Server Boosts Monthly",
           "offerName": null,
-          "price": 16.99,
-          "priceFormatted": "$16.99",
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": "monthly"
         },
@@ -278,12 +254,36 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro Yearly",
+          "name": "Nitro Classic + 1 Boost",
           "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "$99.99",
+          "price": 84.99,
+          "priceFormatted": "$84.99",
           "currency": "USD",
-          "period": "yearly"
+          "period": null
+        },
+        {
+          "name": "Nitro Classic + 1 Boost",
+          "offerName": null,
+          "price": 8.49,
+          "priceFormatted": "$8.49",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Nitro + 28 Boosts (Monthly)",
+          "offerName": null,
+          "price": 107.99,
+          "priceFormatted": "$107.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Nitro + 13 Boosts (Monthly)",
+          "offerName": null,
+          "price": 54.99,
+          "priceFormatted": "$54.99",
+          "currency": "USD",
+          "period": "monthly"
         }
       ],
       "appPrice": {

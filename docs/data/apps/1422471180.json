@@ -2,8 +2,8 @@
   "appId": "1422471180",
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f8/fe/d1/f8fed142-789b-1a16-49be-550bccdb2b58/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:32:42.942Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0a/08/cf/0a08cfdb-fe38-cb9d-c10f-47fb5b6390ef/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-22T21:55:11.717Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -191,8 +191,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",

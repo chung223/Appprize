@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f5/7a/49/f57a49cc-3452-7c79-48e4-d80061159b5d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-21T22:30:59.559Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/6c/71/a86c71dc-312b-2b1a-71a6-ce418272961e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-22T21:53:06.068Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -207,16 +207,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 83.99,
-          "priceFormatted": "$83.99",
+          "price": 119.99,
+          "priceFormatted": "$119.99",
           "currency": "USD",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
+          "price": 83.99,
+          "priceFormatted": "$83.99",
           "currency": "USD",
           "period": null
         },
