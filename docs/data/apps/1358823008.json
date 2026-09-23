@@ -3,7 +3,7 @@
   "name": "Flighty – Live Flight Tracker",
   "developer": "Flighty LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/d8/fe/56d8fece-cd1b-c37e-be76-c42aef180be0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-22T21:55:17.051Z",
+  "fetchedAt": "2026-09-23T22:09:12.016Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,20 +35,20 @@
           "period": "monthly"
         },
         {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 3990,
-          "priceFormatted": "$3,990.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
           "name": "Lifetime",
           "offerName": null,
           "price": 9990,
           "priceFormatted": "$9,990.00",
           "currency": "TWD",
           "period": "lifetime"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 3990,
+          "priceFormatted": "$3,990.00",
+          "currency": "TWD",
+          "period": "yearly"
         },
         {
           "name": "Lifetime (Family)",
