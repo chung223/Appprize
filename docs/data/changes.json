@@ -1,6 +1,66 @@
 {
   "events": [
     {
+      "cc": "tw",
+      "kind": "plan",
+      "name": "Snapstreak Restore",
+      "old": 80,
+      "new": 210,
+      "currency": "TWD",
+      "pct": 1.625,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-24"
+    },
+    {
+      "cc": "tw",
+      "kind": "plan",
+      "name": "Snapstreak Restore",
+      "old": 210,
+      "new": 290,
+      "currency": "TWD",
+      "pct": 0.38095238095238093,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-24"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "Snapstreak Restore",
+      "old": null,
+      "new": 79.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-24"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "Snapchat+ Annual Plan",
+      "old": 699.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-24"
+    },
+    {
+      "cc": "jp",
+      "kind": "removed-plan",
+      "name": "Memories Storage",
+      "old": 300,
+      "new": null,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-24"
+    },
+    {
       "cc": "in",
       "kind": "new-plan",
       "name": "Minecraft Store Item 3",
@@ -3539,67 +3599,7 @@
       "appId": "479516143",
       "appName": "Minecraft",
       "date": "2026-09-12"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "Marketplace Pass Trial",
-      "old": 120,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-09-12"
-    },
-    {
-      "cc": "tr",
-      "kind": "new-plan",
-      "name": "スタンダード",
-      "old": null,
-      "new": 129.99,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "443904275",
-      "appName": "LINE",
-      "date": "2026-09-12"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "Brown & Cony's Secret Date!",
-      "old": 99.99,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "443904275",
-      "appName": "LINE",
-      "date": "2026-09-12"
-    },
-    {
-      "cc": "tr",
-      "kind": "new-plan",
-      "name": "100 Telegram Stars",
-      "old": null,
-      "new": 99.99,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "686449807",
-      "appName": "Telegram Messenger",
-      "date": "2026-09-12"
-    },
-    {
-      "cc": "tr",
-      "kind": "new-plan",
-      "name": "Telegram Premium",
-      "old": null,
-      "new": 189.99,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "686449807",
-      "appName": "Telegram Messenger",
-      "date": "2026-09-12"
     }
   ],
-  "updatedAt": "2026-09-23T22:09:23.401Z"
+  "updatedAt": "2026-09-24T22:09:59.239Z"
 }

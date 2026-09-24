@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/53/ec/9653eccc-f3fb-e023-5abc-1fcde0a14748/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-23T22:07:42.793Z",
+  "fetchedAt": "2026-09-24T22:07:55.121Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -189,18 +189,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Barrel of Gems (1200)",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo",
           "offerName": null,
           "price": 9.99,
           "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Barrel of Gems (1200)",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
           "currency": "USD",
           "period": null
         },

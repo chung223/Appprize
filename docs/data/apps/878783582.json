@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/fc/e5/5dfce527-3a2f-d587-d7b4-2457f45ad7af/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-23T22:08:37.441Z",
+  "fetchedAt": "2026-09-24T22:09:01.586Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -175,7 +175,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",
@@ -269,7 +270,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "us": {
       "country": "us",

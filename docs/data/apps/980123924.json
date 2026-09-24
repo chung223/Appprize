@@ -3,7 +3,7 @@
   "name": "Rain Radar Live RainViewer",
   "developer": "MeteoLab Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8f/77/b9/8f77b935-3cc2-d317-8982-7f18f54c830e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-23T22:09:19.367Z",
+  "fetchedAt": "2026-09-24T22:09:54.881Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -19,20 +19,20 @@
           "period": "yearly"
         },
         {
-          "name": "12個月",
-          "offerName": null,
-          "price": 270,
-          "priceFormatted": "$270.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "RainViewer Premium: Yearly",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "12個月",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "RainViewer Premium: Monthly",
@@ -59,18 +59,18 @@
           "period": "yearly"
         },
         {
-          "name": "Rain Viewer Essential: 1 個月",
-          "offerName": null,
-          "price": 105,
-          "priceFormatted": "$105.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "RainViewer Premium: Monthly",
           "offerName": null,
           "price": 120,
           "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Rain Viewer Essential: 1 個月",
+          "offerName": null,
+          "price": 105,
+          "priceFormatted": "$105.00",
           "currency": "TWD",
           "period": "monthly"
         }
@@ -121,18 +121,18 @@
           "period": "yearly"
         },
         {
-          "name": "RainViewer Premium: Monthly",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₺99,00",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Rain Viewer Essential: 1 Month",
           "offerName": null,
           "price": 63.99,
           "priceFormatted": "₺63,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "RainViewer Premium: Monthly",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₺99,00",
           "currency": "TRY",
           "period": "monthly"
         },
@@ -207,6 +207,14 @@
           "period": "monthly"
         },
         {
+          "name": "RainViewer Pro: 1 Month",
+          "offerName": null,
+          "price": 220,
+          "priceFormatted": "₹ 220",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
           "name": "RainViewer Pro: 1 Year",
           "offerName": null,
           "price": 1109,
@@ -221,14 +229,6 @@
           "priceFormatted": "₹ 699",
           "currency": "INR",
           "period": "yearly"
-        },
-        {
-          "name": "RainViewer Pro: 1 Month",
-          "offerName": null,
-          "price": 220,
-          "priceFormatted": "₹ 220",
-          "currency": "INR",
-          "period": "monthly"
         },
         {
           "name": "12 Months",
@@ -379,14 +379,6 @@
           "period": "yearly"
         },
         {
-          "name": "Rain Viewer Essential: 1ヶ月",
-          "offerName": null,
-          "price": 440,
-          "priceFormatted": "¥440",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "RainViewer Premium: Monthly",
           "offerName": null,
           "price": 400,
@@ -395,10 +387,10 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Pro: 1ヶ月",
+          "name": "Rain Viewer Essential: 1ヶ月",
           "offerName": null,
-          "price": 710,
-          "priceFormatted": "¥710",
+          "price": 440,
+          "priceFormatted": "¥440",
           "currency": "JPY",
           "period": "monthly"
         },
@@ -409,6 +401,14 @@
           "priceFormatted": "¥1,590",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "RainViewer Pro: 1ヶ月",
+          "offerName": null,
+          "price": 710,
+          "priceFormatted": "¥710",
+          "currency": "JPY",
+          "period": "monthly"
         },
         {
           "name": "RainViewer Premium: Yearly",

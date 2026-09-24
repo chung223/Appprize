@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/73/2d/1d732d8d-5331-7078-d4ff-e802aa732a5c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-23T22:08:55.111Z",
+  "fetchedAt": "2026-09-24T22:09:24.354Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,20 +35,20 @@
           "period": null
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Snapstreak Restore",
@@ -77,8 +77,8 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 80,
-          "priceFormatted": "$80.00",
+          "price": 290,
+          "priceFormatted": "$290.00",
           "currency": "TWD",
           "period": null
         }
@@ -153,12 +153,12 @@
           "period": null
         },
         {
-          "name": "Snapchat+ Annual Plan",
+          "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 699.99,
-          "priceFormatted": "₺699,99",
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
           "currency": "TRY",
-          "period": "yearly"
+          "period": null
         }
       ],
       "appPrice": {
@@ -383,14 +383,6 @@
           "offerName": null,
           "price": 400,
           "priceFormatted": "¥400",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Memories Storage",
-          "offerName": null,
-          "price": 300,
-          "priceFormatted": "¥300",
           "currency": "JPY",
           "period": null
         }
