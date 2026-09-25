@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/fc/e5/5dfce527-3a2f-d587-d7b4-2457f45ad7af/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-24T22:09:01.586Z",
+  "fetchedAt": "2026-09-25T22:06:40.131Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,12 +161,12 @@
           "period": "yearly"
         },
         {
-          "name": "Premium weekly 40GB",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 39.99,
-          "priceFormatted": "₺39,99",
+          "price": 84.99,
+          "priceFormatted": "₺84,99",
           "currency": "TRY",
-          "period": "weekly"
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -175,8 +175,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -270,8 +269,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",

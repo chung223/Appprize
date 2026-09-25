@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/0c/71/a40c711d-8b10-647d-d787-735b6ad329ed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-24T22:08:27.842Z",
+  "fetchedAt": "2026-09-25T22:06:01.726Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "120 LINE Coin",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 215,
+          "priceFormatted": "₹ 215",
           "currency": "INR",
           "period": null
         }
@@ -333,18 +333,18 @@
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
-          "offerName": null,
-          "price": 22.99,
-          "priceFormatted": "$22.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 1.39,
           "priceFormatted": "$1.39",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1600 LINE Coin",
+          "offerName": null,
+          "price": 22.99,
+          "priceFormatted": "$22.99",
           "currency": "USD",
           "period": null
         },

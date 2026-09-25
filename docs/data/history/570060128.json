@@ -16,7 +16,8 @@
     "ジェムいっぱいのタル 1200#0": "ジェムいっぱいのタル (1200)",
     "ジェムの荷車 3000#0": "ジェムの荷車 (3000)",
     "ジェムの荷車 6500#0": "ジェムの荷車 (6500)",
-    "ジェムの宝箱#0": "ジェムの宝箱"
+    "ジェムの宝箱#0": "ジェムの宝箱",
+    "super lite#0": "Super Lite"
   },
   "entries": [
     {
@@ -747,6 +748,66 @@
             "super duolingo#2": 2650,
             "super duolingo#3": 3300,
             "super duolingo family plan#0": 3590
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 139.99,
+            "super duolingo#1": 329.99,
+            "super duolingo#2": 839.99,
+            "super duolingo#3": 969.99,
+            "super duolingo#4": 1209.99,
+            "super duolingo family plan#0": 1199.99,
+            "super duolingo family plan#1": 1439.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 199,
+            "super duolingo#1": 215,
+            "super duolingo#2": 1199,
+            "super duolingo#3": 1379,
+            "super duolingo#4": 1749
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 9.99,
+            "super duolingo#1": 12.99,
+            "super duolingo#2": 83.99,
+            "super duolingo#3": 95.99,
+            "super duolingo#4": 119.99,
+            "barrel of gems 1200#0": 4.99,
+            "cart of gems 3000#0": 9.99,
+            "cart of gems 6500#0": 19.99,
+            "chest of gems#0": 0.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "super duolingo#0": 9900,
+            "super duolingo#1": 11400,
+            "super duolingo#2": 14200,
+            "ジェムいっぱいのタル 1200#0": 800,
+            "ジェムの荷車 3000#0": 1500
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-09-25",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "super lite#0": 990,
+            "super duolingo family plan#0": 5000,
+            "super duolingo#0": 500,
+            "super duolingo#1": 3300
           }
         },
         "tr": {

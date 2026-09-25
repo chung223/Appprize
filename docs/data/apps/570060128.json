@@ -3,13 +3,29 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/53/ec/9653eccc-f3fb-e023-5abc-1fcde0a14748/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-24T22:07:55.121Z",
+  "fetchedAt": "2026-09-25T22:05:25.005Z",
   "countries": {
     "tw": {
       "country": "tw",
       "currency": "TWD",
       "unavailable": false,
       "inApps": [
+        {
+          "name": "Super Lite",
+          "offerName": null,
+          "price": 990,
+          "priceFormatted": "$990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 5000,
+          "priceFormatted": "$5,000.00",
+          "currency": "TWD",
+          "period": null
+        },
         {
           "name": "Super Duolingo",
           "offerName": null,
@@ -21,32 +37,8 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 2650,
-          "priceFormatted": "$2,650.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 1530,
-          "priceFormatted": "$1,530.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 1760,
-          "priceFormatted": "$1,760.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 3590,
-          "priceFormatted": "$3,590.00",
+          "price": 500,
+          "priceFormatted": "$500.00",
           "currency": "TWD",
           "period": null
         }
@@ -207,16 +199,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
+          "price": 83.99,
+          "priceFormatted": "$83.99",
           "currency": "USD",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 83.99,
-          "priceFormatted": "$83.99",
+          "price": 119.99,
+          "priceFormatted": "$119.99",
           "currency": "USD",
           "period": null
         },

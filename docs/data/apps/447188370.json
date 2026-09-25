@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/73/2d/1d732d8d-5331-7078-d4ff-e802aa732a5c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-24T22:09:24.354Z",
+  "fetchedAt": "2026-09-25T22:07:04.238Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,18 +27,18 @@
           "period": "monthly"
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 40,
-          "priceFormatted": "$40.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 40,
+          "priceFormatted": "$40.00",
           "currency": "TWD",
           "period": null
         },
@@ -383,6 +383,14 @@
           "offerName": null,
           "price": 400,
           "priceFormatted": "¥400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 1300,
+          "priceFormatted": "¥1,300",
           "currency": "JPY",
           "period": null
         }
