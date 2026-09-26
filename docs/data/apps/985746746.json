@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/77/97/f27797f2-3d6d-b0e1-ff89-4c188d19f87b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-25T22:06:30.140Z",
+  "fetchedAt": "2026-09-26T21:55:32.423Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 3 Boosts (Monthly)",
+          "name": "Nitro Classic (1 Month)",
           "offerName": null,
-          "price": 620,
-          "priceFormatted": "$620.00",
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": "monthly"
         }

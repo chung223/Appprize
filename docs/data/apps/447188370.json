@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/73/2d/1d732d8d-5331-7078-d4ff-e802aa732a5c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-25T22:07:04.238Z",
+  "fetchedAt": "2026-09-26T21:56:03.555Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -77,8 +77,8 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 290,
-          "priceFormatted": "$290.00",
+          "price": 80,
+          "priceFormatted": "$80.00",
           "currency": "TWD",
           "period": null
         }
@@ -167,7 +167,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",

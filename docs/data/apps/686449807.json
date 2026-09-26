@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-25T22:06:25.361Z",
+  "fetchedAt": "2026-09-26T21:55:27.837Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -169,20 +169,20 @@
           "period": null
         },
         {
-          "name": "Telegram Premium Annual",
-          "offerName": null,
-          "price": 1359.99,
-          "priceFormatted": "₺1.359,99",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
           "name": "750 Telegram Stars",
           "offerName": null,
           "price": 749,
           "priceFormatted": "₺749,00",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Telegram Premium Annual",
+          "offerName": null,
+          "price": 1359.99,
+          "priceFormatted": "₺1.359,99",
+          "currency": "TRY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
