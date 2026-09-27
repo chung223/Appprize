@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "cc": "jp",
+      "kind": "new-plan",
+      "name": "Lens+",
+      "old": null,
+      "new": 1280,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-27"
+    },
+    {
+      "cc": "jp",
+      "kind": "removed-plan",
+      "name": "Snapstreak Restore",
+      "old": 1300,
+      "new": null,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-09-27"
+    },
+    {
       "cc": "tw",
       "kind": "plan",
       "name": "Super Duolingo",
@@ -3575,31 +3599,7 @@
       "appId": "897446215",
       "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
       "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "Canva Pro - Yearly",
-      "old": null,
-      "new": 143.99,
-      "currency": "USD",
-      "pct": null,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "Canva Credit 2 Pack",
-      "old": null,
-      "new": 2.99,
-      "currency": "USD",
-      "pct": null,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
     }
   ],
-  "updatedAt": "2026-09-26T21:56:37.596Z"
+  "updatedAt": "2026-09-27T21:56:42.252Z"
 }
