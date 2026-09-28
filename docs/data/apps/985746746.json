@@ -2,8 +2,8 @@
   "appId": "985746746",
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f2/77/97/f27797f2-3d6d-b0e1-ff89-4c188d19f87b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-27T21:55:47.735Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/43/6f/3f436fa5-0358-07c1-e7b0-ba796f1f906a/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-28T23:47:20.969Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -59,20 +59,20 @@
           "period": "monthly"
         },
         {
-          "name": "1 Server Boost Monthly",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Yearly",
           "offerName": null,
           "price": 3090,
           "priceFormatted": "$3,090.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Nitro + 2 Boosts (Monthly)",
@@ -83,10 +83,10 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro Classic (1 Month)",
+          "name": "Nitro + 5 Boosts (Monthly)",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 840,
+          "priceFormatted": "$840.00",
           "currency": "TWD",
           "period": "monthly"
         }
@@ -104,7 +104,8 @@
       "currency": "TRY",
       "unavailable": true,
       "inApps": [],
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",
@@ -198,7 +199,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "us": {
       "country": "us",
@@ -386,7 +388,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }

@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/96/53/ec/9653eccc-f3fb-e023-5abc-1fcde0a14748/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-27T21:55:00.474Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/64/53/7064538e-5e02-6151-76cd-b55e3534073b/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-28T23:46:24.636Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -237,18 +237,18 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "$12.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Cart of Gems (6500)",
           "offerName": null,
           "price": 19.99,
           "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
           "currency": "USD",
           "period": null
         },

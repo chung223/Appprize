@@ -434,7 +434,26 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-28",
+      "c": {
+        "us": {
+          "app": null,
+          "plans": {
+            "canva pro monthly#0": 14.99,
+            "canva pro monthly#1": 15,
+            "canva pro monthly#2": 18,
+            "canva business monthly#0": 25,
+            "canva credit#0": 1.99,
+            "canva pro yearly#0": 119.99,
+            "canva pro yearly#1": 143.99,
+            "canva credit 2 pack#0": 2.99,
+            "canva teams monthly#0": 30
+          }
+        }
+      }
     }
   ],
-  "name": "Canva: AI設計與創作、照片 編輯、影片 編輯"
+  "name": "Canva AI Photo & Video Editor"
 }

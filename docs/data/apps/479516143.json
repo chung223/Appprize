@@ -2,8 +2,8 @@
   "appId": "479516143",
   "name": "Minecraft",
   "developer": "Mojang AB",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e2/02/6c/e2026c8c-6d1c-8ffd-2cbf-aea95fc0c980/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-27T21:55:13.286Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-28T23:46:39.536Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,18 +161,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Marketplace Pass Trial",
           "offerName": null,
           "price": 129.99,
           "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
         },

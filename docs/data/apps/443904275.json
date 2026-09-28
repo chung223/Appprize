@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/0c/71/a40c711d-8b10-647d-d787-735b6ad329ed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-27T21:55:27.582Z",
+  "fetchedAt": "2026-09-28T23:46:57.271Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -129,18 +129,18 @@
           "period": null
         },
         {
-          "name": "150 LINE Coin",
-          "offerName": null,
-          "price": 139.99,
-          "priceFormatted": "₺139,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "500 LINE Coin",
           "offerName": null,
           "price": 359.99,
           "priceFormatted": "₺359,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "150 LINE Coin",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "₺139,99",
           "currency": "TRY",
           "period": null
         },
@@ -177,10 +177,10 @@
           "period": null
         },
         {
-          "name": "70 LINE Coin",
+          "name": "Brown & Cony's Secret Date!",
           "offerName": null,
-          "price": 61.99,
-          "priceFormatted": "₺61,99",
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
           "currency": "TRY",
           "period": null
         }
@@ -231,20 +231,20 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "150 LINE Coin",
           "offerName": null,
           "price": 269,
           "priceFormatted": "₹ 269",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "800 LINE Coin",
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "120 LINE Coin",
+          "name": "1600 LINE Coin",
           "offerName": null,
-          "price": 215,
-          "priceFormatted": "₹ 215",
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
           "currency": "INR",
           "period": null
         }
@@ -371,7 +371,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",
@@ -465,7 +466,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     }
   }
 }

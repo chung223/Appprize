@@ -1861,6 +1861,41 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-09-28",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "nitro monthly#0": 310,
+            "nitro basic monthly#0": 100,
+            "nitro 1 month#0": 320,
+            "nitro classic monthly#0": 150,
+            "nitro basic 1 month#0": 90,
+            "nitro + 1 boost monthly#0": 410,
+            "nitro yearly#0": 3090,
+            "1 server boost monthly#0": 150,
+            "nitro + 2 boosts monthly#0": 520,
+            "nitro + 5 boosts monthly#0": 840
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "nitro monthly#0": 9.99,
+            "nitro 1 month#0": 9.99,
+            "nitro basic monthly#0": 2.99,
+            "nitro classic 1 month#0": 4.99,
+            "nitro classic monthly#0": 4.99,
+            "nitro basic 1 month#0": 2.99,
+            "nitro + 1 boost monthly#0": 13.49,
+            "nitro + 2 boosts monthly#0": 16.99,
+            "1 server boost monthly#0": 4.99,
+            "nitro yearly#0": 99.99
+          }
+        }
+      }
     }
   ],
   "name": "Discord - 聊天、玩遊戲、消磨時間"

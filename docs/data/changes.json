@@ -1,6 +1,78 @@
 {
   "events": [
     {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "Brown & Cony's Secret Date!",
+      "old": null,
+      "new": 99.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-28"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "70 LINE Coin",
+      "old": 61.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-28"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "1600 LINE Coin",
+      "old": null,
+      "new": 1999,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-28"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "120 LINE Coin",
+      "old": 215,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-09-28"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": null,
+      "new": 840,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-28"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro Classic (1 Month)",
+      "old": 150,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-09-28"
+    },
+    {
       "cc": "jp",
       "kind": "new-plan",
       "name": "Lens+",
@@ -3527,79 +3599,7 @@
       "appId": "985746746",
       "appName": "Discord - 聊天、玩遊戲、消磨時間",
       "date": "2026-09-13"
-    },
-    {
-      "cc": "in",
-      "kind": "removed-plan",
-      "name": "Nitro + 5 Boosts (Monthly)",
-      "old": 2449,
-      "new": null,
-      "currency": "INR",
-      "pct": null,
-      "appId": "985746746",
-      "appName": "Discord - 聊天、玩遊戲、消磨時間",
-      "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "Canva Pro - Monthly",
-      "old": null,
-      "new": 14.99,
-      "currency": "USD",
-      "pct": null,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "Canva Pro - Monthly",
-      "old": null,
-      "new": 15,
-      "currency": "USD",
-      "pct": null,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "Canva Pro - Monthly",
-      "old": null,
-      "new": 18,
-      "currency": "USD",
-      "pct": null,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "Canva Credit",
-      "old": null,
-      "new": 1.99,
-      "currency": "USD",
-      "pct": null,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
-    },
-    {
-      "cc": "us",
-      "kind": "plan",
-      "name": "Canva Pro - Yearly",
-      "old": 143.99,
-      "new": 119.99,
-      "currency": "USD",
-      "pct": -0.1666782415445518,
-      "appId": "897446215",
-      "appName": "Canva: AI設計與創作、照片 編輯、影片 編輯",
-      "date": "2026-09-13"
     }
   ],
-  "updatedAt": "2026-09-27T21:56:42.252Z"
+  "updatedAt": "2026-09-28T23:48:00.403Z"
 }
