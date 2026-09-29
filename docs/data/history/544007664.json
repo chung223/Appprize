@@ -12,7 +12,17 @@
     "movies shows#0": "Movies & Shows",
     "movies shows#1": "Movies & Shows",
     "super chat#1": "Super Chat",
-    "super chat#2": "Super Chat"
+    "super chat#2": "Super Chat",
+    "one america news#0": "One America News",
+    "ciné nanar tv#0": "Ciné Nanar TV",
+    "ultra play#0": "Ultra Play",
+    "kableone premium#0": "KableOne Premium",
+    "chaupal#0": "Chaupal",
+    "topup prime#0": "TopUp Prime",
+    "primary#0": "Primary",
+    "secondary#0": "Secondary",
+    "tertiary#0": "Tertiary",
+    "youtube channel memberships#0": "YouTube Channel Memberships:"
   },
   "entries": [
     {
@@ -675,6 +685,70 @@
             "super chat#0": 1.99,
             "super chat#1": 4.99,
             "premium lite#0": 11.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 1680,
+            "super chat#0": 320,
+            "super chat#1": 800,
+            "super chat#2": 1600,
+            "youtube premium family#0": 2900,
+            "youtube premium family#1": 2900,
+            "premium lite#0": 980
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-09-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 260,
+            "youtube premium family#0": 630,
+            "youtube premium family#1": 630,
+            "五歲抬頭基礎加持團#0": 100,
+            "super chat#0": 70,
+            "youtube premium two person#0": 390
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 159.99,
+            "youtube premium family#0": 319.99,
+            "youtube premium family#1": 319.99,
+            "premium lite#0": 99.99,
+            "aslan paketi#0": 39.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 195,
+            "youtube premium family#0": 389,
+            "youtube premium family#1": 389,
+            "youtube premium two person#0": 289,
+            "premium lite#0": 119,
+            "super chat#0": 29
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "one america news#0": 4.99,
+            "ciné nanar tv#0": 1.99,
+            "ultra play#0": 3.49,
+            "kableone premium#0": 9.99,
+            "chaupal#0": 9.99,
+            "topup prime#0": 3.99,
+            "primary#0": 44.99,
+            "secondary#0": 12.99,
+            "tertiary#0": 3.99,
+            "youtube channel memberships#0": 29.99
           }
         },
         "jp": {

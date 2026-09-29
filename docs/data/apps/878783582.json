@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1e/0c/ad/1e0cad6c-b80b-2f37-ed49-5b110d15af8b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:47:29.630Z",
+  "fetchedAt": "2026-09-29T22:53:43.296Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -105,20 +105,20 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
-          "offerName": null,
-          "price": 199,
-          "priceFormatted": "₺199,00",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
           "name": "Premium Monthly 100GB",
           "offerName": null,
           "price": 49,
           "priceFormatted": "₺49,00",
           "currency": "TRY",
           "period": "monthly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₺199,00",
+          "currency": "TRY",
+          "period": "yearly"
         },
         {
           "name": "Premium Monthly 100GB",
@@ -161,12 +161,12 @@
           "period": "yearly"
         },
         {
-          "name": "Premium Monthly 100GB",
+          "name": "Premium weekly 40GB",
           "offerName": null,
-          "price": 84.99,
-          "priceFormatted": "₺84,99",
+          "price": 39.99,
+          "priceFormatted": "₺39,99",
           "currency": "TRY",
-          "period": "monthly"
+          "period": "weekly"
         }
       ],
       "appPrice": {
@@ -175,8 +175,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -270,8 +269,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -435,8 +433,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

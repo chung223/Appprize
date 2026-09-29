@@ -1,9 +1,9 @@
 {
   "appId": "547702041",
-  "name": "Tinder Dating App: Date & Chat",
+  "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/02/f0/41/02f04191-a298-2613-95cf-80b5c18fa636/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:47:11.380Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/f2/d4/0df2d441-ed1d-1cad-eef9-e1eace383969/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-29T22:53:24.366Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -81,8 +81,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -152,8 +151,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -215,8 +213,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",

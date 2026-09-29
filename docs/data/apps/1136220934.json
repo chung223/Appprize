@@ -3,7 +3,7 @@
   "name": "Infuse",
   "developer": "Firecore, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0f/63/1e/0f631e5e-34e2-86d6-52c7-1ad4a0240c56/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-27T21:56:05.360Z",
+  "fetchedAt": "2026-09-29T22:53:55.075Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -117,8 +117,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",

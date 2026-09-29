@@ -2,8 +2,8 @@
   "appId": "6448311069",
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/82/4a/f7824acd-f412-90dc-9eb2-c0cb382418bc/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:46:07.526Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7f/f6/83/7ff6832a-72ec-d628-282d-e9510fe85377/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-29T22:52:21.358Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,10 +43,18 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 20x",
+          "name": "ChatGPT Pro 200",
           "offerName": null,
           "price": 6990,
           "priceFormatted": "$6,990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro - Max Usage",
+          "offerName": null,
+          "price": 16500,
+          "priceFormatted": "$16,500.00",
           "currency": "TWD",
           "period": null
         }
@@ -89,7 +97,7 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 20x",
+          "name": "ChatGPT Pro 200",
           "offerName": null,
           "price": 9999.99,
           "priceFormatted": "₺9.999,99",
@@ -101,6 +109,14 @@
           "offerName": null,
           "price": 9999.99,
           "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro - Max Usage",
+          "offerName": null,
+          "price": 26499,
+          "priceFormatted": "₺26.499,00",
           "currency": "TRY",
           "period": null
         }
@@ -143,7 +159,7 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 20x",
+          "name": "ChatGPT Pro 200",
           "offerName": null,
           "price": 19900,
           "priceFormatted": "₹ 19,900",
@@ -155,6 +171,14 @@
           "offerName": null,
           "price": 19900,
           "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro - Max Usage",
+          "offerName": null,
+          "price": 52900,
+          "priceFormatted": "₹ 52,900",
           "currency": "INR",
           "period": null
         }
@@ -205,7 +229,7 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 20x",
+          "name": "ChatGPT Pro 200",
           "offerName": null,
           "price": 200,
           "priceFormatted": "$200.00",
@@ -225,6 +249,14 @@
           "offerName": null,
           "price": 20,
           "priceFormatted": "$20.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro - Max Usage",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "$500.00",
           "currency": "USD",
           "period": null
         },
@@ -251,18 +283,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "ChatGPT Plus",
+          "name": "ChatGPT Pro - Max Usage",
           "offerName": null,
-          "price": 3000,
-          "priceFormatted": "¥3,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "ChatGPT Go",
-          "offerName": null,
-          "price": 1400,
-          "priceFormatted": "¥1,400",
+          "price": 84000,
+          "priceFormatted": "¥84,000",
           "currency": "JPY",
           "period": null
         },
@@ -275,7 +299,23 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 20x",
+          "name": "ChatGPT Go",
+          "offerName": null,
+          "price": 1400,
+          "priceFormatted": "¥1,400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 30000,
+          "priceFormatted": "¥30,000",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 200",
           "offerName": null,
           "price": 30000,
           "priceFormatted": "¥30,000",
@@ -285,8 +325,8 @@
         {
           "name": "ChatGPT Plus",
           "offerName": null,
-          "price": 30000,
-          "priceFormatted": "¥30,000",
+          "price": 3000,
+          "priceFormatted": "¥3,000",
           "currency": "JPY",
           "period": null
         }

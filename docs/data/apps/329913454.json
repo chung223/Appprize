@@ -3,7 +3,7 @@
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/74/c5/5d74c576-f845-efa2-a3e8-33aea1860bf5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:47:34.178Z",
+  "fetchedAt": "2026-09-29T22:53:49.864Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -151,8 +151,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -194,8 +193,8 @@
         {
           "name": "Ultimate Fan",
           "offerName": null,
-          "price": 1199,
-          "priceFormatted": "₹ 1,199",
+          "price": 299,
+          "priceFormatted": "₹ 299",
           "currency": "INR",
           "period": null
         },
@@ -230,8 +229,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -332,8 +330,7 @@
       "currency": "JPY",
       "unavailable": true,
       "inApps": [],
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

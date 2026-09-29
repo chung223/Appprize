@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/3f/b9/753fb91a-6e37-5d2a-a4c5-7f54bb38f7f6/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:46:13.219Z",
+  "fetchedAt": "2026-09-29T22:52:27.089Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -189,47 +189,7 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "YouTube Premium",
-          "offerName": null,
-          "price": 20.99,
-          "priceFormatted": "$20.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Movies & Shows",
-          "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Youtube Premium Family",
-          "offerName": null,
-          "price": 34.99,
-          "priceFormatted": "$34.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "YouTube Premium Family",
-          "offerName": null,
-          "price": 34.99,
-          "priceFormatted": "$34.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Super Chat",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Super Chat",
+          "name": "One America News",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
@@ -237,10 +197,74 @@
           "period": null
         },
         {
-          "name": "Premium Lite",
+          "name": "Ciné Nanar TV",
           "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Ultra Play",
+          "offerName": null,
+          "price": 3.49,
+          "priceFormatted": "$3.49",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "KableOne Premium",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Chaupal",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "TopUp Prime",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Primary",
+          "offerName": null,
+          "price": 44.99,
+          "priceFormatted": "$44.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Secondary",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Tertiary",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "YouTube Channel Memberships:",
+          "offerName": null,
+          "price": 29.99,
+          "priceFormatted": "$29.99",
           "currency": "USD",
           "period": null
         }

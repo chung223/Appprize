@@ -1,9 +1,9 @@
 {
   "appId": "897446215",
-  "name": "Canva AI Photo & Video Editor",
+  "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b1/e3/0c/b1e30c59-7d73-10ab-ad8d-31477777aa3d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:47:39.725Z",
+  "fetchedAt": "2026-09-29T22:53:59.225Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -89,8 +89,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "tr": {
       "country": "tr",
@@ -168,8 +167,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -247,8 +245,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -404,8 +401,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

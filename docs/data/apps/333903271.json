@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/d7/ce/efd7ce0e-910b-ead5-4588-74b72b13b230/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-28T23:47:24.304Z",
+  "fetchedAt": "2026-09-29T22:53:38.564Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,18 +75,18 @@
           "period": null
         },
         {
+          "name": "Premium Annual Gift",
+          "offerName": null,
+          "price": 3500,
+          "priceFormatted": "$3,500.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
           "name": "@proudfox7788 Subscription",
           "offerName": null,
           "price": 150,
           "priceFormatted": "$150.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "@SawyerMerritt Subscription",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }
