@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-29T22:52:53.073Z",
+  "fetchedAt": "2026-09-30T22:53:18.470Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 1",
+          "name": "Marketplace Pass Trial",
           "offerName": null,
-          "price": 35,
-          "priceFormatted": "$35.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }
@@ -145,6 +145,14 @@
           "period": null
         },
         {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 219,
@@ -157,14 +165,6 @@
           "offerName": null,
           "price": 164.99,
           "priceFormatted": "₺164,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         },
@@ -325,18 +325,18 @@
           "period": "monthly"
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 5",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
         },

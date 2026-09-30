@@ -2,8 +2,8 @@
   "appId": "447188370",
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/73/2d/1d732d8d-5331-7078-d4ff-e802aa732a5c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-29T22:54:05.652Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ae/4d/29ae4df5-1069-9794-55c0-ece2cbfc99c5/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-09-30T22:54:39.573Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,18 +27,18 @@
           "period": "monthly"
         },
         {
-          "name": "Lens+",
-          "offerName": null,
-          "price": 270,
-          "priceFormatted": "$270.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 40,
           "priceFormatted": "$40.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Lens+",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": null
         },
@@ -77,8 +77,8 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 80,
-          "priceFormatted": "$80.00",
+          "price": 290,
+          "priceFormatted": "$290.00",
           "currency": "TWD",
           "period": null
         }
