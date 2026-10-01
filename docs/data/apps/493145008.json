@@ -3,7 +3,7 @@
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/df/32/5cdf3213-2ed3-1a95-1323-1c6f66e3f1ba/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:54:51.522Z",
+  "fetchedAt": "2026-10-01T23:04:18.119Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -159,20 +159,20 @@
           "period": "yearly"
         },
         {
-          "name": "Monthly Subscription",
-          "offerName": null,
-          "price": 159,
-          "priceFormatted": "₹ 159",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Annual Subscription",
           "offerName": null,
           "price": 1499,
           "priceFormatted": "₹ 1,499",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Headspace",
@@ -307,20 +307,20 @@
           "period": "monthly"
         },
         {
-          "name": "Headspace",
-          "offerName": null,
-          "price": 480,
-          "priceFormatted": "¥480",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Annual Subscription",
           "offerName": null,
           "price": 4800,
           "priceFormatted": "¥4,800",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "Headspace",
+          "offerName": null,
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": null
         },
         {
           "name": "Headspace Plus",
@@ -347,20 +347,20 @@
           "period": null
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 7800,
-          "priceFormatted": "¥7,800",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Headspace",
           "offerName": null,
           "price": 11400,
           "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 7800,
+          "priceFormatted": "¥7,800",
+          "currency": "JPY",
+          "period": "yearly"
         }
       ],
       "appPrice": {

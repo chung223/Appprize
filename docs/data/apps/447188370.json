@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ae/4d/29ae4df5-1069-9794-55c0-ece2cbfc99c5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:54:39.573Z",
+  "fetchedAt": "2026-10-01T23:04:07.773Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,20 +35,20 @@
           "period": null
         },
         {
-          "name": "Lens+",
-          "offerName": null,
-          "price": 270,
-          "priceFormatted": "$270.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 120,
           "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": "monthly"
+        },
+        {
+          "name": "Lens+",
+          "offerName": null,
+          "price": 270,
+          "priceFormatted": "$270.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "Snapstreak Restore",
@@ -77,8 +77,8 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 290,
-          "priceFormatted": "$290.00",
+          "price": 80,
+          "priceFormatted": "$80.00",
           "currency": "TWD",
           "period": null
         }
@@ -143,14 +143,6 @@
           "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": "monthly"
-        },
-        {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "₺79,99",
-          "currency": "TRY",
-          "period": null
         },
         {
           "name": "Bitmoji Fashion",
@@ -373,16 +365,16 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 400,
-          "priceFormatted": "¥400",
+          "price": 100,
+          "priceFormatted": "¥100",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 100,
-          "priceFormatted": "¥100",
+          "price": 400,
+          "priceFormatted": "¥400",
           "currency": "JPY",
           "period": null
         },

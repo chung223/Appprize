@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/64/53/7064538e-5e02-6151-76cd-b55e3534073b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:53:00.797Z",
+  "fetchedAt": "2026-10-01T23:02:35.640Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -171,14 +171,6 @@
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 1799,
-          "priceFormatted": "₹ 1,799",
           "currency": "INR",
           "period": null
         }

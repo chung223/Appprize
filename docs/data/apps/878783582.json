@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/b8/c4/7eb8c454-12da-97af-914f-dd7918cc07de/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:54:14.699Z",
+  "fetchedAt": "2026-10-01T23:03:45.525Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -183,28 +183,36 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "AI Credit Plan",
+          "name": "Premium monthly 40GB",
           "offerName": null,
-          "price": 1499,
-          "priceFormatted": "₹ 1,499",
+          "price": 169,
+          "priceFormatted": "₹ 169",
           "currency": "INR",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "AI Credit Plan",
+          "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
+          "price": 1699,
+          "priceFormatted": "₹ 1,699",
           "currency": "INR",
-          "period": null
+          "period": "yearly"
         },
         {
-          "name": "Premium Weekly 40GB",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
+          "price": 369,
+          "priceFormatted": "₹ 369",
           "currency": "INR",
-          "period": "weekly"
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 419,
+          "priceFormatted": "₹ 419",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Premium weekly 40GB",
@@ -213,6 +221,14 @@
           "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": "weekly"
+        },
+        {
+          "name": "Premium yearly 100GB",
+          "offerName": null,
+          "price": 4199,
+          "priceFormatted": "₹ 4,199",
+          "currency": "INR",
+          "period": "yearly"
         },
         {
           "name": "Premium weekly 40GB",
@@ -223,42 +239,26 @@
           "period": "weekly"
         },
         {
-          "name": "Premium Yearly 40GB",
+          "name": "Premium Monthly 40GB",
           "offerName": null,
-          "price": 2649,
-          "priceFormatted": "₹ 2,649",
+          "price": 169,
+          "priceFormatted": "₹ 169",
           "currency": "INR",
-          "period": "yearly"
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Monthly 40GB",
+          "offerName": null,
+          "price": 269,
+          "priceFormatted": "₹ 269",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 2199,
-          "priceFormatted": "₹ 2,199",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
-          "name": "Premium Yearly 100GB",
-          "offerName": null,
-          "price": 3099,
-          "priceFormatted": "₹ 3,099",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
-          "name": "Premium Yearly 100GB",
-          "offerName": null,
-          "price": 449,
-          "priceFormatted": "₹ 449",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
-          "name": "Premium Yearly 40GB",
-          "offerName": null,
-          "price": 1749,
-          "priceFormatted": "₹ 1,749",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": "yearly"
         }

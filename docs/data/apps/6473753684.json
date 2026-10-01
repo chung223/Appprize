@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ef/da/c9/efdac99e-41d2-7c0e-97fd-b8fb8a0f9774/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:53:06.574Z",
+  "fetchedAt": "2026-10-01T23:02:41.273Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -253,18 +253,18 @@
           "period": "yearly"
         },
         {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 45,
-          "priceFormatted": "$45.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (20)",
           "offerName": null,
           "price": 20,
           "priceFormatted": "$20.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 45,
+          "priceFormatted": "$45.00",
           "currency": "USD",
           "period": null
         },

@@ -3,7 +3,7 @@
   "name": "Flighty – Live Flight Tracker",
   "developer": "Flighty LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/d8/fe/56d8fece-cd1b-c37e-be76-c42aef180be0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:55:03.041Z",
+  "fetchedAt": "2026-10-01T23:04:27.680Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -73,14 +73,6 @@
           "priceFormatted": "$490.00",
           "currency": "TWD",
           "period": "monthly"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 4990,
-          "priceFormatted": "$4,990.00",
-          "currency": "TWD",
-          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -153,28 +145,12 @@
           "period": "lifetime"
         },
         {
-          "name": "Annual Savings (Family)",
+          "name": "Lifetime (Family)",
           "offerName": null,
-          "price": 5999.99,
-          "priceFormatted": "₺5.999,99",
+          "price": 24999.99,
+          "priceFormatted": "₺24.999,99",
           "currency": "TRY",
-          "period": "yearly"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 4999.99,
-          "priceFormatted": "₺4.999,99",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 9999.99,
-          "priceFormatted": "₺9.999,99",
-          "currency": "TRY",
-          "period": "yearly"
+          "period": "lifetime"
         }
       ],
       "appPrice": {
@@ -253,22 +229,6 @@
           "priceFormatted": "₹ 19,900",
           "currency": "INR",
           "period": "lifetime"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 14900,
-          "priceFormatted": "₹ 14,900",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 11900,
-          "priceFormatted": "₹ 11,900",
-          "currency": "INR",
-          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -347,14 +307,6 @@
           "priceFormatted": "$199.00",
           "currency": "USD",
           "period": "lifetime"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 139,
-          "priceFormatted": "$139.00",
-          "currency": "USD",
-          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -433,14 +385,6 @@
           "priceFormatted": "¥30,000",
           "currency": "JPY",
           "period": "lifetime"
-        },
-        {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 22000,
-          "priceFormatted": "¥22,000",
-          "currency": "JPY",
-          "period": "yearly"
         }
       ],
       "appPrice": {

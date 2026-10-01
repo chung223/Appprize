@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/3d/e3/393de3e0-e158-2216-07cc-882739b32c62/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:54:09.635Z",
+  "fetchedAt": "2026-10-01T23:03:40.262Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,12 +75,12 @@
           "period": null
         },
         {
-          "name": "Premium Annual Gift",
+          "name": "@WholeMarsBlog Subscription",
           "offerName": null,
-          "price": 3500,
-          "priceFormatted": "$3,500.00",
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
-          "period": "yearly"
+          "period": null
         },
         {
           "name": "@proudfox7788 Subscription",

@@ -2,8 +2,8 @@
   "appId": "329913454",
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5d/74/c5/5d74c576-f845-efa2-a3e8-33aea1860bf5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-09-30T22:54:22.167Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/62/15/916215cb-7995-5b19-c758-16f2bc12dae0/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-01T23:03:51.907Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -269,18 +269,18 @@
           "period": null
         },
         {
-          "name": "Anime Membership",
-          "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Fan Manga Bundle",
           "offerName": null,
           "price": 13.99,
           "priceFormatted": "$13.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
           "currency": "USD",
           "period": null
         },
