@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-01T23:03:31.194Z",
+  "fetchedAt": "2026-10-02T22:52:24.932Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,20 +11,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Telegram Premium",
-          "offerName": null,
-          "price": 160,
-          "priceFormatted": "$160.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 30,
           "priceFormatted": "$30.00",
           "currency": "TWD",
           "period": "weekly"
+        },
+        {
+          "name": "Telegram Premium",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "$160.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "Telegram Premium Annual",

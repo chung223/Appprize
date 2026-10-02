@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/1e/97/df1e97ae-5f01-b2a3-e387-e0b713c9119b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-01T23:03:09.571Z",
+  "fetchedAt": "2026-10-02T22:52:02.140Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -239,14 +239,6 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "800 LINE Coin",
           "offerName": null,
           "price": 1099,
@@ -255,18 +247,26 @@
           "period": null
         },
         {
-          "name": "70 LINE Coin",
+          "name": "Monthly Plan",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
+          "name": "3300 LINE Coin",
+          "offerName": null,
+          "price": 4199,
+          "priceFormatted": "₹ 4,199",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "70 LINE Coin",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 99,
+          "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
         }

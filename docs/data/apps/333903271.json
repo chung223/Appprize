@@ -2,8 +2,8 @@
   "appId": "333903271",
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/39/3d/e3/393de3e0-e158-2216-07cc-882739b32c62/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-01T23:03:40.262Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3c/6e/dd/3c6edd15-7efc-db76-3c00-a5650d14b27b/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-02T22:52:35.171Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,18 +75,18 @@
           "period": null
         },
         {
-          "name": "@WholeMarsBlog Subscription",
-          "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "@proudfox7788 Subscription",
           "offerName": null,
           "price": 150,
           "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "@WholeMarsBlog Subscription",
+          "offerName": null,
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
           "period": null
         }
@@ -223,20 +223,20 @@
           "period": "yearly"
         },
         {
-          "name": "X Premium Plus (Monthly)",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "X Premium Plus (Monthly)",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "X Premium Basic (Annual)",
@@ -387,39 +387,55 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "X Premium (Monthly)",
+          "name": "Ticketed Space ($1.99)",
           "offerName": null,
-          "price": 1270,
-          "priceFormatted": "¥1,270",
+          "price": 300,
+          "priceFormatted": "¥300",
           "currency": "JPY",
-          "period": "monthly"
+          "period": null
         },
         {
-          "name": "X Premium Basic (Monthly)",
+          "name": "Ticketed Space ($.99)",
           "offerName": null,
-          "price": 450,
-          "priceFormatted": "¥450",
+          "price": 150,
+          "priceFormatted": "¥150",
           "currency": "JPY",
-          "period": "monthly"
+          "period": null
         },
         {
-          "name": "X Premium (Annual)",
+          "name": "Ticketed Space ($2.99)",
           "offerName": null,
-          "price": 12700,
-          "priceFormatted": "¥12,700",
+          "price": 500,
+          "priceFormatted": "¥500",
           "currency": "JPY",
-          "period": "yearly"
+          "period": null
         },
         {
-          "name": "X Premium Plus (Monthly)",
+          "name": "Ticketed Space ($3.99)",
           "offerName": null,
-          "price": 8000,
-          "priceFormatted": "¥8,000",
+          "price": 600,
+          "priceFormatted": "¥600",
           "currency": "JPY",
-          "period": "monthly"
+          "period": null
         },
         {
-          "name": "投稿を1,500円でプロモーションする",
+          "name": "Ticketed Space ($10.99)",
+          "offerName": null,
+          "price": 1800,
+          "priceFormatted": "¥1,800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Ticketed Space ($4.99)",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Ticketed Space ($9.99)",
           "offerName": null,
           "price": 1500,
           "priceFormatted": "¥1,500",
@@ -427,42 +443,26 @@
           "period": null
         },
         {
-          "name": "X Premium Basic (Annual)",
+          "name": "Ticketed Space ($5.99)",
           "offerName": null,
-          "price": 4500,
-          "priceFormatted": "¥4,500",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
-          "name": "投稿を3,500円でプロモーションする",
-          "offerName": null,
-          "price": 4000,
-          "priceFormatted": "¥4,000",
+          "price": 1000,
+          "priceFormatted": "¥1,000",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "@goto_finance Subscription",
+          "name": "Ticketed Space ($12.99)",
           "offerName": null,
-          "price": 100,
-          "priceFormatted": "¥100",
+          "price": 2000,
+          "priceFormatted": "¥2,000",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "ブーストしたツイートパッケージ",
+          "name": "Ticketed Space ($6.99)",
           "offerName": null,
-          "price": 8000,
-          "priceFormatted": "¥8,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "@hazuma Subscription",
-          "offerName": null,
-          "price": 700,
-          "priceFormatted": "¥700",
+          "price": 1100,
+          "priceFormatted": "¥1,100",
           "currency": "JPY",
           "period": null
         }
