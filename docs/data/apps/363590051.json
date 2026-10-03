@@ -3,7 +3,7 @@
   "name": "Netflix",
   "developer": "Netflix, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/f6/16/54f616da-74a1-7fd6-da8e-08a6d5960db0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-02T22:51:37.299Z",
+  "fetchedAt": "2026-10-03T22:02:47.192Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -135,23 +135,7 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Netflix Premium",
-          "offerName": null,
-          "price": 649,
-          "priceFormatted": "₹ 649",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Netflix Standard",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Netflix Basic",
+          "name": "Netflix 1 Screen - Unlimited Streaming",
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
@@ -175,10 +159,18 @@
           "period": null
         },
         {
-          "name": "Netflix 1 Screen - Unlimited Streaming",
+          "name": "Netflix 2 Screens",
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Netflix 2S Streaming",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
           "currency": "INR",
           "period": null
         }
@@ -197,14 +189,6 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Netflix 2 Screens - Unlimited Streaming",
-          "offerName": null,
-          "price": 19.99,
-          "priceFormatted": "$19.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Netflix",
           "offerName": null,
           "price": 19.99,
@@ -213,18 +197,10 @@
           "period": null
         },
         {
-          "name": "Netflix Standard",
+          "name": "Netflix 2 Screens - Unlimited Streaming",
           "offerName": null,
           "price": 19.99,
           "priceFormatted": "$19.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Netflix Premium",
-          "offerName": null,
-          "price": 26.99,
-          "priceFormatted": "$26.99",
           "currency": "USD",
           "period": null
         },
@@ -233,6 +209,22 @@
           "offerName": null,
           "price": 26.99,
           "priceFormatted": "$26.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Netflix 2 Screens",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Netflix 2S Streaming",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
           "currency": "USD",
           "period": null
         }
