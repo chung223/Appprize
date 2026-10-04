@@ -3,7 +3,7 @@
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5c/df/32/5cdf3213-2ed3-1a95-1323-1c6f66e3f1ba/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:04:11.951Z",
+  "fetchedAt": "2026-10-04T22:16:47.897Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -45,18 +45,18 @@
         {
           "name": "Annual Subscription",
           "offerName": null,
-          "price": 2090,
-          "priceFormatted": "$2,090.00",
+          "price": 2290,
+          "priceFormatted": "$2,290.00",
           "currency": "TWD",
           "period": "yearly"
         },
         {
-          "name": "Headspace Plus",
+          "name": "Annual Subscription",
           "offerName": null,
-          "price": 390,
-          "priceFormatted": "$390.00",
+          "price": 2090,
+          "priceFormatted": "$2,090.00",
           "currency": "TWD",
-          "period": null
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -159,20 +159,20 @@
           "period": "yearly"
         },
         {
-          "name": "Monthly Subscription",
-          "offerName": null,
-          "price": 159,
-          "priceFormatted": "₹ 159",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Annual Subscription",
           "offerName": null,
           "price": 1499,
           "priceFormatted": "₹ 1,499",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Monthly Subscription",
+          "offerName": null,
+          "price": 159,
+          "priceFormatted": "₹ 159",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Headspace",

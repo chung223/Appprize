@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/b8/c4/7eb8c454-12da-97af-914f-dd7918cc07de/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:03:42.727Z",
+  "fetchedAt": "2026-10-04T22:16:17.449Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": null
         },
         {
-          "name": "Lightroom plan 1TB",
-          "offerName": null,
-          "price": 320,
-          "priceFormatted": "$320.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "高級版每週 100GB",
           "offerName": null,
           "price": 120,
           "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": "weekly"
+        },
+        {
+          "name": "Lightroom plan 1TB",
+          "offerName": null,
+          "price": 320,
+          "priceFormatted": "$320.00",
+          "currency": "TWD",
+          "period": null
         }
       ],
       "appPrice": {
@@ -255,12 +255,12 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
+          "name": "Photo enhancer & erase objects",
           "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
+          "price": 4499,
+          "priceFormatted": "₹ 4,499",
           "currency": "INR",
-          "period": "yearly"
+          "period": null
         }
       ],
       "appPrice": {

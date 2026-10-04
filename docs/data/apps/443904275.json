@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/1e/97/df1e97ae-5f01-b2a3-e387-e0b713c9119b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:03:07.401Z",
+  "fetchedAt": "2026-10-04T22:15:45.479Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -169,18 +169,18 @@
           "period": "monthly"
         },
         {
-          "name": "800 LINE Coin",
-          "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 61.99,
           "priceFormatted": "₺61,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
         }
@@ -239,6 +239,14 @@
           "period": null
         },
         {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₹ 499",
+          "currency": "INR",
+          "period": "monthly"
+        },
+        {
           "name": "800 LINE Coin",
           "offerName": null,
           "price": 1099,
@@ -253,14 +261,6 @@
           "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
-        },
-        {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
-          "currency": "INR",
-          "period": "monthly"
         },
         {
           "name": "3300 LINE Coin",
@@ -333,18 +333,18 @@
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
-          "offerName": null,
-          "price": 22.99,
-          "priceFormatted": "$22.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 1.39,
           "priceFormatted": "$1.39",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "1600 LINE Coin",
+          "offerName": null,
+          "price": 22.99,
+          "priceFormatted": "$22.99",
           "currency": "USD",
           "period": null
         },

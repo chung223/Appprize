@@ -3,7 +3,7 @@
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/38/19/2c381978-0d18-b345-432a-fde4338f786b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:02:23.187Z",
+  "fetchedAt": "2026-10-04T22:14:58.428Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -213,18 +213,18 @@
           "period": null
         },
         {
-          "name": "100 Credits",
-          "offerName": null,
-          "price": 4,
-          "priceFormatted": "$4.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "ChatGPT Pro 100",
           "offerName": null,
           "price": 100,
           "priceFormatted": "$100.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "100 Credits",
+          "offerName": null,
+          "price": 4,
+          "priceFormatted": "$4.00",
           "currency": "USD",
           "period": null
         },

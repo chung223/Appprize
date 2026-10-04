@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/64/53/7064538e-5e02-6151-76cd-b55e3534073b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:02:37.257Z",
+  "fetchedAt": "2026-10-04T22:15:13.797Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -109,14 +109,6 @@
           "offerName": null,
           "price": 839.99,
           "priceFormatted": "₺839,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 1439.99,
-          "priceFormatted": "₺1.439,99",
           "currency": "TRY",
           "period": null
         }
@@ -319,6 +311,14 @@
           "offerName": null,
           "price": 1500,
           "priceFormatted": "¥1,500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ジェムの荷車 (6500)",
+          "offerName": null,
+          "price": 3000,
+          "priceFormatted": "¥3,000",
           "currency": "JPY",
           "period": null
         }

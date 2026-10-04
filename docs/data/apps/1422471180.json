@@ -3,7 +3,7 @@
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/20/b9/0e/20b90e53-6886-59f5-9bf8-dc0f76f5221c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:04:16.781Z",
+  "fetchedAt": "2026-10-04T22:16:51.941Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,20 +11,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Dazz Pro 永久购买",
-          "offerName": null,
-          "price": 690,
-          "priceFormatted": "$690.00",
-          "currency": "TWD",
-          "period": "lifetime"
-        },
-        {
           "name": "Dazz Pro",
           "offerName": null,
           "price": 250,
           "priceFormatted": "$250.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Dazz Pro 永久购买",
+          "offerName": null,
+          "price": 690,
+          "priceFormatted": "$690.00",
+          "currency": "TWD",
+          "period": "lifetime"
         },
         {
           "name": "Dazz黑白相機",

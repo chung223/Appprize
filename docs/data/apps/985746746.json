@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3f/43/6f/3f436fa5-0358-07c1-e7b0-ba796f1f906a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-03T22:03:32.788Z",
+  "fetchedAt": "2026-10-04T22:16:08.666Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -176,20 +176,20 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 2 Boosts (Monthly)",
-          "offerName": null,
-          "price": 1499,
-          "priceFormatted": "₹ 1,499",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Yearly",
           "offerName": null,
           "price": 8900,
           "priceFormatted": "₹ 8,900",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Nitro + 2 Boosts (Monthly)",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₹ 1,499",
+          "currency": "INR",
+          "period": "monthly"
         }
       ],
       "appPrice": {
