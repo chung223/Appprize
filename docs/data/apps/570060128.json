@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/70/64/53/7064538e-5e02-6151-76cd-b55e3534073b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-04T22:15:13.797Z",
+  "fetchedAt": "2026-10-06T00:41:12.339Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,16 +75,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -221,14 +221,6 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Cart of Gems (6500)",
           "offerName": null,
           "price": 19.99,
@@ -247,6 +239,14 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
+          "price": 119.99,
+          "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
           "price": 95.99,
           "priceFormatted": "$95.99",
           "currency": "USD",
@@ -257,6 +257,14 @@
           "offerName": null,
           "price": 0.99,
           "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "$79.99",
           "currency": "USD",
           "period": null
         }

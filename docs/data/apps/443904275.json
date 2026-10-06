@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/1e/97/df1e97ae-5f01-b2a3-e387-e0b713c9119b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-04T22:15:45.479Z",
+  "fetchedAt": "2026-10-06T00:41:47.804Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -239,6 +239,14 @@
           "period": null
         },
         {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
           "name": "Monthly Plan",
           "offerName": null,
           "price": 499,
@@ -251,14 +259,6 @@
           "offerName": null,
           "price": 1099,
           "priceFormatted": "₹ 1,099",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
         },

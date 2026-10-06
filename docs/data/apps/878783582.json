@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/b8/c4/7eb8c454-12da-97af-914f-dd7918cc07de/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-04T22:16:17.449Z",
+  "fetchedAt": "2026-10-06T00:42:25.202Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": null
         },
         {
-          "name": "高級版每週 100GB",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "weekly"
-        },
-        {
           "name": "Lightroom plan 1TB",
           "offerName": null,
           "price": 320,
           "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "高級版每週 100GB",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "weekly"
         }
       ],
       "appPrice": {
@@ -277,44 +277,36 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Premium Monthly 100GB",
+          "name": "AI Credit Plan",
           "offerName": null,
-          "price": 6.99,
-          "priceFormatted": "$6.99",
+          "price": 14.99,
+          "priceFormatted": "$14.99",
           "currency": "USD",
-          "period": "monthly"
+          "period": null
         },
         {
-          "name": "Premium yearly 100GB",
+          "name": "AI Credit Plan",
           "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "$49.99",
+          "price": 4.99,
+          "priceFormatted": "$4.99",
           "currency": "USD",
-          "period": "yearly"
+          "period": null
         },
         {
-          "name": "Premium Monthly 100GB",
+          "name": "Premium Weekly 100GB",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": "weekly"
+        },
+        {
+          "name": "Premium Weekly 100GB",
           "offerName": null,
           "price": 7.99,
           "priceFormatted": "$7.99",
           "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Lightroom plan 1TB",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "AI Photo Enhancer & Blur",
-          "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "$49.99",
-          "currency": "USD",
-          "period": null
+          "period": "weekly"
         },
         {
           "name": "Premium Weekly 100GB",
@@ -325,12 +317,36 @@
           "period": "weekly"
         },
         {
-          "name": "Premium monthly 40GB",
+          "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 29.99,
+          "priceFormatted": "$29.99",
           "currency": "USD",
-          "period": "monthly"
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 24.99,
+          "priceFormatted": "$24.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Yearly 100GB",
+          "offerName": null,
+          "price": 34.99,
+          "priceFormatted": "$34.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Yearly 100GB",
+          "offerName": null,
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": "yearly"
         },
         {
           "name": "Premium Yearly 40GB",
@@ -339,14 +355,6 @@
           "priceFormatted": "$19.99",
           "currency": "USD",
           "period": "yearly"
-        },
-        {
-          "name": "Premium Weekly 100GB",
-          "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
-          "currency": "USD",
-          "period": "weekly"
         }
       ],
       "appPrice": {
