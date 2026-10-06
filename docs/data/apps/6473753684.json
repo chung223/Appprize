@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/03/57/b3/0357b342-67ff-9f64-b9e0-7a9269126245/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-06T00:41:18.053Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/20/20/95202062-6ba0-0de2-2073-3455d4000e7b/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-06T22:56:37.775Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -121,18 +121,18 @@
           "period": null
         },
         {
-          "name": "Usage Credits (250)",
-          "offerName": null,
-          "price": 9999.99,
-          "priceFormatted": "₺9.999,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Usage Credits (50)",
           "offerName": null,
           "price": 2499.99,
           "priceFormatted": "₺2.499,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (250)",
+          "offerName": null,
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
           "currency": "TRY",
           "period": null
         }
@@ -183,18 +183,18 @@
           "period": "monthly"
         },
         {
-          "name": "Usage Credits (250)",
-          "offerName": null,
-          "price": 19900,
-          "priceFormatted": "₹ 19,900",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Usage Credits (50)",
           "offerName": null,
           "price": 4999,
           "priceFormatted": "₹ 4,999",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (250)",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
           "currency": "INR",
           "period": null
         },
