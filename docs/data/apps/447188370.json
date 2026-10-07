@@ -2,8 +2,8 @@
   "appId": "447188370",
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/29/ae/4d/29ae4df5-1069-9794-55c0-ece2cbfc99c5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-06T22:58:23.780Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/b9/60/ceb96075-f8ba-59e1-d352-e4657be3cd8f/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-07T23:32:06.965Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,20 +35,20 @@
           "period": null
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 40,
           "priceFormatted": "$40.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Snapstreak Restore",
@@ -75,10 +75,10 @@
           "period": null
         },
         {
-          "name": "Bitmoji Pets, Cars, and Homes",
+          "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 30,
-          "priceFormatted": "$30.00",
+          "price": 80,
+          "priceFormatted": "$80.00",
           "currency": "TWD",
           "period": null
         }
@@ -145,18 +145,18 @@
           "period": "monthly"
         },
         {
-          "name": "Bitmoji Fashion",
-          "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "₺79,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Bitmoji Fashion",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": null
         }

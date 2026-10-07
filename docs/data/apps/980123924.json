@@ -1,9 +1,9 @@
 {
   "appId": "980123924",
-  "name": "Rain Radar Live RainViewer",
+  "name": "RainViewer: Rain Radar Live",
   "developer": "MeteoLab Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b8/27/96/b82796f0-fa32-cd62-7000-3ea42e6dfc21/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-06T22:59:00.810Z",
+  "fetchedAt": "2026-10-07T23:32:40.855Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -81,7 +81,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -113,14 +114,6 @@
           "period": "monthly"
         },
         {
-          "name": "Rain Viewer Essential: 1 Month",
-          "offerName": null,
-          "price": 63.99,
-          "priceFormatted": "₺63,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Rain Viewer Premium: Yearly",
           "offerName": null,
           "price": 399.99,
@@ -129,10 +122,10 @@
           "period": "yearly"
         },
         {
-          "name": "RainViewer Pro: 1 Month",
+          "name": "Rain Viewer Essential: 1 Month",
           "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
+          "price": 63.99,
+          "priceFormatted": "₺63,99",
           "currency": "TRY",
           "period": "monthly"
         },
@@ -141,6 +134,14 @@
           "offerName": null,
           "price": 99,
           "priceFormatted": "₺99,00",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "RainViewer Pro: 1 Month",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
           "currency": "TRY",
           "period": "monthly"
         },
@@ -325,20 +326,20 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Pro: 1 Year",
-          "offerName": null,
-          "price": 39.99,
-          "priceFormatted": "$39.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "RainViewer Pro: 1 Month",
           "offerName": null,
           "price": 7.99,
           "priceFormatted": "$7.99",
           "currency": "USD",
           "period": "monthly"
+        },
+        {
+          "name": "RainViewer Pro: 1 Year",
+          "offerName": null,
+          "price": 39.99,
+          "priceFormatted": "$39.99",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -363,14 +364,6 @@
           "period": "yearly"
         },
         {
-          "name": "RainViewer Pro: 1年",
-          "offerName": null,
-          "price": 3500,
-          "priceFormatted": "¥3,500",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Rain Viewer Premium: Yearly",
           "offerName": null,
           "price": 1610,
@@ -387,18 +380,18 @@
           "period": "monthly"
         },
         {
+          "name": "RainViewer Pro: 1年",
+          "offerName": null,
+          "price": 3500,
+          "priceFormatted": "¥3,500",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
           "name": "Rain Viewer Essential: 1ヶ月",
           "offerName": null,
           "price": 440,
           "priceFormatted": "¥440",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "RainViewer Pro: 1ヶ月",
-          "offerName": null,
-          "price": 710,
-          "priceFormatted": "¥710",
           "currency": "JPY",
           "period": "monthly"
         },
@@ -417,6 +410,14 @@
           "priceFormatted": "¥1,610",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "RainViewer Pro: 1ヶ月",
+          "offerName": null,
+          "price": 710,
+          "priceFormatted": "¥710",
+          "currency": "JPY",
+          "period": "monthly"
         }
       ],
       "appPrice": {

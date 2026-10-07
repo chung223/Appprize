@@ -3,7 +3,7 @@
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/62/15/916215cb-7995-5b19-c758-16f2bc12dae0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-06T22:58:05.272Z",
+  "fetchedAt": "2026-10-07T23:31:50.217Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -205,6 +205,14 @@
           "priceFormatted": "₹ 419",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Ultimate Fan Annual",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": "yearly"
         },
         {
           "name": "Monthly Premium+ Membership",
