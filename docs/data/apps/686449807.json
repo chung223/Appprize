@@ -2,8 +2,8 @@
   "appId": "686449807",
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/50/3f/12503f66-5e42-d5b8-3fab-e9c4d351907c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-07T23:31:28.094Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1f/13/c31f13f4-8039-9574-65de-dc90c87bc054/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-08T23:42:52.242Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -247,20 +247,20 @@
           "period": "yearly"
         },
         {
-          "name": "1000 Telegram Stars",
-          "offerName": null,
-          "price": 2049,
-          "priceFormatted": "₹ 2,049",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 99,
           "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": "weekly"
+        },
+        {
+          "name": "1000 Telegram Stars",
+          "offerName": null,
+          "price": 2049,
+          "priceFormatted": "₹ 2,049",
+          "currency": "INR",
+          "period": null
         },
         {
           "name": "750 Telegram Stars",
@@ -301,52 +301,28 @@
           "period": null
         },
         {
-          "name": "100 Telegram Stars",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "1x Telegram Premium (One Week)",
-          "offerName": null,
-          "price": 1.19,
-          "priceFormatted": "$1.19",
-          "currency": "USD",
-          "period": "weekly"
-        },
-        {
-          "name": "500 Telegram Stars",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "250 Telegram Stars",
-          "offerName": null,
-          "price": 5.09,
-          "priceFormatted": "$5.09",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "1000 Telegram Stars",
-          "offerName": null,
-          "price": 19.99,
-          "priceFormatted": "$19.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "750 Telegram Stars",
+          "name": "Telegram Premium (3 Months)",
           "offerName": null,
           "price": 14.99,
           "priceFormatted": "$14.99",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
+        },
+        {
+          "name": "Telegram Premium (1 Year)",
+          "offerName": null,
+          "price": 35.99,
+          "priceFormatted": "$35.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Telegram Premium (6 Months)",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Telegram Premium Annual",
@@ -357,20 +333,44 @@
           "period": "yearly"
         },
         {
-          "name": "2500 Telegram Stars",
+          "name": "1x Premium (3 Months)",
           "offerName": null,
-          "price": 50.9,
-          "priceFormatted": "$50.90",
+          "price": 14.99,
+          "priceFormatted": "$14.99",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "1500 Telegram Stars",
+          "name": "1x Premium (6 Months)",
           "offerName": null,
-          "price": 29.99,
-          "priceFormatted": "$29.99",
+          "price": 19.99,
+          "priceFormatted": "$19.99",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
+        },
+        {
+          "name": "1x Premium (1 Year)",
+          "offerName": null,
+          "price": 35.99,
+          "priceFormatted": "$35.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "5x Premium (3 Months Each)",
+          "offerName": null,
+          "price": 74.99,
+          "priceFormatted": "$74.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "5x Premium (6 Months Each)",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "$99.99",
+          "currency": "USD",
+          "period": "monthly"
         }
       ],
       "appPrice": {

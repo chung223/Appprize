@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b0/56/4f/b0564f67-d121-3996-afae-d40c91de85b8/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-07T23:30:16.979Z",
+  "fetchedAt": "2026-10-08T23:41:20.833Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -55,14 +55,6 @@
           "offerName": null,
           "price": 390,
           "priceFormatted": "$390.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "欸了粉",
-          "offerName": null,
-          "price": 100,
-          "priceFormatted": "$100.00",
           "currency": "TWD",
           "period": null
         }

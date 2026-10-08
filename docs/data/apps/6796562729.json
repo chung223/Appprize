@@ -3,7 +3,7 @@
   "name": "DeepSRT PRO",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/97/d5/d797d599-608d-e9cc-c7e1-8b5df5ead87b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-07T23:31:03.094Z",
+  "fetchedAt": "2026-10-08T23:42:16.136Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -79,8 +79,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",

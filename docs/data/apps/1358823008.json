@@ -3,7 +3,7 @@
   "name": "Flighty – Live Flight Tracker",
   "developer": "Flighty LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fc/17/d0/fc17d0a7-1dd2-35cc-d368-b9cef3c791ca/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-07T23:32:30.365Z",
+  "fetchedAt": "2026-10-08T23:44:08.577Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -191,20 +191,20 @@
           "period": "monthly"
         },
         {
-          "name": "Lifetime",
-          "offerName": null,
-          "price": 19900,
-          "priceFormatted": "₹ 19,900",
-          "currency": "INR",
-          "period": "lifetime"
-        },
-        {
           "name": "Annual Savings (Family)",
           "offerName": null,
           "price": 7999,
           "priceFormatted": "₹ 7,999",
           "currency": "INR",
           "period": "yearly"
+        },
+        {
+          "name": "Lifetime",
+          "offerName": null,
+          "price": 19900,
+          "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": "lifetime"
         },
         {
           "name": "Flexible Monthly (Family)",
