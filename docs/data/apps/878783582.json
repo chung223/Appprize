@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7e/b8/c4/7eb8c454-12da-97af-914f-dd7918cc07de/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-08T23:43:13.884Z",
+  "fetchedAt": "2026-10-09T23:07:14.260Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": null
         },
         {
-          "name": "高級版每週 100GB",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "weekly"
-        },
-        {
           "name": "Lightroom plan 1TB",
           "offerName": null,
           "price": 320,
           "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "高級版每週 100GB",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "weekly"
         }
       ],
       "appPrice": {
@@ -145,20 +145,20 @@
           "period": null
         },
         {
-          "name": "AI Credit Plan",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Premium Monthly 40GB",
           "offerName": null,
           "price": 42.99,
           "priceFormatted": "₺42,99",
           "currency": "TRY",
           "period": "monthly"
+        },
+        {
+          "name": "AI Credit Plan",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
         },
         {
           "name": "Premium Yearly 40GB",
@@ -255,12 +255,12 @@
           "period": "monthly"
         },
         {
-          "name": "Photo enhancer & erase objects",
+          "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 4499,
-          "priceFormatted": "₹ 4,499",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
-          "period": null
+          "period": "yearly"
         }
       ],
       "appPrice": {

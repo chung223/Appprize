@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/1e/97/df1e97ae-5f01-b2a3-e387-e0b713c9119b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-08T23:42:20.663Z",
+  "fetchedAt": "2026-10-09T23:06:38.167Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -169,18 +169,18 @@
           "period": "monthly"
         },
         {
-          "name": "800 LINE Coin",
+          "name": "70 LINE Coin",
           "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
+          "price": 61.99,
+          "priceFormatted": "₺61,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "スタンダード",
+          "name": "800 LINE Coin",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
         }
@@ -333,18 +333,18 @@
           "period": null
         },
         {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 1.39,
-          "priceFormatted": "$1.39",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "1600 LINE Coin",
           "offerName": null,
           "price": 22.99,
           "priceFormatted": "$22.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 1.39,
+          "priceFormatted": "$1.39",
           "currency": "USD",
           "period": null
         },

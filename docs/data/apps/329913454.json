@@ -3,7 +3,7 @@
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/62/15/916215cb-7995-5b19-c758-16f2bc12dae0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-08T23:43:22.270Z",
+  "fetchedAt": "2026-10-09T23:07:21.255Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -317,12 +317,12 @@
           "period": null
         },
         {
-          "name": "All-Access Membership",
+          "name": "Ultimate Fan Annual",
           "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
+          "price": 179.99,
+          "priceFormatted": "$179.99",
           "currency": "USD",
-          "period": null
+          "period": "yearly"
         }
       ],
       "appPrice": {
