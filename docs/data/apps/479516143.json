@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-09T23:06:19.648Z",
+  "fetchedAt": "2026-10-10T22:20:00.539Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,82 +11,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Realms Plus:10 Friends w/trial",
+          "name": "Explorer Starter Pack",
           "offerName": null,
-          "price": 240,
-          "priceFormatted": "$240.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 2",
+          "name": "Farming Starter Pack",
           "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 6",
+          "name": "Creepy Starter Pack",
           "offerName": null,
-          "price": 200,
-          "priceFormatted": "$200.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "name": "Cuddly Starter Pack",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
-          "name": "Minecraft Store Item 3",
-          "offerName": null,
-          "price": 100,
-          "priceFormatted": "$100.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
+          "name": "Furniture Starter Pack",
           "offerName": null,
-          "price": 240,
-          "priceFormatted": "$240.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
+          "name": "Structures Starter Pack",
           "offerName": null,
-          "price": 345,
-          "priceFormatted": "$345.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 4",
+          "name": "Scary Pack",
           "offerName": null,
-          "price": 135,
-          "priceFormatted": "$135.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 5",
+          "name": "Weapon Pack",
           "offerName": null,
-          "price": 170,
-          "priceFormatted": "$170.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Pets Pack",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Morph Pack",
+          "offerName": null,
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         }
@@ -325,18 +325,18 @@
           "period": "monthly"
         },
         {
-          "name": "Minecraft Store Item 5",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 10",
           "offerName": null,
           "price": 9.99,
           "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
           "currency": "USD",
           "period": null
         },

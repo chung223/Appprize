@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/df/1e/97/df1e97ae-5f01-b2a3-e387-e0b713c9119b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-09T23:06:38.167Z",
+  "fetchedAt": "2026-10-10T22:20:16.804Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,20 +161,20 @@
           "period": null
         },
         {
-          "name": "Monthly (Basic)",
-          "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "₺12,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 61.99,
           "priceFormatted": "₺61,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Monthly (Basic)",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "₺12,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "800 LINE Coin",
@@ -247,14 +247,6 @@
           "period": null
         },
         {
-          "name": "800 LINE Coin",
-          "offerName": null,
-          "price": 1099,
-          "priceFormatted": "₹ 1,099",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Monthly Plan",
           "offerName": null,
           "price": 499,
@@ -263,10 +255,18 @@
           "period": "monthly"
         },
         {
-          "name": "3300 LINE Coin",
+          "name": "800 LINE Coin",
           "offerName": null,
-          "price": 4199,
-          "priceFormatted": "₹ 4,199",
+          "price": 1099,
+          "priceFormatted": "₹ 1,099",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "スタンダード",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         }

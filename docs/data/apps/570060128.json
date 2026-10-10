@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/93/6a/60936a15-1acf-9317-cc9f-bb8c9f3314a9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-09T23:06:02.646Z",
+  "fetchedAt": "2026-10-10T22:19:45.255Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,10 +11,42 @@
       "unavailable": false,
       "inApps": [
         {
+          "name": "赠送 Super Duolingo 会员套餐",
+          "offerName": null,
+          "price": 3750,
+          "priceFormatted": "$3,750.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Lite",
+          "offerName": null,
+          "price": 990,
+          "priceFormatted": "$990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 4300,
+          "priceFormatted": "$4,300.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 2650,
-          "priceFormatted": "$2,650.00",
+          "price": 1800,
+          "priceFormatted": "$1,800.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "$500.00",
           "currency": "TWD",
           "period": null
         },
@@ -23,30 +55,6 @@
           "offerName": null,
           "price": 3300,
           "priceFormatted": "$3,300.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 1530,
-          "priceFormatted": "$1,530.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 1760,
-          "priceFormatted": "$1,760.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 3590,
-          "priceFormatted": "$3,590.00",
           "currency": "TWD",
           "period": null
         }
@@ -67,16 +75,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -261,10 +269,10 @@
           "period": null
         },
         {
-          "name": "Chest of Gems (1200)",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
+          "price": 79.99,
+          "priceFormatted": "$79.99",
           "currency": "USD",
           "period": null
         }
@@ -319,6 +327,14 @@
           "offerName": null,
           "price": 1500,
           "priceFormatted": "¥1,500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "ジェムの荷車 (6500)",
+          "offerName": null,
+          "price": 3000,
+          "priceFormatted": "¥3,000",
           "currency": "JPY",
           "period": null
         }
