@@ -3,7 +3,7 @@
   "name": "Mergic",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/af/076fafce-6b10-25c1-ef2a-23338e2ba551/AppIcon.png/1200x630wa.jpg",
-  "fetchedAt": "2026-10-10T22:20:05.615Z",
+  "fetchedAt": "2026-10-11T22:44:32.057Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -25,7 +25,7 @@
       "unavailable": false,
       "inApps": [],
       "appPrice": {
-        "price": 799.99,
+        "price": 1499.99,
         "currency": "TRY",
         "priceFormatted": null
       },
@@ -53,7 +53,7 @@
       "unavailable": false,
       "inApps": [],
       "appPrice": {
-        "price": 14.99,
+        "price": 29.99,
         "currency": "USD",
         "priceFormatted": null
       },

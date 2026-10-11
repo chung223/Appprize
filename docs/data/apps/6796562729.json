@@ -3,7 +3,7 @@
   "name": "DeepSRT PRO",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/97/d5/d797d599-608d-e9cc-c7e1-8b5df5ead87b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-10T22:20:13.512Z",
+  "fetchedAt": "2026-10-11T22:44:41.418Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -51,8 +51,8 @@
         {
           "name": "Lifetime",
           "offerName": null,
-          "price": 2499.99,
-          "priceFormatted": "₺2.499,99",
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
           "currency": "TRY",
           "period": "lifetime"
         },
@@ -127,8 +127,8 @@
         {
           "name": "Lifetime",
           "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "$49.99",
+          "price": 99.99,
+          "priceFormatted": "$99.99",
           "currency": "USD",
           "period": "lifetime"
         },
