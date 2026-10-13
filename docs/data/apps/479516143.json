@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-11T22:44:25.895Z",
+  "fetchedAt": "2026-10-13T01:10:10.836Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,18 @@
           "period": "monthly"
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
-          "offerName": null,
-          "price": 240,
-          "priceFormatted": "$240.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 3",
           "offerName": null,
           "price": 100,
           "priceFormatted": "$100.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 240,
+          "priceFormatted": "$240.00",
           "currency": "TWD",
           "period": null
         },
@@ -145,6 +145,14 @@
           "period": null
         },
         {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 219,
@@ -161,26 +169,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 10",
           "offerName": null,
           "price": 559.99,
           "priceFormatted": "₺559,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Minecraft Store Item 1",
-          "offerName": null,
-          "price": 53.99,
-          "priceFormatted": "₺53,99",
           "currency": "TRY",
           "period": null
         }
@@ -239,18 +231,18 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Realms Plus: You + 10 Friends",
           "offerName": null,
           "price": 489,
           "priceFormatted": "₹ 489",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         },

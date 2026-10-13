@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1f/13/c31f13f4-8039-9574-65de-dc90c87bc054/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-11T22:45:09.846Z",
+  "fetchedAt": "2026-10-13T01:10:44.835Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -239,20 +239,20 @@
           "period": null
         },
         {
-          "name": "Telegram Premium Annual",
-          "offerName": null,
-          "price": 2399,
-          "priceFormatted": "₹ 2,399",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
           "name": "1000 Telegram Stars",
           "offerName": null,
           "price": 2049,
           "priceFormatted": "₹ 2,049",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Telegram Premium Annual",
+          "offerName": null,
+          "price": 2399,
+          "priceFormatted": "₹ 2,399",
+          "currency": "INR",
+          "period": "yearly"
         },
         {
           "name": "1x Telegram Premium (One Week)",
@@ -325,18 +325,18 @@
           "period": null
         },
         {
-          "name": "250 Telegram Stars",
-          "offerName": null,
-          "price": 5.09,
-          "priceFormatted": "$5.09",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "1000 Telegram Stars",
           "offerName": null,
           "price": 19.99,
           "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "250 Telegram Stars",
+          "offerName": null,
+          "price": 5.09,
+          "priceFormatted": "$5.09",
           "currency": "USD",
           "period": null
         },

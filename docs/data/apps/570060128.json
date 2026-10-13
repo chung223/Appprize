@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/93/6a/60936a15-1acf-9317-cc9f-bb8c9f3314a9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-11T22:44:07.336Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/02/93/77029390-4ab4-3bc1-6fe0-b31a0c5a1a84/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-13T01:09:58.012Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,26 @@
           "period": null
         },
         {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 3590,
-          "priceFormatted": "$3,590.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "一桶宝石 (1200)",
           "offerName": null,
           "price": 150,
           "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "一堆寶石 (3000)",
+          "offerName": null,
+          "price": 320,
+          "priceFormatted": "$320.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 3590,
+          "priceFormatted": "$3,590.00",
           "currency": "TWD",
           "period": null
         }
@@ -75,16 +83,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -269,10 +277,10 @@
           "period": null
         },
         {
-          "name": "Chest of Gems (1200)",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
+          "price": 79.99,
+          "priceFormatted": "$79.99",
           "currency": "USD",
           "period": null
         }
@@ -301,16 +309,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 11400,
-          "priceFormatted": "¥11,400",
+          "price": 14200,
+          "priceFormatted": "¥14,200",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 14200,
-          "priceFormatted": "¥14,200",
+          "price": 11400,
+          "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
         },
