@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T01:10:10.836Z",
+  "fetchedAt": "2026-10-13T23:13:48.079Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -175,6 +175,14 @@
           "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Minecraft Store Item 1",
+          "offerName": null,
+          "price": 53.99,
+          "priceFormatted": "₺53,99",
+          "currency": "TRY",
+          "period": null
         }
       ],
       "appPrice": {
@@ -247,18 +255,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 5",
-          "offerName": null,
-          "price": 569,
-          "priceFormatted": "₹ 569",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 449,
           "priceFormatted": "₹ 449",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₹ 569",
           "currency": "INR",
           "period": null
         },

@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/b9/60/ceb96075-f8ba-59e1-d352-e4657be3cd8f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T01:11:16.139Z",
+  "fetchedAt": "2026-10-13T23:15:14.713Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -71,14 +71,6 @@
           "offerName": null,
           "price": 210,
           "priceFormatted": "$210.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Bitmoji Fashion",
-          "offerName": null,
-          "price": 50,
-          "priceFormatted": "$50.00",
           "currency": "TWD",
           "period": null
         }
@@ -209,16 +201,16 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 9,
-          "priceFormatted": "₹ 9",
+          "price": 29,
+          "priceFormatted": "₹ 29",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 29,
-          "priceFormatted": "₹ 29",
+          "price": 9,
+          "priceFormatted": "₹ 9",
           "currency": "INR",
           "period": null
         },
@@ -379,10 +371,10 @@
           "period": null
         },
         {
-          "name": "Lens+",
+          "name": "Memories Storage",
           "offerName": null,
-          "price": 1280,
-          "priceFormatted": "¥1,280",
+          "price": 300,
+          "priceFormatted": "¥300",
           "currency": "JPY",
           "period": null
         }

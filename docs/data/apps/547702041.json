@@ -2,8 +2,8 @@
   "appId": "547702041",
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ad/ce/fe/adcefe5b-ae9d-0a7a-7e93-3b24db828ccd/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T01:10:40.011Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/03/b4/0c/03b40ce0-16c9-3b1c-69fb-0f4b11eb4677/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-13T23:14:26.699Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -89,58 +89,34 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Tinder Gold",
+          "name": "10 Boosts",
           "offerName": null,
-          "price": 73.99,
-          "priceFormatted": "₺73,99",
+          "price": 2999.99,
+          "priceFormatted": "₺2.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "5 Boosts",
+          "offerName": null,
+          "price": 1999.99,
+          "priceFormatted": "₺1.999,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "1 Boost",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Tinder Gold",
-          "offerName": null,
-          "price": 27.99,
-          "priceFormatted": "₺27,99",
+          "price": 499.99,
+          "priceFormatted": "₺499,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Tinder Platinum",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "₺99,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Tinder Platinum",
-          "offerName": null,
-          "price": 119,
-          "priceFormatted": "₺119,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Tinder Gold",
-          "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Tinder Gold",
-          "offerName": null,
-          "price": 149,
-          "priceFormatted": "₺149,00",
+          "price": 12999.99,
+          "priceFormatted": "₺12.999,99",
           "currency": "TRY",
           "period": null
         }
