@@ -3,7 +3,7 @@
   "name": "JSBox - Learn to Code",
   "developer": "颖 钟",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b2/37/f4/b237f411-41fd-44a9-1511-b57b4c22dc4d/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T23:14:15.129Z",
+  "fetchedAt": "2026-10-14T22:08:52.563Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,7 +11,7 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "JSBox Pro - Discount",
+          "name": "JSBox Pro",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
@@ -19,7 +19,7 @@
           "period": null
         },
         {
-          "name": "JSBox Pro",
+          "name": "JSBox Pro - Discount",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",

@@ -3,7 +3,7 @@
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/62/15/916215cb-7995-5b19-c758-16f2bc12dae0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T23:14:58.066Z",
+  "fetchedAt": "2026-10-14T22:09:29.246Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -245,12 +245,36 @@
       "unavailable": false,
       "inApps": [
         {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "All-Access Membership",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
           "name": "Fan",
           "offerName": null,
           "price": 9.99,
           "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Monthly Premium+ Membership",
+          "offerName": null,
+          "price": 11.99,
+          "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Mega Fan [Monthly]",
@@ -269,38 +293,6 @@
           "period": null
         },
         {
-          "name": "Mega Fan Manga Bundle",
-          "offerName": null,
-          "price": 17.49,
-          "priceFormatted": "$17.49",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Fan Manga Bundle",
-          "offerName": null,
-          "price": 13.99,
-          "priceFormatted": "$13.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Anime Membership",
-          "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Monthly Premium+ Membership",
-          "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Mega Fan [Annual]",
           "offerName": null,
           "price": 139.99,
@@ -309,20 +301,12 @@
           "period": "yearly"
         },
         {
-          "name": "Crunchyroll Premium Membership",
-          "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "$99.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Ultimate Fan Annual",
+          "name": "Ultimate Fan",
           "offerName": null,
           "price": 179.99,
           "priceFormatted": "$179.99",
           "currency": "USD",
-          "period": "yearly"
+          "period": null
         }
       ],
       "appPrice": {

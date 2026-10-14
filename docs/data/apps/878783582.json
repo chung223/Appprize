@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/10/ac/3710ac00-fc28-3225-7a51-3ec9cdf2cbaf/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T23:14:50.292Z",
+  "fetchedAt": "2026-10-14T22:09:22.631Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -153,20 +153,20 @@
           "period": "monthly"
         },
         {
-          "name": "AI Credit Plan",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Premium Yearly 40GB",
           "offerName": null,
           "price": 214.99,
           "priceFormatted": "₺214,99",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "AI Credit Plan",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
         }
       ],
       "appPrice": {

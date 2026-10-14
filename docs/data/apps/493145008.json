@@ -2,8 +2,8 @@
   "appId": "493145008",
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c1/39/9b/c1399be5-8e02-5829-c3b8-966b1e0d1413/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-13T23:15:24.834Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/52/a1/e252a13f-6726-6baf-42c9-07f8088cfc88/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-14T22:09:55.438Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -273,6 +273,14 @@
           "offerName": null,
           "price": 94.99,
           "priceFormatted": "$94.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Headspace Plus",
+          "offerName": null,
+          "price": 69.99,
+          "priceFormatted": "$69.99",
           "currency": "USD",
           "period": null
         }
