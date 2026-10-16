@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/97/02/26970202-4348-e80a-8e41-f1682dad774f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-15T22:01:15.785Z",
+  "fetchedAt": "2026-10-16T21:58:19.084Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,20 +161,20 @@
           "period": null
         },
         {
-          "name": "Monthly (Basic)",
-          "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "₺12,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "70 LINE Coin",
           "offerName": null,
           "price": 61.99,
           "priceFormatted": "₺61,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Monthly (Basic)",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "₺12,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "800 LINE Coin",
@@ -239,18 +239,18 @@
           "period": null
         },
         {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "800 LINE Coin",
           "offerName": null,
           "price": 1099,
           "priceFormatted": "₹ 1,099",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
         },
@@ -437,16 +437,16 @@
         {
           "name": "70 LINE Coin",
           "offerName": null,
-          "price": 160,
-          "priceFormatted": "¥160",
+          "price": 210,
+          "priceFormatted": "¥210",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "70 LINE Coin",
           "offerName": null,
-          "price": 210,
-          "priceFormatted": "¥210",
+          "price": 160,
+          "priceFormatted": "¥160",
           "currency": "JPY",
           "period": null
         }

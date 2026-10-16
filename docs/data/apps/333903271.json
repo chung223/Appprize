@@ -2,8 +2,8 @@
   "appId": "333903271",
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/b1/d7/05b1d79d-7c87-651a-9183-4df6ac3c5ed2/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-15T22:01:48.368Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/0f/d6/dc0fd61d-39a0-6b0d-9e7f-9b16a1aa897f/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-16T21:58:51.670Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,18 +75,18 @@
           "period": null
         },
         {
-          "name": "@proudfox7788 Subscription",
+          "name": "@WholeMarsBlog Subscription",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "@SawyerMerritt Subscription",
+          "name": "@proudfox7788 Subscription",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
         }
@@ -223,20 +223,20 @@
           "period": "yearly"
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "X Premium Plus (Monthly)",
           "offerName": null,
           "price": 4999,
           "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": "monthly"
+        },
+        {
+          "name": "Promote Post",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": null
         },
         {
           "name": "X Premium Basic (Annual)",

@@ -2,8 +2,8 @@
   "appId": "6448311069",
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0c/f4/41/0cf44198-dca9-135b-f911-88275609b21a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-15T22:00:20.303Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/af/a3/29/afa3298d-ac0b-7c9e-f08b-4f302582480c/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-16T21:57:24.276Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -73,10 +73,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "ChatGPT Plus",
+          "name": "ChatGPT Pro 500",
           "offerName": null,
-          "price": 999.99,
-          "priceFormatted": "₺999,99",
+          "price": 26499,
+          "priceFormatted": "₺26.499,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 100",
+          "offerName": null,
+          "price": 5299.99,
+          "priceFormatted": "₺5.299,99",
           "currency": "TRY",
           "period": null
         },
@@ -89,10 +97,10 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 100",
+          "name": "ChatGPT Plus",
           "offerName": null,
-          "price": 5299.99,
-          "priceFormatted": "₺5.299,99",
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
           "currency": "TRY",
           "period": null
         },
@@ -107,16 +115,8 @@
         {
           "name": "ChatGPT Plus",
           "offerName": null,
-          "price": 9999.99,
-          "priceFormatted": "₺9.999,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "ChatGPT Pro 500",
-          "offerName": null,
-          "price": 26499,
-          "priceFormatted": "₺26.499,00",
+          "price": 999.99,
+          "priceFormatted": "₺999,99",
           "currency": "TRY",
           "period": null
         }
