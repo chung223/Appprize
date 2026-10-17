@@ -3,7 +3,7 @@
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/62/15/916215cb-7995-5b19-c758-16f2bc12dae0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-16T21:59:03.082Z",
+  "fetchedAt": "2026-10-17T21:22:03.057Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,18 @@
           "period": "yearly"
         },
         {
-          "name": "Ultimate Fan",
-          "offerName": null,
-          "price": 470,
-          "priceFormatted": "$470.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "All-Access Membership",
           "offerName": null,
           "price": 360,
           "priceFormatted": "$360.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Ultimate Fan",
+          "offerName": null,
+          "price": 470,
+          "priceFormatted": "$470.00",
           "currency": "TWD",
           "period": null
         },

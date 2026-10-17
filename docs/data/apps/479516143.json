@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-16T21:58:01.286Z",
+  "fetchedAt": "2026-10-17T21:20:54.697Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,18 +11,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Realms Plus:10 Friends w/trial",
-          "offerName": null,
-          "price": 240,
-          "priceFormatted": "$240.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 2",
           "offerName": null,
           "price": 70,
           "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Realms Plus:10 Friends w/trial",
+          "offerName": null,
+          "price": 240,
+          "priceFormatted": "$240.00",
           "currency": "TWD",
           "period": null
         },
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 35,
+          "priceFormatted": "$35.00",
           "currency": "TWD",
           "period": null
         }
@@ -153,18 +153,18 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 3",
           "offerName": null,
           "price": 164.99,
           "priceFormatted": "₺164,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
           "period": null
         },
@@ -271,10 +271,10 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 3",
+          "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 339,
-          "priceFormatted": "₹ 339",
+          "price": 119,
+          "priceFormatted": "₹ 119",
           "currency": "INR",
           "period": null
         }
@@ -387,47 +387,39 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Explorer Starter Pack",
+          "name": "Realms Plus:10 Friends w/trial",
           "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
+          "price": 960,
+          "priceFormatted": "¥960",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Farming Starter Pack",
+          "name": "Realms Monthly Subscription: You + 2 Friends",
           "offerName": null,
-          "price": 1000,
-          "priceFormatted": "¥1,000",
+          "price": 480,
+          "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 330,
+          "priceFormatted": "¥330",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Creepy Starter Pack",
+          "name": "Realms Plus: You + 10 Friends",
           "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
+          "price": 960,
+          "priceFormatted": "¥960",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Cuddly Starter Pack",
-          "offerName": null,
-          "price": 1000,
-          "priceFormatted": "¥1,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Furniture Starter Pack",
-          "offerName": null,
-          "price": 1650,
-          "priceFormatted": "¥1,650",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Structures Starter Pack",
+          "name": "Minecraft Store Item 6",
           "offerName": null,
           "price": 990,
           "priceFormatted": "¥990",
@@ -435,34 +427,34 @@
           "period": null
         },
         {
-          "name": "Scary Pack",
+          "name": "Minecraft Store Item 3",
           "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
+          "price": 550,
+          "priceFormatted": "¥550",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Weapon Pack",
+          "name": "Minecraft Store Item 4",
           "offerName": null,
-          "price": 900,
-          "priceFormatted": "¥900",
+          "price": 660,
+          "priceFormatted": "¥660",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Minecraft Pets Pack",
+          "name": "Minecraft Store Item 10",
           "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
+          "price": 1650,
+          "priceFormatted": "¥1,650",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Minecraft Morph Pack",
+          "name": "Minecraft Store Item 5",
           "offerName": null,
-          "price": 1000,
-          "priceFormatted": "¥1,000",
+          "price": 880,
+          "priceFormatted": "¥880",
           "currency": "JPY",
           "period": null
         }
