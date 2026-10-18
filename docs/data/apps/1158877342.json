@@ -3,7 +3,7 @@
   "name": "Grammarly: AI Keyboard & Voice",
   "developer": "Superhuman Platform Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/98/7c/6a/987c6a11-fa74-9e06-5300-fd0cb67fe56e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-17T21:22:29.574Z",
+  "fetchedAt": "2026-10-18T21:21:12.251Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -143,20 +143,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Annual Plan",
-          "offerName": null,
-          "price": 4699,
-          "priceFormatted": "₹ 4,699",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
           "name": "Monthly Plan",
           "offerName": null,
           "price": 999,
           "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": "monthly"
+        },
+        {
+          "name": "Annual Plan",
+          "offerName": null,
+          "price": 4699,
+          "priceFormatted": "₹ 4,699",
+          "currency": "INR",
+          "period": "yearly"
         },
         {
           "name": "Quarterly Plan",

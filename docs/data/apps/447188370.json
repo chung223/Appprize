@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/6b/24/536b24c9-04ee-dbe9-715c-a2e43dfe1f29/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-17T21:22:21.808Z",
+  "fetchedAt": "2026-10-18T21:21:06.825Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,14 +35,6 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 40,
-          "priceFormatted": "$40.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 120,
@@ -51,7 +43,15 @@
           "period": "monthly"
         },
         {
-          "name": "Memories Storage",
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 40,
+          "priceFormatted": "$40.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
@@ -59,7 +59,7 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
+          "name": "Memories Storage",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
@@ -247,12 +247,12 @@
           "period": null
         },
         {
-          "name": "Snapchat+ (Annual Plan)",
+          "name": "Snapchat+ (Monthly Plan)",
           "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
+          "price": 49,
+          "priceFormatted": "₹ 49",
           "currency": "INR",
-          "period": "yearly"
+          "period": "monthly"
         }
       ],
       "appPrice": {

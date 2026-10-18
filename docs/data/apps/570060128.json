@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/02/93/77029390-4ab4-3bc1-6fe0-b31a0c5a1a84/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-17T21:20:37.554Z",
+  "fetchedAt": "2026-10-18T21:19:37.072Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,18 @@
           "period": null
         },
         {
-          "name": "一桶宝石 (1200)",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo - Family Plan",
           "offerName": null,
           "price": 3590,
           "priceFormatted": "$3,590.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "一桶宝石 (1200)",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
         }
@@ -75,8 +75,8 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 1209.99,
+          "priceFormatted": "₺1.209,99",
           "currency": "TRY",
           "period": null
         },
@@ -91,8 +91,8 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1209.99,
-          "priceFormatted": "₺1.209,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -121,10 +121,10 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
+          "name": "Super Duolingo - Family Plan",
           "offerName": null,
-          "price": 169.99,
-          "priceFormatted": "₺169,99",
+          "price": 1439.99,
+          "priceFormatted": "₺1.439,99",
           "currency": "TRY",
           "period": null
         }

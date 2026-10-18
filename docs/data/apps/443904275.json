@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/97/02/26970202-4348-e80a-8e41-f1682dad774f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-17T21:21:15.443Z",
+  "fetchedAt": "2026-10-18T21:20:11.625Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,6 +161,14 @@
           "period": null
         },
         {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
           "name": "Monthly (Basic)",
           "offerName": null,
           "price": 12.99,
@@ -173,14 +181,6 @@
           "offerName": null,
           "price": 61.99,
           "priceFormatted": "₺61,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "800 LINE Coin",
-          "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
         }
