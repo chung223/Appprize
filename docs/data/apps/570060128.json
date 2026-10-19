@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/02/93/77029390-4ab4-3bc1-6fe0-b31a0c5a1a84/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-18T21:19:37.072Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/13/0b/8f130b30-b02a-aa1c-a476-ad38506b10b9/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-19T22:50:12.708Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -47,14 +47,6 @@
           "offerName": null,
           "price": 3590,
           "priceFormatted": "$3,590.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "一桶宝石 (1200)",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
         }

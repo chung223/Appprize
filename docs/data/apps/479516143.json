@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-18T21:19:54.038Z",
+  "fetchedAt": "2026-10-19T22:50:31.289Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -153,18 +153,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 3",
-          "offerName": null,
-          "price": 164.99,
-          "priceFormatted": "₺164,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Marketplace Pass Trial",
           "offerName": null,
           "price": 129.99,
           "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 164.99,
+          "priceFormatted": "₺164,99",
           "currency": "TRY",
           "period": null
         },
@@ -199,82 +199,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Realms Plus:10 Friends w/trial",
+          "name": "Explorer Starter Pack",
           "offerName": null,
-          "price": 489,
-          "priceFormatted": "₹ 489",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 2",
+          "name": "Farming Starter Pack",
           "offerName": null,
-          "price": 229,
-          "priceFormatted": "₹ 229",
+          "price": 599,
+          "priceFormatted": "₹ 599",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Realms Monthly Subscription: You + 2 Friends",
+          "name": "Creepy Starter Pack",
           "offerName": null,
-          "price": 249,
-          "priceFormatted": "₹ 249",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
-          "name": "Minecraft Store Item 6",
-          "offerName": null,
-          "price": 679,
-          "priceFormatted": "₹ 679",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
+          "name": "Cuddly Starter Pack",
           "offerName": null,
-          "price": 1169,
-          "priceFormatted": "₹ 1,169",
+          "price": 599,
+          "priceFormatted": "₹ 599",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Furniture Starter Pack",
           "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
+          "name": "Structures Starter Pack",
           "offerName": null,
-          "price": 489,
-          "priceFormatted": "₹ 489",
+          "price": 599,
+          "priceFormatted": "₹ 599",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 4",
+          "name": "Scary Pack",
           "offerName": null,
-          "price": 449,
-          "priceFormatted": "₹ 449",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 1",
+          "name": "Weapon Pack",
           "offerName": null,
-          "price": 119,
-          "priceFormatted": "₹ 119",
+          "price": 599,
+          "priceFormatted": "₹ 599",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Minecraft Store Item 5",
+          "name": "Minecraft Pets Pack",
           "offerName": null,
-          "price": 569,
-          "priceFormatted": "₹ 569",
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Morph Pack",
+          "offerName": null,
+          "price": 599,
+          "priceFormatted": "₹ 599",
           "currency": "INR",
           "period": null
         }

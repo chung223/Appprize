@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1f/13/c31f13f4-8039-9574-65de-dc90c87bc054/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-18T21:20:31.563Z",
+  "fetchedAt": "2026-10-19T22:51:14.178Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -435,20 +435,20 @@
           "period": null
         },
         {
-          "name": "2500 Telegram Stars",
-          "offerName": null,
-          "price": 7900,
-          "priceFormatted": "¥7,900",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 200,
           "priceFormatted": "¥200",
           "currency": "JPY",
           "period": "weekly"
+        },
+        {
+          "name": "2500 Telegram Stars",
+          "offerName": null,
+          "price": 7900,
+          "priceFormatted": "¥7,900",
+          "currency": "JPY",
+          "period": null
         },
         {
           "name": "150 Telegram Stars",
