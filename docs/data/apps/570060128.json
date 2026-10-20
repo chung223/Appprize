@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/13/0b/8f130b30-b02a-aa1c-a476-ad38506b10b9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-19T22:50:12.708Z",
+  "fetchedAt": "2026-10-20T22:10:46.963Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,6 +43,14 @@
           "period": null
         },
         {
+          "name": "一桶宝石 (1200)",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Super Duolingo - Family Plan",
           "offerName": null,
           "price": 3590,
@@ -75,16 +83,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
@@ -113,10 +121,10 @@
           "period": null
         },
         {
-          "name": "Super Duolingo - Family Plan",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 1439.99,
-          "priceFormatted": "₺1.439,99",
+          "price": 169.99,
+          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         }
@@ -213,18 +221,18 @@
           "period": null
         },
         {
-          "name": "Cart of Gems (3000)",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo",
           "offerName": null,
           "price": 83.99,
           "priceFormatted": "$83.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Cart of Gems (3000)",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
         },

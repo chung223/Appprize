@@ -3,7 +3,7 @@
   "name": "Rain Radar Live RainViewer",
   "developer": "MeteoLab Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/f9/b6/a4f9b629-a0b1-6f7c-eaf0-b67560ff7ac1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-19T22:52:30.716Z",
+  "fetchedAt": "2026-10-20T22:13:06.253Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -121,20 +121,20 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Premium: Monthly",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₺99,00",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Rain Viewer Premium: Yearly",
           "offerName": null,
           "price": 399.99,
           "priceFormatted": "₺399,99",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "RainViewer Premium: Monthly",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₺99,00",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "RainViewer Pro: 1 Month",
@@ -309,20 +309,20 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Pro: 1 Year",
-          "offerName": null,
-          "price": 39.99,
-          "priceFormatted": "$39.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "RainViewer Pro: 1 Month",
           "offerName": null,
           "price": 7.99,
           "priceFormatted": "$7.99",
           "currency": "USD",
           "period": "monthly"
+        },
+        {
+          "name": "RainViewer Pro: 1 Year",
+          "offerName": null,
+          "price": 39.99,
+          "priceFormatted": "$39.99",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {

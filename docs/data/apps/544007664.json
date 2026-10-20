@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/76/5b/a3/765ba35f-8edb-ad7a-e0c2-26a6fbfbe33b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-19T22:50:00.184Z",
+  "fetchedAt": "2026-10-20T22:10:34.116Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,31 +11,23 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "YouTube Premium",
+          "name": "人生学校名誉",
           "offerName": null,
-          "price": 260,
-          "priceFormatted": "$260.00",
+          "price": 300,
+          "priceFormatted": "$300.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Youtube Premium Family",
+          "name": "Pase de Diamante",
           "offerName": null,
-          "price": 630,
-          "priceFormatted": "$630.00",
+          "price": 400,
+          "priceFormatted": "$400.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "YouTube Premium Family",
-          "offerName": null,
-          "price": 630,
-          "priceFormatted": "$630.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "五歲抬頭基礎加持團",
+          "name": "Pase de Oro",
           "offerName": null,
           "price": 100,
           "priceFormatted": "$100.00",
@@ -43,18 +35,42 @@
           "period": null
         },
         {
-          "name": "Super Chat",
+          "name": "Pase de Plata",
           "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
+          "price": 40,
+          "priceFormatted": "$40.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "YouTube Premium Two-person",
+          "name": "SUPPORTER+",
           "offerName": null,
-          "price": 390,
-          "priceFormatted": "$390.00",
+          "price": 400,
+          "priceFormatted": "$400.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "LIVE SUPERMATCHES",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "$800.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "How To Win @Armwrestling",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "$100.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Supporter",
+          "offerName": null,
+          "price": 40,
+          "priceFormatted": "$40.00",
           "currency": "TWD",
           "period": null
         }

@@ -11,7 +11,9 @@
     "headspace#1": "Headspace",
     "headspace plus#2": "Headspace Plus",
     "headspace#2": "Headspace",
-    "annual subscription#2": "Annual Subscription"
+    "annual subscription#2": "Annual Subscription",
+    "monthly subscription#2": "Monthly Subscription",
+    "monthly subscription#3": "Monthly Subscription"
   },
   "entries": [
     {
@@ -2089,6 +2091,73 @@
             "headspace plus#0": 12.99,
             "headspace plus#1": 69.99,
             "headspace plus#2": 94.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "monthly subscription#0": 480,
+            "headspace#0": 480,
+            "headspace#1": 1600,
+            "headspace#2": 11400,
+            "annual subscription#0": 4800,
+            "annual subscription#1": 7800,
+            "headspace plus#0": 480,
+            "headspace plus#1": 4800
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-10-20",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "monthly subscription#0": 390,
+            "annual subscription#0": 2090,
+            "annual subscription#1": 2790,
+            "headspace#0": 390,
+            "headspace plus#0": 390,
+            "headspace plus#1": 2790
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "monthly subscription#0": 34.99,
+            "monthly subscription#1": 142.99,
+            "annual subscription#0": 249.99,
+            "headspace#0": 34.99,
+            "headspace#1": 249.99,
+            "headspace plus#0": 34.99,
+            "headspace plus#1": 244.99,
+            "headspace plus#2": 249.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "annual subscription#0": 899,
+            "annual subscription#1": 1499,
+            "monthly subscription#0": 159,
+            "headspace#0": 119,
+            "headspace#1": 159,
+            "headspace#2": 789,
+            "headspace plus#0": 159,
+            "headspace plus#1": 899
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "annual subscription#0": 49.99,
+            "annual subscription#1": 59.99,
+            "annual subscription#2": 69.99,
+            "monthly subscription#0": 4.99,
+            "monthly subscription#1": 5.99,
+            "monthly subscription#2": 6.99,
+            "monthly subscription#3": 7.99
           }
         },
         "jp": {

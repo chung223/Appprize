@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/23/d9/ed23d9c7-406a-6d02-8a39-0448782480a1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-19T22:50:19.373Z",
+  "fetchedAt": "2026-10-20T22:10:53.118Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,34 +11,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Usage Credits (250)",
-          "offerName": null,
-          "price": 6990,
-          "priceFormatted": "$6,990.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 1490,
-          "priceFormatted": "$1,490.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Usage Credits (20)",
+          "name": "Claude Pro - Monthly",
           "offerName": null,
           "price": 690,
           "priceFormatted": "$690.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Claude Max 20x - Monthly",
-          "offerName": null,
-          "price": 7990,
-          "priceFormatted": "$7,990.00",
           "currency": "TWD",
           "period": "monthly"
         },
@@ -59,12 +35,36 @@
           "period": "yearly"
         },
         {
-          "name": "Claude Pro - Monthly",
+          "name": "Claude Max 20x - Monthly",
+          "offerName": null,
+          "price": 7990,
+          "priceFormatted": "$7,990.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "Usage Credits (20)",
           "offerName": null,
           "price": 690,
           "priceFormatted": "$690.00",
           "currency": "TWD",
-          "period": "monthly"
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 1490,
+          "priceFormatted": "$1,490.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (250)",
+          "offerName": null,
+          "price": 6990,
+          "priceFormatted": "$6,990.00",
+          "currency": "TWD",
+          "period": null
         }
       ],
       "appPrice": {
@@ -183,18 +183,18 @@
           "period": "monthly"
         },
         {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Usage Credits (20)",
           "offerName": null,
           "price": 1999,
           "priceFormatted": "₹ 1,999",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": null
         },
