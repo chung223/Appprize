@@ -2,8 +2,8 @@
   "appId": "329913454",
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/91/62/15/916215cb-7995-5b19-c758-16f2bc12dae0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-20T22:12:14.744Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/54/8f/6a/548f6af2-1a94-2606-6345-6bb3f83ec572/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-21T22:14:14.190Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,20 +27,20 @@
           "period": null
         },
         {
-          "name": "Anime Membership",
-          "offerName": null,
-          "price": 210,
-          "priceFormatted": "$210.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Mega Fan [Annual]",
           "offerName": null,
           "price": 1130,
           "priceFormatted": "$1,130.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "Anime Membership",
+          "offerName": null,
+          "price": 210,
+          "priceFormatted": "$210.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "All-Access Membership",
