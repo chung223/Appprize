@@ -2,8 +2,8 @@
   "appId": "686449807",
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/97/26/cf972670-70bf-d295-51ad-ac824bfa1794/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-21T22:13:51.704Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/ea/e8/c3eae889-b1d9-2ad1-3f47-c23c1b3ac4e4/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-22T22:13:37.080Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -349,20 +349,20 @@
           "period": null
         },
         {
-          "name": "Telegram Premium Annual",
-          "offerName": null,
-          "price": 35.99,
-          "priceFormatted": "$35.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "2500 Telegram Stars",
           "offerName": null,
           "price": 50.9,
           "priceFormatted": "$50.90",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Telegram Premium Annual",
+          "offerName": null,
+          "price": 35.99,
+          "priceFormatted": "$35.99",
+          "currency": "USD",
+          "period": "yearly"
         },
         {
           "name": "1500 Telegram Stars",
@@ -451,18 +451,18 @@
           "period": null
         },
         {
-          "name": "1500 Telegram Stars",
-          "offerName": null,
-          "price": 4780,
-          "priceFormatted": "¥4,780",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "150 Telegram Stars",
           "offerName": null,
           "price": 480,
           "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "1500 Telegram Stars",
+          "offerName": null,
+          "price": 4780,
+          "priceFormatted": "¥4,780",
           "currency": "JPY",
           "period": null
         }

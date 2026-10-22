@@ -2,6 +2,90 @@
   "events": [
     {
       "cc": "tw",
+      "kind": "removed-plan",
+      "name": "一桶宝石 (1200)",
+      "old": 150,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Marketplace Pass Trial",
+      "old": null,
+      "new": 120,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Minecraft Store Item 1",
+      "old": 35,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "Minecraft Store Item 1",
+      "old": null,
+      "new": 119,
+      "currency": "INR",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "Minecraft Store Item 5",
+      "old": 569,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "479516143",
+      "appName": "Minecraft",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "スタンダード",
+      "old": null,
+      "new": 129.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "tr",
+      "kind": "removed-plan",
+      "name": "70 LINE Coin",
+      "old": 61.99,
+      "new": null,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-10-22"
+    },
+    {
+      "cc": "tw",
       "kind": "new-plan",
       "name": "YouTube Premium",
       "old": null,
@@ -3515,91 +3599,7 @@
       "appId": "479516143",
       "appName": "Minecraft",
       "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "new-plan",
-      "name": "Realms Plus: You + 10 Friends",
-      "old": null,
-      "new": 240,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "new-plan",
-      "name": "Minecraft Store Item 3",
-      "old": null,
-      "new": 100,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "new-plan",
-      "name": "Minecraft Store Item 10",
-      "old": null,
-      "new": 345,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "new-plan",
-      "name": "Minecraft Store Item 4",
-      "old": null,
-      "new": 135,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "new-plan",
-      "name": "Minecraft Store Item 5",
-      "old": null,
-      "new": 170,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "new-plan",
-      "name": "Marketplace Pass Trial",
-      "old": null,
-      "new": 120,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "Explorer Starter Pack",
-      "old": 320,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "479516143",
-      "appName": "Minecraft",
-      "date": "2026-10-11"
     }
   ],
-  "updatedAt": "2026-10-21T22:15:14.428Z"
+  "updatedAt": "2026-10-22T22:15:01.683Z"
 }
