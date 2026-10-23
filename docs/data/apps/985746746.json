@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/ff/08/4cff087a-6dab-13ff-b18d-d0daefc49f1c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-22T22:13:42.895Z",
+  "fetchedAt": "2026-10-23T21:57:02.785Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 5 Boosts (Monthly)",
+          "name": "Nitro + 3 Boosts (Monthly)",
           "offerName": null,
-          "price": 840,
-          "priceFormatted": "$840.00",
+          "price": 620,
+          "priceFormatted": "$620.00",
           "currency": "TWD",
           "period": "monthly"
         }
@@ -300,12 +300,28 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Nitro Monthly",
+          "name": "Nitro Basic (1 Year)",
           "offerName": null,
-          "price": 1050,
-          "priceFormatted": "¥1,050",
+          "price": 5000,
+          "priceFormatted": "¥5,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Nitro Basic (1 Month)",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
           "currency": "JPY",
           "period": "monthly"
+        },
+        {
+          "name": "Nitro Basic Yearly",
+          "offerName": null,
+          "price": 3500,
+          "priceFormatted": "¥3,500",
+          "currency": "JPY",
+          "period": "yearly"
         },
         {
           "name": "Nitro Basic Monthly",
@@ -316,26 +332,10 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro Classic Monthly",
+          "name": "2 Server Boosts Monthly",
           "offerName": null,
-          "price": 500,
-          "priceFormatted": "¥500",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro (1 Month)",
-          "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro + 1 Boost (Monthly)",
-          "offerName": null,
-          "price": 1400,
-          "priceFormatted": "¥1,400",
+          "price": 1050,
+          "priceFormatted": "¥1,050",
           "currency": "JPY",
           "period": "monthly"
         },
@@ -348,34 +348,34 @@
           "period": "monthly"
         },
         {
-          "name": "Nitro + 2 Boosts (Monthly)",
+          "name": "Nitro Classic + 1 Boost",
           "offerName": null,
-          "price": 1750,
-          "priceFormatted": "¥1,750",
+          "price": 8800,
+          "priceFormatted": "¥8,800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Nitro Classic + 1 Boost",
+          "offerName": null,
+          "price": 880,
+          "priceFormatted": "¥880",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Nitro + 28 Boosts (Monthly)",
+          "offerName": null,
+          "price": 11200,
+          "priceFormatted": "¥11,200",
           "currency": "JPY",
           "period": "monthly"
         },
         {
-          "name": "Nitro + 5 Boosts (Monthly)",
+          "name": "Nitro + 13 Boosts (Monthly)",
           "offerName": null,
-          "price": 2800,
-          "priceFormatted": "¥2,800",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "Nitro Yearly",
-          "offerName": null,
-          "price": 10400,
-          "priceFormatted": "¥10,400",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
-          "name": "Nitro + 3 Boosts (Monthly)",
-          "offerName": null,
-          "price": 2100,
-          "priceFormatted": "¥2,100",
+          "price": 5700,
+          "priceFormatted": "¥5,700",
           "currency": "JPY",
           "period": "monthly"
         }

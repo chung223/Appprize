@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/10/ac/3710ac00-fc28-3225-7a51-3ec9cdf2cbaf/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-22T22:13:54.169Z",
+  "fetchedAt": "2026-10-23T21:57:14.397Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,12 +161,12 @@
           "period": "yearly"
         },
         {
-          "name": "AI Credit Plan",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
+          "price": 84.99,
+          "priceFormatted": "₺84,99",
           "currency": "TRY",
-          "period": null
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -411,20 +411,20 @@
           "period": "monthly"
         },
         {
-          "name": "プレミアム",
-          "offerName": null,
-          "price": 550,
-          "priceFormatted": "¥550",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "プレミアム (40 GB/年)",
           "offerName": null,
           "price": 2100,
           "priceFormatted": "¥2,100",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "プレミアム",
+          "offerName": null,
+          "price": 550,
+          "priceFormatted": "¥550",
+          "currency": "JPY",
+          "period": null
         }
       ],
       "appPrice": {
