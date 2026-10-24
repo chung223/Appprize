@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/5c/4b/5f5c4b52-9020-8104-6d38-f2dcf4988fb8/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-23T21:56:04.771Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/3f/a2/493fa2e2-a0c4-1385-25a2-ceb1883ef6c1/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-24T21:27:21.132Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,14 +43,6 @@
           "period": "monthly"
         },
         {
-          "name": "Usage Credits (20)",
-          "offerName": null,
-          "price": 690,
-          "priceFormatted": "$690.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (50)",
           "offerName": null,
           "price": 1490,
@@ -59,10 +51,42 @@
           "period": null
         },
         {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 690,
+          "priceFormatted": "$690.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Usage Credits (250)",
           "offerName": null,
           "price": 6990,
           "priceFormatted": "$6,990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (500)",
+          "offerName": null,
+          "price": 11000,
+          "priceFormatted": "$11,000.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (100)",
+          "offerName": null,
+          "price": 2990,
+          "priceFormatted": "$2,990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (1000)",
+          "offerName": null,
+          "price": 22000,
+          "priceFormatted": "$22,000.00",
           "currency": "TWD",
           "period": null
         }
@@ -135,6 +159,30 @@
           "priceFormatted": "₺2.499,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Usage Credits (500)",
+          "offerName": null,
+          "price": 19999.99,
+          "priceFormatted": "₺19.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (100)",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (1000)",
+          "offerName": null,
+          "price": 39999.99,
+          "priceFormatted": "₺39.999,99",
+          "currency": "TRY",
+          "period": null
         }
       ],
       "appPrice": {
@@ -205,6 +253,30 @@
           "priceFormatted": "₹ 19,900",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Usage Credits (500)",
+          "offerName": null,
+          "price": 34900,
+          "priceFormatted": "₹ 34,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (100)",
+          "offerName": null,
+          "price": 9900,
+          "priceFormatted": "₹ 9,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (1000)",
+          "offerName": null,
+          "price": 69900,
+          "priceFormatted": "₹ 69,900",
+          "currency": "INR",
+          "period": null
         }
       ],
       "appPrice": {
@@ -273,6 +345,30 @@
           "offerName": null,
           "price": 200,
           "priceFormatted": "$200.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (500)",
+          "offerName": null,
+          "price": 350,
+          "priceFormatted": "$350.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (100)",
+          "offerName": null,
+          "price": 90,
+          "priceFormatted": "$90.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (1000)",
+          "offerName": null,
+          "price": 700,
+          "priceFormatted": "$700.00",
           "currency": "USD",
           "period": null
         }
