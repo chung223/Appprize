@@ -2,8 +2,8 @@
   "appId": "363590051",
   "name": "Netflix",
   "developer": "Netflix, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/1e/db/591edb45-84dd-021d-578b-a7dff3e7c401/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-25T21:33:02.568Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b7/1c/e3/b71ce3a1-c89e-0079-6d02-73b98485b4e3/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-26T23:04:27.716Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -159,14 +159,6 @@
           "period": null
         },
         {
-          "name": "Netflix 4 Screens - Unlimited Streaming",
-          "offerName": null,
-          "price": 649,
-          "priceFormatted": "₹ 649",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Netflix 2 Screens - Unlimited Streaming",
           "offerName": null,
           "price": 499,
@@ -175,18 +167,18 @@
           "period": null
         },
         {
-          "name": "Netflix 1 Screen - Unlimited Streaming",
+          "name": "Netflix 4 Screens - Unlimited Streaming",
           "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
+          "price": 649,
+          "priceFormatted": "₹ 649",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Netflix 2S Streaming",
+          "name": "Netflix 1 Screen - Unlimited Streaming",
           "offerName": null,
-          "price": 499,
-          "priceFormatted": "₹ 499",
+          "price": 199,
+          "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": null
         }

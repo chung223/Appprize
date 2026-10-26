@@ -2,8 +2,8 @@
   "appId": "333903271",
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/12/98/e812988f-f7da-ab3f-a09d-3b6454e01b95/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-25T21:34:07.520Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0d/26/f7/0d26f729-7772-7499-7dca-995e2b0382d7/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-26T23:05:23.428Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,18 +145,18 @@
           "period": "monthly"
         },
         {
-          "name": "@hoccabazzzz Subscription",
-          "offerName": null,
-          "price": 349.99,
-          "priceFormatted": "₺349,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Promote Post",
           "offerName": null,
           "price": 499.99,
           "priceFormatted": "₺499,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "@hoccabazzzz Subscription",
+          "offerName": null,
+          "price": 349.99,
+          "priceFormatted": "₺349,99",
           "currency": "TRY",
           "period": null
         },

@@ -2,8 +2,8 @@
   "appId": "980123924",
   "name": "Rain Radar Live RainViewer",
   "developer": "MeteoLab Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/f9/b6/a4f9b629-a0b1-6f7c-eaf0-b67560ff7ac1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-25T21:35:28.349Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/82/3f/a8823f7d-241a-58b4-bff8-2821ce005a00/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-26T23:06:23.945Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -113,20 +113,20 @@
           "period": "yearly"
         },
         {
-          "name": "Rain Viewer Essential: 1 Month",
-          "offerName": null,
-          "price": 82.99,
-          "priceFormatted": "₺82,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Rain Viewer Premium: Yearly",
           "offerName": null,
           "price": 399.99,
           "priceFormatted": "₺399,99",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "Rain Viewer Essential: 1 Month",
+          "offerName": null,
+          "price": 82.99,
+          "priceFormatted": "₺82,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "RainViewer Premium: Monthly",

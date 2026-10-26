@@ -2,8 +2,8 @@
   "appId": "878783582",
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/10/ac/3710ac00-fc28-3225-7a51-3ec9cdf2cbaf/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-25T21:34:15.182Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/0c/75/c20c752e-2ba4-2896-4d91-a4a253779315/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-26T23:05:28.219Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,84 +97,76 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Premium Yearly 100GB",
+          "name": "Premium monthly 40GB",
           "offerName": null,
-          "price": 2499.99,
-          "priceFormatted": "₺2.499,99",
+          "price": 19,
+          "priceFormatted": "₺19,00",
           "currency": "TRY",
-          "period": "yearly"
+          "period": "monthly"
         },
         {
-          "name": "AI Credit Plan",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 799.99,
-          "priceFormatted": "₺799,99",
+          "price": 49,
+          "priceFormatted": "₺49,00",
           "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "AI Credit Plan",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Premium Weekly 40GB",
-          "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "₺49,99",
-          "currency": "TRY",
-          "period": "weekly"
-        },
-        {
-          "name": "Premium weekly 40GB",
-          "offerName": null,
-          "price": 39.99,
-          "priceFormatted": "₺39,99",
-          "currency": "TRY",
-          "period": "weekly"
-        },
-        {
-          "name": "Premium weekly 40GB",
-          "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
-          "currency": "TRY",
-          "period": "weekly"
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 319.99,
-          "priceFormatted": "₺319,99",
+          "price": 199,
+          "priceFormatted": "₺199,00",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 17.99,
+          "priceFormatted": "₺17,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium yearly 100GB",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₺499,00",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium",
+          "offerName": null,
+          "price": 38.99,
+          "priceFormatted": "₺38,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Premium Monthly 40GB",
+          "offerName": null,
+          "price": 42.99,
+          "priceFormatted": "₺42,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 269.99,
-          "priceFormatted": "₺269,99",
+          "price": 214.99,
+          "priceFormatted": "₺214,99",
           "currency": "TRY",
           "period": "yearly"
         },
         {
-          "name": "Premium Yearly 100GB",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 379.99,
-          "priceFormatted": "₺379,99",
+          "price": 84.99,
+          "priceFormatted": "₺84,99",
           "currency": "TRY",
-          "period": "yearly"
-        },
-        {
-          "name": "Premium Yearly 100GB",
-          "offerName": null,
-          "price": 53.99,
-          "priceFormatted": "₺53,99",
-          "currency": "TRY",
-          "period": "yearly"
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -371,36 +363,44 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "プレミアム (100 GB/月)",
-          "offerName": null,
-          "price": 550,
-          "priceFormatted": "¥550",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "プレミアム (100 GB/月)",
-          "offerName": null,
-          "price": 990,
-          "priceFormatted": "¥990",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "プレミアム (100 GB/年)",
           "offerName": null,
-          "price": 5880,
-          "priceFormatted": "¥5,880",
+          "price": 8000,
+          "priceFormatted": "¥8,000",
           "currency": "JPY",
           "period": "yearly"
         },
         {
-          "name": "編集　レタッチ　ぼかし　削除",
+          "name": "AIクレジットプラン",
           "offerName": null,
-          "price": 5880,
-          "priceFormatted": "¥5,880",
+          "price": 2500,
+          "priceFormatted": "¥2,500",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "AIクレジットプラン",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Premium Weekly 100GB",
+          "offerName": null,
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": "weekly"
+        },
+        {
+          "name": "プレミアム 週次 100GB",
+          "offerName": null,
+          "price": 1300,
+          "priceFormatted": "¥1,300",
+          "currency": "JPY",
+          "period": "weekly"
         },
         {
           "name": "プレミアム 週次 100GB",
@@ -411,26 +411,34 @@
           "period": "weekly"
         },
         {
-          "name": "プレミアム (40 GB/月)",
+          "name": "プレミアム (40 GB/年)",
           "offerName": null,
-          "price": 200,
-          "priceFormatted": "¥200",
+          "price": 3300,
+          "priceFormatted": "¥3,300",
           "currency": "JPY",
-          "period": "monthly"
-        },
-        {
-          "name": "プレミアム",
-          "offerName": null,
-          "price": 550,
-          "priceFormatted": "¥550",
-          "currency": "JPY",
-          "period": null
+          "period": "yearly"
         },
         {
           "name": "プレミアム (40 GB/年)",
           "offerName": null,
-          "price": 2100,
-          "priceFormatted": "¥2,100",
+          "price": 2700,
+          "priceFormatted": "¥2,700",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "プレミアム (100 GB/年)",
+          "offerName": null,
+          "price": 3800,
+          "priceFormatted": "¥3,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "プレミアム (100 GB/年)",
+          "offerName": null,
+          "price": 550,
+          "priceFormatted": "¥550",
           "currency": "JPY",
           "period": "yearly"
         }
