@@ -2,8 +2,8 @@
   "appId": "479516143",
   "name": "Minecraft",
   "developer": "Mojang AB",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/e7/ee/efe7eeb7-ae28-d2d3-1f37-60fd7642366f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-26T23:04:34.016Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/82/44/8882440c-3450-69f9-dddc-e438c02a6bf9/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-27T22:53:31.252Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -247,18 +247,18 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
-          "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 449,
           "priceFormatted": "₹ 449",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         },
@@ -435,18 +435,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 1650,
-          "priceFormatted": "¥1,650",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 660,
           "priceFormatted": "¥660",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 1650,
+          "priceFormatted": "¥1,650",
           "currency": "JPY",
           "period": null
         },

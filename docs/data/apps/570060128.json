@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/15/d7/38/15d73880-2abc-304f-4d81-f373cb75a593/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-26T23:04:16.570Z",
+  "fetchedAt": "2026-10-27T22:53:15.389Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,16 +75,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
@@ -105,18 +105,18 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 839.99,
-          "priceFormatted": "₺839,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Super Duolingo - Family Plan",
           "offerName": null,
           "price": 1439.99,
           "priceFormatted": "₺1.439,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 839.99,
+          "priceFormatted": "₺839,99",
           "currency": "TRY",
           "period": null
         }
