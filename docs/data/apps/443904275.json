@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/97/02/26970202-4348-e80a-8e41-f1682dad774f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-27T22:53:48.332Z",
+  "fetchedAt": "2026-10-28T23:00:55.230Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,12 +177,12 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
+          "name": "70 LINE Coin",
           "offerName": null,
-          "price": 229.99,
-          "priceFormatted": "₺229,99",
+          "price": 61.99,
+          "priceFormatted": "₺61,99",
           "currency": "TRY",
-          "period": "monthly"
+          "period": null
         }
       ],
       "appPrice": {
@@ -285,7 +285,23 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "100 LINE Coin",
+          "name": "130 LINE Coin",
+          "offerName": null,
+          "price": 2.59,
+          "priceFormatted": "$2.59",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "120 LINE Coin",
+          "offerName": null,
+          "price": 2.39,
+          "priceFormatted": "$2.39",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "ライト（エンジョイパック）",
           "offerName": null,
           "price": 1.99,
           "priceFormatted": "$1.99",
@@ -293,68 +309,60 @@
           "period": null
         },
         {
-          "name": "50 LINE Coin",
+          "name": "with Netflix プレミアム",
           "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
+          "price": 14.99,
+          "priceFormatted": "$14.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "500 LINE Coin",
+          "name": "with Netflix スタンダード",
           "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "200 LINE Coin",
+          "name": "with Netflix 広告つきスタンダード",
           "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
+          "price": 5.99,
+          "priceFormatted": "$5.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "150 LINE Coin",
+          "name": "LINE In-App Purchase",
           "offerName": null,
-          "price": 2.99,
-          "priceFormatted": "$2.99",
+          "price": 350,
+          "priceFormatted": "$350.00",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "800 LINE Coin",
+          "name": "LINE In-App Purchase",
           "offerName": null,
-          "price": 11.99,
-          "priceFormatted": "$11.99",
+          "price": 349.99,
+          "priceFormatted": "$349.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "LINE In-App Purchase",
           "offerName": null,
-          "price": 22.99,
-          "priceFormatted": "$22.99",
+          "price": 394.99,
+          "priceFormatted": "$394.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "70 LINE Coin",
+          "name": "LINE In-App Purchase",
           "offerName": null,
-          "price": 1.39,
-          "priceFormatted": "$1.39",
+          "price": 390,
+          "priceFormatted": "$390.00",
           "currency": "USD",
           "period": null
-        },
-        {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": "monthly"
         }
       ],
       "appPrice": {

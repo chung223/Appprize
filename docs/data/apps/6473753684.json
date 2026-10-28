@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/3f/a2/493fa2e2-a0c4-1385-25a2-ceb1883ef6c1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-27T22:53:19.921Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/aa/8e/05aa8e29-26e7-03b8-03ee-825a1214c036/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-28T23:00:19.580Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -317,20 +317,20 @@
           "period": "monthly"
         },
         {
-          "name": "Usage Credits (20)",
-          "offerName": null,
-          "price": 20,
-          "priceFormatted": "$20.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Claude Pro - Annual",
           "offerName": null,
           "price": 214.99,
           "priceFormatted": "$214.99",
           "currency": "USD",
           "period": "yearly"
+        },
+        {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 20,
+          "priceFormatted": "$20.00",
+          "currency": "USD",
+          "period": null
         },
         {
           "name": "Usage Credits (50)",
@@ -349,18 +349,18 @@
           "period": null
         },
         {
-          "name": "Usage Credits (500)",
-          "offerName": null,
-          "price": 350,
-          "priceFormatted": "$350.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (100)",
           "offerName": null,
           "price": 90,
           "priceFormatted": "$90.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (500)",
+          "offerName": null,
+          "price": 350,
+          "priceFormatted": "$350.00",
           "currency": "USD",
           "period": null
         },

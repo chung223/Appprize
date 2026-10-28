@@ -2,8 +2,8 @@
   "appId": "878783582",
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/0c/75/c20c752e-2ba4-2896-4d91-a4a253779315/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-27T22:54:23.684Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/47/e2/6347e2b4-a130-4108-3f73-b0b33465a10e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-28T23:01:41.641Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -411,20 +411,20 @@
           "period": "monthly"
         },
         {
-          "name": "プレミアム",
-          "offerName": null,
-          "price": 550,
-          "priceFormatted": "¥550",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "プレミアム (40 GB/年)",
           "offerName": null,
           "price": 2100,
           "priceFormatted": "¥2,100",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "プレミアム",
+          "offerName": null,
+          "price": 550,
+          "priceFormatted": "¥550",
+          "currency": "JPY",
+          "period": null
         }
       ],
       "appPrice": {
