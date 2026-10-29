@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/05/31/290531ca-0bfd-1b6e-f90d-4108f7b991a8/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-28T22:59:57.204Z",
+  "fetchedAt": "2026-10-29T23:08:20.152Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -127,42 +127,74 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "YouTube Premium",
+          "name": "人生学校名誉",
           "offerName": null,
-          "price": 195,
-          "priceFormatted": "₹ 195",
+          "price": 749,
+          "priceFormatted": "₹ 749",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "YouTube Premium Family",
+          "name": "Pase de Diamante",
           "offerName": null,
-          "price": 389,
-          "priceFormatted": "₹ 389",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Youtube Premium Family",
+          "name": "Pase de Oro",
           "offerName": null,
-          "price": 389,
-          "priceFormatted": "₹ 389",
+          "price": 199,
+          "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "YouTube Premium Two-person",
+          "name": "Pase de Plata",
           "offerName": null,
-          "price": 289,
-          "priceFormatted": "₹ 289",
+          "price": 79,
+          "priceFormatted": "₹ 79",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Premium Lite",
+          "name": "National Theatre at Home",
           "offerName": null,
-          "price": 119,
-          "priceFormatted": "₹ 119",
+          "price": 249,
+          "priceFormatted": "₹ 249",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "SUPPORTER+",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "LIVE SUPERMATCHES",
+          "offerName": null,
+          "price": 1999,
+          "priceFormatted": "₹ 1,999",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "How To Win @Armwrestling",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Supporter",
+          "offerName": null,
+          "price": 79,
+          "priceFormatted": "₹ 79",
           "currency": "INR",
           "period": null
         }
@@ -181,58 +213,74 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "YouTube Premium",
+          "name": "HBO Max Basic with Ads",
           "offerName": null,
-          "price": 20.99,
-          "priceFormatted": "$20.99",
+          "price": 10.99,
+          "priceFormatted": "$10.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Movies & Shows",
+          "name": "NFL Sunday Ticket+NFL RedZone",
           "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
+          "price": 404.99,
+          "priceFormatted": "$404.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Youtube Premium Family",
+          "name": "NFL Sunday Ticket 2026 season",
           "offerName": null,
-          "price": 34.99,
-          "priceFormatted": "$34.99",
+          "price": 374.99,
+          "priceFormatted": "$374.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "YouTube Premium Family",
-          "offerName": null,
-          "price": 34.99,
-          "priceFormatted": "$34.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Super Chat",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Super Chat",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Premium Lite",
+          "name": "人生学校名誉",
           "offerName": null,
           "price": 11.99,
           "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "BritBox",
+          "offerName": null,
+          "price": 10.99,
+          "priceFormatted": "$10.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pase de Diamante",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pase de Oro",
+          "offerName": null,
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pase de Plata",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "National Theatre at Home",
+          "offerName": null,
+          "price": 8.99,
+          "priceFormatted": "$8.99",
           "currency": "USD",
           "period": null
         }
@@ -251,58 +299,74 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "YouTube Premium",
+          "name": "Anime Times",
           "offerName": null,
-          "price": 1680,
-          "priceFormatted": "¥1,680",
+          "price": 500,
+          "priceFormatted": "¥500",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Super Chat",
+          "name": "人生学校名誉",
           "offerName": null,
-          "price": 320,
-          "priceFormatted": "¥320",
+          "price": 1400,
+          "priceFormatted": "¥1,400",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Super Chat",
+          "name": "Pase de Diamante",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
+          "price": 1700,
+          "priceFormatted": "¥1,700",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Youtube Premium Family",
+          "name": "Pase de Oro",
           "offerName": null,
-          "price": 2900,
-          "priceFormatted": "¥2,900",
+          "price": 700,
+          "priceFormatted": "¥700",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Super Chat",
+          "name": "Pase de Plata",
           "offerName": null,
-          "price": 1600,
-          "priceFormatted": "¥1,600",
+          "price": 300,
+          "priceFormatted": "¥300",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "YouTube Premium Family",
+          "name": "SUPPORTER+",
           "offerName": null,
-          "price": 2900,
-          "priceFormatted": "¥2,900",
+          "price": 1700,
+          "priceFormatted": "¥1,700",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Premium Lite",
+          "name": "LIVE SUPERMATCHES",
           "offerName": null,
-          "price": 980,
-          "priceFormatted": "¥980",
+          "price": 3400,
+          "priceFormatted": "¥3,400",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "How To Win @Armwrestling",
+          "offerName": null,
+          "price": 700,
+          "priceFormatted": "¥700",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Supporter",
+          "offerName": null,
+          "price": 300,
+          "priceFormatted": "¥300",
           "currency": "JPY",
           "period": null
         }

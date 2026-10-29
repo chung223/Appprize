@@ -31,7 +31,13 @@
     "supporter+#0": "SUPPORTER+",
     "live supermatches#0": "LIVE SUPERMATCHES",
     "how to win armwrestling#0": "How To Win @Armwrestling",
-    "supporter#0": "Supporter"
+    "supporter#0": "Supporter",
+    "national theatre at home#0": "National Theatre at Home",
+    "hbo max basic with ads#0": "HBO Max Basic with Ads",
+    "nfl sunday ticket+nfl redzone#0": "NFL Sunday Ticket+NFL RedZone",
+    "nfl sunday ticket 2026 season#0": "NFL Sunday Ticket 2026 season",
+    "britbox#0": "BritBox",
+    "anime times#0": "Anime Times"
   },
   "entries": [
     {
@@ -1181,6 +1187,74 @@
             "youtube premium family#0": 2900,
             "youtube premium family#1": 2900,
             "premium lite#0": 980
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-10-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 260,
+            "youtube premium family#0": 630,
+            "youtube premium family#1": 630,
+            "五歲抬頭基礎加持團#0": 100,
+            "super chat#0": 70,
+            "youtube premium two person#0": 390
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "youtube premium#0": 159.99,
+            "youtube premium family#0": 319.99,
+            "youtube premium family#1": 319.99,
+            "premium lite#0": 99.99,
+            "aslan paketi#0": 39.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "人生学校名誉#0": 749,
+            "pase de diamante#0": 999,
+            "pase de oro#0": 199,
+            "pase de plata#0": 79,
+            "national theatre at home#0": 249,
+            "supporter+#0": 999,
+            "live supermatches#0": 1999,
+            "how to win armwrestling#0": 199,
+            "supporter#0": 79
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "hbo max basic with ads#0": 10.99,
+            "nfl sunday ticket+nfl redzone#0": 404.99,
+            "nfl sunday ticket 2026 season#0": 374.99,
+            "人生学校名誉#0": 11.99,
+            "britbox#0": 10.99,
+            "pase de diamante#0": 12.99,
+            "pase de oro#0": 6.99,
+            "pase de plata#0": 2.99,
+            "national theatre at home#0": 8.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "anime times#0": 500,
+            "人生学校名誉#0": 1400,
+            "pase de diamante#0": 1700,
+            "pase de oro#0": 700,
+            "pase de plata#0": 300,
+            "supporter+#0": 1700,
+            "live supermatches#0": 3400,
+            "how to win armwrestling#0": 700,
+            "supporter#0": 300
           }
         }
       }

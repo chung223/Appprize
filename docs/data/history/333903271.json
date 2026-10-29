@@ -2707,6 +2707,86 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-10-29",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "nathalberstadt subscription#0": 150,
+            "zeroxjackson subscription#0": 2990,
+            "itsjohnrocker subscription#0": 150,
+            "promote post#0": 160000,
+            "promote post#1": 330000,
+            "enabled for advanced commerce#0": 290,
+            "skdh subscription#0": 120,
+            "brettfavre subscription#0": 60,
+            "vol8882 subscription#0": 290,
+            "goingpublic subscription#0": 30
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "nathalberstadt subscription#0": 229.99,
+            "zeroxjackson subscription#0": 3999.99,
+            "itsjohnrocker subscription#0": 229.99,
+            "promote post#0": 269999,
+            "promote post#1": 299999,
+            "enabled for advanced commerce#0": 399.99,
+            "skdh subscription#0": 179.99,
+            "brettfavre subscription#0": 99.99,
+            "vol8882 subscription#0": 349.99,
+            "goingpublic subscription#0": 39.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "x premium monthly#0": 470,
+            "x premium basic monthly#0": 170,
+            "x premium annual#0": 4700,
+            "x premium plus monthly#0": 4999,
+            "promote post#0": 999,
+            "x premium basic annual#0": 1700,
+            "nishkumar1977 subscription#0": 799,
+            "promote post for 25#0": 2499,
+            "anirbban subscription#0": 199,
+            "elonmusk subscription#0": 399
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "nathalberstadt subscription#0": 5,
+            "zeroxjackson subscription#0": 99,
+            "itsjohnrocker subscription#0": 5,
+            "promote post#0": 5000,
+            "promote post#1": 10000,
+            "enabled for advanced commerce#0": 8.99,
+            "skdh subscription#0": 4,
+            "brettfavre subscription#0": 2,
+            "vol8882 subscription#0": 8,
+            "goingpublic subscription#0": 1
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "nathalberstadt subscription#0": 800,
+            "zeroxjackson subscription#0": 15000,
+            "itsjohnrocker subscription#0": 800,
+            "promote post#0": 800000,
+            "promote post#1": 1600000,
+            "enabled for advanced commerce#0": 1500,
+            "skdh subscription#0": 600,
+            "brettfavre subscription#0": 300,
+            "vol8882 subscription#0": 1300,
+            "goingpublic subscription#0": 150
+          }
+        }
+      }
     }
   ],
   "name": "X（前身為Twitter）"
