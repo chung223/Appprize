@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/c4/f6/a0c4f68a-660b-a59a-cf19-af99865084f2/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-29T23:09:35.914Z",
+  "fetchedAt": "2026-10-30T22:52:32.027Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,55 +11,47 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "@NatHalberstadt Subscription",
+          "name": "X Premium (Monthly)",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 255,
+          "priceFormatted": "$255.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@zeroxjackson Subscription",
+          "name": "X Premium Basic (Monthly)",
           "offerName": null,
-          "price": 2990,
-          "priceFormatted": "$2,990.00",
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@@itsJohnRocker Subscription",
+          "name": "X Premium Plus (Monthly)",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 1490,
+          "priceFormatted": "$1,490.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "Promote Post",
+          "name": "X Premium (Annual)",
           "offerName": null,
-          "price": 330000,
-          "priceFormatted": "$330,000.00",
+          "price": 2500,
+          "priceFormatted": "$2,500.00",
           "currency": "TWD",
-          "period": null
+          "period": "yearly"
         },
         {
-          "name": "Promote Post",
+          "name": "X Premium Basic (Annual)",
           "offerName": null,
-          "price": 160000,
-          "priceFormatted": "$160,000.00",
+          "price": 900,
+          "priceFormatted": "$900.00",
           "currency": "TWD",
-          "period": null
+          "period": "yearly"
         },
         {
-          "name": "Enabled for Advanced Commerce",
-          "offerName": null,
-          "price": 290,
-          "priceFormatted": "$290.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "@skdh Subscription",
+          "name": "@elonmusk Subscription",
           "offerName": null,
           "price": 120,
           "priceFormatted": "$120.00",
@@ -67,26 +59,34 @@
           "period": null
         },
         {
-          "name": "@BrettFavre Subscription",
+          "name": "X Premium Plus (Annual)",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 15000,
+          "priceFormatted": "$15,000.00",
+          "currency": "TWD",
+          "period": "yearly"
+        },
+        {
+          "name": "@garyblack00 Subscription",
+          "offerName": null,
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "@Vol8882 Subscription",
+          "name": "@proudfox7788 Subscription",
           "offerName": null,
-          "price": 290,
-          "priceFormatted": "$290.00",
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "@goingpublic Subscription",
+          "name": "@SawyerMerritt Subscription",
           "offerName": null,
-          "price": 30,
-          "priceFormatted": "$30.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }
@@ -105,71 +105,55 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "@NatHalberstadt Subscription",
+          "name": "X Premium (Monthly)",
           "offerName": null,
-          "price": 229.99,
-          "priceFormatted": "₺229,99",
+          "price": 199.99,
+          "priceFormatted": "₺199,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "X Premium Basic (Monthly)",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "@ProfDemirtas Subscription",
+          "offerName": null,
+          "price": 699.99,
+          "priceFormatted": "₺699,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "@zeroxjackson Subscription",
+          "name": "X Premium (Annual)",
           "offerName": null,
-          "price": 3999.99,
-          "priceFormatted": "₺3.999,99",
+          "price": 1979.99,
+          "priceFormatted": "₺1.979,99",
           "currency": "TRY",
-          "period": null
+          "period": "yearly"
         },
         {
-          "name": "@@itsJohnRocker Subscription",
+          "name": "X Premium Plus (Monthly)",
           "offerName": null,
-          "price": 229.99,
-          "priceFormatted": "₺229,99",
+          "price": 2149.99,
+          "priceFormatted": "₺2.149,99",
           "currency": "TRY",
-          "period": null
+          "period": "monthly"
         },
         {
           "name": "Promote Post",
           "offerName": null,
-          "price": 299999,
-          "priceFormatted": "₺299.999,00",
+          "price": 499.99,
+          "priceFormatted": "₺499,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 269999,
-          "priceFormatted": "₺269.999,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Enabled for Advanced Commerce",
-          "offerName": null,
-          "price": 399.99,
-          "priceFormatted": "₺399,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "@skdh Subscription",
-          "offerName": null,
-          "price": 179.99,
-          "priceFormatted": "₺179,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "@BrettFavre Subscription",
-          "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "@Vol8882 Subscription",
+          "name": "@hoccabazzzz Subscription",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
@@ -177,10 +161,26 @@
           "period": null
         },
         {
-          "name": "@goingpublic Subscription",
+          "name": "@TuncSatiroglu Subscription",
           "offerName": null,
-          "price": 39.99,
-          "priceFormatted": "₺39,99",
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "X Premium Basic (Annual)",
+          "offerName": null,
+          "price": 779.99,
+          "priceFormatted": "₺779,99",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Promote Post for $25",
+          "offerName": null,
+          "price": 1299.99,
+          "priceFormatted": "₺1.299,99",
           "currency": "TRY",
           "period": null
         }
@@ -293,55 +293,31 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "@NatHalberstadt Subscription",
+          "name": "X Premium (Monthly)",
           "offerName": null,
-          "price": 5,
-          "priceFormatted": "$5.00",
+          "price": 11,
+          "priceFormatted": "$11.00",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@zeroxjackson Subscription",
+          "name": "X Premium Basic (Monthly)",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "$99.00",
+          "price": 4,
+          "priceFormatted": "$4.00",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@@itsJohnRocker Subscription",
+          "name": "X Premium Plus (Monthly)",
           "offerName": null,
-          "price": 5,
-          "priceFormatted": "$5.00",
+          "price": 50,
+          "priceFormatted": "$50.00",
           "currency": "USD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 10000,
-          "priceFormatted": "$10,000.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 5000,
-          "priceFormatted": "$5,000.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Enabled for Advanced Commerce",
-          "offerName": null,
-          "price": 8.99,
-          "priceFormatted": "$8.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "@skdh Subscription",
+          "name": "@elonmusk Subscription",
           "offerName": null,
           "price": 4,
           "priceFormatted": "$4.00",
@@ -349,28 +325,52 @@
           "period": null
         },
         {
-          "name": "@BrettFavre Subscription",
+          "name": "X Premium (Annual)",
           "offerName": null,
-          "price": 2,
-          "priceFormatted": "$2.00",
+          "price": 114.99,
+          "priceFormatted": "$114.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Promote Post for $25",
+          "offerName": null,
+          "price": 25,
+          "priceFormatted": "$25.00",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "@Vol8882 Subscription",
-          "offerName": null,
-          "price": 8,
-          "priceFormatted": "$8.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "@goingpublic Subscription",
+          "name": "@FatKidDeals Subscription",
           "offerName": null,
           "price": 1,
           "priceFormatted": "$1.00",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "X Premium Basic (Annual)",
+          "offerName": null,
+          "price": 42,
+          "priceFormatted": "$42.00",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Promote Post for $50",
+          "offerName": null,
+          "price": 50,
+          "priceFormatted": "$50.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "X Premium Plus (Annual)",
+          "offerName": null,
+          "price": 490,
+          "priceFormatted": "$490.00",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -387,47 +387,39 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "@NatHalberstadt Subscription",
+          "name": "X Premium (Monthly)",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
+          "price": 1270,
+          "priceFormatted": "¥1,270",
           "currency": "JPY",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@zeroxjackson Subscription",
+          "name": "X Premium Basic (Monthly)",
           "offerName": null,
-          "price": 15000,
-          "priceFormatted": "¥15,000",
+          "price": 450,
+          "priceFormatted": "¥450",
           "currency": "JPY",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "@@itsJohnRocker Subscription",
+          "name": "X Premium (Annual)",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
+          "price": 12700,
+          "priceFormatted": "¥12,700",
           "currency": "JPY",
-          "period": null
+          "period": "yearly"
         },
         {
-          "name": "Promote Post",
+          "name": "X Premium Plus (Monthly)",
           "offerName": null,
-          "price": 1600000,
-          "priceFormatted": "¥1,600,000",
+          "price": 8000,
+          "priceFormatted": "¥8,000",
           "currency": "JPY",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 800000,
-          "priceFormatted": "¥800,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Enabled for Advanced Commerce",
+          "name": "投稿を1,500円でプロモーションする",
           "offerName": null,
           "price": 1500,
           "priceFormatted": "¥1,500",
@@ -435,34 +427,42 @@
           "period": null
         },
         {
-          "name": "@skdh Subscription",
+          "name": "X Premium Basic (Annual)",
           "offerName": null,
-          "price": 600,
-          "priceFormatted": "¥600",
+          "price": 4500,
+          "priceFormatted": "¥4,500",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "投稿を3,500円でプロモーションする",
+          "offerName": null,
+          "price": 4000,
+          "priceFormatted": "¥4,000",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "@BrettFavre Subscription",
+          "name": "@goto_finance Subscription",
           "offerName": null,
-          "price": 300,
-          "priceFormatted": "¥300",
+          "price": 100,
+          "priceFormatted": "¥100",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "@Vol8882 Subscription",
+          "name": "ブーストしたツイートパッケージ",
           "offerName": null,
-          "price": 1300,
-          "priceFormatted": "¥1,300",
+          "price": 8000,
+          "priceFormatted": "¥8,000",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "@goingpublic Subscription",
+          "name": "@hazuma Subscription",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "¥150",
+          "price": 700,
+          "priceFormatted": "¥700",
           "currency": "JPY",
           "period": null
         }

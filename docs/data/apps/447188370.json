@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/15/5e/20155e08-0a69-ae15-50a9-abcdd93e74b1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-29T23:10:03.124Z",
+  "fetchedAt": "2026-10-30T22:52:59.750Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,10 +75,10 @@
           "period": null
         },
         {
-          "name": "Memories Storage",
+          "name": "Bitmoji Fashion",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 50,
+          "priceFormatted": "$50.00",
           "currency": "TWD",
           "period": null
         }
@@ -175,20 +175,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
-          "currency": "INR",
-          "period": "monthly"
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 15,
           "priceFormatted": "₹ 15",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": "monthly"
         },
         {
           "name": "Snapchat+ (Monthly Plan)",

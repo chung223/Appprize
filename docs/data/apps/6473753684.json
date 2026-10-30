@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/aa/8e/05aa8e29-26e7-03b8-03ee-825a1214c036/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-29T23:08:37.648Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/01/fe/ce01fef0-f133-3577-1f62-fc390ba1cd2c/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-10-30T22:51:34.780Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,18 +145,18 @@
           "period": null
         },
         {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 2499.99,
-          "priceFormatted": "₺2.499,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Usage Credits (250)",
           "offerName": null,
           "price": 9999.99,
           "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 2499.99,
+          "priceFormatted": "₺2.499,99",
           "currency": "TRY",
           "period": null
         },
@@ -357,18 +357,18 @@
           "period": null
         },
         {
-          "name": "Usage Credits (1000)",
-          "offerName": null,
-          "price": 700,
-          "priceFormatted": "$700.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (500)",
           "offerName": null,
           "price": 350,
           "priceFormatted": "$350.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (1000)",
+          "offerName": null,
+          "price": 700,
+          "priceFormatted": "$700.00",
           "currency": "USD",
           "period": null
         }
