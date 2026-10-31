@@ -3,7 +3,7 @@
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/75/ae/9e75ae85-a795-817c-7cc2-66545b3729f9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-30T22:52:53.414Z",
+  "fetchedAt": "2026-10-31T22:22:26.829Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,12 +75,12 @@
           "period": "yearly"
         },
         {
-          "name": "Canva 團隊版 - 月繳",
+          "name": "Canva Credit 2 Pack",
           "offerName": null,
-          "price": 780,
-          "priceFormatted": "$780.00",
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
-          "period": "monthly"
+          "period": null
         }
       ],
       "appPrice": {

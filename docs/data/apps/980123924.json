@@ -3,7 +3,7 @@
   "name": "Rain Radar Live RainViewer",
   "developer": "MeteoLab Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/65/5a/38655a72-4e91-99eb-ec36-ff6d26e05eb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-30T22:53:27.979Z",
+  "fetchedAt": "2026-10-31T22:22:59.831Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -137,20 +137,20 @@
           "period": "monthly"
         },
         {
-          "name": "Rain Viewer Essential: 1 Month",
-          "offerName": null,
-          "price": 82.99,
-          "priceFormatted": "₺82,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "12 Months",
           "offerName": null,
           "price": 299,
           "priceFormatted": "₺299,00",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "Rain Viewer Essential: 1 Month",
+          "offerName": null,
+          "price": 82.99,
+          "priceFormatted": "₺82,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "RainViewer Premium: Yearly",
@@ -395,12 +395,12 @@
           "period": "monthly"
         },
         {
-          "name": "RainViewer Pro: 1ヶ月",
+          "name": "Rain Viewer Premium: Yearly",
           "offerName": null,
-          "price": 710,
-          "priceFormatted": "¥710",
+          "price": 1500,
+          "priceFormatted": "¥1,500",
           "currency": "JPY",
-          "period": "monthly"
+          "period": "yearly"
         }
       ],
       "appPrice": {

@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ce/01/fe/ce01fef0-f133-3577-1f62-fc390ba1cd2c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-30T22:51:34.780Z",
+  "fetchedAt": "2026-10-31T22:21:12.142Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -19,7 +19,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 5x - Monthly",
+          "name": "Claude Max - Monthly",
           "offerName": null,
           "price": 3990,
           "priceFormatted": "$3,990.00",
@@ -35,7 +35,7 @@
           "period": "yearly"
         },
         {
-          "name": "Claude Max 20x - Monthly",
+          "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 7990,
           "priceFormatted": "$7,990.00",
@@ -113,7 +113,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 5x - Monthly",
+          "name": "Claude Max - Monthly",
           "offerName": null,
           "price": 6999.99,
           "priceFormatted": "₺6.999,99",
@@ -121,7 +121,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 20x - Monthly",
+          "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 12999.99,
           "priceFormatted": "₺12.999,99",
@@ -207,7 +207,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 5x - Monthly",
+          "name": "Claude Max - Monthly",
           "offerName": null,
           "price": 12900,
           "priceFormatted": "₹ 12,900",
@@ -223,7 +223,7 @@
           "period": "yearly"
         },
         {
-          "name": "Claude Max 20x - Monthly",
+          "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 24900,
           "priceFormatted": "₹ 24,900",
@@ -239,18 +239,18 @@
           "period": null
         },
         {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Usage Credits (250)",
           "offerName": null,
           "price": 19900,
           "priceFormatted": "₹ 19,900",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": null
         },
@@ -301,7 +301,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 5x - Monthly",
+          "name": "Claude Max - Monthly",
           "offerName": null,
           "price": 124.99,
           "priceFormatted": "$124.99",
@@ -309,7 +309,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 20x - Monthly",
+          "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 249.99,
           "priceFormatted": "$249.99",
@@ -395,7 +395,7 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Max 5x - Monthly",
+          "name": "Claude Max - Monthly",
           "offerName": null,
           "price": 20000,
           "priceFormatted": "¥20,000",
@@ -411,7 +411,7 @@
           "period": "yearly"
         },
         {
-          "name": "Claude Max 20x - Monthly",
+          "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 40000,
           "priceFormatted": "¥40,000",

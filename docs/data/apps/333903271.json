@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a0/c4/f6/a0c4f68a-660b-a59a-cf19-af99865084f2/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-30T22:52:32.027Z",
+  "fetchedAt": "2026-10-31T22:22:07.018Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -427,20 +427,20 @@
           "period": null
         },
         {
-          "name": "X Premium Basic (Annual)",
-          "offerName": null,
-          "price": 4500,
-          "priceFormatted": "¥4,500",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "投稿を3,500円でプロモーションする",
           "offerName": null,
           "price": 4000,
           "priceFormatted": "¥4,000",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "X Premium Basic (Annual)",
+          "offerName": null,
+          "price": 4500,
+          "priceFormatted": "¥4,500",
+          "currency": "JPY",
+          "period": "yearly"
         },
         {
           "name": "@goto_finance Subscription",
