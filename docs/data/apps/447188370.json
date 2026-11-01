@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/15/5e/20155e08-0a69-ae15-50a9-abcdd93e74b1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-10-31T22:22:33.005Z",
+  "fetchedAt": "2026-11-01T22:39:29.938Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,18 +145,18 @@
           "period": "monthly"
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "₺79,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Bitmoji Fashion",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": null
         }
@@ -175,20 +175,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 15,
-          "priceFormatted": "₹ 15",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 99,
           "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": "monthly"
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 15,
+          "priceFormatted": "₹ 15",
+          "currency": "INR",
+          "period": null
         },
         {
           "name": "Snapchat+ (Monthly Plan)",
@@ -379,18 +379,18 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 100,
-          "priceFormatted": "¥100",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 1280,
           "priceFormatted": "¥1,280",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 100,
+          "priceFormatted": "¥100",
           "currency": "JPY",
           "period": null
         }
