@@ -2,8 +2,8 @@
   "appId": "447188370",
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/20/15/5e/20155e08-0a69-ae15-50a9-abcdd93e74b1/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-01T22:39:29.938Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/62/d8/5062d8dc-9731-35be-1f30-f86fb093d119/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-03T01:30:02.884Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -27,20 +27,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 270,
           "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Snapstreak Restore",
@@ -67,18 +67,18 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 290,
-          "priceFormatted": "$290.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Memories Storage",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 290,
+          "priceFormatted": "$290.00",
           "currency": "TWD",
           "period": null
         }
@@ -137,20 +137,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ 6 Month Gift",
-          "offerName": null,
-          "price": 999.99,
-          "priceFormatted": "₺999,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Snapchat+ 6 Month Gift",
+          "offerName": null,
+          "price": 999.99,
+          "priceFormatted": "₺999,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "Bitmoji Fashion",
@@ -347,14 +347,6 @@
           "period": "monthly"
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 160,
-          "priceFormatted": "¥160",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 450,
@@ -365,16 +357,16 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
+          "price": 160,
+          "priceFormatted": "¥160",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 400,
-          "priceFormatted": "¥400",
+          "price": 800,
+          "priceFormatted": "¥800",
           "currency": "JPY",
           "period": null
         },
@@ -391,6 +383,14 @@
           "offerName": null,
           "price": 100,
           "priceFormatted": "¥100",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 400,
+          "priceFormatted": "¥400",
           "currency": "JPY",
           "period": null
         }

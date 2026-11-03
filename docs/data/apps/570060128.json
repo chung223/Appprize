@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/00/b8/0500b8fb-6348-afe1-5258-b7f0528a945b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-01T22:37:50.712Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/f8/76/29f8764d-ab10-dfa6-fdf7-132f01f6a6ae/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-03T01:28:27.072Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,16 +75,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -301,16 +301,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 14200,
-          "priceFormatted": "¥14,200",
+          "price": 11400,
+          "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 11400,
-          "priceFormatted": "¥11,400",
+          "price": 14200,
+          "priceFormatted": "¥14,200",
           "currency": "JPY",
           "period": null
         },

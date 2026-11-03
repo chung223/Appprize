@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/11/a6/5d/11a65d3f-26ce-e150-2351-5097d2ee3546/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-01T22:38:43.952Z",
+  "fetchedAt": "2026-11-03T01:29:19.348Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -141,6 +141,14 @@
           "offerName": null,
           "price": 149,
           "priceFormatted": "₺149,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "1 Boost",
+          "offerName": null,
+          "price": 145,
+          "priceFormatted": "₺145,00",
           "currency": "TRY",
           "period": null
         }

@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/47/e2/6347e2b4-a130-4108-3f73-b0b33465a10e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-01T22:39:05.555Z",
+  "fetchedAt": "2026-11-03T01:29:39.781Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -301,20 +301,20 @@
           "period": "monthly"
         },
         {
-          "name": "Lightroom plan 1TB",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Premium Weekly 100GB",
           "offerName": null,
           "price": 3.99,
           "priceFormatted": "$3.99",
           "currency": "USD",
           "period": "weekly"
+        },
+        {
+          "name": "Lightroom plan 1TB",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
         },
         {
           "name": "AI Photo Enhancer & Blur",
