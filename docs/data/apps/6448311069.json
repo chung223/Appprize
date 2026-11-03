@@ -2,8 +2,8 @@
   "appId": "6448311069",
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/e3/e7/38e3e73d-009e-6e09-8c38-f62c6669f123/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T01:28:04.192Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/66/10/b0/6610b017-10e1-91fc-8e63-eb5ee89247ec/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-03T23:53:28.944Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -105,18 +105,18 @@
           "period": null
         },
         {
-          "name": "ChatGPT Plus",
-          "offerName": null,
-          "price": 9999.99,
-          "priceFormatted": "₺9.999,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "ChatGPT Pro 500",
           "offerName": null,
           "price": 26499,
           "priceFormatted": "₺26.499,00",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Plus",
+          "offerName": null,
+          "price": 9999.99,
+          "priceFormatted": "₺9.999,99",
           "currency": "TRY",
           "period": null
         }

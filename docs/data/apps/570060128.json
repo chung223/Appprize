@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/f8/76/29f8764d-ab10-dfa6-fdf7-132f01f6a6ae/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T01:28:27.072Z",
+  "fetchedAt": "2026-11-03T23:53:45.602Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,6 +67,14 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
           "price": 1209.99,
           "priceFormatted": "₺1.209,99",
           "currency": "TRY",
@@ -77,14 +85,6 @@
           "offerName": null,
           "price": 969.99,
           "priceFormatted": "₺969,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -105,10 +105,10 @@
           "period": null
         },
         {
-          "name": "Super Duolingo - Family Plan",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 1439.99,
-          "priceFormatted": "₺1.439,99",
+          "price": 169.99,
+          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         },
@@ -137,16 +137,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1749,
-          "priceFormatted": "₹ 1,749",
+          "price": 1379,
+          "priceFormatted": "₹ 1,379",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1379,
-          "priceFormatted": "₹ 1,379",
+          "price": 1749,
+          "priceFormatted": "₹ 1,749",
           "currency": "INR",
           "period": null
         },

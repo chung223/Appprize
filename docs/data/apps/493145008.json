@@ -3,7 +3,7 @@
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/27/19/ad2719c3-23ef-22c9-e3e8-93c20e21677b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T01:30:14.367Z",
+  "fetchedAt": "2026-11-03T23:55:15.787Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -159,20 +159,20 @@
           "period": "yearly"
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 1499,
-          "priceFormatted": "₹ 1,499",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
           "name": "Monthly Subscription",
           "offerName": null,
           "price": 159,
           "priceFormatted": "₹ 159",
           "currency": "INR",
           "period": "monthly"
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 1499,
+          "priceFormatted": "₹ 1,499",
+          "currency": "INR",
+          "period": "yearly"
         },
         {
           "name": "Headspace",
