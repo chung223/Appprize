@@ -2,8 +2,8 @@
   "appId": "479516143",
   "name": "Minecraft",
   "developer": "Mojang AB",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/88/82/44/8882440c-3450-69f9-dddc-e438c02a6bf9/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:53:59.979Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/fc/14/4bfc140f-8678-fa11-9d49-15efdf1b0d85/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-05T00:13:52.186Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,74 +11,42 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "City Folk - Skin Pack",
+          "name": "Realms Plus:10 Friends w/trial",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 240,
+          "priceFormatted": "$240.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Town Folk - Skin Pack",
+          "name": "Minecraft Store Item 2",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 70,
+          "priceFormatted": "$70.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Halloween - Skin Pack",
+          "name": "Minecraft Store Item 6",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 205,
+          "priceFormatted": "$205.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Biome Settlers - Skin Pack",
+          "name": "Realms Monthly Subscription: You + 2 Friends",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         },
         {
-          "name": "Holiday 2015 - Skin Pack",
+          "name": "Minecraft Store Item 3",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Redstone Specialists - Skin Pack",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Journey to the West - Skin Pack",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Story Mode - Skin Pack",
-          "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Biome Settlers - Skin Pack 2",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 105,
+          "priceFormatted": "$105.00",
           "currency": "TWD",
           "period": null
         },
@@ -87,6 +55,38 @@
           "offerName": null,
           "price": 240,
           "priceFormatted": "$240.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 335,
+          "priceFormatted": "$335.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 4",
+          "offerName": null,
+          "price": 135,
+          "priceFormatted": "$135.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 170,
+          "priceFormatted": "$170.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Marketplace Pass Trial",
+          "offerName": null,
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }
@@ -131,16 +131,16 @@
         {
           "name": "Minecraft Store Item 2",
           "offerName": null,
-          "price": 109,
-          "priceFormatted": "₺109,00",
+          "price": 114.99,
+          "priceFormatted": "₺114,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Minecraft Store Item 6",
           "offerName": null,
-          "price": 329,
-          "priceFormatted": "₺329,00",
+          "price": 339.99,
+          "priceFormatted": "₺339,99",
           "currency": "TRY",
           "period": null
         },
@@ -155,16 +155,16 @@
         {
           "name": "Minecraft Store Item 4",
           "offerName": null,
-          "price": 219,
-          "priceFormatted": "₺219,00",
+          "price": 224.99,
+          "priceFormatted": "₺224,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Minecraft Store Item 3",
           "offerName": null,
-          "price": 164.99,
-          "priceFormatted": "₺164,99",
+          "price": 169.99,
+          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         },
@@ -179,8 +179,8 @@
         {
           "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 53.99,
-          "priceFormatted": "₺53,99",
+          "price": 56.99,
+          "priceFormatted": "₺56,99",
           "currency": "TRY",
           "period": null
         }
@@ -233,8 +233,8 @@
         {
           "name": "Minecraft Store Item 10",
           "offerName": null,
-          "price": 1169,
-          "priceFormatted": "₹ 1,169",
+          "price": 1129,
+          "priceFormatted": "₹ 1,129",
           "currency": "INR",
           "period": null
         },
@@ -257,16 +257,8 @@
         {
           "name": "Minecraft Store Item 4",
           "offerName": null,
-          "price": 449,
-          "priceFormatted": "₹ 449",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Minecraft Store Item 5",
-          "offerName": null,
-          "price": 569,
-          "priceFormatted": "₹ 569",
+          "price": 459,
+          "priceFormatted": "₹ 459",
           "currency": "INR",
           "period": null
         },
@@ -275,6 +267,14 @@
           "offerName": null,
           "price": 339,
           "priceFormatted": "₹ 339",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 569,
+          "priceFormatted": "₹ 569",
           "currency": "INR",
           "period": null
         }
@@ -293,7 +293,7 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "City Folk - Skin Pack",
+          "name": "Minecraft Store Item 2",
           "offerName": null,
           "price": 1.99,
           "priceFormatted": "$1.99",
@@ -301,55 +301,55 @@
           "period": null
         },
         {
-          "name": "Town Folk - Skin Pack",
+          "name": "Realms Plus:10 Friends w/trial",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 7.99,
+          "priceFormatted": "$7.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Halloween - Skin Pack",
+          "name": "Minecraft Store Item 6",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 5.99,
+          "priceFormatted": "$5.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Biome Settlers - Skin Pack",
+          "name": "Realms Monthly Subscription: You + 2 Friends",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Minecraft Store Item 5",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Holiday 2015 - Skin Pack",
+          "name": "Minecraft Store Item 10",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 9.99,
+          "priceFormatted": "$9.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Redstone Specialists - Skin Pack",
+          "name": "Minecraft Store Item 4",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 3.99,
+          "priceFormatted": "$3.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Journey to the West - Skin Pack",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Story Mode - Skin Pack",
+          "name": "Minecraft Store Item 3",
           "offerName": null,
           "price": 2.99,
           "priceFormatted": "$2.99",
@@ -357,15 +357,15 @@
           "period": null
         },
         {
-          "name": "Biome Settlers - Skin Pack 2",
+          "name": "Realms Plus: You + 10 Friends",
           "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
+          "price": 7.99,
+          "priceFormatted": "$7.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
+          "name": "Minecraft Store Item 8",
           "offerName": null,
           "price": 7.99,
           "priceFormatted": "$7.99",

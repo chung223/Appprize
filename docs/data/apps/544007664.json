@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/3b/b5/df3bb5ba-7ef0-44ae-fcab-43eb0b97798a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:53:34.693Z",
+  "fetchedAt": "2026-11-05T00:13:23.480Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -253,58 +253,74 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "YouTube Premium",
+          "name": "HBO Max Basic with Ads",
           "offerName": null,
-          "price": 20.99,
-          "priceFormatted": "$20.99",
+          "price": 10.99,
+          "priceFormatted": "$10.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Movies & Shows",
+          "name": "NFL Sunday Ticket+NFL RedZone",
           "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
+          "price": 404.99,
+          "priceFormatted": "$404.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Youtube Premium Family",
+          "name": "NFL Sunday Ticket 2026 season",
           "offerName": null,
-          "price": 34.99,
-          "priceFormatted": "$34.99",
+          "price": 374.99,
+          "priceFormatted": "$374.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "YouTube Premium Family",
-          "offerName": null,
-          "price": 34.99,
-          "priceFormatted": "$34.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Super Chat",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Super Chat",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Premium Lite",
+          "name": "人生学校名誉",
           "offerName": null,
           "price": 11.99,
           "priceFormatted": "$11.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "BritBox",
+          "offerName": null,
+          "price": 10.99,
+          "priceFormatted": "$10.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pase de Diamante",
+          "offerName": null,
+          "price": 12.99,
+          "priceFormatted": "$12.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pase de Oro",
+          "offerName": null,
+          "price": 6.99,
+          "priceFormatted": "$6.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Pase de Plata",
+          "offerName": null,
+          "price": 2.99,
+          "priceFormatted": "$2.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "National Theatre at Home",
+          "offerName": null,
+          "price": 8.99,
+          "priceFormatted": "$8.99",
           "currency": "USD",
           "period": null
         }

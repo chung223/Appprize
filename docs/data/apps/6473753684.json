@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/22/ae/c322ae48-2ab5-ae13-de5e-42f041d2a0a0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:53:50.215Z",
+  "fetchedAt": "2026-11-05T00:13:41.576Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,7 +97,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",

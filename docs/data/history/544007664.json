@@ -1520,6 +1520,79 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-11-05",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "人生学校名誉#0": 300,
+            "pase de diamante#0": 400,
+            "pase de oro#0": 100,
+            "pase de plata#0": 40,
+            "supporter+#0": 400,
+            "live supermatches#0": 800,
+            "how to win armwrestling#0": 100,
+            "supporter#0": 40
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "人生学校名誉#0": 64.99,
+            "pase de diamante#0": 79.99,
+            "pase de oro#0": 19.99,
+            "pase de plata#0": 5.99,
+            "supporter+#0": 79.99,
+            "live supermatches#0": 159.99,
+            "how to win armwrestling#0": 19.99,
+            "supporter#0": 5.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "人生学校名誉#0": 749,
+            "pase de diamante#0": 999,
+            "pase de oro#0": 199,
+            "pase de plata#0": 79,
+            "national theatre at home#0": 249,
+            "supporter+#0": 999,
+            "live supermatches#0": 1999,
+            "how to win armwrestling#0": 199,
+            "supporter#0": 79
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "hbo max basic with ads#0": 10.99,
+            "nfl sunday ticket+nfl redzone#0": 404.99,
+            "nfl sunday ticket 2026 season#0": 374.99,
+            "人生学校名誉#0": 11.99,
+            "britbox#0": 10.99,
+            "pase de diamante#0": 12.99,
+            "pase de oro#0": 6.99,
+            "pase de plata#0": 2.99,
+            "national theatre at home#0": 8.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "anime times#0": 500,
+            "人生学校名誉#0": 1400,
+            "pase de diamante#0": 1700,
+            "pase de oro#0": 700,
+            "pase de plata#0": 300,
+            "supporter+#0": 1700,
+            "live supermatches#0": 3400,
+            "how to win armwrestling#0": 700,
+            "supporter#0": 300
+          }
+        }
+      }
     }
   ],
   "name": "YouTube"

@@ -2,8 +2,8 @@
   "appId": "878783582",
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/47/e2/6347e2b4-a130-4108-3f73-b0b33465a10e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:54:45.943Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-05T00:14:46.021Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -341,12 +341,12 @@
           "period": "yearly"
         },
         {
-          "name": "Premium Weekly 100GB",
+          "name": "Premium Yearly 100GB",
           "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
+          "price": 49.99,
+          "priceFormatted": "$49.99",
           "currency": "USD",
-          "period": "weekly"
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -419,10 +419,10 @@
           "period": null
         },
         {
-          "name": "プレミアム (40 GB/年)",
+          "name": "プレミアム (100 GB/年)",
           "offerName": null,
-          "price": 2100,
-          "priceFormatted": "¥2,100",
+          "price": 4400,
+          "priceFormatted": "¥4,400",
           "currency": "JPY",
           "period": "yearly"
         }

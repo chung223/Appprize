@@ -2,8 +2,8 @@
   "appId": "443904275",
   "name": "LINE",
   "developer": "LY Corporation",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/26/97/02/26970202-4348-e80a-8e41-f1682dad774f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:54:15.258Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/6e/f3/e76ef3ef-72e5-a12d-f931-7393c622fe3e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-05T00:14:09.676Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,82 +11,82 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "50 LINE Coin",
+          "name": "130 LINE Coin",
           "offerName": null,
-          "price": 35,
-          "priceFormatted": "$35.00",
+          "price": 90,
+          "priceFormatted": "$90.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "100 LINE Coin",
+          "name": "120 LINE Coin",
           "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
+          "price": 85,
+          "priceFormatted": "$85.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "月租方案",
+          "name": "ライト（エンジョイパック）",
           "offerName": null,
-          "price": 165,
-          "priceFormatted": "$165.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
-          "name": "500 LINE Coin",
-          "offerName": null,
-          "price": 280,
-          "priceFormatted": "$280.00",
+          "price": 60,
+          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "150 LINE Coin",
+          "name": "with Netflix プレミアム",
           "offerName": null,
-          "price": 105,
-          "priceFormatted": "$105.00",
+          "price": 490,
+          "priceFormatted": "$490.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "200 LINE Coin",
+          "name": "with Netflix スタンダード",
           "offerName": null,
-          "price": 140,
-          "priceFormatted": "$140.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "800 LINE Coin",
+          "name": "with Netflix 広告つきスタンダード",
           "offerName": null,
-          "price": 420,
-          "priceFormatted": "$420.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "月租方案（進階型）LINE 10.21.0+",
+          "name": "LINE應用程式內購買",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 49,
-          "priceFormatted": "$49.00",
+          "price": 9550,
+          "priceFormatted": "$9,550.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "學生方案（進階型）LINE 10.21.0+",
+          "name": "LINE應用程式內購買",
           "offerName": null,
-          "price": 100,
-          "priceFormatted": "$100.00",
+          "price": 9500,
+          "priceFormatted": "$9,500.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "LINE應用程式內購買",
+          "offerName": null,
+          "price": 9890,
+          "priceFormatted": "$9,890.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "LINE應用程式內購買",
+          "offerName": null,
+          "price": 9880,
+          "priceFormatted": "$9,880.00",
           "currency": "TWD",
           "period": null
         }

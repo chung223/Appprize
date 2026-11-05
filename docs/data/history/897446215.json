@@ -39,7 +39,9 @@
     "canva credit 50 pack#0": "Canva Credit 50 Pack",
     "canva credit 100 pack#0": "Canva Credit 100 Pack",
     "wedding invitation image pack#0": "Wedding Invitation Image Pack",
-    "mother s day pack#0": "Mother's Day Pack"
+    "mother s day pack#0": "Mother's Day Pack",
+    "結構式招待状の画像パック#0": "結構式招待状の画像パック",
+    "母の日の画像パック#0": "母の日の画像パック"
   },
   "entries": [
     {
@@ -814,6 +816,80 @@
             "canva credit#0": 300,
             "canvaビジネス 年額#0": 18800,
             "canva credit 2 pack#0": 500
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-11-05",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "canva pro 月繳#0": 340,
+            "canva pro 月繳#1": 450,
+            "canva 商用版 月繳#0": 630,
+            "canva pro 年約方案#0": 3190,
+            "canva pro 年約方案#1": 3200,
+            "canva pro 年約方案#2": 3600,
+            "canva credit#0": 60,
+            "canva 商用版 年繳#0": 6300,
+            "canva 團隊版 月繳#0": 780
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "canva pro monthly#0": 99.99,
+            "canva pro monthly#1": 239.99,
+            "canva business monthly#0": 339.99,
+            "canva pro yearly#0": 849.99,
+            "canva pro yearly#1": 1919.99,
+            "canva teams monthly#0": 239.99,
+            "canva business yearly#0": 3399.99,
+            "canva credit#0": 99.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "canva pro monthly#0": 499,
+            "canva pro monthly#1": 500,
+            "canva business monthly#0": 650,
+            "canva business monthly#1": 679,
+            "canva pro yearly#0": 3999,
+            "canva pro yearly#1": 4000,
+            "canva credit#0": 199,
+            "canva business yearly#0": 6800
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "canva pro monthly#0": 14.99,
+            "canva pro monthly#1": 15,
+            "canva pro monthly#2": 18,
+            "canva business monthly#0": 25,
+            "canva credit#0": 1.99,
+            "canva pro yearly#0": 119.99,
+            "canva pro yearly#1": 143.99,
+            "canva credit 2 pack#0": 2.99,
+            "canva teams monthly#0": 30
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "canva credit#0": 300,
+            "canva credit 2 pack#0": 500,
+            "canva credit 3 pack#0": 600,
+            "canva credit 5 pack#0": 1000,
+            "canva credit 10 pack#0": 1800,
+            "canva credit 20 pack#0": 3500,
+            "canva credit 50 pack#0": 9000,
+            "canva credit 100 pack#0": 15000,
+            "結構式招待状の画像パック#0": 150,
+            "母の日の画像パック#0": 150
           }
         }
       }

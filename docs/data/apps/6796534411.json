@@ -3,7 +3,7 @@
   "name": "Mergic",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/af/076fafce-6b10-25c1-ef2a-23338e2ba551/AppIcon.png/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:54:05.325Z",
+  "fetchedAt": "2026-11-05T00:13:58.019Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -31,7 +31,8 @@
       },
       "source": null,
       "noIap": true,
-      "error": null
+      "error": null,
+      "stale": true
     },
     "in": {
       "country": "in",

@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/29/f8/76/29f8764d-ab10-dfa6-fdf7-132f01f6a6ae/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:53:45.602Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/58/f1/1958f147-3ac2-c3bb-1ce3-3896af94133c/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-05T00:13:35.808Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,14 +67,6 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
           "price": 1209.99,
           "priceFormatted": "₺1.209,99",
           "currency": "TRY",
@@ -83,8 +75,24 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
           "price": 969.99,
           "priceFormatted": "₺969,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 139.99,
+          "priceFormatted": "₺139,99",
           "currency": "TRY",
           "period": null
         },
@@ -99,8 +107,8 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 139.99,
-          "priceFormatted": "₺139,99",
+          "price": 839.99,
+          "priceFormatted": "₺839,99",
           "currency": "TRY",
           "period": null
         },
@@ -109,14 +117,6 @@
           "offerName": null,
           "price": 169.99,
           "priceFormatted": "₺169,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 839.99,
-          "priceFormatted": "₺839,99",
           "currency": "TRY",
           "period": null
         }
@@ -137,16 +137,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1379,
-          "priceFormatted": "₹ 1,379",
+          "price": 1749,
+          "priceFormatted": "₹ 1,749",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1749,
-          "priceFormatted": "₹ 1,749",
+          "price": 1379,
+          "priceFormatted": "₹ 1,379",
           "currency": "INR",
           "period": null
         },
@@ -301,16 +301,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 11400,
-          "priceFormatted": "¥11,400",
+          "price": 14200,
+          "priceFormatted": "¥14,200",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 14200,
-          "priceFormatted": "¥14,200",
+          "price": 11400,
+          "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
         },
@@ -327,14 +327,6 @@
           "offerName": null,
           "price": 1500,
           "priceFormatted": "¥1,500",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "ジェムの荷車 (6500)",
-          "offerName": null,
-          "price": 3000,
-          "priceFormatted": "¥3,000",
           "currency": "JPY",
           "period": null
         }

@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/62/d8/5062d8dc-9731-35be-1f30-f86fb093d119/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-03T23:55:06.342Z",
+  "fetchedAt": "2026-11-05T00:15:08.151Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -137,20 +137,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ 6 Month Gift",
-          "offerName": null,
-          "price": 999.99,
-          "priceFormatted": "₺999,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Lens+",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Snapchat+ 6 Month Gift",
+          "offerName": null,
+          "price": 999.99,
+          "priceFormatted": "₺999,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "Bitmoji Fashion",
