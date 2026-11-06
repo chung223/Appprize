@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/58/f1/1958f147-3ac2-c3bb-1ce3-3896af94133c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T23:58:13.282Z",
+  "fetchedAt": "2026-11-06T23:40:43.477Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -107,16 +107,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 169.99,
-          "priceFormatted": "₺169,99",
+          "price": 839.99,
+          "priceFormatted": "₺839,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 839.99,
-          "priceFormatted": "₺839,99",
+          "price": 169.99,
+          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         }
@@ -253,18 +253,18 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 95.99,
-          "priceFormatted": "$95.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Chest of Gems",
           "offerName": null,
           "price": 0.99,
           "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 95.99,
+          "priceFormatted": "$95.99",
           "currency": "USD",
           "period": null
         },

@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T23:59:23.341Z",
+  "fetchedAt": "2026-11-06T23:41:45.713Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -175,8 +175,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -270,8 +269,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "us": {
       "country": "us",
@@ -335,18 +333,18 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
-          "offerName": null,
-          "price": 19.99,
-          "priceFormatted": "$19.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "Premium Yearly 100GB",
           "offerName": null,
           "price": 49.99,
           "priceFormatted": "$49.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
           "currency": "USD",
           "period": "yearly"
         }
@@ -357,8 +355,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "jp": {
       "country": "jp",
