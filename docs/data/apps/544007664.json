@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/df/3b/b5/df3bb5ba-7ef0-44ae-fcab-43eb0b97798a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T00:13:23.480Z",
+  "fetchedAt": "2026-11-05T23:58:01.243Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -167,74 +167,42 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "人生学校名誉",
+          "name": "YouTube Premium",
           "offerName": null,
-          "price": 749,
-          "priceFormatted": "₹ 749",
+          "price": 195,
+          "priceFormatted": "₹ 195",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Pase de Diamante",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
+          "price": 389,
+          "priceFormatted": "₹ 389",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Pase de Oro",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
+          "price": 389,
+          "priceFormatted": "₹ 389",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Pase de Plata",
+          "name": "YouTube Premium Two-person",
           "offerName": null,
-          "price": 79,
-          "priceFormatted": "₹ 79",
+          "price": 289,
+          "priceFormatted": "₹ 289",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "National Theatre at Home",
+          "name": "Premium Lite",
           "offerName": null,
-          "price": 249,
-          "priceFormatted": "₹ 249",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "SUPPORTER+",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "LIVE SUPERMATCHES",
-          "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "How To Win @Armwrestling",
-          "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Supporter",
-          "offerName": null,
-          "price": 79,
-          "priceFormatted": "₹ 79",
+          "price": 119,
+          "priceFormatted": "₹ 119",
           "currency": "INR",
           "period": null
         }

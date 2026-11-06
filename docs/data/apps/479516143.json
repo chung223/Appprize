@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/fc/14/4bfc140f-8678-fa11-9d49-15efdf1b0d85/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T00:13:52.186Z",
+  "fetchedAt": "2026-11-05T23:58:29.986Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -435,18 +435,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 10",
-          "offerName": null,
-          "price": 1650,
-          "priceFormatted": "¥1,650",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 4",
           "offerName": null,
           "price": 660,
           "priceFormatted": "¥660",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 10",
+          "offerName": null,
+          "price": 1650,
+          "priceFormatted": "¥1,650",
           "currency": "JPY",
           "period": null
         },

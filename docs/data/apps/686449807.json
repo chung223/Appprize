@@ -2,8 +2,8 @@
   "appId": "686449807",
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/30/ac/ad/30acad49-0c5c-3547-7723-c8b9e3ea0ef0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T00:14:31.576Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/35/2c/bc352cfd-497c-c393-3297-f0830f6ac02e/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-05T23:59:09.512Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": null
         },
         {
-          "name": "1x Premium (3 Months)",
-          "offerName": null,
-          "price": 490,
-          "priceFormatted": "$490.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "750 Telegram Stars",
           "offerName": null,
           "price": 530,
           "priceFormatted": "$530.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "1x Premium (3 Months)",
+          "offerName": null,
+          "price": 490,
+          "priceFormatted": "$490.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "2500 Telegram Stars",

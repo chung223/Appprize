@@ -3,7 +3,7 @@
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/fd/30/38fd3000-62f7-2ae8-a85b-e6028242ebed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T00:15:02.112Z",
+  "fetchedAt": "2026-11-05T23:59:37.490Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -339,6 +339,38 @@
       "unavailable": false,
       "inApps": [
         {
+          "name": "Canva Pro - 月ごと",
+          "offerName": null,
+          "price": 1180,
+          "priceFormatted": "¥1,180",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canvaビジネス（月額）",
+          "offerName": null,
+          "price": 1880,
+          "priceFormatted": "¥1,880",
+          "currency": "JPY",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - 年間",
+          "offerName": null,
+          "price": 8300,
+          "priceFormatted": "¥8,300",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
+          "name": "Canva Pro - 年間",
+          "offerName": null,
+          "price": 11800,
+          "priceFormatted": "¥11,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
           "name": "Canva Credit",
           "offerName": null,
           "price": 300,
@@ -347,74 +379,18 @@
           "period": null
         },
         {
+          "name": "Canvaビジネス（年額）",
+          "offerName": null,
+          "price": 18800,
+          "priceFormatted": "¥18,800",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
           "name": "Canva Credit 2 Pack",
           "offerName": null,
           "price": 500,
           "priceFormatted": "¥500",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Canva Credit 3 Pack",
-          "offerName": null,
-          "price": 600,
-          "priceFormatted": "¥600",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Canva Credit 5 Pack",
-          "offerName": null,
-          "price": 1000,
-          "priceFormatted": "¥1,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Canva Credit 10 Pack",
-          "offerName": null,
-          "price": 1800,
-          "priceFormatted": "¥1,800",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Canva Credit 20 Pack",
-          "offerName": null,
-          "price": 3500,
-          "priceFormatted": "¥3,500",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Canva Credit 50 Pack",
-          "offerName": null,
-          "price": 9000,
-          "priceFormatted": "¥9,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Canva Credit 100 Pack",
-          "offerName": null,
-          "price": 15000,
-          "priceFormatted": "¥15,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "結構式招待状の画像パック",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "¥150",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "母の日の画像パック",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "¥150",
           "currency": "JPY",
           "period": null
         }

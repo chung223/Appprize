@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/58/f1/1958f147-3ac2-c3bb-1ce3-3896af94133c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-05T00:13:35.808Z",
+  "fetchedAt": "2026-11-05T23:58:13.282Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,14 +67,6 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1209.99,
-          "priceFormatted": "₺1.209,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
           "price": 329.99,
           "priceFormatted": "₺329,99",
           "currency": "TRY",
@@ -85,6 +77,14 @@
           "offerName": null,
           "price": 969.99,
           "priceFormatted": "₺969,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 1209.99,
+          "priceFormatted": "₺1.209,99",
           "currency": "TRY",
           "period": null
         },
@@ -107,16 +107,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 839.99,
-          "priceFormatted": "₺839,99",
+          "price": 169.99,
+          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 169.99,
-          "priceFormatted": "₺169,99",
+          "price": 839.99,
+          "priceFormatted": "₺839,99",
           "currency": "TRY",
           "period": null
         }
@@ -137,16 +137,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1749,
-          "priceFormatted": "₹ 1,749",
+          "price": 1379,
+          "priceFormatted": "₹ 1,379",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 1379,
-          "priceFormatted": "₹ 1,379",
+          "price": 1749,
+          "priceFormatted": "₹ 1,749",
           "currency": "INR",
           "period": null
         },
@@ -269,10 +269,10 @@
           "period": null
         },
         {
-          "name": "Chest of Gems (1200)",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
+          "price": 79.99,
+          "priceFormatted": "$79.99",
           "currency": "USD",
           "period": null
         }
