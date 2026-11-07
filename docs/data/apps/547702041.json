@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/8d/2e/398d2ea3-c222-7fa9-fc68-500aca8771da/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-06T23:41:28.193Z",
+  "fetchedAt": "2026-11-07T22:34:02.025Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,74 +11,66 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Tinder Plus",
+          "name": "Tinder Gold",
           "offerName": null,
-          "price": 30,
-          "priceFormatted": "$30.00",
+          "price": 470,
+          "priceFormatted": "$470.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "Tinder Gold",
           "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
+          "price": 465,
+          "priceFormatted": "$465.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "600 枚代幣",
           "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "1 次加強配對",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 190,
+          "priceFormatted": "$190.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "Tinder Gold",
           "offerName": null,
-          "price": 210,
-          "priceFormatted": "$210.00",
+          "price": 950,
+          "priceFormatted": "$950.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "Tinder Gold",
           "offerName": null,
-          "price": 240,
-          "priceFormatted": "$240.00",
+          "price": 790,
+          "priceFormatted": "$790.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "5 Super Likes",
           "offerName": null,
-          "price": 300,
-          "priceFormatted": "$300.00",
+          "price": 270,
+          "priceFormatted": "$270.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Tinder Plus",
+          "name": "Tinder Gold",
           "offerName": null,
-          "price": 450,
-          "priceFormatted": "$450.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Tinder Plus",
-          "offerName": null,
-          "price": 590,
-          "priceFormatted": "$590.00",
+          "price": 930,
+          "priceFormatted": "$930.00",
           "currency": "TWD",
           "period": null
         }
