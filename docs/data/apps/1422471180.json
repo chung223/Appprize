@@ -3,7 +3,7 @@
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/20/b9/0e/20b90e53-6886-59f5-9bf8-dc0f76f5221c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-07T22:35:02.642Z",
+  "fetchedAt": "2026-11-08T22:44:47.379Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -293,10 +293,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Dazz ND Filter",
+          "name": "Dazz Pro",
           "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
+          "price": 6.99,
+          "priceFormatted": "$6.99",
           "currency": "USD",
           "period": null
         },
@@ -305,6 +305,22 @@
           "offerName": null,
           "price": 19.99,
           "priceFormatted": "$19.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
           "currency": "USD",
           "period": null
         },
@@ -325,14 +341,6 @@
           "period": null
         },
         {
-          "name": "Dazz Inst SQ",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Dazz Exp Camera",
           "offerName": null,
           "price": 2.99,
@@ -341,15 +349,7 @@
           "period": null
         },
         {
-          "name": "Dazz Pro",
-          "offerName": null,
-          "price": 6.99,
-          "priceFormatted": "$6.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Dazz Flash Color",
+          "name": "Dazz Black Camera",
           "offerName": null,
           "price": 0.99,
           "priceFormatted": "$0.99",
@@ -365,10 +365,10 @@
           "period": null
         },
         {
-          "name": "Dazz Black Camera",
+          "name": "Dazz Inst SQ",
           "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
+          "price": 1.99,
+          "priceFormatted": "$1.99",
           "currency": "USD",
           "period": null
         }

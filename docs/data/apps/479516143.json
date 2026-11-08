@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/fc/14/4bfc140f-8678-fa11-9d49-15efdf1b0d85/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-07T22:33:27.946Z",
+  "fetchedAt": "2026-11-08T22:42:57.788Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 1",
+          "name": "Marketplace Pass Trial",
           "offerName": null,
-          "price": 35,
-          "priceFormatted": "$35.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
           "period": null
         }
@@ -239,18 +239,18 @@
           "period": null
         },
         {
-          "name": "Realms Plus: You + 10 Friends",
-          "offerName": null,
-          "price": 489,
-          "priceFormatted": "₹ 489",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Marketplace Pass Trial",
           "offerName": null,
           "price": 399,
           "priceFormatted": "₹ 399",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Realms Plus: You + 10 Friends",
+          "offerName": null,
+          "price": 489,
+          "priceFormatted": "₹ 489",
           "currency": "INR",
           "period": null
         },
