@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T01:56:11.852Z",
+  "fetchedAt": "2026-11-10T23:57:53.136Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -285,30 +285,6 @@
           "period": "monthly"
         },
         {
-          "name": "Premium yearly 100GB",
-          "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "$49.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
-          "name": "Premium Monthly 100GB",
-          "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Premium Weekly 100GB",
-          "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
-          "currency": "USD",
-          "period": "weekly"
-        },
-        {
           "name": "Lightroom plan 1TB",
           "offerName": null,
           "price": 9.99,
@@ -317,18 +293,50 @@
           "period": null
         },
         {
-          "name": "AI Photo Enhancer & Blur",
+          "name": "Premium",
           "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "$49.99",
+          "price": 4.99,
+          "priceFormatted": "$4.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Premium Yearly 100GB",
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium yearly 100GB",
           "offerName": null,
           "price": 49.99,
           "priceFormatted": "$49.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 0GB",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium Yearly 0GB",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium Yearly 0GB",
+          "offerName": null,
+          "price": 19.99,
+          "priceFormatted": "$19.99",
           "currency": "USD",
           "period": "yearly"
         },
@@ -341,7 +349,7 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
+          "name": "Premium yearly 40GB",
           "offerName": null,
           "price": 19.99,
           "priceFormatted": "$19.99",
@@ -419,10 +427,10 @@
           "period": null
         },
         {
-          "name": "プレミアム (100 GB/年)",
+          "name": "プレミアム (40 GB/年)",
           "offerName": null,
-          "price": 4400,
-          "priceFormatted": "¥4,400",
+          "price": 2100,
+          "priceFormatted": "¥2,100",
           "currency": "JPY",
           "period": "yearly"
         }

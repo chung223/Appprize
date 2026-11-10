@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/fc/14/4bfc140f-8678-fa11-9d49-15efdf1b0d85/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T01:55:16.269Z",
+  "fetchedAt": "2026-11-10T23:57:03.636Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -83,10 +83,10 @@
           "period": null
         },
         {
-          "name": "Marketplace Pass Trial",
+          "name": "Minecraft Store Item 1",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 35,
+          "priceFormatted": "$35.00",
           "currency": "TWD",
           "period": null
         }

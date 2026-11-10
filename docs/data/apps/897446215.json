@@ -3,7 +3,7 @@
   "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
   "developer": "Canva Pty Ltd",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/38/fd/30/38fd3000-62f7-2ae8-a85b-e6028242ebed/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T01:56:29.124Z",
+  "fetchedAt": "2026-11-10T23:58:09.886Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -253,84 +253,76 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "AI Project Pack",
+          "name": "Canva Pro - Monthly",
           "offerName": null,
-          "price": 144.99,
-          "priceFormatted": "$144.99",
+          "price": 14.99,
+          "priceFormatted": "$14.99",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 15,
+          "priceFormatted": "$15.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Monthly",
+          "offerName": null,
+          "price": 18,
+          "priceFormatted": "$18.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Business - Monthly",
+          "offerName": null,
+          "price": 25,
+          "priceFormatted": "$25.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Credit",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "AI Project Pack",
+          "name": "Canva Pro - Yearly",
           "offerName": null,
-          "price": 73,
-          "priceFormatted": "$73.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "AI Project Pack",
-          "offerName": null,
-          "price": 29,
-          "priceFormatted": "$29.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Canva可画团队版-按年付费",
-          "offerName": null,
-          "price": 69.99,
-          "priceFormatted": "$69.99",
+          "price": 119.99,
+          "priceFormatted": "$119.99",
           "currency": "USD",
           "period": "yearly"
         },
         {
-          "name": "Canva可画团队版-按月付费",
+          "name": "Canva Credit 2 Pack",
           "offerName": null,
-          "price": 6.99,
-          "priceFormatted": "$6.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva可画高级版 - 按月付费",
-          "offerName": null,
-          "price": 24.99,
-          "priceFormatted": "$24.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva可画高级版 - 按月付费",
-          "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "Canva可画高级版 - 按年付费",
-          "offerName": null,
-          "price": 24.99,
-          "priceFormatted": "$24.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
-          "name": "Canva可画团队版-按月付费",
-          "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
-          "name": "AI Top-up",
-          "offerName": null,
-          "price": 13,
-          "priceFormatted": "$13.00",
+          "price": 2.99,
+          "priceFormatted": "$2.99",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Canva Teams - Monthly",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "USD",
+          "period": "monthly"
+        },
+        {
+          "name": "Canva Pro - Yearly",
+          "offerName": null,
+          "price": 143.99,
+          "priceFormatted": "$143.99",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {

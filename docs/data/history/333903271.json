@@ -46,7 +46,11 @@
     "ticketed space 5 99#0": "Ticketed Space ($5.99)",
     "ticketed space 12 99#0": "Ticketed Space ($12.99)",
     "ticketed space 6 99#0": "Ticketed Space ($6.99)",
-    "promote post for 500#0": "Promote Post for $500"
+    "promote post for 500#0": "Promote Post for $500",
+    "grok 100 usage credits#0": "Grok $100 Usage Credits",
+    "grok 50 usage credits#0": "Grok $50 Usage Credits",
+    "grok 20 usage credits#0": "Grok $20 Usage Credits",
+    "grok 5 usage credits#0": "Grok $5 Usage Credits"
   },
   "entries": [
     {
@@ -3635,6 +3639,86 @@
             "goto finance subscription#0": 100,
             "ブーストしたツイートパッケージ#0": 8000,
             "hazuma subscription#0": 700
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-11-10",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "grok 100 usage credits#0": 3990,
+            "grok 50 usage credits#0": 1990,
+            "grok 20 usage credits#0": 890,
+            "grok 5 usage credits#0": 220,
+            "nathalberstadt subscription#0": 150,
+            "zeroxjackson subscription#0": 2990,
+            "itsjohnrocker subscription#0": 150,
+            "promote post#0": 160000,
+            "promote post#1": 330000,
+            "enabled for advanced commerce#0": 290
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "grok 100 usage credits#0": 6999.99,
+            "grok 50 usage credits#0": 3499.99,
+            "grok 20 usage credits#0": 1499.99,
+            "grok 5 usage credits#0": 349.99,
+            "nathalberstadt subscription#0": 229.99,
+            "zeroxjackson subscription#0": 3999.99,
+            "itsjohnrocker subscription#0": 229.99,
+            "promote post#0": 269999,
+            "promote post#1": 299999,
+            "enabled for advanced commerce#0": 399.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "grok 100 usage credits#0": 12900,
+            "grok 50 usage credits#0": 6900,
+            "grok 20 usage credits#0": 2499,
+            "grok 5 usage credits#0": 699,
+            "nathalberstadt subscription#0": 499,
+            "zeroxjackson subscription#0": 9900,
+            "itsjohnrocker subscription#0": 499,
+            "promote post#0": 499900,
+            "promote post#1": 999900,
+            "enabled for advanced commerce#0": 999
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "grok 100 usage credits#0": 129.99,
+            "grok 50 usage credits#0": 64.99,
+            "grok 20 usage credits#0": 25.99,
+            "grok 5 usage credits#0": 6.49,
+            "nathalberstadt subscription#0": 5,
+            "zeroxjackson subscription#0": 99,
+            "itsjohnrocker subscription#0": 5,
+            "promote post#0": 5000,
+            "promote post#1": 10000,
+            "enabled for advanced commerce#0": 8.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "grok 100 usage credits#0": 22000,
+            "grok 50 usage credits#0": 11000,
+            "grok 20 usage credits#0": 4000,
+            "grok 5 usage credits#0": 1000,
+            "nathalberstadt subscription#0": 800,
+            "zeroxjackson subscription#0": 15000,
+            "itsjohnrocker subscription#0": 800,
+            "promote post#0": 800000,
+            "promote post#1": 1600000,
+            "enabled for advanced commerce#0": 1500
           }
         }
       }

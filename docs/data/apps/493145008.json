@@ -2,8 +2,8 @@
   "appId": "493145008",
   "name": "Headspace: Sleep & Meditation",
   "developer": "Headspace Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/f6/94/f7f6945c-02a5-78c6-f845-cc2d75203eb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T01:56:47.605Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/1d/75/081d7594-3346-faea-bd6b-79d368abb6b8/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-10T23:58:26.055Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -47,14 +47,6 @@
           "offerName": null,
           "price": 2290,
           "priceFormatted": "$2,290.00",
-          "currency": "TWD",
-          "period": "yearly"
-        },
-        {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 2090,
-          "priceFormatted": "$2,090.00",
           "currency": "TWD",
           "period": "yearly"
         }
@@ -299,20 +291,20 @@
           "period": "monthly"
         },
         {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 4800,
-          "priceFormatted": "¥4,800",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Headspace",
           "offerName": null,
           "price": 480,
           "priceFormatted": "¥480",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "Annual Subscription",
+          "offerName": null,
+          "price": 4800,
+          "priceFormatted": "¥4,800",
+          "currency": "JPY",
+          "period": "yearly"
         },
         {
           "name": "Headspace Plus",
@@ -345,14 +337,6 @@
           "priceFormatted": "¥11,400",
           "currency": "JPY",
           "period": null
-        },
-        {
-          "name": "Annual Subscription",
-          "offerName": null,
-          "price": 7800,
-          "priceFormatted": "¥7,800",
-          "currency": "JPY",
-          "period": "yearly"
         }
       ],
       "appPrice": {

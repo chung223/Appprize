@@ -39,7 +39,17 @@
     "lineアプリ内課金#0": "LINEアプリ内課金",
     "lineアプリ内課金#1": "LINEアプリ内課金",
     "lineアプリ内課金#2": "LINEアプリ内課金",
-    "lineアプリ内課金#3": "LINEアプリ内課金"
+    "lineアプリ内課金#3": "LINEアプリ内課金",
+    "tweety#0": "Tweety",
+    "bakabon s papa#0": "Bakabon's Papa",
+    "nameko#0": "Nameko",
+    "listen to your heart#0": "Listen to Your Heart",
+    "jungle high school#0": "Jungle High School",
+    "my sweet day#0": "My Sweet Day",
+    "doong doong#0": "Doong Doong",
+    "mr baldy#0": "Mr. Baldy",
+    "snoopy#0": "Snoopy",
+    "misawa of hell shazaihen series#0": "Misawa of Hell (Shazaihen Series)"
   },
   "entries": [
     {
@@ -5403,6 +5413,84 @@
             "月間プラン デラックスコース line10 21 0以降対象#0": 650,
             "70 line coin#0": 160,
             "70 line coin#1": 210
+          }
+        }
+      }
+    },
+    {
+      "d": "2026-11-10",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "50 line coin#0": 35,
+            "100 line coin#0": 70,
+            "月租方案#0": 165,
+            "500 line coin#0": 280,
+            "150 line coin#0": 105,
+            "200 line coin#0": 140,
+            "800 line coin#0": 420,
+            "月租方案 進階型 line 10 21 0+#0": 120,
+            "70 line coin#0": 49,
+            "學生方案 進階型 line 10 21 0+#0": 100
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 119.99,
+            "120 line coin#0": 109.99,
+            "ライト エンジョイパック#0": 99.99,
+            "with netflix プレミアム#0": 699.99,
+            "with netflix スタンダード#0": 449.99,
+            "with netflix 広告つきスタンダード#0": 249.99,
+            "line in app purchase#0": 14999.99,
+            "line in app purchase#1": 19999.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "tweety#0": 199,
+            "bakabon s papa#0": 199,
+            "nameko#0": 199,
+            "listen to your heart#0": 199,
+            "jungle high school#0": 199,
+            "my sweet day#0": 199,
+            "doong doong#0": 199,
+            "mr baldy#0": 199,
+            "snoopy#0": 199,
+            "misawa of hell shazaihen series#0": 199
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 2.59,
+            "120 line coin#0": 2.39,
+            "ライト エンジョイパック#0": 1.99,
+            "with netflix プレミアム#0": 14.99,
+            "with netflix スタンダード#0": 9.99,
+            "with netflix 広告つきスタンダード#0": 5.99,
+            "line in app purchase#0": 349.99,
+            "line in app purchase#1": 350,
+            "line in app purchase#2": 390,
+            "line in app purchase#3": 394.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 390,
+            "120 line coin#0": 360,
+            "ライト エンジョイパック#0": 290,
+            "with netflix プレミアム#0": 2290,
+            "with netflix スタンダード#0": 1590,
+            "with netflix 広告つきスタンダード#0": 890,
+            "lineアプリ内課金#0": 52800,
+            "lineアプリ内課金#1": 52980,
+            "lineアプリ内課金#2": 57000,
+            "lineアプリ内課金#3": 57800
           }
         }
       }
