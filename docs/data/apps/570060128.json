@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/58/f1/1958f147-3ac2-c3bb-1ce3-3896af94133c/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-08T22:42:38.456Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/cb/93/68cb9331-b194-2970-d1ce-129f5535f364/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-10T01:54:59.533Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,16 +67,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -109,14 +109,6 @@
           "offerName": null,
           "price": 839.99,
           "priceFormatted": "₺839,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 169.99,
-          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         }
@@ -253,14 +245,6 @@
           "period": null
         },
         {
-          "name": "Chest of Gems",
-          "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo",
           "offerName": null,
           "price": 95.99,
@@ -269,10 +253,10 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
+          "name": "Chest of Gems",
           "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "$79.99",
+          "price": 0.99,
+          "priceFormatted": "$0.99",
           "currency": "USD",
           "period": null
         }

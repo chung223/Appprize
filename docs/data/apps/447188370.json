@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/ad/ff/baadff26-8658-e543-4b51-a541b469f261/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-08T22:44:30.084Z",
+  "fetchedAt": "2026-11-10T01:56:35.821Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,10 +75,10 @@
           "period": null
         },
         {
-          "name": "Bitmoji Fashion",
+          "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 50,
-          "priceFormatted": "$50.00",
+          "price": 80,
+          "priceFormatted": "$80.00",
           "currency": "TWD",
           "period": null
         }

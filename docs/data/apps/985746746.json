@@ -2,8 +2,8 @@
   "appId": "985746746",
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/ed/a5/5ceda550-1e7e-e954-ac64-3efaaeb34813/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-08T22:43:49.906Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/2c/7b/442c7bb2-eaff-b0ab-86e2-4379e93f94aa/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-10T01:56:01.920Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": "monthly"
         },
         {
-          "name": "1 Server Boost Monthly",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro Yearly",
           "offerName": null,
           "price": 3090,
           "priceFormatted": "$3,090.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Nitro + 5 Boosts (Monthly)",

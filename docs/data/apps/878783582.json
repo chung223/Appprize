@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-08T22:44:02.199Z",
+  "fetchedAt": "2026-11-10T01:56:11.852Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -145,20 +145,20 @@
           "period": null
         },
         {
-          "name": "AI Credit Plan",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Premium Monthly 40GB",
           "offerName": null,
           "price": 42.99,
           "priceFormatted": "₺42,99",
           "currency": "TRY",
           "period": "monthly"
+        },
+        {
+          "name": "AI Credit Plan",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
+          "currency": "TRY",
+          "period": null
         },
         {
           "name": "Premium Yearly 40GB",
@@ -301,20 +301,20 @@
           "period": "monthly"
         },
         {
-          "name": "Lightroom plan 1TB",
-          "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "$9.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Premium Weekly 100GB",
           "offerName": null,
           "price": 3.99,
           "priceFormatted": "$3.99",
           "currency": "USD",
           "period": "weekly"
+        },
+        {
+          "name": "Lightroom plan 1TB",
+          "offerName": null,
+          "price": 9.99,
+          "priceFormatted": "$9.99",
+          "currency": "USD",
+          "period": null
         },
         {
           "name": "AI Photo Enhancer & Blur",
@@ -325,20 +325,20 @@
           "period": null
         },
         {
-          "name": "Premium monthly 40GB",
-          "offerName": null,
-          "price": 1.99,
-          "priceFormatted": "$1.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Premium Yearly 100GB",
           "offerName": null,
           "price": 49.99,
           "priceFormatted": "$49.99",
           "currency": "USD",
           "period": "yearly"
+        },
+        {
+          "name": "Premium monthly 40GB",
+          "offerName": null,
+          "price": 1.99,
+          "priceFormatted": "$1.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",
