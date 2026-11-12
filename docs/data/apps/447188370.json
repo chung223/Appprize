@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/ad/ff/baadff26-8658-e543-4b51-a541b469f261/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T23:58:15.895Z",
+  "fetchedAt": "2026-11-12T01:25:14.555Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -51,6 +51,14 @@
           "period": null
         },
         {
+          "name": "Memories Storage",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 60,
@@ -63,14 +71,6 @@
           "offerName": null,
           "price": 210,
           "priceFormatted": "$210.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Memories Storage",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         },
@@ -209,16 +209,16 @@
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 9,
-          "priceFormatted": "₹ 9",
+          "price": 29,
+          "priceFormatted": "₹ 29",
           "currency": "INR",
           "period": null
         },
         {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 29,
-          "priceFormatted": "₹ 29",
+          "price": 9,
+          "priceFormatted": "₹ 9",
           "currency": "INR",
           "period": null
         },

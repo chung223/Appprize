@@ -3,7 +3,7 @@
   "name": "DeepSRT PRO",
   "developer": "Jiayan Lin",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/6e/3e/226e3e0e-0ce6-7b2d-238e-47220627fc94/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T23:57:17.106Z",
+  "fetchedAt": "2026-11-12T01:23:58.277Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -87,12 +87,12 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Monthly",
+          "name": "Lifetime",
           "offerName": null,
-          "price": 599,
-          "priceFormatted": "₹ 599",
+          "price": 9900,
+          "priceFormatted": "₹ 9,900",
           "currency": "INR",
-          "period": "monthly"
+          "period": "lifetime"
         },
         {
           "name": "Yearly",
@@ -103,12 +103,12 @@
           "period": "yearly"
         },
         {
-          "name": "Lifetime",
+          "name": "Monthly",
           "offerName": null,
-          "price": 9900,
-          "priceFormatted": "₹ 9,900",
+          "price": 599,
+          "priceFormatted": "₹ 599",
           "currency": "INR",
-          "period": "lifetime"
+          "period": "monthly"
         }
       ],
       "appPrice": {

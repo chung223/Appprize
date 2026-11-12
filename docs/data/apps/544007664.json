@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/e2/cd/a1e2cd19-0c42-c1a4-3825-7200f66be54e/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-10T23:56:36.555Z",
+  "fetchedAt": "2026-11-12T01:23:06.873Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,47 +11,31 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "King Gorilla!!!",
+          "name": "YouTube Premium",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "$800.00",
+          "price": 260,
+          "priceFormatted": "$260.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Professional Monkey!",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 250,
-          "priceFormatted": "$250.00",
+          "price": 630,
+          "priceFormatted": "$630.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "Amateur Monkey!",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 50,
-          "priceFormatted": "$50.00",
+          "price": 630,
+          "priceFormatted": "$630.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "人生学校名誉",
-          "offerName": null,
-          "price": 300,
-          "priceFormatted": "$300.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Pase de Diamante",
-          "offerName": null,
-          "price": 400,
-          "priceFormatted": "$400.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Pase de Oro",
+          "name": "五歲抬頭基礎加持團",
           "offerName": null,
           "price": 100,
           "priceFormatted": "$100.00",
@@ -59,10 +43,26 @@
           "period": null
         },
         {
-          "name": "Pase de Plata",
+          "name": "Super Chat",
           "offerName": null,
-          "price": 40,
-          "priceFormatted": "$40.00",
+          "price": 70,
+          "priceFormatted": "$70.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "YouTube Premium Two-person",
+          "offerName": null,
+          "price": 390,
+          "priceFormatted": "$390.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "$160.00",
           "currency": "TWD",
           "period": null
         }
@@ -81,7 +81,7 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "King Gorilla!!!",
+          "name": "YouTube Premium",
           "offerName": null,
           "price": 159.99,
           "priceFormatted": "₺159,99",
@@ -89,50 +89,34 @@
           "period": null
         },
         {
-          "name": "Professional Monkey!",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "₺49,99",
+          "price": 319.99,
+          "priceFormatted": "₺319,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Amateur Monkey!",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 9.99,
-          "priceFormatted": "₺9,99",
+          "price": 319.99,
+          "priceFormatted": "₺319,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "人生学校名誉",
+          "name": "Premium Lite",
           "offerName": null,
-          "price": 64.99,
-          "priceFormatted": "₺64,99",
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Pase de Diamante",
+          "name": "Aslan Paketi",
           "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "₺79,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Pase de Oro",
-          "offerName": null,
-          "price": 19.99,
-          "priceFormatted": "₺19,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Pase de Plata",
-          "offerName": null,
-          "price": 5.99,
-          "priceFormatted": "₺5,99",
+          "price": 39.99,
+          "priceFormatted": "₺39,99",
           "currency": "TRY",
           "period": null
         }
@@ -151,66 +135,42 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "King Gorilla!!!",
+          "name": "YouTube Premium",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 195,
+          "priceFormatted": "₹ 195",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Professional Monkey!",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 549,
-          "priceFormatted": "₹ 549",
+          "price": 389,
+          "priceFormatted": "₹ 389",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Amateur Monkey!",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
+          "price": 389,
+          "priceFormatted": "₹ 389",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "人生学校名誉",
+          "name": "YouTube Premium Two-person",
           "offerName": null,
-          "price": 749,
-          "priceFormatted": "₹ 749",
+          "price": 289,
+          "priceFormatted": "₹ 289",
           "currency": "INR",
           "period": null
         },
         {
-          "name": "Pase de Diamante",
+          "name": "Premium Lite",
           "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Pase de Oro",
-          "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Pase de Plata",
-          "offerName": null,
-          "price": 79,
-          "priceFormatted": "₹ 79",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "National Theatre at Home",
-          "offerName": null,
-          "price": 249,
-          "priceFormatted": "₹ 249",
+          "price": 119,
+          "priceFormatted": "₹ 119",
           "currency": "INR",
           "period": null
         }
@@ -229,23 +189,15 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "King Gorilla!!!",
+          "name": "YouTube Premium",
           "offerName": null,
-          "price": 24.99,
-          "priceFormatted": "$24.99",
+          "price": 20.99,
+          "priceFormatted": "$20.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "Professional Monkey!",
-          "offerName": null,
-          "price": 10.99,
-          "priceFormatted": "$10.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Amateur Monkey!",
+          "name": "Movies & Shows",
           "offerName": null,
           "price": 3.99,
           "priceFormatted": "$3.99",
@@ -253,50 +205,42 @@
           "period": null
         },
         {
-          "name": "HBO Max Basic with Ads",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 10.99,
-          "priceFormatted": "$10.99",
+          "price": 34.99,
+          "priceFormatted": "$34.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "NFL Sunday Ticket+NFL RedZone",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 404.99,
-          "priceFormatted": "$404.99",
+          "price": 34.99,
+          "priceFormatted": "$34.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "NFL Sunday Ticket 2026 season",
+          "name": "Super Chat",
           "offerName": null,
-          "price": 374.99,
-          "priceFormatted": "$374.99",
+          "price": 1.99,
+          "priceFormatted": "$1.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "人生学校名誉",
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
           "offerName": null,
           "price": 11.99,
           "priceFormatted": "$11.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "BritBox",
-          "offerName": null,
-          "price": 10.99,
-          "priceFormatted": "$10.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Pase de Diamante",
-          "offerName": null,
-          "price": 12.99,
-          "priceFormatted": "$12.99",
           "currency": "USD",
           "period": null
         }
@@ -315,66 +259,58 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "King Gorilla!!!",
+          "name": "YouTube Premium",
           "offerName": null,
-          "price": 3400,
-          "priceFormatted": "¥3,400",
+          "price": 1680,
+          "priceFormatted": "¥1,680",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Professional Monkey!",
+          "name": "Super Chat",
           "offerName": null,
-          "price": 1150,
-          "priceFormatted": "¥1,150",
+          "price": 320,
+          "priceFormatted": "¥320",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Amateur Monkey!",
+          "name": "Super Chat",
           "offerName": null,
-          "price": 400,
-          "priceFormatted": "¥400",
+          "price": 800,
+          "priceFormatted": "¥800",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Anime Times",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 500,
-          "priceFormatted": "¥500",
+          "price": 2900,
+          "priceFormatted": "¥2,900",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "人生学校名誉",
+          "name": "Super Chat",
           "offerName": null,
-          "price": 1400,
-          "priceFormatted": "¥1,400",
+          "price": 1600,
+          "priceFormatted": "¥1,600",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Pase de Diamante",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 1700,
-          "priceFormatted": "¥1,700",
+          "price": 2900,
+          "priceFormatted": "¥2,900",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Pase de Oro",
+          "name": "Premium Lite",
           "offerName": null,
-          "price": 700,
-          "priceFormatted": "¥700",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Pase de Plata",
-          "offerName": null,
-          "price": 300,
-          "priceFormatted": "¥300",
+          "price": 980,
+          "priceFormatted": "¥980",
           "currency": "JPY",
           "period": null
         }
