@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ab/98/cd/ab98cd63-2ea4-ae73-fc4b-dcfbf10d2ec0/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-12T01:23:28.087Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/df/58/ebdf5877-ad88-cdb1-1e4b-fbd3db5ec66f/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-12T23:59:53.974Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,18 @@
           "period": "monthly"
         },
         {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 1490,
-          "priceFormatted": "$1,490.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (20)",
           "offerName": null,
           "price": 690,
           "priceFormatted": "$690.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 1490,
+          "priceFormatted": "$1,490.00",
           "currency": "TWD",
           "period": null
         },
@@ -341,14 +341,6 @@
           "period": null
         },
         {
-          "name": "Usage Credits (250)",
-          "offerName": null,
-          "price": 200,
-          "priceFormatted": "$200.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (100)",
           "offerName": null,
           "price": 90,
@@ -357,10 +349,10 @@
           "period": null
         },
         {
-          "name": "Usage Credits (500)",
+          "name": "Usage Credits (250)",
           "offerName": null,
-          "price": 350,
-          "priceFormatted": "$350.00",
+          "price": 200,
+          "priceFormatted": "$200.00",
           "currency": "USD",
           "period": null
         },
@@ -369,6 +361,14 @@
           "offerName": null,
           "price": 700,
           "priceFormatted": "$700.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (500)",
+          "offerName": null,
+          "price": 350,
+          "priceFormatted": "$350.00",
           "currency": "USD",
           "period": null
         }
@@ -403,20 +403,20 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Pro - Annual",
-          "offerName": null,
-          "price": 35000,
-          "priceFormatted": "¥35,000",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 40000,
           "priceFormatted": "¥40,000",
           "currency": "JPY",
           "period": "monthly"
+        },
+        {
+          "name": "Claude Pro - Annual",
+          "offerName": null,
+          "price": 35000,
+          "priceFormatted": "¥35,000",
+          "currency": "JPY",
+          "period": "yearly"
         }
       ],
       "appPrice": {

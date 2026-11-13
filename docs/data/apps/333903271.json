@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/f6/53/62f6535c-22b8-9577-b902-cfeabc1afc76/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-12T01:24:39.664Z",
+  "fetchedAt": "2026-11-13T00:00:59.884Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,18 +67,18 @@
           "period": "yearly"
         },
         {
-          "name": "Promote Post for $500",
-          "offerName": null,
-          "price": 15000,
-          "priceFormatted": "$15,000.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "@garyblack00 Subscription",
           "offerName": null,
           "price": 190,
           "priceFormatted": "$190.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Promote Post for $500",
+          "offerName": null,
+          "price": 15000,
+          "priceFormatted": "$15,000.00",
           "currency": "TWD",
           "period": null
         },
@@ -223,20 +223,20 @@
           "period": "yearly"
         },
         {
-          "name": "Promote Post",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "X Premium Plus (Monthly)",
           "offerName": null,
           "price": 4999,
           "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": "monthly"
+        },
+        {
+          "name": "Promote Post",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₹ 999",
+          "currency": "INR",
+          "period": null
         },
         {
           "name": "X Premium Basic (Annual)",

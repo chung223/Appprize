@@ -1,6 +1,66 @@
 {
   "events": [
     {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": null,
+      "new": 2449,
+      "currency": "INR",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-11-12"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "Nitro + 2 Boosts (Monthly)",
+      "old": 1499,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-11-12"
+    },
+    {
+      "cc": "us",
+      "kind": "plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 3.99,
+      "new": 4.99,
+      "currency": "USD",
+      "pct": 0.2506265664160401,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-11-12"
+    },
+    {
+      "cc": "us",
+      "kind": "new-plan",
+      "name": "RainViewer Pro: 1 Year",
+      "old": null,
+      "new": 39.99,
+      "currency": "USD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-11-12"
+    },
+    {
+      "cc": "us",
+      "kind": "removed-plan",
+      "name": "RainViewer Premium: Monthly",
+      "old": 4.99,
+      "new": null,
+      "currency": "USD",
+      "pct": null,
+      "appId": "980123924",
+      "appName": "Rain Radar Live RainViewer",
+      "date": "2026-11-12"
+    },
+    {
       "cc": "tw",
       "kind": "new-plan",
       "name": "YouTube Premium",
@@ -3539,67 +3599,7 @@
       "appId": "544007664",
       "appName": "YouTube",
       "date": "2026-11-10"
-    },
-    {
-      "cc": "in",
-      "kind": "removed-plan",
-      "name": "YouTube Premium Family",
-      "old": 389,
-      "new": null,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-10"
-    },
-    {
-      "cc": "in",
-      "kind": "removed-plan",
-      "name": "Youtube Premium Family",
-      "old": 389,
-      "new": null,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-10"
-    },
-    {
-      "cc": "in",
-      "kind": "removed-plan",
-      "name": "YouTube Premium Two-person",
-      "old": 289,
-      "new": null,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-10"
-    },
-    {
-      "cc": "in",
-      "kind": "removed-plan",
-      "name": "Premium Lite",
-      "old": 119,
-      "new": null,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-10"
-    },
-    {
-      "cc": "us",
-      "kind": "new-plan",
-      "name": "King Gorilla!!!",
-      "old": null,
-      "new": 24.99,
-      "currency": "USD",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-10"
     }
   ],
-  "updatedAt": "2026-11-12T01:25:55.497Z"
+  "updatedAt": "2026-11-13T00:02:10.468Z"
 }

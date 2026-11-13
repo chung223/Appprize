@@ -2,8 +2,8 @@
   "appId": "447188370",
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ba/ad/ff/baadff26-8658-e543-4b51-a541b469f261/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-12T01:25:14.555Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f5/2c/5af52c3d-4126-a0d1-ca89-72bfa3bc5fef/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-13T00:01:30.336Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -371,18 +371,18 @@
           "period": null
         },
         {
-          "name": "Lens+",
-          "offerName": null,
-          "price": 1280,
-          "priceFormatted": "¥1,280",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 100,
           "priceFormatted": "¥100",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Lens+",
+          "offerName": null,
+          "price": 1280,
+          "priceFormatted": "¥1,280",
           "currency": "JPY",
           "period": null
         }

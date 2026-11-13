@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/fa/68/18fa688a-531f-0308-5833-563d8079d012/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-12T01:24:03.198Z",
+  "fetchedAt": "2026-11-13T00:00:26.446Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,14 +161,6 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 229.99,
-          "priceFormatted": "₺229,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Monthly (Basic)",
           "offerName": null,
           "price": 12.99,
@@ -183,6 +175,14 @@
           "priceFormatted": "₺559,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 229.99,
+          "priceFormatted": "₺229,99",
+          "currency": "TRY",
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -333,14 +333,6 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
-          "offerName": null,
-          "price": 4.99,
-          "priceFormatted": "$4.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "1600 LINE Coin",
           "offerName": null,
           "price": 22.99,
@@ -355,6 +347,14 @@
           "priceFormatted": "$1.39",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Monthly Plan",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": "monthly"
         }
       ],
       "appPrice": {
