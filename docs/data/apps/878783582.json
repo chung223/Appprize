@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-14T00:16:19.507Z",
+  "fetchedAt": "2026-11-14T22:55:50.222Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -65,14 +65,6 @@
           "priceFormatted": "$160.00",
           "currency": "TWD",
           "period": null
-        },
-        {
-          "name": "高級版每週 100GB",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "weekly"
         },
         {
           "name": "Lightroom plan 1TB",
