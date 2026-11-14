@@ -5650,6 +5650,83 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-11-14",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 90,
+            "120 line coin#0": 85,
+            "ライト エンジョイパック#0": 60,
+            "with netflix プレミアム#0": 490,
+            "with netflix スタンダード#0": 320,
+            "with netflix 広告つきスタンダード#0": 190,
+            "line應用程式內購買#0": 9500,
+            "line應用程式內購買#1": 9550,
+            "line應用程式內購買#2": 9880,
+            "line應用程式內購買#3": 9890
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 119.99,
+            "120 line coin#0": 109.99,
+            "ライト エンジョイパック#0": 99.99,
+            "with netflix プレミアム#0": 699.99,
+            "with netflix スタンダード#0": 449.99,
+            "with netflix 広告つきスタンダード#0": 249.99,
+            "line in app purchase#0": 14999.99,
+            "line in app purchase#1": 19999.99
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "100 line coin#0": 179,
+            "50 line coin#0": 89,
+            "500 line coin#0": 699,
+            "200 line coin#0": 349,
+            "150 line coin#0": 269,
+            "monthly plan#0": 499,
+            "800 line coin#0": 1099,
+            "70 line coin#0": 99,
+            "スタンダード#0": 399
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 2.59,
+            "120 line coin#0": 2.39,
+            "ライト エンジョイパック#0": 1.99,
+            "with netflix プレミアム#0": 14.99,
+            "with netflix スタンダード#0": 9.99,
+            "with netflix 広告つきスタンダード#0": 5.99,
+            "line in app purchase#0": 349.99,
+            "line in app purchase#1": 350,
+            "line in app purchase#2": 390,
+            "line in app purchase#3": 394.99
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "130 line coin#0": 390,
+            "120 line coin#0": 360,
+            "ライト エンジョイパック#0": 290,
+            "with netflix プレミアム#0": 2290,
+            "with netflix スタンダード#0": 1590,
+            "with netflix 広告つきスタンダード#0": 890,
+            "lineアプリ内課金#0": 52800,
+            "lineアプリ内課金#1": 52980,
+            "lineアプリ内課金#2": 57000,
+            "lineアプリ内課金#3": 57800
+          }
+        }
+      }
     }
   ],
   "name": "LINE"

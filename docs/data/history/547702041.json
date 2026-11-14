@@ -1066,6 +1066,50 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-11-14",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "tinder gold#0": 465,
+            "tinder gold#1": 470,
+            "tinder gold#2": 790,
+            "tinder gold#3": 930,
+            "tinder gold#4": 950,
+            "600 枚代幣#0": 190,
+            "1 次加強配對#0": 190,
+            "5 super likes#0": 270
+          }
+        },
+        "tr": {
+          "app": null,
+          "plans": {
+            "tinder gold#0": 27.99,
+            "tinder gold#1": 73.99,
+            "tinder gold#2": 99.99,
+            "tinder gold#3": 149,
+            "1 boost#0": 129.99,
+            "tinder platinum#0": 99,
+            "tinder platinum#1": 119
+          }
+        },
+        "jp": {
+          "app": null,
+          "plans": {
+            "tinder gold#0": 1700,
+            "tinder gold#1": 2000,
+            "tinder gold#2": 2480,
+            "tinder gold#3": 2500,
+            "tinder gold#4": 3400,
+            "ブースト 3回#0": 1600,
+            "5 super likes#0": 1200,
+            "super like 3回#0": 1600,
+            "tinder plus#0": 1200
+          }
+        }
+      }
     }
   ],
   "name": "Tinder - 配對、交友、聊天"

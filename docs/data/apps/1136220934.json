@@ -3,7 +3,7 @@
   "name": "Infuse",
   "developer": "Firecore, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/ee/ac/5aeeac6a-bb94-c1f4-17bf-ca4b2888266f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-13T00:01:18.270Z",
+  "fetchedAt": "2026-11-14T00:16:31.033Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,20 +11,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Infuse Pro - 月方案",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Infuse Pro - 年方案",
           "offerName": null,
           "price": 380,
           "priceFormatted": "$380.00",
           "currency": "TWD",
           "period": "yearly"
+        },
+        {
+          "name": "Infuse Pro - 月方案",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "Infuse Pro - 生命週期",

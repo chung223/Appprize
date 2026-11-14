@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/c2/b3/8ec2b3fd-a41a-85b8-81bd-cca73dbd6626/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-13T00:00:44.398Z",
+  "fetchedAt": "2026-11-14T00:16:02.804Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -213,7 +213,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "us": {
       "country": "us",
@@ -307,7 +308,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "jp": {
       "country": "jp",
