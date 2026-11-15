@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2c/b4/31/2cb43180-a524-28cd-ee14-0a449eac5797/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-14T22:54:28.042Z",
+  "fetchedAt": "2026-11-15T23:20:19.753Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -173,6 +173,14 @@
           "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 2150,
+          "priceFormatted": "₹ 2,150",
+          "currency": "INR",
+          "period": null
         }
       ],
       "appPrice": {
@@ -237,10 +245,10 @@
           "period": null
         },
         {
-          "name": "Chest of Gems",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
+          "price": 119.99,
+          "priceFormatted": "$119.99",
           "currency": "USD",
           "period": null
         },
@@ -253,10 +261,10 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
+          "name": "Chest of Gems",
           "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
+          "price": 0.99,
+          "priceFormatted": "$0.99",
           "currency": "USD",
           "period": null
         }
@@ -275,18 +283,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Super Duolingo",
+          "name": "Super Lite",
           "offerName": null,
-          "price": 9900,
-          "priceFormatted": "¥9,900",
+          "price": 4280,
+          "priceFormatted": "¥4,280",
           "currency": "JPY",
           "period": null
         },
         {
-          "name": "Super Duolingo",
+          "name": "Super Duolingo - Family Plan",
           "offerName": null,
-          "price": 11400,
-          "priceFormatted": "¥11,400",
+          "price": 15800,
+          "priceFormatted": "¥15,800",
           "currency": "JPY",
           "period": null
         },
@@ -299,26 +307,10 @@
           "period": null
         },
         {
-          "name": "ジェムいっぱいのタル (1200)",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "ジェムの荷車 (3000)",
-          "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "ジェムの荷車 (6500)",
-          "offerName": null,
-          "price": 3000,
-          "priceFormatted": "¥3,000",
+          "price": 2680,
+          "priceFormatted": "¥2,680",
           "currency": "JPY",
           "period": null
         }

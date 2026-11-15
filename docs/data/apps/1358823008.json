@@ -3,7 +3,7 @@
   "name": "Flighty – Live Flight Tracker",
   "developer": "Flighty LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/dc/e4/35dce4d0-e020-41b6-aea8-6d6b23241766/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-14T22:56:44.300Z",
+  "fetchedAt": "2026-11-15T23:22:15.955Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -323,12 +323,12 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Pay-As-You-Go",
+          "name": "Flexible Monthly",
           "offerName": null,
-          "price": 800,
-          "priceFormatted": "¥800",
+          "price": 1500,
+          "priceFormatted": "¥1,500",
           "currency": "JPY",
-          "period": null
+          "period": "monthly"
         },
         {
           "name": "Pro Annual Savings",
@@ -339,14 +339,6 @@
           "period": "yearly"
         },
         {
-          "name": "Flexible Monthly",
-          "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "Lifetime",
           "offerName": null,
           "price": 50000,
@@ -355,20 +347,20 @@
           "period": "lifetime"
         },
         {
-          "name": "Annual Savings (Family)",
-          "offerName": null,
-          "price": 20000,
-          "priceFormatted": "¥20,000",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Flexible Monthly (Family)",
           "offerName": null,
           "price": 2500,
           "priceFormatted": "¥2,500",
           "currency": "JPY",
           "period": "monthly"
+        },
+        {
+          "name": "Annual Savings (Family)",
+          "offerName": null,
+          "price": 20000,
+          "priceFormatted": "¥20,000",
+          "currency": "JPY",
+          "period": "yearly"
         },
         {
           "name": "Lifetime (Family)",
@@ -385,6 +377,14 @@
           "priceFormatted": "¥30,000",
           "currency": "JPY",
           "period": "lifetime"
+        },
+        {
+          "name": "Pay-As-You-Go",
+          "offerName": null,
+          "price": 800,
+          "priceFormatted": "¥800",
+          "currency": "JPY",
+          "period": null
         }
       ],
       "appPrice": {

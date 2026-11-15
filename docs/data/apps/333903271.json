@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c2/8a/72/c28a7284-5d87-31e6-bfea-9d4749893a4a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-14T22:55:43.118Z",
+  "fetchedAt": "2026-11-15T23:21:25.616Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -75,18 +75,18 @@
           "period": null
         },
         {
-          "name": "@proudfox7788 Subscription",
+          "name": "Promote Post for $500",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 15000,
+          "priceFormatted": "$15,000.00",
           "currency": "TWD",
           "period": null
         },
         {
-          "name": "@SawyerMerritt Subscription",
+          "name": "@proudfox7788 Subscription",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
         }
@@ -459,10 +459,10 @@
           "period": null
         },
         {
-          "name": "@hazuma Subscription",
+          "name": "投稿を15,000円でプロモーションする",
           "offerName": null,
-          "price": 700,
-          "priceFormatted": "¥700",
+          "price": 15000,
+          "priceFormatted": "¥15,000",
           "currency": "JPY",
           "period": null
         }

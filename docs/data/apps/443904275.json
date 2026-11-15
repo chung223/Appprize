@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/fa/68/18fa688a-531f-0308-5833-563d8079d012/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-14T22:55:05.576Z",
+  "fetchedAt": "2026-11-15T23:20:54.524Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,12 +177,12 @@
           "period": null
         },
         {
-          "name": "Monthly Plan",
+          "name": "スタンダード",
           "offerName": null,
-          "price": 229.99,
-          "priceFormatted": "₺229,99",
+          "price": 129.99,
+          "priceFormatted": "₺129,99",
           "currency": "TRY",
-          "period": "monthly"
+          "period": null
         }
       ],
       "appPrice": {

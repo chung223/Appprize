@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/59/c2/6359c21f-32bc-79f6-0186-8907e1c94e94/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-14T22:54:34.204Z",
+  "fetchedAt": "2026-11-15T23:20:25.210Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,18 @@
           "period": "monthly"
         },
         {
-          "name": "Usage Credits (20)",
-          "offerName": null,
-          "price": 690,
-          "priceFormatted": "$690.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (50)",
           "offerName": null,
           "price": 1490,
           "priceFormatted": "$1,490.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 690,
+          "priceFormatted": "$690.00",
           "currency": "TWD",
           "period": null
         },
@@ -403,20 +403,20 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Pro - Annual",
-          "offerName": null,
-          "price": 35000,
-          "priceFormatted": "¥35,000",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
           "name": "Claude Ultra - Monthly",
           "offerName": null,
           "price": 40000,
           "priceFormatted": "¥40,000",
           "currency": "JPY",
           "period": "monthly"
+        },
+        {
+          "name": "Claude Pro - Annual",
+          "offerName": null,
+          "price": 35000,
+          "priceFormatted": "¥35,000",
+          "currency": "JPY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
