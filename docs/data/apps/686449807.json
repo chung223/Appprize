@@ -2,8 +2,8 @@
   "appId": "686449807",
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/b5/d8/80b5d84f-3773-2e5c-9ec6-65535d0d90bb/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-15T23:21:15.619Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/54/41/9e544160-3e35-5375-0d6f-64fd732d0a60/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-17T02:23:44.778Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -137,20 +137,20 @@
           "period": null
         },
         {
-          "name": "1000 Telegram Stars",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₺999,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 59.99,
           "priceFormatted": "₺59,99",
           "currency": "TRY",
           "period": "weekly"
+        },
+        {
+          "name": "1000 Telegram Stars",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₺999,00",
+          "currency": "TRY",
+          "period": null
         },
         {
           "name": "150 Telegram Stars",
@@ -451,10 +451,10 @@
           "period": null
         },
         {
-          "name": "1500 Telegram Stars",
+          "name": "350 Telegram Stars",
           "offerName": null,
-          "price": 4780,
-          "priceFormatted": "¥4,780",
+          "price": 1100,
+          "priceFormatted": "¥1,100",
           "currency": "JPY",
           "period": null
         },

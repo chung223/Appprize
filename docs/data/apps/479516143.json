@@ -3,7 +3,7 @@
   "name": "Minecraft",
   "developer": "Mojang AB",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/fc/14/4bfc140f-8678-fa11-9d49-15efdf1b0d85/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-15T23:20:36.721Z",
+  "fetchedAt": "2026-11-17T02:23:00.853Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,18 +11,18 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Minecraft Store Item 2",
-          "offerName": null,
-          "price": 70,
-          "priceFormatted": "$70.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Realms Plus:10 Friends w/trial",
           "offerName": null,
           "price": 240,
           "priceFormatted": "$240.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 2",
+          "offerName": null,
+          "price": 70,
+          "priceFormatted": "$70.00",
           "currency": "TWD",
           "period": null
         },
@@ -255,18 +255,18 @@
           "period": null
         },
         {
-          "name": "Minecraft Store Item 3",
-          "offerName": null,
-          "price": 339,
-          "priceFormatted": "₹ 339",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Minecraft Store Item 5",
           "offerName": null,
           "price": 569,
           "priceFormatted": "₹ 569",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Minecraft Store Item 3",
+          "offerName": null,
+          "price": 339,
+          "priceFormatted": "₹ 339",
           "currency": "INR",
           "period": null
         },

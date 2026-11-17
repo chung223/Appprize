@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/63/59/c2/6359c21f-32bc-79f6-0186-8907e1c94e94/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-15T23:20:25.210Z",
+  "fetchedAt": "2026-11-17T02:22:48.517Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,6 +43,14 @@
           "period": "monthly"
         },
         {
+          "name": "Usage Credits (100)",
+          "offerName": null,
+          "price": 2990,
+          "priceFormatted": "$2,990.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Usage Credits (50)",
           "offerName": null,
           "price": 1490,
@@ -71,14 +79,6 @@
           "offerName": null,
           "price": 11000,
           "priceFormatted": "$11,000.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Usage Credits (100)",
-          "offerName": null,
-          "price": 2990,
-          "priceFormatted": "$2,990.00",
           "currency": "TWD",
           "period": null
         },
@@ -309,20 +309,20 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Ultra - Monthly",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "$249.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Usage Credits (20)",
           "offerName": null,
           "price": 20,
           "priceFormatted": "$20.00",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Claude Ultra - Monthly",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "$249.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Claude Pro - Annual",
@@ -333,18 +333,18 @@
           "period": "yearly"
         },
         {
-          "name": "Usage Credits (50)",
-          "offerName": null,
-          "price": 45,
-          "priceFormatted": "$45.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Usage Credits (100)",
           "offerName": null,
           "price": 90,
           "priceFormatted": "$90.00",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Usage Credits (50)",
+          "offerName": null,
+          "price": 45,
+          "priceFormatted": "$45.00",
           "currency": "USD",
           "period": null
         },

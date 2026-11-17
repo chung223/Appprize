@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-15T23:21:30.558Z",
+  "fetchedAt": "2026-11-17T02:24:00.340Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -89,84 +89,76 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Premium Yearly 100GB",
+          "name": "Premium monthly 40GB",
           "offerName": null,
-          "price": 2499.99,
-          "priceFormatted": "₺2.499,99",
+          "price": 19,
+          "priceFormatted": "₺19,00",
           "currency": "TRY",
-          "period": "yearly"
+          "period": "monthly"
         },
         {
-          "name": "AI Credit Plan",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 799.99,
-          "priceFormatted": "₺799,99",
+          "price": 49,
+          "priceFormatted": "₺49,00",
           "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "AI Credit Plan",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Premium Weekly 40GB",
-          "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "₺49,99",
-          "currency": "TRY",
-          "period": "weekly"
-        },
-        {
-          "name": "Premium weekly 40GB",
-          "offerName": null,
-          "price": 39.99,
-          "priceFormatted": "₺39,99",
-          "currency": "TRY",
-          "period": "weekly"
-        },
-        {
-          "name": "Premium weekly 40GB",
-          "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
-          "currency": "TRY",
-          "period": "weekly"
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 319.99,
-          "priceFormatted": "₺319,99",
+          "price": 199,
+          "priceFormatted": "₺199,00",
           "currency": "TRY",
           "period": "yearly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 17.99,
+          "priceFormatted": "₺17,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Premium yearly 100GB",
+          "offerName": null,
+          "price": 499,
+          "priceFormatted": "₺499,00",
+          "currency": "TRY",
+          "period": "yearly"
+        },
+        {
+          "name": "Premium",
+          "offerName": null,
+          "price": 38.99,
+          "priceFormatted": "₺38,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Premium Monthly 40GB",
+          "offerName": null,
+          "price": 42.99,
+          "priceFormatted": "₺42,99",
+          "currency": "TRY",
+          "period": "monthly"
         },
         {
           "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 269.99,
-          "priceFormatted": "₺269,99",
+          "price": 214.99,
+          "priceFormatted": "₺214,99",
           "currency": "TRY",
           "period": "yearly"
         },
         {
-          "name": "Premium Yearly 100GB",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 379.99,
-          "priceFormatted": "₺379,99",
+          "price": 84.99,
+          "priceFormatted": "₺84,99",
           "currency": "TRY",
-          "period": "yearly"
-        },
-        {
-          "name": "Premium Yearly 100GB",
-          "offerName": null,
-          "price": 53.99,
-          "priceFormatted": "₺53,99",
-          "currency": "TRY",
-          "period": "yearly"
+          "period": "monthly"
         }
       ],
       "appPrice": {

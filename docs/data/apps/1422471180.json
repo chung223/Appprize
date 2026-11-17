@@ -3,7 +3,7 @@
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/82/41/a5824137-9b2b-220d-2113-3c365b80721a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-15T23:22:11.229Z",
+  "fetchedAt": "2026-11-17T02:24:43.121Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -199,10 +199,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Dazz ND Filter",
+          "name": "Dazz Pro",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
+          "price": 399,
+          "priceFormatted": "₹ 399",
           "currency": "INR",
           "period": null
         },
@@ -211,6 +211,30 @@
           "offerName": null,
           "price": 1299,
           "priceFormatted": "₹ 1,299",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz ND Filter",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Black Camera",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
         },
@@ -231,34 +255,10 @@
           "period": null
         },
         {
-          "name": "Dazz Inst SQ",
-          "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Dazz Exp Camera",
           "offerName": null,
           "price": 299,
           "priceFormatted": "₹ 299",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Dazz Pro",
-          "offerName": null,
-          "price": 399,
-          "priceFormatted": "₹ 399",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Dazz Flash Color",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
         },
@@ -271,10 +271,10 @@
           "period": null
         },
         {
-          "name": "Dazz Black Camera",
+          "name": "Dazz Inst SQ",
           "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
+          "price": 199,
+          "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": null
         }
