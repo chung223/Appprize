@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/b1/72/6bb17282-65d9-fd74-fba9-b82542a08e97/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-17T02:23:38.444Z",
+  "fetchedAt": "2026-11-18T01:32:59.006Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -143,14 +143,6 @@
           "priceFormatted": "₺149,00",
           "currency": "TRY",
           "period": null
-        },
-        {
-          "name": "1 Boost",
-          "offerName": null,
-          "price": 145,
-          "priceFormatted": "₺145,00",
-          "currency": "TRY",
-          "period": null
         }
       ],
       "appPrice": {
@@ -183,18 +175,18 @@
           "period": null
         },
         {
-          "name": "Tinder Gold",
-          "offerName": null,
-          "price": 319,
-          "priceFormatted": "₹ 319",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Tinder Plus",
           "offerName": null,
           "price": 369,
           "priceFormatted": "₹ 369",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 319,
+          "priceFormatted": "₹ 319",
           "currency": "INR",
           "period": null
         },
@@ -365,14 +357,6 @@
         {
           "name": "Tinder Gold",
           "offerName": null,
-          "price": 2480,
-          "priceFormatted": "¥2,480",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Tinder Gold",
-          "offerName": null,
           "price": 1700,
           "priceFormatted": "¥1,700",
           "currency": "JPY",
@@ -383,6 +367,14 @@
           "offerName": null,
           "price": 2000,
           "priceFormatted": "¥2,000",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 2480,
+          "priceFormatted": "¥2,480",
           "currency": "JPY",
           "period": null
         },
