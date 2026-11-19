@@ -1,9 +1,9 @@
 {
   "appId": "980123924",
-  "name": "Rain Radar Live RainViewer",
+  "name": "RainViewer: Rain Radar Live",
   "developer": "MeteoLab Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/2f/9e/6b2f9ec3-1306-be3b-338c-acc3f0935cb7/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-18T01:34:25.359Z",
+  "fetchedAt": "2026-11-19T01:03:02.296Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -81,7 +81,8 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null
+      "error": null,
+      "stale": true
     },
     "tr": {
       "country": "tr",
@@ -347,6 +348,14 @@
           "period": "monthly"
         },
         {
+          "name": "Rain Viewer Premium: Yearly",
+          "offerName": null,
+          "price": 1610,
+          "priceFormatted": "¥1,610",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
           "name": "RainViewer Premium: Monthly",
           "offerName": null,
           "price": 400,
@@ -355,12 +364,12 @@
           "period": "monthly"
         },
         {
-          "name": "Rain Viewer Premium: Yearly",
+          "name": "RainViewer Pro: 1ヶ月",
           "offerName": null,
-          "price": 1610,
-          "priceFormatted": "¥1,610",
+          "price": 710,
+          "priceFormatted": "¥710",
           "currency": "JPY",
-          "period": "yearly"
+          "period": "monthly"
         },
         {
           "name": "RainViewer Premium: Yearly",
@@ -383,14 +392,6 @@
           "offerName": null,
           "price": 3500,
           "priceFormatted": "¥3,500",
-          "currency": "JPY",
-          "period": "yearly"
-        },
-        {
-          "name": "Rain Viewer Premium: Yearly",
-          "offerName": null,
-          "price": 1500,
-          "priceFormatted": "¥1,500",
           "currency": "JPY",
           "period": "yearly"
         }

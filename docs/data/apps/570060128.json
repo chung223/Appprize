@@ -2,8 +2,8 @@
   "appId": "570060128",
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/87/9a/80/879a80a8-c40d-74f8-1df3-3808f80ecd95/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-18T01:31:58.406Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/72/b0/6272b005-b603-cc0d-8036-f8c2a9ca1b72/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-19T01:00:42.757Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -101,14 +101,6 @@
           "offerName": null,
           "price": 1439.99,
           "priceFormatted": "₺1.439,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo",
-          "offerName": null,
-          "price": 839.99,
-          "priceFormatted": "₺839,99",
           "currency": "TRY",
           "period": null
         }
@@ -213,6 +205,14 @@
           "period": null
         },
         {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 119.99,
+          "priceFormatted": "$119.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
           "name": "Cart of Gems (6500)",
           "offerName": null,
           "price": 19.99,
@@ -229,10 +229,10 @@
           "period": null
         },
         {
-          "name": "Super Duolingo",
+          "name": "Chest of Gems",
           "offerName": null,
-          "price": 119.99,
-          "priceFormatted": "$119.99",
+          "price": 0.99,
+          "priceFormatted": "$0.99",
           "currency": "USD",
           "period": null
         },
@@ -241,14 +241,6 @@
           "offerName": null,
           "price": 95.99,
           "priceFormatted": "$95.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Chest of Gems",
-          "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
           "currency": "USD",
           "period": null
         }
