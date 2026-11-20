@@ -3,7 +3,7 @@
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/54/41/9e544160-3e35-5375-0d6f-64fd732d0a60/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-19T01:01:43.197Z",
+  "fetchedAt": "2026-11-20T01:06:59.690Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": null
         },
         {
-          "name": "1x Premium (3 Months)",
-          "offerName": null,
-          "price": 490,
-          "priceFormatted": "$490.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "750 Telegram Stars",
           "offerName": null,
           "price": 530,
           "priceFormatted": "$530.00",
           "currency": "TWD",
           "period": null
+        },
+        {
+          "name": "1x Premium (3 Months)",
+          "offerName": null,
+          "price": 490,
+          "priceFormatted": "$490.00",
+          "currency": "TWD",
+          "period": "monthly"
         },
         {
           "name": "150 Telegram Stars",
@@ -137,20 +137,20 @@
           "period": null
         },
         {
-          "name": "1000 Telegram Stars",
-          "offerName": null,
-          "price": 999,
-          "priceFormatted": "₺999,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "1x Telegram Premium (One Week)",
           "offerName": null,
           "price": 59.99,
           "priceFormatted": "₺59,99",
           "currency": "TRY",
           "period": "weekly"
+        },
+        {
+          "name": "1000 Telegram Stars",
+          "offerName": null,
+          "price": 999,
+          "priceFormatted": "₺999,00",
+          "currency": "TRY",
+          "period": null
         },
         {
           "name": "150 Telegram Stars",

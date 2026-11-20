@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/fa/68/18fa688a-531f-0308-5833-563d8079d012/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-19T01:01:19.488Z",
+  "fetchedAt": "2026-11-20T01:06:37.682Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -177,10 +177,10 @@
           "period": "monthly"
         },
         {
-          "name": "スタンダード",
+          "name": "70 LINE Coin",
           "offerName": null,
-          "price": 129.99,
-          "priceFormatted": "₺129,99",
+          "price": 61.99,
+          "priceFormatted": "₺61,99",
           "currency": "TRY",
           "period": null
         }

@@ -1949,6 +1949,41 @@
           }
         }
       }
+    },
+    {
+      "d": "2026-11-20",
+      "c": {
+        "tw": {
+          "app": null,
+          "plans": {
+            "monthly plan#0": 910,
+            "monthly plan#1": 970,
+            "annual plan#0": 4190,
+            "annual plan#1": 4490,
+            "quarterly plan#0": 1930,
+            "annual plan mobile only#0": 2690,
+            "monthly plan mobile only#0": 580
+          }
+        },
+        "in": {
+          "app": null,
+          "plans": {
+            "annual plan#0": 4699,
+            "monthly plan#0": 999,
+            "quarterly plan#0": 1999
+          }
+        },
+        "us": {
+          "app": null,
+          "plans": {
+            "monthly plan#0": 29.99,
+            "annual plan#0": 139.99,
+            "quarterly plan#0": 59.99,
+            "annual plan mobile only#0": 83.99,
+            "monthly plan mobile only#0": 17.99
+          }
+        }
+      }
     }
   ],
   "name": "Grammarly: AI Keyboard & Voice"

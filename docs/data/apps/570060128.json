@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/72/b0/6272b005-b603-cc0d-8036-f8c2a9ca1b72/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-19T01:00:42.757Z",
+  "fetchedAt": "2026-11-20T01:06:00.315Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -39,6 +39,14 @@
           "offerName": null,
           "price": 1760,
           "priceFormatted": "$1,760.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "一桶宝石 (1200)",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
         },
@@ -103,6 +111,14 @@
           "priceFormatted": "₺1.439,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 839.99,
+          "priceFormatted": "₺839,99",
+          "currency": "TRY",
+          "period": null
         }
       ],
       "appPrice": {
@@ -155,6 +171,14 @@
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Super Duolingo - Family Plan",
+          "offerName": null,
+          "price": 2150,
+          "priceFormatted": "₹ 2,150",
           "currency": "INR",
           "period": null
         }
@@ -243,6 +267,14 @@
           "priceFormatted": "$95.99",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Super Duolingo",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "$79.99",
+          "currency": "USD",
+          "period": null
         }
       ],
       "appPrice": {
@@ -295,14 +327,6 @@
           "offerName": null,
           "price": 1500,
           "priceFormatted": "¥1,500",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "ジェムの荷車 (6500)",
-          "offerName": null,
-          "price": 3000,
-          "priceFormatted": "¥3,000",
           "currency": "JPY",
           "period": null
         }

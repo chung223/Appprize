@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5a/f5/2c/5af52c3d-4126-a0d1-ca89-72bfa3bc5fef/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-19T01:02:29.627Z",
+  "fetchedAt": "2026-11-20T01:07:40.150Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -35,14 +35,6 @@
           "period": null
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 40,
@@ -51,18 +43,26 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
+          "name": "Snapchat+ Monthly Plan",
           "offerName": null,
-          "price": 290,
-          "priceFormatted": "$290.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
-          "period": null
+          "period": "monthly"
         },
         {
           "name": "Memories Storage",
           "offerName": null,
           "price": 60,
           "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 290,
+          "priceFormatted": "$290.00",
           "currency": "TWD",
           "period": null
         },

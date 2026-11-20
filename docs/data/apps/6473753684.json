@@ -3,7 +3,7 @@
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/19/60/45/196045cb-ef82-4a46-2415-6fdb7f3c6c50/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-19T01:00:47.958Z",
+  "fetchedAt": "2026-11-20T01:06:06.362Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,6 +43,14 @@
           "period": "monthly"
         },
         {
+          "name": "Usage Credits (20)",
+          "offerName": null,
+          "price": 690,
+          "priceFormatted": "$690.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Usage Credits (100)",
           "offerName": null,
           "price": 2990,
@@ -55,14 +63,6 @@
           "offerName": null,
           "price": 1490,
           "priceFormatted": "$1,490.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Usage Credits (20)",
-          "offerName": null,
-          "price": 690,
-          "priceFormatted": "$690.00",
           "currency": "TWD",
           "period": null
         },
@@ -145,6 +145,14 @@
           "period": null
         },
         {
+          "name": "Usage Credits (100)",
+          "offerName": null,
+          "price": 4999.99,
+          "priceFormatted": "₺4.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
           "name": "Usage Credits (250)",
           "offerName": null,
           "price": 9999.99,
@@ -165,14 +173,6 @@
           "offerName": null,
           "price": 19999.99,
           "priceFormatted": "₺19.999,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Usage Credits (100)",
-          "offerName": null,
-          "price": 4999.99,
-          "priceFormatted": "₺4.999,99",
           "currency": "TRY",
           "period": null
         },
@@ -403,20 +403,20 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Ultra - Monthly",
-          "offerName": null,
-          "price": 40000,
-          "priceFormatted": "¥40,000",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "Claude Pro - Annual",
           "offerName": null,
           "price": 35000,
           "priceFormatted": "¥35,000",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "Claude Ultra - Monthly",
+          "offerName": null,
+          "price": 40000,
+          "priceFormatted": "¥40,000",
+          "currency": "JPY",
+          "period": "monthly"
         }
       ],
       "appPrice": {
