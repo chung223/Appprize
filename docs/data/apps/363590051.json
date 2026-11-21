@@ -3,7 +3,7 @@
   "name": "Netflix",
   "developer": "Netflix, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/18/87/0418879e-4e96-1092-7d3d-a213d0234579/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-21T00:40:38.821Z",
+  "fetchedAt": "2026-11-21T23:43:50.602Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -73,10 +73,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Netflix Premium",
+          "name": "Netflix Basic",
           "offerName": null,
-          "price": 379.99,
-          "priceFormatted": "₺379,99",
+          "price": 189.99,
+          "priceFormatted": "₺189,99",
           "currency": "TRY",
           "period": null
         },
@@ -89,15 +89,7 @@
           "period": null
         },
         {
-          "name": "Netflix Basic",
-          "offerName": null,
-          "price": 189.99,
-          "priceFormatted": "₺189,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Netflix 4 Screens - Unlimited Streaming",
+          "name": "Netflix Premium",
           "offerName": null,
           "price": 379.99,
           "priceFormatted": "₺379,99",
@@ -121,10 +113,10 @@
           "period": null
         },
         {
-          "name": "Netflix 2S Streaming",
+          "name": "Netflix 4 Screens - Unlimited Streaming",
           "offerName": null,
-          "price": 289.99,
-          "priceFormatted": "₺289,99",
+          "price": 379.99,
+          "priceFormatted": "₺379,99",
           "currency": "TRY",
           "period": null
         }

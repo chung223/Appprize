@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/a4/3e/d8a43e6a-96a2-a724-eb75-807f3e87aced/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-21T00:41:14.835Z",
+  "fetchedAt": "2026-11-21T23:44:30.862Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -143,6 +143,14 @@
           "priceFormatted": "₺149,00",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "1 Boost",
+          "offerName": null,
+          "price": 145,
+          "priceFormatted": "₺145,00",
+          "currency": "TRY",
+          "period": null
         }
       ],
       "appPrice": {
@@ -183,18 +191,18 @@
           "period": null
         },
         {
-          "name": "Tinder Gold",
-          "offerName": null,
-          "price": 319,
-          "priceFormatted": "₹ 319",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Tinder Plus",
           "offerName": null,
           "price": 99,
           "priceFormatted": "₹ 99",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
+          "price": 319,
+          "priceFormatted": "₹ 319",
           "currency": "INR",
           "period": null
         },
