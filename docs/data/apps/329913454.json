@@ -2,8 +2,8 @@
   "appId": "329913454",
   "name": "Crunchyroll",
   "developer": "Crunchyroll, LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fe/0c/2d/fe0c2d1a-872f-cb7d-46c9-40f3e7babd49/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-20T01:07:21.984Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/df/38/f1df3879-2aaa-6c66-4650-75189bfeb8e9/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-21T00:41:38.580Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -43,18 +43,18 @@
           "period": null
         },
         {
-          "name": "Ultimate Fan",
-          "offerName": null,
-          "price": 470,
-          "priceFormatted": "$470.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "All-Access Membership",
           "offerName": null,
           "price": 360,
           "priceFormatted": "$360.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Ultimate Fan",
+          "offerName": null,
+          "price": 470,
+          "priceFormatted": "$470.00",
           "currency": "TWD",
           "period": null
         },

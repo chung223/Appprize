@@ -3,7 +3,7 @@
   "name": "Infuse",
   "developer": "Firecore, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/ee/ac/5aeeac6a-bb94-c1f4-17bf-ca4b2888266f/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-20T01:07:28.228Z",
+  "fetchedAt": "2026-11-21T00:41:43.576Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -87,20 +87,20 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Infuse Pro - Yearly",
-          "offerName": null,
-          "price": 1299,
-          "priceFormatted": "₹ 1,299",
-          "currency": "INR",
-          "period": "yearly"
-        },
-        {
           "name": "Infuse Pro - Monthly",
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": "monthly"
+        },
+        {
+          "name": "Infuse Pro - Yearly",
+          "offerName": null,
+          "price": 1299,
+          "priceFormatted": "₹ 1,299",
+          "currency": "INR",
+          "period": "yearly"
         },
         {
           "name": "Infuse Pro - Lifetime",

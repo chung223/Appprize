@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/7b/93/63/7b936390-e5a9-664e-43f3-2660c4a5a3d5/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-20T01:07:09.843Z",
+  "fetchedAt": "2026-11-21T00:41:28.414Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -317,20 +317,20 @@
           "period": "monthly"
         },
         {
-          "name": "X Premium (Annual)",
-          "offerName": null,
-          "price": 114.99,
-          "priceFormatted": "$114.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "@elonmusk Subscription",
           "offerName": null,
           "price": 4,
           "priceFormatted": "$4.00",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "X Premium (Annual)",
+          "offerName": null,
+          "price": 114.99,
+          "priceFormatted": "$114.99",
+          "currency": "USD",
+          "period": "yearly"
         },
         {
           "name": "Promote Post for $25",

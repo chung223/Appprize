@@ -2,8 +2,8 @@
   "appId": "686449807",
   "name": "Telegram Messenger",
   "developer": "Telegram FZ-LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9e/54/41/9e544160-3e35-5375-0d6f-64fd732d0a60/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-20T01:06:59.690Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/30/7e/77307e06-bf1d-8729-98f0-3d83b8ceefe9/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-21T00:41:19.997Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,20 +67,20 @@
           "period": null
         },
         {
-          "name": "750 Telegram Stars",
-          "offerName": null,
-          "price": 530,
-          "priceFormatted": "$530.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "1x Premium (3 Months)",
           "offerName": null,
           "price": 490,
           "priceFormatted": "$490.00",
           "currency": "TWD",
           "period": "monthly"
+        },
+        {
+          "name": "750 Telegram Stars",
+          "offerName": null,
+          "price": 530,
+          "priceFormatted": "$530.00",
+          "currency": "TWD",
+          "period": null
         },
         {
           "name": "150 Telegram Stars",
@@ -435,14 +435,6 @@
           "period": null
         },
         {
-          "name": "1x Telegram Premium (One Week)",
-          "offerName": null,
-          "price": 200,
-          "priceFormatted": "¥200",
-          "currency": "JPY",
-          "period": "weekly"
-        },
-        {
           "name": "2500 Telegram Stars",
           "offerName": null,
           "price": 7900,
@@ -451,18 +443,26 @@
           "period": null
         },
         {
-          "name": "350 Telegram Stars",
+          "name": "1x Telegram Premium (One Week)",
           "offerName": null,
-          "price": 1100,
-          "priceFormatted": "¥1,100",
+          "price": 200,
+          "priceFormatted": "¥200",
           "currency": "JPY",
-          "period": null
+          "period": "weekly"
         },
         {
           "name": "150 Telegram Stars",
           "offerName": null,
           "price": 480,
           "priceFormatted": "¥480",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "350 Telegram Stars",
+          "offerName": null,
+          "price": 1100,
+          "priceFormatted": "¥1,100",
           "currency": "JPY",
           "period": null
         }

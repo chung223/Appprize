@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "cc": "jp",
+      "kind": "new-plan",
+      "name": "ジェムの荷車 (6500)",
+      "old": null,
+      "new": 3000,
+      "currency": "JPY",
+      "pct": null,
+      "appId": "570060128",
+      "appName": "多鄰國 - 極速學外語",
+      "date": "2026-11-21"
+    },
+    {
+      "cc": "tr",
+      "kind": "new-plan",
+      "name": "Netflix 2S Streaming",
+      "old": null,
+      "new": 289.99,
+      "currency": "TRY",
+      "pct": null,
+      "appId": "363590051",
+      "appName": "Netflix",
+      "date": "2026-11-21"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "120 LINE Coin",
+      "old": null,
+      "new": 215,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-11-21"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "1600 LINE Coin",
+      "old": 1999,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-11-21"
+    },
+    {
       "cc": "tw",
       "kind": "new-plan",
       "name": "一桶宝石 (1200)",
@@ -3551,55 +3599,7 @@
       "appId": "333903271",
       "appName": "X（前身為Twitter）",
       "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "@NatHalberstadt Subscription",
-      "old": 229.99,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "@zeroxjackson Subscription",
-      "old": 3999.99,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "@@itsJohnRocker Subscription",
-      "old": 229.99,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "Promote Post",
-      "old": 299999,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-11-20T01:08:16.988Z"
+  "updatedAt": "2026-11-21T00:42:24.013Z"
 }

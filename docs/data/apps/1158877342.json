@@ -3,7 +3,7 @@
   "name": "Grammarly: AI Keyboard & Voice",
   "developer": "Superhuman Platform Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/81/87/8881878a-8f46-18a5-a970-ca4ad35504cb/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-20T01:07:45.910Z",
+  "fetchedAt": "2026-11-21T00:41:58.587Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -135,8 +135,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     },
     "in": {
       "country": "in",
@@ -282,8 +281,7 @@
         "priceFormatted": null
       },
       "source": "server-data-pairs",
-      "error": null,
-      "stale": true
+      "error": null
     }
   }
 }

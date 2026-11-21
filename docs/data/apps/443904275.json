@@ -3,7 +3,7 @@
   "name": "LINE",
   "developer": "LY Corporation",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/fa/68/18fa688a-531f-0308-5833-563d8079d012/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-20T01:06:37.682Z",
+  "fetchedAt": "2026-11-21T00:40:59.805Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -161,20 +161,20 @@
           "period": null
         },
         {
-          "name": "800 LINE Coin",
-          "offerName": null,
-          "price": 559.99,
-          "priceFormatted": "₺559,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "Monthly (Basic)",
           "offerName": null,
           "price": 12.99,
           "priceFormatted": "₺12,99",
           "currency": "TRY",
           "period": "monthly"
+        },
+        {
+          "name": "800 LINE Coin",
+          "offerName": null,
+          "price": 559.99,
+          "priceFormatted": "₺559,99",
+          "currency": "TRY",
+          "period": null
         },
         {
           "name": "70 LINE Coin",
@@ -263,10 +263,10 @@
           "period": null
         },
         {
-          "name": "1600 LINE Coin",
+          "name": "120 LINE Coin",
           "offerName": null,
-          "price": 1999,
-          "priceFormatted": "₹ 1,999",
+          "price": 215,
+          "priceFormatted": "₹ 215",
           "currency": "INR",
           "period": null
         }
@@ -437,16 +437,16 @@
         {
           "name": "70 LINE Coin",
           "offerName": null,
-          "price": 210,
-          "priceFormatted": "¥210",
+          "price": 160,
+          "priceFormatted": "¥160",
           "currency": "JPY",
           "period": null
         },
         {
           "name": "70 LINE Coin",
           "offerName": null,
-          "price": 160,
-          "priceFormatted": "¥160",
+          "price": 210,
+          "priceFormatted": "¥210",
           "currency": "JPY",
           "period": null
         }
