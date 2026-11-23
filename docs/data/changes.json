@@ -2,6 +2,102 @@
   "events": [
     {
       "cc": "in",
+      "kind": "new-plan",
+      "name": "1600 LINE Coin",
+      "old": null,
+      "new": 1999,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "120 LINE Coin",
+      "old": 215,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "443904275",
+      "appName": "LINE",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "2500 Telegram Stars",
+      "old": null,
+      "new": 1770,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "150 Telegram Stars",
+      "old": 110,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "686449807",
+      "appName": "Telegram Messenger",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro + 3 Boosts (Monthly)",
+      "old": null,
+      "new": 620,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro + 5 Boosts (Monthly)",
+      "old": 840,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "tw",
+      "kind": "plan",
+      "name": "Headspace Plus",
+      "old": 2790,
+      "new": 390,
+      "currency": "TWD",
+      "pct": -0.8602150537634409,
+      "appId": "493145008",
+      "appName": "Headspace: Sleep & Meditation",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Headspace Plus",
+      "old": null,
+      "new": 2790,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "493145008",
+      "appName": "Headspace: Sleep & Meditation",
+      "date": "2026-11-23"
+    },
+    {
+      "cc": "in",
       "kind": "removed-plan",
       "name": "Super Duolingo - Family Plan",
       "old": 2150,
@@ -3503,103 +3599,7 @@
       "appId": "333903271",
       "appName": "X（前身為Twitter）",
       "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "Grok $5 Usage Credits",
-      "old": 220,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "@NatHalberstadt Subscription",
-      "old": 150,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "@zeroxjackson Subscription",
-      "old": 2990,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "@@itsJohnRocker Subscription",
-      "old": 150,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "Promote Post",
-      "old": 160000,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "Promote Post",
-      "old": 330000,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tw",
-      "kind": "removed-plan",
-      "name": "Enabled for Advanced Commerce",
-      "old": 290,
-      "new": null,
-      "currency": "TWD",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "new-plan",
-      "name": "X Premium (Monthly)",
-      "old": null,
-      "new": 199.99,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "333903271",
-      "appName": "X（前身為Twitter）",
-      "date": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-11-21T23:45:50.035Z"
+  "updatedAt": "2026-11-23T00:07:02.491Z"
 }
