@@ -3,7 +3,7 @@
   "name": "ChatGPT",
   "developer": "OpenAI OpCo, LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/a1/4e/31a14e21-c3f6-cce4-e08f-26effa9175fe/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-23T00:04:16.107Z",
+  "fetchedAt": "2026-11-24T04:13:54.995Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -105,18 +105,18 @@
           "period": null
         },
         {
-          "name": "ChatGPT Pro 500",
-          "offerName": null,
-          "price": 26499,
-          "priceFormatted": "₺26.499,00",
-          "currency": "TRY",
-          "period": null
-        },
-        {
           "name": "ChatGPT Plus",
           "offerName": null,
           "price": 9999.99,
           "priceFormatted": "₺9.999,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "ChatGPT Pro 500",
+          "offerName": null,
+          "price": 26499,
+          "priceFormatted": "₺26.499,00",
           "currency": "TRY",
           "period": null
         }

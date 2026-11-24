@@ -3,7 +3,7 @@
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/82/41/a5824137-9b2b-220d-2113-3c365b80721a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-23T00:06:40.185Z",
+  "fetchedAt": "2026-11-24T04:16:17.988Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -247,18 +247,18 @@
           "period": null
         },
         {
-          "name": "Dazz Camera NT16",
-          "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Dazz Exp Camera",
           "offerName": null,
           "price": 299,
           "priceFormatted": "₹ 299",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 199,
+          "priceFormatted": "₹ 199",
           "currency": "INR",
           "period": null
         },
@@ -387,10 +387,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Dazz Pro",
+          "name": "Dazz ND Filter",
           "offerName": null,
-          "price": 900,
-          "priceFormatted": "¥900",
+          "price": 150,
+          "priceFormatted": "¥150",
           "currency": "JPY",
           "period": null
         },
@@ -403,10 +403,10 @@
           "period": null
         },
         {
-          "name": "Dazz Exp Camera",
+          "name": "Dazz S Classic",
           "offerName": null,
-          "price": 500,
-          "priceFormatted": "¥500",
+          "price": 300,
+          "priceFormatted": "¥300",
           "currency": "JPY",
           "period": null
         },
@@ -419,15 +419,7 @@
           "period": null
         },
         {
-          "name": "Dazz ND Filter",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "¥150",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Dazz S Classic",
+          "name": "Dazz Inst SQ",
           "offerName": null,
           "price": 300,
           "priceFormatted": "¥300",
@@ -435,10 +427,18 @@
           "period": null
         },
         {
-          "name": "Dazz Black Camera",
+          "name": "Dazz Exp Camera",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "¥150",
+          "price": 500,
+          "priceFormatted": "¥500",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Dazz Pro",
+          "offerName": null,
+          "price": 900,
+          "priceFormatted": "¥900",
           "currency": "JPY",
           "period": null
         },
@@ -459,10 +459,10 @@
           "period": null
         },
         {
-          "name": "Dazz Inst SQ",
+          "name": "Dazz Black Camera",
           "offerName": null,
-          "price": 300,
-          "priceFormatted": "¥300",
+          "price": 150,
+          "priceFormatted": "¥150",
           "currency": "JPY",
           "period": null
         }

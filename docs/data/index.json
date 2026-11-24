@@ -1,173 +1,173 @@
 {
-  "updatedAt": "2026-11-23T00:07:02.406Z",
+  "updatedAt": "2026-11-24T04:16:39.846Z",
   "apps": [
     {
       "appId": "6448311069",
       "name": "ChatGPT",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/a1/4e/31a14e21-c3f6-cce4-e08f-26effa9175fe/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:16.107Z"
+      "fetchedAt": "2026-11-24T04:13:54.995Z"
     },
     {
       "appId": "544007664",
       "name": "YouTube",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/3b/90/333b9089-24bc-c241-8a20-70c0e3246fee/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:22.527Z"
+      "fetchedAt": "2026-11-24T04:14:01.294Z"
     },
     {
       "appId": "324684580",
       "name": "Spotify - 音樂和 Podcast",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/83/93/8b/83938b80-be37-526e-53e7-a9db9a69a30e/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:30.975Z"
+      "fetchedAt": "2026-11-24T04:14:10.122Z"
     },
     {
       "appId": "570060128",
       "name": "多鄰國 - 極速學外語",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/62/72/b0/6272b005-b603-cc0d-8036-f8c2a9ca1b72/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:36.420Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/be/a6/42bea631-8a39-4095-f70e-63fe0f196745/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-11-24T04:14:15.459Z"
     },
     {
       "appId": "6473753684",
       "name": "Claude by Anthropic",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/dd/05/5edd0550-2e14-26d9-6512-92dd11a1f11b/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:42.780Z"
+      "fetchedAt": "2026-11-24T04:14:22.242Z"
     },
     {
       "appId": "363590051",
       "name": "Netflix",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/18/87/0418879e-4e96-1092-7d3d-a213d0234579/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:48.403Z"
+      "fetchedAt": "2026-11-24T04:14:27.629Z"
     },
     {
       "appId": "479516143",
       "name": "Minecraft",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4b/fc/14/4bfc140f-8678-fa11-9d49-15efdf1b0d85/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:04:55.212Z"
+      "fetchedAt": "2026-11-24T04:14:34.211Z"
     },
     {
       "appId": "6796534411",
       "name": "Mergic",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/07/6f/af/076fafce-6b10-25c1-ef2a-23338e2ba551/AppIcon.png/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:01.878Z"
+      "fetchedAt": "2026-11-24T04:14:40.460Z"
     },
     {
       "appId": "1442620678",
       "name": "Surge 6",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/bd/94/27/bd94279e-c277-3dd5-75b2-341c2c0adfcb/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:06.427Z"
+      "fetchedAt": "2026-11-24T04:14:45.084Z"
     },
     {
       "appId": "6796562729",
       "name": "DeepSRT PRO",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/6e/3e/226e3e0e-0ce6-7b2d-238e-47220627fc94/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:11.482Z"
+      "fetchedAt": "2026-11-24T04:14:50.530Z"
     },
     {
       "appId": "443904275",
       "name": "LINE",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/fa/68/18fa688a-531f-0308-5833-563d8079d012/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:15.509Z"
+      "fetchedAt": "2026-11-24T04:14:54.685Z"
     },
     {
       "appId": "1312014438",
       "name": "JSBox - Learn to Code",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/b2/37/f4/b237f411-41fd-44a9-1511-b57b4c22dc4d/AppIcon-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:21.415Z"
+      "fetchedAt": "2026-11-24T04:15:00.921Z"
     },
     {
       "appId": "1108187390",
       "name": "Apple Music",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/6b/0a/9b6b0a76-74be-64d8-4410-6b136a103309/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:26.423Z"
+      "fetchedAt": "2026-11-24T04:15:05.970Z"
     },
     {
       "appId": "547702041",
       "name": "Tinder - 配對、交友、聊天",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/a4/3e/d8a43e6a-96a2-a724-eb75-807f3e87aced/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:32.826Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/55/f6/bb55f671-9355-98a1-bcd4-8c29839515d3/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-11-24T04:15:12.379Z"
     },
     {
       "appId": "686449807",
       "name": "Telegram Messenger",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/77/30/7e/77307e06-bf1d-8729-98f0-3d83b8ceefe9/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:38.705Z"
+      "fetchedAt": "2026-11-24T04:15:18.146Z"
     },
     {
       "appId": "985746746",
       "name": "Discord - 聊天、玩遊戲、消磨時間",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/05/49/8a05499b-5193-6689-2ea6-d912d7d32f3a/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:43.940Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/21/f5/0421f558-b9a7-930f-25ba-8bf82076701a/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-11-24T04:15:23.138Z"
     },
     {
       "appId": "333903271",
       "name": "X（前身為Twitter）",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/0e/8e/dd0e8ecb-52c5-3278-1da2-96bc07125b08/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:49.904Z"
+      "fetchedAt": "2026-11-24T04:15:28.450Z"
     },
     {
       "appId": "878783582",
       "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/81/94/18/819418db-03b0-52b6-c649-675395ecbe6d/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:05:55.339Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/53/2b/08532b9c-a630-d1ee-af6c-a8221b4a6178/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-11-24T04:15:33.714Z"
     },
     {
       "appId": "329913454",
       "name": "Crunchyroll",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f1/df/38/f1df3879-2aaa-6c66-4650-75189bfeb8e9/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:03.356Z"
+      "fetchedAt": "2026-11-24T04:15:40.882Z"
     },
     {
       "appId": "1136220934",
       "name": "Infuse",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/5a/ee/ac/5aeeac6a-bb94-c1f4-17bf-ca4b2888266f/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:09.068Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ea/86/f4/ea86f4ed-aae9-737d-d18f-0117d252af70/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-11-24T04:15:47.677Z"
     },
     {
       "appId": "897446215",
       "name": "Canva: AI設計與創作、照片 編輯、影片 編輯",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/57/1a/60571a04-2e99-1f58-8de8-56a3577dd85a/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:14.274Z"
+      "fetchedAt": "2026-11-24T04:15:52.667Z"
     },
     {
       "appId": "447188370",
       "name": "Snapchat：與好友聊天",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/ea/61/88ea6161-af88-77d3-1456-ccf17fcc202c/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:22.465Z"
+      "fetchedAt": "2026-11-24T04:15:59.326Z"
     },
     {
       "appId": "1158877342",
       "name": "Grammarly: AI Keyboard & Voice",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/81/87/8881878a-8f46-18a5-a970-ca4ad35504cb/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:28.446Z"
+      "fetchedAt": "2026-11-24T04:16:05.486Z"
     },
     {
       "appId": "493145008",
       "name": "Headspace: Sleep & Meditation",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/fd/79/1afd79bd-e6b4-5b2d-b340-810263a609b3/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:33.872Z"
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/c3/8e/27c38e6e-4d80-f4e6-2c71-cb6c10f46243/Placeholder.mill/1200x630wa.jpg",
+      "fetchedAt": "2026-11-24T04:16:11.415Z"
     },
     {
       "appId": "1422471180",
       "name": "Dazz相機 - 復古拍照軟體和影片後製",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/82/41/a5824137-9b2b-220d-2113-3c365b80721a/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:40.185Z"
+      "fetchedAt": "2026-11-24T04:16:17.988Z"
     },
     {
       "appId": "1358823008",
       "name": "Flighty – Live Flight Tracker",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/35/dc/e4/35dce4d0-e020-41b6-aea8-6d6b23241766/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:45.886Z"
+      "fetchedAt": "2026-11-24T04:16:23.159Z"
     },
     {
       "appId": "505367096",
       "name": "世界迷霧",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/c5/e4/d1c5e497-6bcd-43ba-2406-c6d09802ccb3/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:51.124Z"
+      "fetchedAt": "2026-11-24T04:16:28.956Z"
     },
     {
       "appId": "980123924",
       "name": "Rain Radar Live RainViewer",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/b2/12/e0b21279-5fb7-a6d8-9f4f-cb1fb2865ddf/Placeholder.mill/1200x630wa.jpg",
-      "fetchedAt": "2026-11-23T00:06:57.004Z"
+      "fetchedAt": "2026-11-24T04:16:34.435Z"
     }
   ]
 }

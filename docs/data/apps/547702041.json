@@ -2,8 +2,8 @@
   "appId": "547702041",
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/a4/3e/d8a43e6a-96a2-a724-eb75-807f3e87aced/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-23T00:05:32.826Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/55/f6/bb55f671-9355-98a1-bcd4-8c29839515d3/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-24T04:15:12.379Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -191,18 +191,18 @@
           "period": null
         },
         {
-          "name": "Tinder Plus",
-          "offerName": null,
-          "price": 99,
-          "priceFormatted": "₹ 99",
-          "currency": "INR",
-          "period": null
-        },
-        {
           "name": "Tinder Gold",
           "offerName": null,
           "price": 319,
           "priceFormatted": "₹ 319",
+          "currency": "INR",
+          "period": null
+        },
+        {
+          "name": "Tinder Plus",
+          "offerName": null,
+          "price": 99,
+          "priceFormatted": "₹ 99",
           "currency": "INR",
           "period": null
         },
