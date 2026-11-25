@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/53/2b/08532b9c-a630-d1ee-af6c-a8221b4a6178/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-24T04:15:33.714Z",
+  "fetchedAt": "2026-11-25T02:59:14.026Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -153,12 +153,12 @@
           "period": "yearly"
         },
         {
-          "name": "AI Credit Plan",
+          "name": "Premium Monthly 100GB",
           "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "₺249,99",
+          "price": 84.99,
+          "priceFormatted": "₺84,99",
           "currency": "TRY",
-          "period": null
+          "period": "monthly"
         }
       ],
       "appPrice": {
@@ -285,20 +285,20 @@
           "period": "yearly"
         },
         {
-          "name": "Premium Monthly 100GB",
-          "offerName": null,
-          "price": 7.99,
-          "priceFormatted": "$7.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Premium Weekly 100GB",
           "offerName": null,
           "price": 3.99,
           "priceFormatted": "$3.99",
           "currency": "USD",
           "period": "weekly"
+        },
+        {
+          "name": "Premium Monthly 100GB",
+          "offerName": null,
+          "price": 7.99,
+          "priceFormatted": "$7.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Lightroom plan 1TB",
@@ -387,6 +387,14 @@
           "period": null
         },
         {
+          "name": "プレミアム (100 GB/年)",
+          "offerName": null,
+          "price": 8000,
+          "priceFormatted": "¥8,000",
+          "currency": "JPY",
+          "period": "yearly"
+        },
+        {
           "name": "プレミアム 週次 100GB",
           "offerName": null,
           "price": 600,
@@ -403,20 +411,20 @@
           "period": "monthly"
         },
         {
-          "name": "プレミアム",
-          "offerName": null,
-          "price": 550,
-          "priceFormatted": "¥550",
-          "currency": "JPY",
-          "period": null
-        },
-        {
           "name": "プレミアム (100 GB/年)",
           "offerName": null,
           "price": 4400,
           "priceFormatted": "¥4,400",
           "currency": "JPY",
           "period": "yearly"
+        },
+        {
+          "name": "プレミアム",
+          "offerName": null,
+          "price": 550,
+          "priceFormatted": "¥550",
+          "currency": "JPY",
+          "period": null
         }
       ],
       "appPrice": {

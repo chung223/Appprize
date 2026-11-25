@@ -3,7 +3,7 @@
   "name": "YouTube",
   "developer": "Google LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/33/3b/90/333b9089-24bc-c241-8a20-70c0e3246fee/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-24T04:14:01.294Z",
+  "fetchedAt": "2026-11-25T02:57:43.262Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -55,6 +55,14 @@
           "offerName": null,
           "price": 390,
           "priceFormatted": "$390.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
+          "offerName": null,
+          "price": 160,
+          "priceFormatted": "$160.00",
           "currency": "TWD",
           "period": null
         }
@@ -181,39 +189,15 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "NFL Sunday Ticket+NFL RedZone",
+          "name": "YouTube Premium",
           "offerName": null,
-          "price": 159.99,
-          "priceFormatted": "$159.99",
+          "price": 20.99,
+          "priceFormatted": "$20.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "NFL Sunday Ticket 2026 season",
-          "offerName": null,
-          "price": 149.99,
-          "priceFormatted": "$149.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "King Gorilla!!!",
-          "offerName": null,
-          "price": 24.99,
-          "priceFormatted": "$24.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Professional Monkey!",
-          "offerName": null,
-          "price": 10.99,
-          "priceFormatted": "$10.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "Amateur Monkey!",
+          "name": "Movies & Shows",
           "offerName": null,
           "price": 3.99,
           "priceFormatted": "$3.99",
@@ -221,42 +205,42 @@
           "period": null
         },
         {
-          "name": "HBO Max Basic with Ads",
+          "name": "Youtube Premium Family",
           "offerName": null,
-          "price": 10.99,
-          "priceFormatted": "$10.99",
+          "price": 34.99,
+          "priceFormatted": "$34.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "NFL Sunday Ticket+NFL RedZone",
+          "name": "YouTube Premium Family",
           "offerName": null,
-          "price": 404.99,
-          "priceFormatted": "$404.99",
+          "price": 34.99,
+          "priceFormatted": "$34.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "NFL Sunday Ticket 2026 season",
+          "name": "Super Chat",
           "offerName": null,
-          "price": 374.99,
-          "priceFormatted": "$374.99",
+          "price": 1.99,
+          "priceFormatted": "$1.99",
           "currency": "USD",
           "period": null
         },
         {
-          "name": "人生学校名誉",
+          "name": "Super Chat",
+          "offerName": null,
+          "price": 4.99,
+          "priceFormatted": "$4.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Premium Lite",
           "offerName": null,
           "price": 11.99,
           "priceFormatted": "$11.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
-          "name": "BritBox",
-          "offerName": null,
-          "price": 10.99,
-          "priceFormatted": "$10.99",
           "currency": "USD",
           "period": null
         }

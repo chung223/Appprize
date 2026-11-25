@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/be/a6/42bea631-8a39-4095-f70e-63fe0f196745/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-24T04:14:15.459Z",
+  "fetchedAt": "2026-11-25T02:57:56.166Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -49,14 +49,6 @@
           "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": null
-        },
-        {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 3590,
-          "priceFormatted": "$3,590.00",
-          "currency": "TWD",
-          "period": null
         }
       ],
       "appPrice": {
@@ -83,16 +75,16 @@
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 329.99,
-          "priceFormatted": "₺329,99",
+          "price": 969.99,
+          "priceFormatted": "₺969,99",
           "currency": "TRY",
           "period": null
         },
         {
           "name": "Super Duolingo",
           "offerName": null,
-          "price": 969.99,
-          "priceFormatted": "₺969,99",
+          "price": 329.99,
+          "priceFormatted": "₺329,99",
           "currency": "TRY",
           "period": null
         },
@@ -105,18 +97,18 @@
           "period": null
         },
         {
-          "name": "Super Duolingo - Family Plan",
+          "name": "Super Duolingo",
           "offerName": null,
-          "price": 1439.99,
-          "priceFormatted": "₺1.439,99",
+          "price": 169.99,
+          "priceFormatted": "₺169,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Super Duolingo",
+          "name": "Super Duolingo - Family Plan",
           "offerName": null,
-          "price": 839.99,
-          "priceFormatted": "₺839,99",
+          "price": 1439.99,
+          "priceFormatted": "₺1.439,99",
           "currency": "TRY",
           "period": null
         }
@@ -171,14 +163,6 @@
           "offerName": null,
           "price": 199,
           "priceFormatted": "₹ 199",
-          "currency": "INR",
-          "period": null
-        },
-        {
-          "name": "Super Duolingo - Family Plan",
-          "offerName": null,
-          "price": 2150,
-          "priceFormatted": "₹ 2,150",
           "currency": "INR",
           "period": null
         }

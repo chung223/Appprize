@@ -3,7 +3,7 @@
   "name": "Tinder - 配對、交友、聊天",
   "developer": "Tinder LLC",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bb/55/f6/bb55f671-9355-98a1-bcd4-8c29839515d3/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-24T04:15:12.379Z",
+  "fetchedAt": "2026-11-25T02:58:51.533Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -365,6 +365,14 @@
         {
           "name": "Tinder Gold",
           "offerName": null,
+          "price": 2480,
+          "priceFormatted": "¥2,480",
+          "currency": "JPY",
+          "period": null
+        },
+        {
+          "name": "Tinder Gold",
+          "offerName": null,
           "price": 1700,
           "priceFormatted": "¥1,700",
           "currency": "JPY",
@@ -375,14 +383,6 @@
           "offerName": null,
           "price": 2000,
           "priceFormatted": "¥2,000",
-          "currency": "JPY",
-          "period": null
-        },
-        {
-          "name": "Tinder Gold",
-          "offerName": null,
-          "price": 2480,
-          "priceFormatted": "¥2,480",
           "currency": "JPY",
           "period": null
         },

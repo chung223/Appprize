@@ -2,8 +2,8 @@
   "appId": "443904275",
   "name": "LINE",
   "developer": "LY Corporation",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/fa/68/18fa688a-531f-0308-5833-563d8079d012/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-24T04:14:54.685Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/85/ca/be/85cabea7-d9c4-f502-879c-383308299573/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-25T02:58:34.238Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -341,18 +341,18 @@
           "period": "monthly"
         },
         {
-          "name": "70 LINE Coin",
-          "offerName": null,
-          "price": 1.39,
-          "priceFormatted": "$1.39",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "1600 LINE Coin",
           "offerName": null,
           "price": 22.99,
           "priceFormatted": "$22.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "70 LINE Coin",
+          "offerName": null,
+          "price": 1.39,
+          "priceFormatted": "$1.39",
           "currency": "USD",
           "period": null
         }

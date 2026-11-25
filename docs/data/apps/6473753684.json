@@ -2,8 +2,8 @@
   "appId": "6473753684",
   "name": "Claude by Anthropic",
   "developer": "Anthropic PBC",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/dd/05/5edd0550-2e14-26d9-6512-92dd11a1f11b/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-24T04:14:22.242Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/43/61/ce4361cd-81c3-1dd7-84da-c39c2aa12c04/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-25T02:58:02.415Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -309,20 +309,20 @@
           "period": "monthly"
         },
         {
-          "name": "Claude Ultra - Monthly",
-          "offerName": null,
-          "price": 249.99,
-          "priceFormatted": "$249.99",
-          "currency": "USD",
-          "period": "monthly"
-        },
-        {
           "name": "Usage Credits (20)",
           "offerName": null,
           "price": 20,
           "priceFormatted": "$20.00",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "Claude Ultra - Monthly",
+          "offerName": null,
+          "price": 249.99,
+          "priceFormatted": "$249.99",
+          "currency": "USD",
+          "period": "monthly"
         },
         {
           "name": "Claude Pro - Annual",
