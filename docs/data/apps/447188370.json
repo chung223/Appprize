@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/28/c0/ba28c06e-c74a-1209-8ce8-5913d7036227/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-25T02:59:39.006Z",
+  "fetchedAt": "2026-11-26T02:07:50.985Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -59,6 +59,14 @@
           "period": null
         },
         {
+          "name": "Memories Storage",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 60,
@@ -71,14 +79,6 @@
           "offerName": null,
           "price": 210,
           "priceFormatted": "$210.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Memories Storage",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         }
@@ -97,47 +97,15 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Snapchat+ (Monthly Plan)",
-          "offerName": null,
-          "price": 47.99,
-          "priceFormatted": "₺47,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 47.99,
-          "priceFormatted": "₺47,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 49.99,
-          "priceFormatted": "₺49,99",
+          "price": 399.99,
+          "priceFormatted": "₺399,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Snapchat+ 3 Month Gift",
-          "offerName": null,
-          "price": 499.99,
-          "priceFormatted": "₺499,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
-          "name": "Snapchat+ Monthly Family Plan",
-          "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "₺79,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
-          "name": "Lens+",
+          "name": "Snapstreak Restore",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
@@ -145,18 +113,42 @@
           "period": null
         },
         {
-          "name": "Snapchat+ 6 Month Gift",
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 299.99,
+          "priceFormatted": "₺299,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Lens+",
+          "offerName": null,
+          "price": 499.99,
+          "priceFormatted": "₺499,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Bitmoji Pets, Cars, and Homes",
+          "offerName": null,
+          "price": 149.99,
+          "priceFormatted": "₺149,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Bitmoji Pets, Cars, and Homes",
+          "offerName": null,
+          "price": 99.99,
+          "priceFormatted": "₺99,99",
+          "currency": "TRY",
+          "period": null
+        },
+        {
+          "name": "Memories Storage",
           "offerName": null,
           "price": 999.99,
           "priceFormatted": "₺999,99",
-          "currency": "TRY",
-          "period": "monthly"
-        },
-        {
-          "name": "Bitmoji Fashion",
-          "offerName": null,
-          "price": 79.99,
-          "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": null
         }
@@ -249,8 +241,8 @@
         {
           "name": "Snapchat+ (Annual Plan)",
           "offerName": null,
-          "price": 199,
-          "priceFormatted": "₹ 199",
+          "price": 499,
+          "priceFormatted": "₹ 499",
           "currency": "INR",
           "period": "yearly"
         }
@@ -277,7 +269,7 @@
           "period": null
         },
         {
-          "name": "Snapchat+ (Monthly Plan)",
+          "name": "Snapchat+ Monthly Plan",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
@@ -285,7 +277,7 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ Monthly Plan",
+          "name": "Snapchat+ (Monthly Plan)",
           "offerName": null,
           "price": 4.99,
           "priceFormatted": "$4.99",
@@ -347,20 +339,20 @@
           "period": "monthly"
         },
         {
-          "name": "Snapchat+ Monthly Plan",
-          "offerName": null,
-          "price": 450,
-          "priceFormatted": "¥450",
-          "currency": "JPY",
-          "period": "monthly"
-        },
-        {
           "name": "Snapstreak Restore",
           "offerName": null,
           "price": 160,
           "priceFormatted": "¥160",
           "currency": "JPY",
           "period": null
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 450,
+          "priceFormatted": "¥450",
+          "currency": "JPY",
+          "period": "monthly"
         },
         {
           "name": "Snapstreak Restore",

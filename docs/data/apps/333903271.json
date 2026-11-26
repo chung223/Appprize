@@ -2,8 +2,8 @@
   "appId": "333903271",
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/0e/8e/dd0e8ecb-52c5-3278-1da2-96bc07125b08/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-25T02:59:08.666Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/0a/a2/d90aa25f-bfc2-409f-ef81-8f79d87d5596/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-26T02:07:18.827Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,18 +67,18 @@
           "period": "yearly"
         },
         {
-          "name": "Grok $5 Usage Credits",
-          "offerName": null,
-          "price": 220,
-          "priceFormatted": "$220.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "@garyblack00 Subscription",
           "offerName": null,
           "price": 190,
           "priceFormatted": "$190.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Grok $5 Usage Credits",
+          "offerName": null,
+          "price": 220,
+          "priceFormatted": "$220.00",
           "currency": "TWD",
           "period": null
         },
@@ -317,20 +317,20 @@
           "period": "monthly"
         },
         {
-          "name": "@elonmusk Subscription",
-          "offerName": null,
-          "price": 4,
-          "priceFormatted": "$4.00",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "X Premium (Annual)",
           "offerName": null,
           "price": 114.99,
           "priceFormatted": "$114.99",
           "currency": "USD",
           "period": "yearly"
+        },
+        {
+          "name": "@elonmusk Subscription",
+          "offerName": null,
+          "price": 4,
+          "priceFormatted": "$4.00",
+          "currency": "USD",
+          "period": null
         },
         {
           "name": "Promote Post for $25",

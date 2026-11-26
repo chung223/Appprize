@@ -2,8 +2,8 @@
   "appId": "878783582",
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/53/2b/08532b9c-a630-d1ee-af6c-a8221b4a6178/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-25T02:59:14.026Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/06/ce/d206ce8a-4c65-789b-20f9-f0607ecf4094/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-26T02:07:25.425Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,12 +67,12 @@
           "period": null
         },
         {
-          "name": "高級版每週 100GB",
+          "name": "Lightroom plan 1TB",
           "offerName": null,
-          "price": 120,
-          "priceFormatted": "$120.00",
+          "price": 320,
+          "priceFormatted": "$320.00",
           "currency": "TWD",
-          "period": "weekly"
+          "period": null
         }
       ],
       "appPrice": {
@@ -153,12 +153,12 @@
           "period": "yearly"
         },
         {
-          "name": "Premium Monthly 100GB",
+          "name": "AI Credit Plan",
           "offerName": null,
-          "price": 84.99,
-          "priceFormatted": "₺84,99",
+          "price": 249.99,
+          "priceFormatted": "₺249,99",
           "currency": "TRY",
-          "period": "monthly"
+          "period": null
         }
       ],
       "appPrice": {
@@ -247,10 +247,10 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
+          "name": "Premium Yearly 100GB",
           "offerName": null,
-          "price": 999,
-          "priceFormatted": "₹ 999",
+          "price": 4999,
+          "priceFormatted": "₹ 4,999",
           "currency": "INR",
           "period": "yearly"
         }
@@ -285,20 +285,20 @@
           "period": "yearly"
         },
         {
-          "name": "Premium Weekly 100GB",
-          "offerName": null,
-          "price": 3.99,
-          "priceFormatted": "$3.99",
-          "currency": "USD",
-          "period": "weekly"
-        },
-        {
           "name": "Premium Monthly 100GB",
           "offerName": null,
           "price": 7.99,
           "priceFormatted": "$7.99",
           "currency": "USD",
           "period": "monthly"
+        },
+        {
+          "name": "Premium Weekly 100GB",
+          "offerName": null,
+          "price": 3.99,
+          "priceFormatted": "$3.99",
+          "currency": "USD",
+          "period": "weekly"
         },
         {
           "name": "Lightroom plan 1TB",
@@ -409,14 +409,6 @@
           "priceFormatted": "¥200",
           "currency": "JPY",
           "period": "monthly"
-        },
-        {
-          "name": "プレミアム (100 GB/年)",
-          "offerName": null,
-          "price": 4400,
-          "priceFormatted": "¥4,400",
-          "currency": "JPY",
-          "period": "yearly"
         },
         {
           "name": "プレミアム",

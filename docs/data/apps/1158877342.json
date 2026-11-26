@@ -2,8 +2,8 @@
   "appId": "1158877342",
   "name": "Grammarly: AI Keyboard & Voice",
   "developer": "Superhuman Platform Inc",
-  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/88/81/87/8881878a-8f46-18a5-a970-ca4ad35504cb/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-25T02:59:45.107Z",
+  "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4c/e9/95/4ce995c0-c087-dba7-6359-23b4a180f2aa/Placeholder.mill/1200x630wa.jpg",
+  "fetchedAt": "2026-11-26T02:07:58.893Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -197,20 +197,20 @@
           "period": null
         },
         {
-          "name": "Annual Plan Mobile Only",
-          "offerName": null,
-          "price": 83.99,
-          "priceFormatted": "$83.99",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "Monthly Plan Mobile Only",
           "offerName": null,
           "price": 17.99,
           "priceFormatted": "$17.99",
           "currency": "USD",
           "period": "monthly"
+        },
+        {
+          "name": "Annual Plan Mobile Only",
+          "offerName": null,
+          "price": 83.99,
+          "priceFormatted": "$83.99",
+          "currency": "USD",
+          "period": "yearly"
         }
       ],
       "appPrice": {
