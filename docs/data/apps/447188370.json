@@ -3,7 +3,7 @@
   "name": "Snapchat：與好友聊天",
   "developer": "Snap, Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ba/28/c0/ba28c06e-c74a-1209-8ce8-5913d7036227/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-26T02:07:50.985Z",
+  "fetchedAt": "2026-11-27T02:05:44.359Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -97,15 +97,47 @@
       "unavailable": false,
       "inApps": [
         {
+          "name": "Snapchat+ (Monthly Plan)",
+          "offerName": null,
+          "price": 47.99,
+          "priceFormatted": "₺47,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Snapchat+ Monthly Plan",
+          "offerName": null,
+          "price": 47.99,
+          "priceFormatted": "₺47,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
           "name": "Snapstreak Restore",
           "offerName": null,
-          "price": 399.99,
-          "priceFormatted": "₺399,99",
+          "price": 49.99,
+          "priceFormatted": "₺49,99",
           "currency": "TRY",
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
+          "name": "Snapchat+ 3 Month Gift",
+          "offerName": null,
+          "price": 499.99,
+          "priceFormatted": "₺499,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Snapchat+ Monthly Family Plan",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Lens+",
           "offerName": null,
           "price": 349.99,
           "priceFormatted": "₺349,99",
@@ -113,42 +145,18 @@
           "period": null
         },
         {
-          "name": "Snapstreak Restore",
-          "offerName": null,
-          "price": 299.99,
-          "priceFormatted": "₺299,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Lens+",
-          "offerName": null,
-          "price": 499.99,
-          "priceFormatted": "₺499,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Bitmoji Pets, Cars, and Homes",
-          "offerName": null,
-          "price": 149.99,
-          "priceFormatted": "₺149,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Bitmoji Pets, Cars, and Homes",
-          "offerName": null,
-          "price": 99.99,
-          "priceFormatted": "₺99,99",
-          "currency": "TRY",
-          "period": null
-        },
-        {
-          "name": "Memories Storage",
+          "name": "Snapchat+ 6 Month Gift",
           "offerName": null,
           "price": 999.99,
           "priceFormatted": "₺999,99",
+          "currency": "TRY",
+          "period": "monthly"
+        },
+        {
+          "name": "Snapstreak Restore",
+          "offerName": null,
+          "price": 79.99,
+          "priceFormatted": "₺79,99",
           "currency": "TRY",
           "period": null
         }

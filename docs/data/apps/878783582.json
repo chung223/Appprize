@@ -3,7 +3,7 @@
   "name": "Lightroom 攝影和照片編輯 | 影片編輯和調色",
   "developer": "ADOBE SYSTEMS SOFTWARE IRELAND LIMITED",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d2/06/ce/d206ce8a-4c65-789b-20f9-f0607ecf4094/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-26T02:07:25.425Z",
+  "fetchedAt": "2026-11-27T02:05:19.943Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,12 +67,12 @@
           "period": null
         },
         {
-          "name": "Lightroom plan 1TB",
+          "name": "高級版每週 100GB",
           "offerName": null,
-          "price": 320,
-          "priceFormatted": "$320.00",
+          "price": 120,
+          "priceFormatted": "$120.00",
           "currency": "TWD",
-          "period": null
+          "period": "weekly"
         }
       ],
       "appPrice": {
@@ -145,20 +145,20 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 40GB",
-          "offerName": null,
-          "price": 214.99,
-          "priceFormatted": "₺214,99",
-          "currency": "TRY",
-          "period": "yearly"
-        },
-        {
           "name": "AI Credit Plan",
           "offerName": null,
           "price": 249.99,
           "priceFormatted": "₺249,99",
           "currency": "TRY",
           "period": null
+        },
+        {
+          "name": "Premium Yearly 40GB",
+          "offerName": null,
+          "price": 214.99,
+          "priceFormatted": "₺214,99",
+          "currency": "TRY",
+          "period": "yearly"
         }
       ],
       "appPrice": {
@@ -247,10 +247,10 @@
           "period": "monthly"
         },
         {
-          "name": "Premium Yearly 100GB",
+          "name": "Premium Yearly 40GB",
           "offerName": null,
-          "price": 4999,
-          "priceFormatted": "₹ 4,999",
+          "price": 999,
+          "priceFormatted": "₹ 999",
           "currency": "INR",
           "period": "yearly"
         }
