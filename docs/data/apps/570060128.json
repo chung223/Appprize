@@ -3,7 +3,7 @@
   "name": "多鄰國 - 極速學外語",
   "developer": "Duolingo, Inc",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/42/be/a6/42bea631-8a39-4095-f70e-63fe0f196745/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-27T02:04:06.688Z",
+  "fetchedAt": "2026-11-28T01:48:53.292Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -237,18 +237,18 @@
           "period": null
         },
         {
-          "name": "Chest of Gems",
-          "offerName": null,
-          "price": 0.99,
-          "priceFormatted": "$0.99",
-          "currency": "USD",
-          "period": null
-        },
-        {
           "name": "Super Duolingo",
           "offerName": null,
           "price": 95.99,
           "priceFormatted": "$95.99",
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "name": "Chest of Gems",
+          "offerName": null,
+          "price": 0.99,
+          "priceFormatted": "$0.99",
           "currency": "USD",
           "period": null
         }

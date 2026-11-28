@@ -3,7 +3,7 @@
   "name": "Discord - 聊天、玩遊戲、消磨時間",
   "developer": "Discord Inc.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/04/21/f5/0421f558-b9a7-930f-25ba-8bf82076701a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-27T02:05:08.134Z",
+  "fetchedAt": "2026-11-28T01:49:54.302Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -59,18 +59,18 @@
           "period": "monthly"
         },
         {
-          "name": "1 Server Boost Monthly",
-          "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
-          "currency": "TWD",
-          "period": "monthly"
-        },
-        {
           "name": "Nitro + 2 Boosts (Monthly)",
           "offerName": null,
           "price": 520,
           "priceFormatted": "$520.00",
+          "currency": "TWD",
+          "period": "monthly"
+        },
+        {
+          "name": "1 Server Boost Monthly",
+          "offerName": null,
+          "price": 150,
+          "priceFormatted": "$150.00",
           "currency": "TWD",
           "period": "monthly"
         },
@@ -83,10 +83,10 @@
           "period": "yearly"
         },
         {
-          "name": "Nitro Classic (1 Month)",
+          "name": "Nitro + 3 Boosts (Monthly)",
           "offerName": null,
-          "price": 150,
-          "priceFormatted": "$150.00",
+          "price": 620,
+          "priceFormatted": "$620.00",
           "currency": "TWD",
           "period": "monthly"
         }

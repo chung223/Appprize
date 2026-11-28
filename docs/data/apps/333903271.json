@@ -3,7 +3,7 @@
   "name": "X（前身為Twitter）",
   "developer": "X Corp.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d9/0a/a2/d90aa25f-bfc2-409f-ef81-8f79d87d5596/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-27T02:05:14.389Z",
+  "fetchedAt": "2026-11-28T01:49:59.223Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -67,18 +67,18 @@
           "period": "yearly"
         },
         {
-          "name": "Grok $5 Usage Credits",
-          "offerName": null,
-          "price": 220,
-          "priceFormatted": "$220.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "@garyblack00 Subscription",
           "offerName": null,
           "price": 190,
           "priceFormatted": "$190.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Grok $5 Usage Credits",
+          "offerName": null,
+          "price": 220,
+          "priceFormatted": "$220.00",
           "currency": "TWD",
           "period": null
         },
@@ -341,20 +341,20 @@
           "period": null
         },
         {
-          "name": "X Premium Basic (Annual)",
-          "offerName": null,
-          "price": 42,
-          "priceFormatted": "$42.00",
-          "currency": "USD",
-          "period": "yearly"
-        },
-        {
           "name": "@FatKidDeals Subscription",
           "offerName": null,
           "price": 1,
           "priceFormatted": "$1.00",
           "currency": "USD",
           "period": null
+        },
+        {
+          "name": "X Premium Basic (Annual)",
+          "offerName": null,
+          "price": 42,
+          "priceFormatted": "$42.00",
+          "currency": "USD",
+          "period": "yearly"
         },
         {
           "name": "Promote Post for $50",

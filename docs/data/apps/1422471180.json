@@ -3,7 +3,7 @@
   "name": "Dazz相機 - 復古拍照軟體和影片後製",
   "developer": "DAZZ PTE. LTD.",
   "icon": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a5/82/41/a5824137-9b2b-220d-2113-3c365b80721a/Placeholder.mill/1200x630wa.jpg",
-  "fetchedAt": "2026-11-27T02:06:00.309Z",
+  "fetchedAt": "2026-11-28T01:50:43.599Z",
   "countries": {
     "tw": {
       "country": "tw",
@@ -11,66 +11,10 @@
       "unavailable": false,
       "inApps": [
         {
-          "name": "Dazz黑白相機",
-          "offerName": null,
-          "price": 30,
-          "priceFormatted": "$30.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Dazz魚眼鏡頭",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Dazz Flash Color",
-          "offerName": null,
-          "price": 30,
-          "priceFormatted": "$30.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
           "name": "Dazz Pro",
           "offerName": null,
           "price": 250,
           "priceFormatted": "$250.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Dazz Exp Camera",
-          "offerName": null,
-          "price": 90,
-          "priceFormatted": "$90.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Dazz Inst SQ",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Dazz Camera NT16",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
-          "currency": "TWD",
-          "period": null
-        },
-        {
-          "name": "Dazz S Classic",
-          "offerName": null,
-          "price": 60,
-          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         },
@@ -83,10 +27,66 @@
           "period": "lifetime"
         },
         {
+          "name": "Dazz黑白相機",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Camera NT16",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
           "name": "Dazz ND Filter",
           "offerName": null,
           "price": 30,
           "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz S Classic",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Exp Camera",
+          "offerName": null,
+          "price": 90,
+          "priceFormatted": "$90.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Flash Color",
+          "offerName": null,
+          "price": 30,
+          "priceFormatted": "$30.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz Inst SQ",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
+          "currency": "TWD",
+          "period": null
+        },
+        {
+          "name": "Dazz魚眼鏡頭",
+          "offerName": null,
+          "price": 60,
+          "priceFormatted": "$60.00",
           "currency": "TWD",
           "period": null
         }

@@ -1,6 +1,66 @@
 {
   "events": [
     {
+      "cc": "tw",
+      "kind": "new-plan",
+      "name": "Nitro + 3 Boosts (Monthly)",
+      "old": null,
+      "new": 620,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-11-28"
+    },
+    {
+      "cc": "tw",
+      "kind": "removed-plan",
+      "name": "Nitro Classic (1 Month)",
+      "old": 150,
+      "new": null,
+      "currency": "TWD",
+      "pct": null,
+      "appId": "985746746",
+      "appName": "Discord - 聊天、玩遊戲、消磨時間",
+      "date": "2026-11-28"
+    },
+    {
+      "cc": "in",
+      "kind": "plan",
+      "name": "Snapchat+ (Monthly Plan)",
+      "old": 99,
+      "new": 49,
+      "currency": "INR",
+      "pct": -0.5050505050505051,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-11-28"
+    },
+    {
+      "cc": "in",
+      "kind": "new-plan",
+      "name": "Snapchat+ (Monthly Plan)",
+      "old": null,
+      "new": 99,
+      "currency": "INR",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-11-28"
+    },
+    {
+      "cc": "in",
+      "kind": "removed-plan",
+      "name": "Snapchat+ (Annual Plan)",
+      "old": 499,
+      "new": null,
+      "currency": "INR",
+      "pct": null,
+      "appId": "447188370",
+      "appName": "Snapchat：與好友聊天",
+      "date": "2026-11-28"
+    },
+    {
       "cc": "tr",
       "kind": "plan",
       "name": "Super Duolingo",
@@ -3539,67 +3599,7 @@
       "appId": "544007664",
       "appName": "YouTube",
       "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "Pase de Oro",
-      "old": 19.99,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "tr",
-      "kind": "removed-plan",
-      "name": "Pase de Plata",
-      "old": 5.99,
-      "new": null,
-      "currency": "TRY",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "in",
-      "kind": "new-plan",
-      "name": "YouTube Premium",
-      "old": null,
-      "new": 195,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "in",
-      "kind": "new-plan",
-      "name": "YouTube Premium Family",
-      "old": null,
-      "new": 389,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-14"
-    },
-    {
-      "cc": "in",
-      "kind": "new-plan",
-      "name": "Youtube Premium Family",
-      "old": null,
-      "new": 389,
-      "currency": "INR",
-      "pct": null,
-      "appId": "544007664",
-      "appName": "YouTube",
-      "date": "2026-11-14"
     }
   ],
-  "updatedAt": "2026-11-27T02:06:18.607Z"
+  "updatedAt": "2026-11-28T01:51:04.049Z"
 }
